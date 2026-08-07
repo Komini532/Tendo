@@ -12,4 +12,13 @@
     <ProjectReference Include="../Tendo.Game/Tendo.Game.csproj" />
   </ItemGroup>
 
+  <!-- SQL は埋め込んで配布する。実行時に外部ファイルを探さなくて済む。 -->
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations/*.sql" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <InternalsVisibleTo Include="Tendo.Data.Tests" />
+  </ItemGroup>
+
 </Project>

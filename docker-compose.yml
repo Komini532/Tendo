@@ -1,0 +1,34 @@
+# ローカル開発用の MySQL。
+#
+#   docker compose up -d
+#   export TENDO_Database__ConnectionString="Server=127.0.0.1;Port=3306;Database=tendo;User ID=tendo;Password=tendo;CharSet=utf8mb4"
+#   dotnet run --project src/Tendo.Bot
+#
+# ここに書いてある資格情報は開発専用。本番では環境変数で別の値を渡すこと。
+
+services:
+  mysql:
+    image: mysql:9.7
+    restart: unless-stopped
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: tendo
+      MYSQL_USER: tendo
+      MYSQL_PASSWORD: tendo
+    command:
+      # 旧データは日本語の名前 (フィールド名・技名・状態異常名) を主キーの一部に使う。
+      # 絵文字入りのペット名も入りうるので utf8mb4 を全体の既定にする。
+      - --character-set-server=utf8mb4
+      - --collation-server=utf8mb4_bin
+    ports:
+      - "3306:3306"
+    volumes:
+      - mysql-data:/var/lib/mysql
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "127.0.0.1", "-u", "root", "-proot"]
+      interval: 5s
+      timeout: 5s
+      retries: 20
+
+volumes:
+  mysql-data:

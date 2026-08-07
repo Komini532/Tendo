@@ -21,7 +21,7 @@ Discord ゲーム Bot「Extend Adventure」の C# (.NET 8) 移植。
 
 ## 動かす
 
-必要なもの: .NET 8 SDK、MySQL 9.7 (Phase 3 以降)。
+必要なもの: .NET 8 SDK、MySQL 9.7。
 
 ### 設定
 
@@ -45,6 +45,17 @@ user-secrets を使う場合:
 dotnet user-secrets --project src/Tendo.Bot set "Discord:Token" "＜Bot トークン＞"
 ```
 
+### データベース
+
+ローカル開発用に MySQL 9.7 の `docker-compose.yml` を同梱している。
+
+```bash
+docker compose up -d
+```
+
+スキーマは起動時に自動で適用される (`src/Tendo.Data/Migrations/*.sql`)。
+適用済みは `schema_migrations` に記録されるので、二重に流れることはない。
+
 ### ビルドと実行
 
 ```bash
@@ -56,6 +67,20 @@ dotnet run --project src/Tendo.Bot
 設定が足りない場合はスタックトレースではなく、
 どの項目をどこに設定すればよいかだけを出して終了する。
 
+### 永続化層のテスト
+
+`Tendo.Data.Tests` の往復テストは実際の MySQL を使う。
+接続先が与えられたときだけ実行し、無ければ skip する
+(無言で成功したことにはしない)。
+
+```bash
+docker compose up -d
+export TENDO_TEST_MYSQL="Server=127.0.0.1;Port=3306;Database=tendo;User ID=tendo;Password=tendo;CharSet=utf8mb4"
+dotnet test
+```
+
+テストは実データを書き込むので、本番の接続先を指定しないこと。
+
 ### Bot に必要な権限
 
 特権インテント (Message Content / Server Members) は**使わない**。
@@ -66,8 +91,8 @@ dotnet run --project src/Tendo.Bot
 規模が大きいためフェーズに分けて進めている。
 
 - [x] **Phase 1 — 基盤**: ソリューション構成、ホスト、Discord.Net 配線、`/ping` `/info`
-- [ ] **Phase 2 — マスターデータ**: 敵 77 / 技 90 / 状態異常 37 などを JSON 化して読み込む
-- [ ] **Phase 3 — 永続化**: MySQL スキーマとリポジトリ
+- [x] **Phase 2 — マスターデータ**: 敵 77 / 技 90 / 状態異常 37 などを JSON 化して読み込む
+- [x] **Phase 3 — 永続化**: MySQL スキーマとリポジトリ
 - [ ] **Phase 4 — 戦闘エンジン**: `ea.js` の戦闘処理 (最大の山)
 - [ ] **Phase 5 — コマンド群**: 残りのコマンドとページネーション等の UI 部品
 - [ ] **Phase 6 — 管理コマンドと仕上げ**: `/mod`、README、CI

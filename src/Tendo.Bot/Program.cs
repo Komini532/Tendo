@@ -9,6 +9,7 @@ using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using Serilog;
 using Tendo.Game.Master;
+using Tendo.Game.State;
 using Tendo.Bot.Configuration;
 using Tendo.Bot.Events;
 using Tendo.Bot.Hosting;
@@ -32,7 +33,9 @@ builder.Services
 
 builder.Services
     .AddOptions<DatabaseOptions>()
-    .Bind(builder.Configuration.GetSection(DatabaseOptions.SectionName));
+    .Bind(builder.Configuration.GetSection(DatabaseOptions.SectionName))
+    .ValidateDataAnnotations()
+    .ValidateOnStart();
 
 Log.Logger = new LoggerConfiguration()
     .ReadFrom.Configuration(builder.Configuration)
@@ -88,9 +91,17 @@ builder.Services.AddSingleton(sp =>
     return data;
 });
 
-// TODO(Phase 3): MySQL 実装に差し替える。
-builder.Services.AddScoped<IGameStatisticsRepository, UnavailableGameStatisticsRepository>();
+// 新規プレイヤー / 戦場 / ペットの初期値 (旧 mmo/newdata.js)。
+builder.Services.AddSingleton(_ => GameDefaults.Load());
 
+// 旧 AWAIT Map。チャンネル単位の「処理中」フラグ。
+builder.Services.AddSingleton<BattleGate>();
+
+// MySQL 永続化 (旧 db.js / SQLite の置き換え)。
+builder.Services.AddTendoData();
+
+// スキーマ適用は Discord にログインする前に済ませる。
+builder.Services.AddHostedService<DatabaseMigrationService>();
 builder.Services.AddHostedService<DiscordBotService>();
 
 var host = builder.Build();
