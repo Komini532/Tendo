@@ -55,3 +55,13 @@ CodeCoverage/
 *.VisualState.xml
 TestResult.xml
 nunit-*.xml
+
+# --- Tendo ---
+# ローカル開発用の設定。トークン・DB 接続文字列を入れる場所なのでコミットしない。
+appsettings.Development.json
+appsettings.*.Local.json
+*.user
+
+# 移植元アーカイブの実トークン入り設定 (誤って復元された場合の保険)
+legacy/mmo/config.json
+legacy/mmo/config_alpha.json

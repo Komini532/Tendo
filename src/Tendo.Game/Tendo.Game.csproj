@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <!--
+    ゲームロジックのみ。Discord にも DB にも依存しないため単体テストが容易。
+    ea.js の fn() / result() 相当がここに載る。
+  -->
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="8.0.2" />
+  </ItemGroup>
+
+</Project>

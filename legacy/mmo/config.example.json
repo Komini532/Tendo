@@ -1,0 +1,7 @@
+{
+    "prefix": "e",
+    "token": "PUT-YOUR-BOT-TOKEN-HERE",
+    "invite": "https://discordapp.com/api/oauth2/authorize?client_id=612327599506587669&permissions=8192&scope=bot",
+    "owner": "000000000000000000",
+    "filename": "mmo"
+}

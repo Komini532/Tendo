@@ -1,0 +1,95 @@
+using System.Reflection;
+using Discord;
+using Discord.Interactions;
+using Discord.WebSocket;
+using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Hosting;
+using Microsoft.Extensions.Options;
+using Serilog;
+using Tendo.Bot.Configuration;
+using Tendo.Bot.Events;
+using Tendo.Bot.Hosting;
+using Tendo.Bot.Rendering;
+using Tendo.Data;
+
+var builder = Host.CreateApplicationBuilder(args);
+
+// 設定の優先順位: appsettings.json < user-secrets < 環境変数 (TENDO_ 前置詞)。
+// 旧実装は mmo/config.json にトークンを直書きしていたが、本移植では
+// トークン・接続文字列はリポジトリに一切含めない。
+builder.Configuration
+    .AddUserSecrets(Assembly.GetExecutingAssembly(), optional: true)
+    .AddEnvironmentVariables("TENDO_");
+
+builder.Services
+    .AddOptions<DiscordOptions>()
+    .Bind(builder.Configuration.GetSection(DiscordOptions.SectionName))
+    .ValidateDataAnnotations()
+    .ValidateOnStart();
+
+builder.Services
+    .AddOptions<DatabaseOptions>()
+    .Bind(builder.Configuration.GetSection(DatabaseOptions.SectionName));
+
+Log.Logger = new LoggerConfiguration()
+    .ReadFrom.Configuration(builder.Configuration)
+    .CreateLogger();
+builder.Services.AddSerilog();
+
+builder.Services.AddSingleton(new DiscordSocketConfig
+{
+    // slash command のみで動くため特権インテントは要求しない。
+    // Guilds だけでサーバー/チャンネル情報とスラッシュコマンドの配信が成立する。
+    GatewayIntents = GatewayIntents.Guilds,
+    AlwaysDownloadUsers = false,
+    LogGatewayIntentWarnings = false,
+    MessageCacheSize = 0,
+});
+builder.Services.AddSingleton<DiscordSocketClient>();
+
+builder.Services.AddSingleton(new InteractionServiceConfig
+{
+    DefaultRunMode = RunMode.Async,
+    UseCompiledLambda = true,
+});
+builder.Services.AddSingleton(sp => new InteractionService(
+    sp.GetRequiredService<DiscordSocketClient>(),
+    sp.GetRequiredService<InteractionServiceConfig>()));
+
+// 1 イベント 1 ファイル。DiscordBotService が起動時に全て購読する。
+builder.Services.AddSingleton<IDiscordEventHandler, LogHandler>();
+builder.Services.AddSingleton<IDiscordEventHandler, ReadyHandler>();
+builder.Services.AddSingleton<IDiscordEventHandler, InteractionCreatedHandler>();
+
+builder.Services.AddSingleton<IGameClock, GameClock>();
+
+// TODO(Phase 3): MySQL 実装に差し替える。
+builder.Services.AddScoped<IGameStatisticsRepository, UnavailableGameStatisticsRepository>();
+
+builder.Services.AddHostedService<DiscordBotService>();
+
+var host = builder.Build();
+
+try
+{
+    await host.RunAsync();
+}
+catch (OptionsValidationException ex)
+{
+    // 設定漏れは運用時に一番よく踏むので、スタックトレースではなく
+    // 何をどこに設定すればよいかだけを出す。
+    Console.Error.WriteLine("設定が不正なため起動できません:");
+    foreach (var failure in ex.Failures)
+    {
+        Console.Error.WriteLine($"  - {failure}");
+    }
+
+    return 1;
+}
+finally
+{
+    await Log.CloseAndFlushAsync();
+}
+
+return 0;
