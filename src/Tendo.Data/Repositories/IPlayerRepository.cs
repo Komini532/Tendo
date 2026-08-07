@@ -50,4 +50,12 @@ public interface IPlayerRepository
     /// それを超えた場合も表示書式は変わらない。
     /// </summary>
     Task<int?> GetRankAsync(ulong userId, CancellationToken cancellationToken = default);
+
+    /// <summary>
+    /// 旧 <c>/mod plist</c>。経験値の多い順。
+    /// 旧実装は全件読み出して JS 側で並べ替えていたが、SQL で並べても結果は同じ。
+    /// </summary>
+    Task<IReadOnlyList<PlayerState>> ListByExperienceDescendingAsync(
+        int limit,
+        CancellationToken cancellationToken = default);
 }

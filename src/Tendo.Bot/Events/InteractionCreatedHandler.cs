@@ -3,6 +3,7 @@ using Discord.Interactions;
 using Discord.WebSocket;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
+using Tendo.Data.Repositories;
 
 namespace Tendo.Bot.Events;
 
@@ -47,6 +48,12 @@ public sealed class InteractionCreatedHandler : IDiscordEventHandler
             // 各コマンドはスコープ付き DI (リポジトリ等) を要求するため、
             // interaction ごとにスコープを切る。
             await using var scope = _services.CreateAsyncScope();
+
+            if (await IsBannedAsync(scope.ServiceProvider, interaction))
+            {
+                return;
+            }
+
             await _interactions.ExecuteCommandAsync(context, scope.ServiceProvider);
         }
         catch (Exception ex)
@@ -54,6 +61,47 @@ public sealed class InteractionCreatedHandler : IDiscordEventHandler
             _logger.LogError(ex, "interaction の処理中に例外が発生しました");
             await RespondWithErrorAsync(interaction);
         }
+    }
+
+    /// <summary>
+    /// 旧 <c>ea.on("message")</c> 冒頭の BAN 判定。
+    /// <code>
+    /// if( BANLIST.indexOf(d.user.id)!=-1 )
+    ///   return console.log(`013: [User Banning Name=${d.user.tag}]`);
+    /// </code>
+    ///
+    /// 旧実装は起動時に読み込んだメモリ配列を見ていたので、複数プロセスで動かすと
+    /// ずれ、<c>/mod banlist</c> も再起動するまで DB と食い違った。毎回 DB を引く。
+    ///
+    /// 旧実装は無反応で握り潰していたが、slash command は応答しないと
+    /// 失敗表示が残る。本人にだけ見える形で返す。
+    /// </summary>
+    private async Task<bool> IsBannedAsync(
+        IServiceProvider services,
+        SocketInteraction interaction)
+    {
+        var bans = services.GetRequiredService<IBanRepository>();
+
+        if (!await bans.IsBannedAsync(interaction.User.Id))
+        {
+            return false;
+        }
+
+        _logger.LogInformation(
+            "BAN 中のユーザー {User} ({UserId}) の操作を拒否しました",
+            interaction.User.Username,
+            interaction.User.Id);
+
+        try
+        {
+            await interaction.RespondAsync("このBotは利用できません。", ephemeral: true);
+        }
+        catch (Exception ex)
+        {
+            _logger.LogDebug(ex, "BAN 通知の送信に失敗しました");
+        }
+
+        return true;
     }
 
     private async Task OnCommandExecutedAsync(

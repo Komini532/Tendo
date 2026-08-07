@@ -125,6 +125,29 @@ public sealed class PlayerRepository : IPlayerRepository
             new { userId });
     }
 
+    public async Task<IReadOnlyList<PlayerState>> ListByExperienceDescendingAsync(
+        int limit,
+        CancellationToken cancellationToken = default)
+    {
+        await using var connection = await _connections.OpenAsync(cancellationToken);
+
+        var ids = (await connection.QueryAsync<ulong>(
+            """
+            SELECT user_id FROM players
+            ORDER BY experience DESC, user_id ASC
+            LIMIT @limit
+            """,
+            new { limit })).ToArray();
+
+        if (ids.Length == 0)
+        {
+            return [];
+        }
+
+        // LoadAsync は引数の順序を保つので、並び順はここで決まったものが維持される。
+        return await LoadAsync(connection, transaction: null, ids, cancellationToken);
+    }
+
     private static async Task<IReadOnlyList<PlayerState>> LoadAsync(
         MySqlConnection connection,
         DbTransaction? transaction,

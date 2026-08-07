@@ -1,0 +1,65 @@
+name: CI
+
+on:
+  push:
+    branches: ["main"]
+  pull_request:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    services:
+      # 永続化層の往復テストは実際の MySQL を使う。
+      # 用意できない環境では該当テストは skip される。
+      mysql:
+        image: mysql:9.7
+        env:
+          MYSQL_ROOT_PASSWORD: root
+          MYSQL_DATABASE: tendo
+          MYSQL_USER: tendo
+          MYSQL_PASSWORD: tendo
+        ports:
+          - 3306:3306
+        options: >-
+          --health-cmd="mysqladmin ping -h 127.0.0.1 -u root -proot"
+          --health-interval=5s
+          --health-timeout=5s
+          --health-retries=20
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: "8.0.x"
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: マスターデータが legacy と一致することを確認
+        # data/*.json は legacy/mmo/*.js から生成したもの。
+        # 手で編集されていたり、生成し忘れがあればここで気付ける。
+        run: |
+          node tools/dump-master-data.js
+          git diff --exit-code -- data/
+
+      - name: 差分テストの参照ケースが再現することを確認
+        # 参照実装を変えたのに固定ケースを更新し忘れていないか。
+        run: |
+          node tools/reference-battle.js 1000 400 > tests/Tendo.Game.Tests/Fixtures/battle-reference.json
+          node tools/reference-reward.js 2000 200 > tests/Tendo.Game.Tests/Fixtures/reward-reference.json
+          git diff --exit-code -- tests/Tendo.Game.Tests/Fixtures/
+
+      - name: restore
+        run: dotnet restore
+
+      - name: build
+        # 警告はエラー扱い (Directory.Build.props の TreatWarningsAsErrors)。
+        run: dotnet build --no-restore -c Release
+
+      - name: test
+        env:
+          TENDO_TEST_MYSQL: "Server=127.0.0.1;Port=3306;Database=tendo;User ID=tendo;Password=tendo;CharSet=utf8mb4"
+        run: dotnet test --no-build -c Release --verbosity normal

@@ -112,16 +112,65 @@ JS と C# で意味が違って踏みやすい点は `Tendo.Game/Engine/JsMath.c
 特権インテント (Message Content / Server Members) は**使わない**。
 スラッシュコマンドのみで動作するため、Developer Portal での有効化は不要。
 
+### Docker
+
+```bash
+docker build -t tendo .
+docker run --rm \
+  -e TENDO_Discord__Token="＜Bot トークン＞" \
+  -e TENDO_Discord__OwnerId="＜管理者のユーザー ID＞" \
+  -e TENDO_Database__ConnectionString="＜接続文字列＞" \
+  tendo
+```
+
+## コマンド
+
+旧実装の 23 コマンドをすべて slash command として移植してある。
+
+| 分類 | コマンド |
+|---|---|
+| 戦闘 | `/attack` `/skill` `/wait` `/reset` `/fix` |
+| 情報 | `/status` `/cstatus` `/inventory` `/skills` `/mlist` `/ranking` `/help` `/info` `/tips` `/ping` |
+| やりとり | `/use` `/give` `/shop` |
+| 移動 | `/go` `/dchange` |
+| ペット | `/pstatus` `/rename` `/release` |
+| 管理 | `/mod`（`Discord:OwnerId` の 1 人だけ） |
+
+`/mod` のサブコマンドは
+`addeff` `remeff` `field` `sum` `gil` `exp` `isk` `update` `clist` `plist`
+`ban` `unban` `banlist`。
+
+旧 `-eval` は任意の JavaScript を実行するもので安全な代替が無いため移植していない。
+旧 `-macro` はマクロ検知に紐づくもので、検知ごと移植していない
+(旧実装でも `ea.js:2144` のカンマ演算子により一度も動いていなかった)。
+`unban` は旧実装に無いが、BAN を解除する手段が無いと運用できないため追加した。
+
+## 移植で直した旧実装の不具合
+
+忠実に移植すると壊れたままになるため、以下は直してある。
+
+| 箇所 | 旧挙動 | 移植後 |
+|---|---|---|
+| `ea.js:1306` | `separate()` が未定義でショップ購入が必ず例外 | 画面の案内どおり買える |
+| `ea.js:1820` | 未宣言の変数へ代入し、敵の状態異常が `/cstatus` に出ない | `/status` と同じ形で表示 |
+| `ea.js:367` | 参加者がサーバーを抜けていると報酬処理ごと例外 | 名前が引けなければ ID を出して続行 |
+| `ea.js:266` | 順位が「登録順で先頭 100 行」の中でのみ算出される | 全件での順位 (100 人以下なら一致) |
+| `ctrl.nearest` | snowflake の精度落ちを近い値で誤魔化す | `BIGINT UNSIGNED` で精度が落ちないため不要 |
+
+一方、バグに見えても**出力が変わるものは旧挙動のまま**にしている
+(`/inventory` が 4 種しか表示しない、アイテム `r` が効果を持たない、
+ペットアビリティの `eff`/`appear` が未実装、レア度 4 の敵が既定色で出る、など)。
+
 ## 移植の進め方
 
-規模が大きいためフェーズに分けて進めている。
+規模が大きいためフェーズに分けて進めた。
 
 - [x] **Phase 1 — 基盤**: ソリューション構成、ホスト、Discord.Net 配線、`/ping` `/info`
 - [x] **Phase 2 — マスターデータ**: 敵 77 / 技 90 / 状態異常 37 などを JSON 化して読み込む
 - [x] **Phase 3 — 永続化**: MySQL スキーマとリポジトリ
 - [x] **Phase 4 — 戦闘エンジン**: `ea.js` の戦闘処理 (最大の山)
 - [x] **Phase 5 — コマンド群**: 残りのコマンドとページネーション等の UI 部品
-- [ ] **Phase 6 — 管理コマンドと仕上げ**: `/mod`、README、CI
+- [x] **Phase 6 — 管理コマンドと仕上げ**: `/mod`、README、CI
 
 ## ライセンス
 
