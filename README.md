@@ -15,7 +15,7 @@ Discord ゲーム Bot「Extend Adventure」の C# (.NET 8) 移植。
 | `src/Tendo.Bot` | Discord 層。ホスト、イベント購読、スラッシュコマンド、embed 組み立て |
 | `src/Tendo.Game` | ゲームロジック。Discord にも DB にも依存しないので単体テストできる |
 | `src/Tendo.Data` | MySQL 9.7 永続化 (旧 `db.js` / SQLite の置き換え) |
-| `tests/Tendo.Game.Tests` | `Tendo.Game` の単体テスト |
+| `tests/` | 単体テスト。`Tendo.Game.Tests` は差分テストを含む |
 | `legacy/` | 移植元 JavaScript (参照専用・ビルド対象外) |
 | `data/` | マスターデータ JSON (`tools/dump-master-data.js` が `legacy/mmo/*.js` から生成) |
 
@@ -120,7 +120,7 @@ JS と C# で意味が違って踏みやすい点は `Tendo.Game/Engine/JsMath.c
 - [x] **Phase 2 — マスターデータ**: 敵 77 / 技 90 / 状態異常 37 などを JSON 化して読み込む
 - [x] **Phase 3 — 永続化**: MySQL スキーマとリポジトリ
 - [x] **Phase 4 — 戦闘エンジン**: `ea.js` の戦闘処理 (最大の山)
-- [ ] **Phase 5 — コマンド群**: 残りのコマンドとページネーション等の UI 部品
+- [x] **Phase 5 — コマンド群**: 残りのコマンドとページネーション等の UI 部品
 - [ ] **Phase 6 — 管理コマンドと仕上げ**: `/mod`、README、CI
 
 ## ライセンス

@@ -10,6 +10,7 @@ using Microsoft.Extensions.Options;
 using Serilog;
 using Tendo.Game.Master;
 using Tendo.Game.State;
+using Tendo.Bot.Components;
 using Tendo.Bot.Configuration;
 using Tendo.Bot.Events;
 using Tendo.Bot.Hosting;
@@ -103,6 +104,12 @@ builder.Services.AddTendoData();
 
 // 旧 fn(d, act) の周辺処理。コマンドから呼ばれる。
 builder.Services.AddScoped<BattleService>();
+
+// UI 部品。旧 ctrl.page / ctrl.react / ctrl.collector の置き換え。
+// 進行中の状態を持つのでシングルトン。
+builder.Services.AddSingleton<PaginationService>();
+builder.Services.AddSingleton<PromptService>();
+builder.Services.AddHostedService<PromptExpiryService>();
 
 // スキーマ適用は Discord にログインする前に済ませる。
 builder.Services.AddHostedService<DatabaseMigrationService>();
