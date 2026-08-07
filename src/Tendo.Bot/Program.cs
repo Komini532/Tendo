@@ -14,6 +14,7 @@ using Tendo.Bot.Configuration;
 using Tendo.Bot.Events;
 using Tendo.Bot.Hosting;
 using Tendo.Bot.Rendering;
+using Tendo.Bot.Services;
 using Tendo.Data;
 
 var builder = Host.CreateApplicationBuilder(args);
@@ -99,6 +100,9 @@ builder.Services.AddSingleton<BattleGate>();
 
 // MySQL 永続化 (旧 db.js / SQLite の置き換え)。
 builder.Services.AddTendoData();
+
+// 旧 fn(d, act) の周辺処理。コマンドから呼ばれる。
+builder.Services.AddScoped<BattleService>();
 
 // スキーマ適用は Discord にログインする前に済ませる。
 builder.Services.AddHostedService<DatabaseMigrationService>();

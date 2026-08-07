@@ -1,6 +1,6 @@
 using System.Text;
 
-namespace Tendo.Bot.Rendering;
+namespace Tendo.Game.Rendering;
 
 /// <summary>
 /// 旧 <c>ea.js</c> の <c>const code = (a,b) =&gt; "```"+(b||"C")+"\n"+a+"\n```";</c> の移植。

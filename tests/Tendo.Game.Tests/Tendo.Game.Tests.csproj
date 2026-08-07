@@ -16,6 +16,7 @@
 
   <ItemGroup>
     <None Include="../../data/**/*.json" LinkBase="data" CopyToOutputDirectory="PreserveNewest" />
+    <None Update="Fixtures/*.json" CopyToOutputDirectory="PreserveNewest" />
   </ItemGroup>
 
 </Project>

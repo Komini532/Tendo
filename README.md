@@ -81,6 +81,32 @@ dotnet test
 
 テストは実データを書き込むので、本番の接続先を指定しないこと。
 
+### 戦闘計算の差分テスト
+
+移植で一番壊れやすいのが戦闘計算なので、旧 JavaScript との差分テストで固定している。
+
+`tools/reference-battle.js` と `tools/reference-reward.js` が参照実装で、
+`ea.js` から式と処理順をそのまま写してある (行番号を併記)。
+`Math.random` を mulberry32 に差し替え、C# 側も同じ実装・同じ種を使うので、
+**乱数が引かれる順序まで一致していないと結果がずれて検出される**。
+
+固定ケースは `tests/Tendo.Game.Tests/Fixtures/` にあり、再生成はこの 2 つ。
+
+```bash
+node tools/reference-battle.js 1000 400 > tests/Tendo.Game.Tests/Fixtures/battle-reference.json
+node tools/reference-reward.js 2000 200 > tests/Tendo.Game.Tests/Fixtures/reward-reference.json
+```
+
+比較対象は最終的な体力・魔力・所持金・状態異常・フィールドに加え、**戦闘ログの全行**。
+
+JS と C# で意味が違って踏みやすい点は `Tendo.Game/Engine/JsMath.cs` に閉じ込めてある。
+
+| JS | C# の落とし穴 |
+|---|---|
+| `Math.round` | C# 既定は銀行家丸め。`Math.Round(2.5)` が 2 になる |
+| `r.random(a,b)` | 一様分布ではなく両端の当選幅が半分。均せば発動率が変わる |
+| `arr.choice(i)` | 添字が範囲外**または値が falsy** ならランダムに落ちる |
+
 ### Bot に必要な権限
 
 特権インテント (Message Content / Server Members) は**使わない**。
@@ -93,7 +119,7 @@ dotnet test
 - [x] **Phase 1 — 基盤**: ソリューション構成、ホスト、Discord.Net 配線、`/ping` `/info`
 - [x] **Phase 2 — マスターデータ**: 敵 77 / 技 90 / 状態異常 37 などを JSON 化して読み込む
 - [x] **Phase 3 — 永続化**: MySQL スキーマとリポジトリ
-- [ ] **Phase 4 — 戦闘エンジン**: `ea.js` の戦闘処理 (最大の山)
+- [x] **Phase 4 — 戦闘エンジン**: `ea.js` の戦闘処理 (最大の山)
 - [ ] **Phase 5 — コマンド群**: 残りのコマンドとページネーション等の UI 部品
 - [ ] **Phase 6 — 管理コマンドと仕上げ**: `/mod`、README、CI
 

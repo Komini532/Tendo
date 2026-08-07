@@ -1,6 +1,5 @@
 using Discord;
 using Discord.Interactions;
-using Tendo.Bot.Rendering;
 
 namespace Tendo.Bot.Commands;
 

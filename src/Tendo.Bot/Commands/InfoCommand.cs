@@ -2,6 +2,7 @@ using Discord;
 using Discord.Interactions;
 using Discord.WebSocket;
 using Tendo.Bot.Rendering;
+using Tendo.Game.Rendering;
 using Tendo.Data;
 
 namespace Tendo.Bot.Commands;
