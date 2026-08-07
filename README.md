@@ -112,6 +112,24 @@ JS と C# で意味が違って踏みやすい点は `Tendo.Game/Engine/JsMath.c
 特権インテント (Message Content / Server Members) は**使わない**。
 スラッシュコマンドのみで動作するため、Developer Portal での有効化は不要。
 
+ただし**招待時の OAuth2 スコープに `applications.commands` が必要**。
+これが無いとサーバーにスラッシュコマンドが一切表示されない。
+
+```
+https://discord.com/api/oauth2/authorize
+  ?client_id=＜アプリの client_id＞
+  &permissions=8192
+  &scope=bot%20applications.commands
+```
+
+移植元の `config.json` にあった招待 URL は `scope=bot` のみだった
+(接頭辞コマンド時代のものなので当然だが、そのまま使うと動かない)。
+**`applications.commands` が無かった頃から入っている古い Bot を再利用する場合は、
+上の URL で入れ直してスコープを付与すること。**
+
+開発中は `TENDO_Discord__TestGuildId` を設定するとギルド限定登録になり、
+反映が即時になるので確認が早い。
+
 ### Docker
 
 ```bash

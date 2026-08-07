@@ -22,6 +22,13 @@ public sealed class ReadyHandler : IDiscordEventHandler
     private readonly InteractionService _interactions;
     private readonly DiscordOptions _options;
 
+    /// <summary>
+    /// コマンド登録を済ませたか。<c>Ready</c> は再接続のたびに発火するため、
+    /// 素直に書くと接続が揺れるたびに全コマンドの再登録が走ってしまう。
+    /// グローバル登録には 1 日あたりの回数制限があるので初回だけに絞る。
+    /// </summary>
+    private int _commandsRegistered;
+
     public ReadyHandler(
         ILogger<ReadyHandler> logger,
         InteractionService interactions,
@@ -39,7 +46,20 @@ public sealed class ReadyHandler : IDiscordEventHandler
 
     private async Task OnReadyAsync(DiscordSocketClient client)
     {
+        // プレゼンスは接続ごとに設定し直す必要がある。
         await client.SetGameAsync(PresenceText);
+
+        // 旧実装の "ea start..." 相当。再接続でも出す。
+        _logger.LogInformation(
+            "ea start... {User} としてログイン、{GuildCount} サーバーに参加中",
+            client.CurrentUser?.Username ?? "(unknown)",
+            client.Guilds.Count);
+
+        // コマンド登録は初回のみ。
+        if (Interlocked.Exchange(ref _commandsRegistered, 1) == 1)
+        {
+            return;
+        }
 
         if (_options.TestGuildId is { } guildId)
         {
@@ -57,11 +77,5 @@ public sealed class ReadyHandler : IDiscordEventHandler
                 "スラッシュコマンドをグローバル登録しました ({Count} 件)。反映まで最大 1 時間かかります。",
                 _interactions.SlashCommands.Count);
         }
-
-        // 旧実装の "ea start..." 相当。
-        _logger.LogInformation(
-            "ea start... {User} としてログイン、{GuildCount} サーバーに参加中",
-            client.CurrentUser?.Username ?? "(unknown)",
-            client.Guilds.Count);
     }
 }

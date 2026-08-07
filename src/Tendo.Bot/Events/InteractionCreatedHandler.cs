@@ -43,18 +43,34 @@ public sealed class InteractionCreatedHandler : IDiscordEventHandler
     {
         try
         {
-            var context = new SocketInteractionContext(client, interaction);
+            // ここに来ているかどうかが切り分けの起点になるので必ず記録する。
+            _logger.LogInformation(
+                "interaction を受け付けました: {Type} / {User}",
+                interaction.Type,
+                interaction.User.Username);
 
-            // 各コマンドはスコープ付き DI (リポジトリ等) を要求するため、
-            // interaction ごとにスコープを切る。
-            await using var scope = _services.CreateAsyncScope();
-
-            if (await IsBannedAsync(scope.ServiceProvider, interaction))
+            // BAN 判定はこの場で完結するので、専用のスコープを切って即座に閉じる。
+            await using (var scope = _services.CreateAsyncScope())
             {
-                return;
+                if (await IsBannedAsync(scope.ServiceProvider, interaction))
+                {
+                    return;
+                }
             }
 
-            await _interactions.ExecuteCommandAsync(context, scope.ServiceProvider);
+            var context = new SocketInteractionContext(client, interaction);
+
+            // ここでスコープを作って ExecuteCommandAsync に渡してはいけない。
+            //
+            // DefaultRunMode は Async なので ExecuteCommandAsync はコマンド本体を待たずに返る。
+            // 呼び出し側で using していると、本体が動き出す前にスコープが破棄され、
+            // Discord.Net 内部の services.CreateScope() が ObjectDisposedException になる。
+            // しかもその呼び出しは try の外かつ投げっぱなしタスク (_ = Task.Run(...)) の中なので
+            // どこにも捕捉されず、ログにも残らないまま interaction が ACK されない。
+            // 結果として Discord には「アプリケーションが応答しませんでした」とだけ出る。
+            //
+            // Discord.Net はコマンド実行ごとに自前でスコープを切るので、ルートを渡すのが正しい。
+            await _interactions.ExecuteCommandAsync(context, _services);
         }
         catch (Exception ex)
         {
