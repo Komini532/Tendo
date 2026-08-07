@@ -113,7 +113,7 @@ public sealed class PromptServiceTests
             .First()
             .CustomId;
 
-        // "confirm:{id}:yes"
+        // "confirm-yes:{id}"
         return customId.Split(':')[1];
     }
 }

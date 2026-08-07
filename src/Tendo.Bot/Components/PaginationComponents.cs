@@ -10,10 +10,12 @@ public sealed class PaginationComponents : InteractionModuleBase<SocketInteracti
 
     public PaginationComponents(PaginationService pagination) => _pagination = pagination;
 
-    [ComponentInteraction("page:*:prev", ignoreGroupNames: true)]
+    // ワイルドカードは末尾のみ。中間に置くと (page:*:prev のように) 一致せず
+    // ボタンが無反応になる。接頭辞は PaginationService 側と対で定義してある。
+    [ComponentInteraction("page-prev:*", ignoreGroupNames: true)]
     public Task PreviousAsync(string sessionId) => MoveAsync(sessionId, -1);
 
-    [ComponentInteraction("page:*:next", ignoreGroupNames: true)]
+    [ComponentInteraction("page-next:*", ignoreGroupNames: true)]
     public Task NextAsync(string sessionId) => MoveAsync(sessionId, +1);
 
     private async Task MoveAsync(string sessionId, int delta)

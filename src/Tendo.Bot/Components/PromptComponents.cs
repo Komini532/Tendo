@@ -10,10 +10,11 @@ public sealed class PromptComponents : InteractionModuleBase<SocketInteractionCo
 
     public PromptComponents(PromptService prompts) => _prompts = prompts;
 
-    [ComponentInteraction("confirm:*:yes", ignoreGroupNames: true)]
+    // ワイルドカードは末尾のみ。接頭辞は PromptService 側と対で定義してある。
+    [ComponentInteraction("confirm-yes:*", ignoreGroupNames: true)]
     public Task ConfirmAsync(string id) => ResolveAsync(id, confirmed: true);
 
-    [ComponentInteraction("confirm:*:no", ignoreGroupNames: true)]
+    [ComponentInteraction("confirm-no:*", ignoreGroupNames: true)]
     public Task CancelAsync(string id) => ResolveAsync(id, confirmed: false);
 
     private async Task ResolveAsync(string id, bool confirmed)

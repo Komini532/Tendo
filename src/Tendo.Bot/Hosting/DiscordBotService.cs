@@ -51,10 +51,20 @@ public sealed class DiscordBotService : IHostedService
         // Commands/ 配下の InteractionModuleBase を全て拾う。
         var modules = await _interactions.AddModulesAsync(Assembly.GetExecutingAssembly(), _services);
         _logger.LogInformation(
-            "コマンドモジュールを {ModuleCount} 個読み込みました (スラッシュコマンド {CommandCount} 件): {Commands}",
+            "コマンドモジュールを {ModuleCount} 個読み込みました (スラッシュ {SlashCount} / " +
+            "コンポーネント {ComponentCount} / モーダル {ModalCount}): {Commands}",
             modules.Count(),
             _interactions.SlashCommands.Count,
+            _interactions.ComponentCommands.Count,
+            _interactions.ModalCommands.Count,
             string.Join(", ", _interactions.SlashCommands.Select(c => "/" + c.Name)));
+
+        // ボタンや Select Menu のカスタム ID は、生成側と受け側のパターンが
+        // ずれると一致せず無反応になる (ログにも出ない)。実際に一度踏んだので、
+        // 登録されているパターンを起動時に見えるようにしておく。
+        _logger.LogDebug(
+            "コンポーネントのパターン: {Patterns}",
+            string.Join(", ", _interactions.ComponentCommands.Select(c => c.Name)));
 
         await _client.LoginAsync(TokenType.Bot, _options.Token);
         await _client.StartAsync();

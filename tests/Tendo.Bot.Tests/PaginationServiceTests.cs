@@ -106,7 +106,7 @@ public sealed class PaginationServiceTests
             .First()
             .CustomId;
 
-        // "page:{id}:prev"
+        // "page-prev:{id}"
         return customId.Split(':')[1];
     }
 }

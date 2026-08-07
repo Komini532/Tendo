@@ -99,10 +99,24 @@ public sealed class PaginationService
         }
     }
 
+    /// <summary>
+    /// ボタンのカスタム ID の接頭辞。
+    ///
+    /// **ワイルドカードは必ずパターンの末尾に置くこと。**
+    /// 以前は <c>page:{id}:prev</c> という形にしていたが、受け側のパターンが
+    /// <c>page:*:prev</c> とワイルドカードを中間に持つ形になり、
+    /// どのハンドラにも一致せずボタンが完全に無反応になっていた。
+    /// 接頭辞で種類を分け、可変部分を末尾だけにする。
+    /// </summary>
+    public const string PreviousPrefix = "page-prev:";
+
+    /// <inheritdoc cref="PreviousPrefix" />
+    public const string NextPrefix = "page-next:";
+
     public static MessageComponent BuildComponents(string sessionId, bool enabled)
         => new ComponentBuilder()
-            .WithButton("◀", $"page:{sessionId}:prev", ButtonStyle.Secondary, disabled: !enabled)
-            .WithButton("▶", $"page:{sessionId}:next", ButtonStyle.Secondary, disabled: !enabled)
+            .WithButton("◀", PreviousPrefix + sessionId, ButtonStyle.Secondary, disabled: !enabled)
+            .WithButton("▶", NextPrefix + sessionId, ButtonStyle.Secondary, disabled: !enabled)
             .Build();
 
     /// <param name="Page">移動先。期限切れなら null。</param>

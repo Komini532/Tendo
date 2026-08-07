@@ -34,10 +34,23 @@ public sealed class PromptService
         };
 
         return new ComponentBuilder()
-            .WithButton("👍", $"confirm:{id}:yes", ButtonStyle.Success)
-            .WithButton("👎", $"confirm:{id}:no", ButtonStyle.Secondary)
+            .WithButton("👍", ConfirmPrefix + id, ButtonStyle.Success)
+            .WithButton("👎", CancelPrefix + id, ButtonStyle.Secondary)
             .Build();
     }
+
+    /// <summary>
+    /// ボタンのカスタム ID の接頭辞。
+    ///
+    /// **ワイルドカードは必ずパターンの末尾に置くこと。**
+    /// 以前は <c>confirm:{id}:yes</c> という形にしており、受け側が
+    /// <c>confirm:*:yes</c> とワイルドカードを中間に持つ形になっていたため、
+    /// どのハンドラにも一致せず確認ボタンが無反応だった。
+    /// </summary>
+    public const string ConfirmPrefix = "confirm-yes:";
+
+    /// <inheritdoc cref="ConfirmPrefix" />
+    public const string CancelPrefix = "confirm-no:";
 
     /// <summary>
     /// 押された結果を処理する。押せない人・不明な ID なら null。

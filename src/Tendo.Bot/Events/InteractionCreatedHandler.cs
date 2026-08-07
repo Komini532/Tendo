@@ -120,8 +120,17 @@ public sealed class InteractionCreatedHandler : IDiscordEventHandler
         return true;
     }
 
+    /// <summary>
+    /// コマンド実行結果の受け口。
+    ///
+    /// <paramref name="command"/> は **null になりうる**。カスタム ID がどの
+    /// コンポーネント/モーダルのハンドラにも一致しなかった場合、Discord.Net は
+    /// <c>InvokeAsync(null, context, result)</c> と null を渡してくる
+    /// (このとき <c>result.Error</c> は <c>UnknownCommand</c>)。
+    /// ここを無条件に参照して NullReferenceException を出していたことがある。
+    /// </summary>
     private async Task OnCommandExecutedAsync(
-        ICommandInfo command,
+        ICommandInfo? command,
         IInteractionContext context,
         IResult result)
     {
@@ -130,25 +139,43 @@ public sealed class InteractionCreatedHandler : IDiscordEventHandler
             return;
         }
 
+        // 一致するハンドラが無かった場合はコマンド名が引けないので、
+        // 代わりにカスタム ID を出す。これが分かれば
+        // 「生成側と受け側のパターンがずれている」ことが即座に判明する。
+        var label = command?.Name ?? DescribeUnmatched(context.Interaction);
+
         // 未処理の失敗のみログする。UnmetPrecondition は BAN 判定など想定内の拒否
-        // (Phase 6 で precondition 側が利用者向けメッセージを出す)。
+        // (precondition 側が利用者向けメッセージを出す)。
         if (result.Error == InteractionCommandError.UnmetPrecondition)
         {
             _logger.LogDebug(
                 "コマンド {Command} が precondition で拒否されました: {Reason}",
-                command.Name,
+                label,
                 result.ErrorReason);
             return;
         }
 
         _logger.LogError(
             "コマンド {Command} が失敗しました ({Error}): {Reason}",
-            command.Name,
+            label,
             result.Error,
             result.ErrorReason);
 
         await RespondWithErrorAsync(context.Interaction);
     }
+
+    /// <summary>
+    /// ハンドラに一致しなかった interaction を、ログで識別できる形にする。
+    /// </summary>
+    private static string DescribeUnmatched(IDiscordInteraction interaction)
+        => interaction switch
+        {
+            IComponentInteraction component
+                => $"(未対応のコンポーネント customId={component.Data.CustomId})",
+            IModalInteraction modal
+                => $"(未対応のモーダル customId={modal.Data.CustomId})",
+            _ => $"(不明な interaction Type={interaction.Type})",
+        };
 
     private async Task RespondWithErrorAsync(IDiscordInteraction interaction)
     {
