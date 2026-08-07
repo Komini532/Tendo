@@ -5,8 +5,10 @@ using Discord.WebSocket;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using Serilog;
+using Tendo.Game.Master;
 using Tendo.Bot.Configuration;
 using Tendo.Bot.Events;
 using Tendo.Bot.Hosting;
@@ -64,6 +66,28 @@ builder.Services.AddSingleton<IDiscordEventHandler, InteractionCreatedHandler>()
 
 builder.Services.AddSingleton<IGameClock, GameClock>();
 
+// マスターデータ (敵 77 / 技 90 / 状態異常 37 …) は起動時に一度だけ読んで共有する。
+// 参照が壊れていればここで例外になり、不整合を抱えたまま起動しない。
+builder.Services.AddSingleton(sp =>
+{
+    var logger = sp.GetRequiredService<ILoggerFactory>().CreateLogger("MasterData");
+    var data = MasterDataLoader.Load(directory: null, out var warnings);
+
+    foreach (var warning in warnings)
+    {
+        logger.LogWarning("マスターデータの警告: {Warning}", warning);
+    }
+
+    logger.LogInformation(
+        "マスターデータを読み込みました (敵 {Enemies} / 技 {Skills} (習得可能 {Learnable}) / 状態異常 {Effects})",
+        data.Enemies.Count,
+        data.Skills.Count,
+        data.LearnableSkills.Count,
+        data.Effects.Count);
+
+    return data;
+});
+
 // TODO(Phase 3): MySQL 実装に差し替える。
 builder.Services.AddScoped<IGameStatisticsRepository, UnavailableGameStatisticsRepository>();
 
@@ -73,7 +97,16 @@ var host = builder.Build();
 
 try
 {
+    // シングルトンは遅延生成なので、ここで一度触って起動時に検証させる。
+    // 不整合を抱えたまま Discord にログインしないようにするため。
+    _ = host.Services.GetRequiredService<MasterData>();
+
     await host.RunAsync();
+}
+catch (MasterDataException ex)
+{
+    Console.Error.WriteLine(ex.Message);
+    return 1;
 }
 catch (OptionsValidationException ex)
 {
