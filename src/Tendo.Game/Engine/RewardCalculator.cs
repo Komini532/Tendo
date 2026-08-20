@@ -57,14 +57,18 @@ public sealed class RewardCalculator
         var field = _data.FindField(battle.Field);
         var difficulty = _data.FindDifficulty(battle.Difficulty);
 
+        // 敵Lvはフィールドの上限でクランプした有効敵Lvを使う。上限に達したフィールドでは
+        // 経験値もギルも頭打ちになり、上位フィールドへ移る以外に伸ばす手が無くなる。
+        var level = _data.EffectiveLevel(battle.Field, battle.Level);
+
         var experience = JsMath.RoundToLong(
             enemy.ExpMultiplier
-            * battle.Level
+            * level
             * (field?.ExpMultiplier ?? 1)
             * (difficulty?.ExpMultiplier ?? 1));
 
         // ギルはレベルの 1/3 (切り捨てではなく JS の丸め) で決まる。
-        var gil = JsMath.RoundToLong(enemy.GilMultiplier * JsMath.Round(battle.Level / 3.0));
+        var gil = JsMath.RoundToLong(enemy.GilMultiplier * JsMath.Round(level / 3.0));
 
         var lines = new List<string>
         {

@@ -22,7 +22,7 @@ public sealed class MasterDataLoaderTests
     [InlineData("移動条件", 13)]
     [InlineData("難易度", 4)]
     [InlineData("属性相性", 10)]
-    [InlineData("ショップ", 19)]
+    [InlineData("ショップ", 16)]
     [InlineData("tips", 12)]
     [InlineData("アイテム情報", 4)]
     [InlineData("アイテム名", 9)]
@@ -96,11 +96,16 @@ public sealed class MasterDataLoaderTests
     }
 
     [Fact]
-    public void 威力が小数の技を丸めずに保持している()
+    public void 倍率が小数のまま読めている()
     {
-        // int にすると 57.5 が 57/58 になりダメージが変わる。
-        Assert.Equal(57.5, Data.FindSkill("プラント")!.Attack);
-        Assert.Equal(57.5, Data.FindSkill("フローズン")!.Attack);
+        // 倍率を int にすると 1.333 が 1 に潰れてダメージが変わる。
+        // 習得技の威力はバランス調整で整数のラダーに乗せたので、
+        // 小数が生き残っているのは敵の個体倍率とフィールド倍率の側。
+        Assert.Equal(1.333, Data.FindEnemy("oboro")?.HpMultiplier ?? 0, 3);
+        Assert.Equal(1.444, Data.FindEnemy("curst")?.HpMultiplier ?? 0, 3);
+
+        Assert.Contains(Data.Enemies, e => e.AttackMultiplier % 1 != 0);
+        Assert.Contains(Data.Fields, f => f.HpMultiplier % 1 != 0);
     }
 
     [Fact]
@@ -202,8 +207,11 @@ public sealed class MasterDataLoaderTests
 
         var lunatic = Data.FindDifficulty("LUNATIC");
         Assert.NotNull(lunatic);
-        Assert.Equal(99999, lunatic.RequiredEnemyLevel);
-        Assert.Equal(4.444, lunatic.HpMultiplier);
+
+        // 解放条件は 99999 で永久に届かなかった。敵Lvがフィールドの上限で頭打ちになる
+        // 今の設計では届く値でないと意味が無いので、最上位ティア (天界・遺跡) の上限に合わせてある。
+        Assert.Equal(19000, lunatic.RequiredEnemyLevel);
+        Assert.Equal(2.2, lunatic.HpMultiplier);
         Assert.Equal(4, lunatic.Effects.Count);
         Assert.Equal("ツインウォール", lunatic.Effects[0].Name);
     }
@@ -218,18 +226,21 @@ public sealed class MasterDataLoaderTests
     }
 
     [Fact]
-    public void ショップは個別定義が既定品揃えより先に来る()
+    public void ショップはフィールドごとに1件へ統合されている()
     {
-        // 旧 shop.js は重複除去の条件を誤っており、個別定義のあるフィールドが
-        // 既定品揃えの側にも重複して入る。find は先頭一致なので個別定義が勝つ。
+        // 旧 shop.js は重複除去の条件を誤っており「湖」「秘境」「永遠悪夢」が 2 回入っていた。
+        // FindShop は先頭一致なので、この 3 フィールドでは個別品 (インビジブル等) だけが引かれ、
+        // ポーション・エーテル・エリクサーが買えなくなっていた。統合して両方買えるようにした。
+        Assert.Equal(
+            Data.Shops.Select(s => s.Field).Distinct().Count(),
+            Data.Shops.Count);
+
         var lake = Data.FindShop("湖");
         Assert.NotNull(lake);
-        var item = Assert.Single(lake.Items);
-        Assert.Equal("i", item.ItemId);
-        Assert.Equal(5000, item.Price);
-
-        // 重複自体は残っている (件数 19 の内訳)。
-        Assert.Equal(2, Data.Shops.Count(s => s.Field == "湖"));
+        Assert.Contains(lake.Items, i => i.ItemId == "i");
+        Assert.Contains(lake.Items, i => i.ItemId == "p");
+        Assert.Contains(lake.Items, i => i.ItemId == "t");
+        Assert.Contains(lake.Items, i => i.ItemId == "e");
     }
 
     [Fact]

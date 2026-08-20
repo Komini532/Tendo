@@ -255,7 +255,16 @@ function runTurn(state, actSkill) {
     });
   }
 
-  const spd = player.spd * player.lv - einfo.spd * enemy.lv;
+  // フィールドの倍率と敵Lv上限。ターン開始時に一度だけ解決する
+  // (「吸い込み」で enemy.f が途中で変わっても、その戦闘中は元のフィールドの値を使う。
+  //  C# 側も TurnContext.Field を構築時に captured しているので挙動が一致する)。
+  const fdata = fi.find((f) => f.name == enemy.f);
+  const fhp = fdata && fdata.hp != null ? fdata.hp : 1;
+  const fatk = fdata && fdata.atk != null ? fdata.atk : 1;
+  const fcap = fdata && fdata.cap != null ? fdata.cap : Infinity;
+  const elv = Math.min(enemy.lv, fcap); // 有効敵Lv
+
+  const spd = player.spd * player.lv - einfo.spd * elv;
   const jun = spd >= 0;
 
   const playerActs = () => {
@@ -304,7 +313,7 @@ function runTurn(state, actSkill) {
       const eskname = skillselect(einfo.skill);
       const enemysk = sk.find((s) => s.name == eskname) || sk.find((s) => s.name == "攻撃");
       const edamage = Math.round(
-        ((enemysk.atk * (enemy.lv * 10 + fix.enemy) * einfo.atk * (ddata ? ddata.atk : 1)) / 3 / 30) *
+        ((enemysk.atk * (elv * 10 + fix.enemy) * einfo.atk * fatk * (ddata ? ddata.atk : 1)) / 3 / 30) *
           (random(85, 100) / 100)
       );
       hitevent(
@@ -356,10 +365,14 @@ function buildCase(index) {
 
   const lv = 1 + ((index * 13) % 400);
   const plv = 1 + ((index * 17) % 300);
-  const hp = Math.round((lv * enemyDef.hp * 10 + fix.enemy) * difficulty.hp);
 
   // 敵の出現フィールドが空なら草原扱い (召喚専用の敵)
   const field = enemyDef.field.length ? enemyDef.field[0] : "草原";
+  const fdef = fi.find((f) => f.name == field);
+  const elv = Math.min(lv, fdef && fdef.cap != null ? fdef.cap : Infinity);
+  const hp = Math.round(
+    (elv * enemyDef.hp * 10 + fix.enemy) * (fdef && fdef.hp != null ? fdef.hp : 1) * difficulty.hp
+  );
 
   // 半数は本来の魔力量 (「魔力が足りない！」の経路を通す)、
   // 半数は潤沢にして高コストの技 (「吸い込み」など) も実際に発動させる。

@@ -131,10 +131,15 @@ public sealed class BattleDifferentialTests
 
         var enemyLevel = 1 + (index * 13 % 400);
         var playerLevel = 1 + (index * 17 % 300);
-        var enemyHp = JsMath.RoundToLong(
-            ((enemyLevel * enemyDef.HpMultiplier * 10) + Data.Fix.Enemy) * difficulty.HpMultiplier);
 
         var field = enemyDef.Fields.Count > 0 ? enemyDef.Fields[0] : "草原";
+        var fieldDef = Data.FindField(field) ?? Data.DefaultField;
+        var effectiveLevel = Math.Min(enemyLevel, fieldDef.LevelCap);
+
+        var enemyHp = JsMath.RoundToLong(
+            ((effectiveLevel * enemyDef.HpMultiplier * 10) + Data.Fix.Enemy)
+            * fieldDef.HpMultiplier
+            * difficulty.HpMultiplier);
         var mana = index % 2 == 0 ? 999999 : JsMath.RoundToLong(playerLevel * 2.22);
 
         var player = new PlayerState
@@ -205,6 +210,7 @@ public sealed class BattleDifferentialTests
             Player = player,
             Enemy = enemyDef,
             Difficulty = difficulty,
+            Field = fieldDef,
             PlayerName = "テスト",
         };
 

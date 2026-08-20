@@ -108,6 +108,17 @@ public sealed class MasterData
 
     public FieldDef? FindField(string name) => _fieldsByName.GetValueOrDefault(name);
 
+    /// <summary>
+    /// 有効敵Lv。戦闘・報酬の計算はすべてこの値を使う。
+    ///
+    /// <c>battle.Level</c> は「このチャンネルが積み上げた撃破数」であってフィールドを
+    /// またいでも減らない。一方フィールドには <see cref="FieldDef.LevelCap"/> があり、
+    /// 上位から下位へ降りると有効敵Lvが下位の上限に張り付く (敵は弱いが報酬も頭打ち)。
+    /// 上位へ戻れば <c>battle.Level</c> がそのまま効くので進行は失われない。
+    /// </summary>
+    public int EffectiveLevel(string field, int level)
+        => Math.Min(level, FindField(field)?.LevelCap ?? int.MaxValue);
+
     /// <summary>旧 <c>df.find(d =&gt; d.name == name)</c>。</summary>
     public DifficultyDef? FindDifficulty(string name) => _difficultiesByName.GetValueOrDefault(name);
 
@@ -121,6 +132,9 @@ public sealed class MasterData
 
     /// <summary>旧 <c>df[0]</c>。難易度不明時のフォールバック。</summary>
     public DifficultyDef DefaultDifficulty => Difficulties[0];
+
+    /// <summary>フィールド不明時のフォールバック。倍率も上限も既定 (等倍・上限なし) になる。</summary>
+    public FieldDef DefaultField { get; } = new() { Name = string.Empty };
 
     /// <summary>旧 <c>ab[0]</c> (「なし」)。アビリティ不明時のフォールバック。</summary>
     public AbilityDef DefaultAbility => Abilities[0];

@@ -39,17 +39,26 @@ public sealed class ChannelStatusCommand : GameModuleBase
         var title = Fence.Code(
             $"[CHANNEL STATUS] {Context.Channel.Name ?? DisplayName}", Fence.Fix);
 
+        // 敵の強さは生の battle.Level ではなくフィールドの上限でクランプした有効敵Lvで決まる。
+        // 上限に達していることが見えないと「倒しても強くならない」のが理不尽に映るので、
+        // 上限に届いているフィールドでは「Lv (上限)」の形で明示する。
+        var field = _data.FindField(battle.Field) ?? _data.DefaultField;
+        var level = _data.EffectiveLevel(battle.Field, battle.Level);
+        var levelText = battle.Level >= field.LevelCap
+            ? $"{level} (このフィールドの上限)"
+            : $"{level}";
+
         var stats = Fence.Code(
             new[]
             {
                 $"[フィールド] {battle.Field}",
                 $"[難易度] {battle.Difficulty}",
                 $"[名前] {enemy.Name}",
-                $"[レベル] {battle.Level}",
+                $"[レベル] {levelText}",
                 $"[体力] {battle.Hp}/{battle.MaxHp}",
                 $"[魔力] {battle.Mana}/{battle.MaxMana}",
-                $"[攻撃力] {JsMath.RoundToLong(((battle.Level * 10) + _data.Fix.Enemy) * enemy.AttackMultiplier)}",
-                $"[敏捷力] {enemy.SpeedMultiplier * battle.Level}",
+                $"[攻撃力] {JsMath.RoundToLong(((level * 10) + _data.Fix.Enemy) * enemy.AttackMultiplier * field.AttackMultiplier)}",
+                $"[敏捷力] {enemy.SpeedMultiplier * level}",
                 $"[属性] {enemy.Element}",
             },
             Fence.Css);

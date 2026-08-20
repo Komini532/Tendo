@@ -79,6 +79,11 @@ public sealed class EncounterSpawner
 
     /// <summary>
     /// 旧 <c>nxevt</c>。敵を倒した後、レベルを 1 上げて次の敵を出す。
+    ///
+    /// フィールドの <see cref="FieldDef.LevelCap"/> に達したチャンネルではレベルが伸びない。
+    /// 敵Lvが頭打ちになると経験値も敵HPも頭打ちになり、かつ 1 撃破は最短 1 ターンなので
+    /// 「経験値/ターン ≦ 上限 × フィールド経験値倍率」という天井が生まれる。
+    /// 下位フィールドが構造的に頭打ちになるのはこの仕組みによる。
     /// </summary>
     public EncounterAnnouncement? SpawnNext(BattleState battle)
     {
@@ -88,7 +93,10 @@ public sealed class EncounterSpawner
             return null;
         }
 
-        return Spawn(battle, next, battle.Level + 1);
+        var cap = _data.FindField(battle.Field)?.LevelCap ?? int.MaxValue;
+        var level = battle.Level < cap ? battle.Level + 1 : battle.Level;
+
+        return Spawn(battle, next, level);
     }
 
     /// <summary>
@@ -145,8 +153,13 @@ public sealed class EncounterSpawner
     public EncounterAnnouncement Spawn(BattleState battle, EnemyDef enemy, int level)
     {
         var difficulty = _data.FindDifficulty(battle.Difficulty);
+        var field = _data.FindField(battle.Field);
+        var effective = _data.EffectiveLevel(battle.Field, level);
+
         var hp = JsMath.RoundToLong(
-            ((level * enemy.HpMultiplier * 10) + _data.Fix.Enemy) * (difficulty?.HpMultiplier ?? 1));
+            ((effective * enemy.HpMultiplier * 10) + _data.Fix.Enemy)
+            * (field?.HpMultiplier ?? 1)
+            * (difficulty?.HpMultiplier ?? 1));
 
         battle.ResetForNewEnemy();
         battle.EnemyCode = enemy.Code;
@@ -166,7 +179,7 @@ public sealed class EncounterSpawner
         {
             Enemy = enemy,
             Description = Fence.Code($"{enemy.Name}が現れた！", RarityFence(enemy.Rarity))
-                          + Fence.Code($"[レベル] {level}\n[体力] {hp}", Fence.Css),
+                          + Fence.Code($"[レベル] {effective}\n[体力] {hp}", Fence.Css),
             Picture = enemy.Picture,
         };
     }
