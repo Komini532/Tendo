@@ -41,14 +41,47 @@ public sealed class BalanceInvariantTests
 
     public BalanceInvariantTests(ITestOutputHelper output) => _output = output;
 
-    /// <summary>ティア順に並べたフィールドと、その参入Lv (= 一つ下のティアの上限)。</summary>
-    private static IReadOnlyList<(FieldDef Field, int EntryLevel)> Tiers()
-    {
-        var caps = Data.Fields.Select(f => f.LevelCap).Distinct().OrderBy(c => c).ToList();
-        return Data.Fields
+    /// <summary>
+    /// 通常進行のフィールド。<c>field-requirements.json</c> に「行き先」として載っているものが
+    /// そのまま階層の一覧になる (階層をテストに二重に書かずに済む)。
+    ///
+    /// 地獄 (魔鏡の吸い込み専用)・竜洞 (未完成)・永遠悪夢 (イベント用) はここに入らない。
+    /// </summary>
+    private static IReadOnlyList<FieldDef> Ladder()
+        => Data.FieldRequirements
+            .Select(r => Data.FindField(r.Name))
+            .Where(f => f is not null)
+            .Select(f => f!)
+            .DistinctBy(f => f.Name)
             .OrderBy(f => f.LevelCap)
             .ThenBy(f => f.Name, StringComparer.Ordinal)
-            .Select(f => (f, caps.IndexOf(f.LevelCap) == 0 ? 1 : caps[caps.IndexOf(f.LevelCap) - 1]))
+            .ToList();
+
+    /// <summary>通常進行の外にあるフィールド。/go の行き先にならない。</summary>
+    private static IReadOnlyList<FieldDef> SpecialFields()
+    {
+        var ladder = Ladder().Select(f => f.Name).ToHashSet(StringComparer.Ordinal);
+        return Data.Fields.Where(f => !ladder.Contains(f.Name)).ToList();
+    }
+
+    /// <summary>
+    /// ティア順に並べた通常進行のフィールドと、その参入Lv (= 一つ下のティアの上限) と滞在撃破数。
+    ///
+    /// 敵Lv は 1 撃破 +1、自Lv も <c>field.exp</c> の選び方で 1:1 に追従するので、
+    /// <b>滞在撃破数 = 上限 − 参入Lv</b> になる。
+    /// </summary>
+    private static IReadOnlyList<(FieldDef Field, int EntryLevel, int Kills)> Tiers()
+    {
+        var ladder = Ladder();
+        var caps = ladder.Select(f => f.LevelCap).Distinct().OrderBy(c => c).ToList();
+
+        return ladder
+            .Select(f =>
+            {
+                var index = caps.IndexOf(f.LevelCap);
+                var entry = index == 0 ? 1 : caps[index - 1];
+                return (f, entry, f.LevelCap - entry);
+            })
             .ToList();
     }
 
@@ -94,7 +127,7 @@ public sealed class BalanceInvariantTests
     {
         var problems = new List<string>();
 
-        foreach (var (field, entry) in Tiers())
+        foreach (var (field, entry, _) in Tiers())
         {
             foreach (var (label, level) in new[] { ("参入時", entry), ("上限時", field.LevelCap) })
             {
@@ -118,7 +151,7 @@ public sealed class BalanceInvariantTests
         // 下位フィールドで粘る意味を無くしている当の条件。
         // 1 撃破は最短 1 ターンなので「上限 × 経験値倍率」が経験値/ターンの上限になる。
         var problems = new List<string>();
-        var ordered = Data.Fields.OrderBy(f => f.LevelCap).ToList();
+        var ordered = Ladder();
 
         for (var i = 1; i < ordered.Count; i++)
         {
@@ -151,7 +184,7 @@ public sealed class BalanceInvariantTests
         var previousName = "(なし)";
         var previousCap = 0;
 
-        foreach (var (field, entry) in Tiers())
+        foreach (var (field, entry, _) in Tiers())
         {
             var m = BalanceProbe.Measure(Data, field.Name, entry, entry);
             var danger = m.DamageTakenPerKill;
@@ -179,45 +212,200 @@ public sealed class BalanceInvariantTests
     }
 
     [Theory]
-    [InlineData(0, 1.0, 2.0, 0.7, 1.6, 1.0, 2.0)]
-    [InlineData(1, 1.0, 3.0, 0.7, 2.5, 2.0, 4.0)]
-    [InlineData(2, 1.0, 3.0, 0.7, 2.5, 5.0, 8.0)]
-    [InlineData(3, 1.0, 3.0, 0.7, 2.5, 5.0, 8.0)]
-    [InlineData(4, 1.0, 3.0, 0.7, 2.5, 10.0, 10.0)]
-    public void 個体倍率はレア度ごとの帯に収まる(
-        int rarity, double hpLo, double hpHi, double atkLo, double atkHi, double expLo, double expHi)
+    [InlineData(0, 2.0, 1.6, 2.0)]
+    [InlineData(1, 3.0, 2.5, 4.0)]
+    [InlineData(2, 3.0, 2.5, 8.0)]
+    [InlineData(3, 3.0, 2.5, 2.0)]
+    [InlineData(4, 3.0, 2.5, 10.0)]
+    public void 個体倍率はレア度ごとの上限に収まる(int rarity, double hpMax, double atkMax, double expMax)
     {
         // 個体倍率は「そのフィールドの基準からのブレ」だけを表し、
         // スケールはフィールド側 (hp/atk/cap) が持つ。両方が伸びると調整できなくなる。
         //
-        // 例外の 3 体は「逃げられる前に倒す」設計なので HP 下限を 0.5 まで許す。
-        //   魔鏡     … 吸い込まれると地獄へ送られる
-        //   踊る金貨 … 取り逃がすと大量のギルを失う
-        //   ミミック … 同上
-        string[] fragile = ["魔鏡", "踊る金貨", "ミミック"];
+        // 下限は掛けない。掛けると弱い敵まで底上げされてしまう
+        // (「踊る金貨」はギル用の敵なので exp 0.5 のままで正しい)。
+        //
+        // レア3 の exp 上限だけレア0 と同じ 2.0 なのは、レア3 の出現率が 7% と
+        // レア1 の 3% より高く「レア」と呼べる頻度ではないため。8.0 のままだと
+        // レア3 が経験値経済の 3 割を占め、エッグの居る火山・遺跡だけ突出する。
         var problems = new List<string>();
 
         foreach (var e in Data.Enemies.Where(e => e.Rarity == rarity))
         {
-            var lo = fragile.Contains(e.Name, StringComparer.Ordinal) ? 0.5 : hpLo;
-
-            if (e.HpMultiplier < lo || e.HpMultiplier > hpHi)
+            if (PenaltyEnemies.Contains(e.Code, StringComparer.Ordinal))
             {
-                problems.Add($"{e.Name} ({e.Code}) の hp {e.HpMultiplier} が {lo}〜{hpHi} の外");
+                continue;
             }
 
-            if (e.AttackMultiplier < atkLo || e.AttackMultiplier > atkHi)
+            if (e.HpMultiplier > hpMax)
             {
-                problems.Add($"{e.Name} ({e.Code}) の atk {e.AttackMultiplier} が {atkLo}〜{atkHi} の外");
+                problems.Add($"{e.Name} ({e.Code}) の hp {e.HpMultiplier} が上限 {hpMax} を超えている");
             }
 
-            if (e.ExpMultiplier < expLo || e.ExpMultiplier > expHi)
+            if (e.AttackMultiplier > atkMax)
             {
-                problems.Add($"{e.Name} ({e.Code}) の exp {e.ExpMultiplier} が {expLo}〜{expHi} の外");
+                problems.Add($"{e.Name} ({e.Code}) の atk {e.AttackMultiplier} が上限 {atkMax} を超えている");
+            }
+
+            if (e.ExpMultiplier > expMax)
+            {
+                problems.Add($"{e.Name} ({e.Code}) の exp {e.ExpMultiplier} が上限 {expMax} を超えている");
             }
         }
 
-        Assert.True(problems.Count == 0, Join($"レア度 {rarity} の個体倍率が帯から外れている", problems));
+        Assert.True(problems.Count == 0, Join($"レア度 {rarity} の個体倍率が上限を超えている", problems));
+    }
+
+    /// <summary>
+    /// 旧実装のマクロ検知で出していたペナルティエネミー。
+    /// 法外な個体倍率 (Nightmare は hp 104 / atk 7.4) はこの出自によるもので、
+    /// 入手経路が管理者コマンドと永遠悪夢に限られるため個体倍率の上限を課さない。
+    /// 旧 <c>penaltyenemy = ["nightmare", "daydream"]</c> (「吸い込み」の対象外でもある)。
+    /// </summary>
+    private static readonly string[] PenaltyEnemies = ["nightmare", "omni-nightmare", "daydream"];
+
+    [Fact]
+    public void ペナルティエネミーは硬いが実入りが無い()
+    {
+        // 個体倍率の上限を外している 3 体。硬さは残す一方で、下位フィールドに召喚されたときに
+        // そのフィールドの経験値天井を飛び越えないよう exp だけは通常の敵と同じ帯に収める。
+        foreach (var code in PenaltyEnemies)
+        {
+            var enemy = Data.FindEnemy(code);
+            Assert.NotNull(enemy);
+            Assert.True(enemy.HpMultiplier >= 10, $"{enemy.Name} ({code}) の hp {enemy.HpMultiplier} が威圧として弱すぎる");
+            Assert.True(enemy.ExpMultiplier <= 2.0, $"{enemy.Name} ({code}) の exp {enemy.ExpMultiplier} が高すぎる");
+        }
+    }
+
+    [Fact]
+    public void 特殊フィールドは通常進行の外にある()
+    {
+        // 地獄は魔鏡の「吸い込み」でのみ、竜洞は未完成で到達不可、
+        // 永遠悪夢は管理者コマンドでのみ。いずれも /go の行き先にはしない。
+        Assert.Equal(
+            new HashSet<string>(["地獄", "竜洞", "永遠悪夢"], StringComparer.Ordinal),
+            SpecialFields().Select(f => f.Name).ToHashSet(StringComparer.Ordinal));
+
+        // 竜洞と永遠悪夢はどこの移動元にもならない (管理者が戻す)。
+        // 地獄だけは移動元に残る — 理由は 地獄から出る経路が残っている() を参照。
+        foreach (var name in new[] { "竜洞", "永遠悪夢" })
+        {
+            Assert.DoesNotContain(
+                Data.FieldRequirements,
+                r => r.ConnectedFrom.Contains(name, StringComparer.Ordinal));
+        }
+
+        // 地獄には居座る価値が無いこと。経験値/ターンは exp/hp に比例するので、
+        // 通常進行の最上位より低ければ、吸い込まれた人は自然に出て行く。
+        var hell = Data.FindField("地獄");
+        Assert.NotNull(hell);
+        var best = Ladder().Max(f => f.ExpMultiplier / f.HpMultiplier);
+        Assert.True(
+            hell.ExpMultiplier / hell.HpMultiplier < best,
+            $"地獄の経験値/ターン比 {hell.ExpMultiplier / hell.HpMultiplier:F2} が " +
+            $"通常進行の最良 {best:F2} を下回っていない");
+    }
+
+    [Fact]
+    public void 地獄から出る経路が残っている()
+    {
+        // 地獄は /go の行き先から外してあるが、移動元として残しておかないと
+        // 魔鏡に吸い込まれたプレイヤーが二度と出られなくなる。
+        // 魔鏡の出るフィールドの敵Lv上限で満たせる移動先があることを確かめる。
+        var mirrorFields = Data.Enemies
+            .Where(e => e.Skills.Any(sk => Data.FindSkill(sk.Name)?.MoveField == "地獄"))
+            .SelectMany(e => e.Fields)
+            .Distinct()
+            .ToList();
+
+        Assert.NotEmpty(mirrorFields);
+
+        var exits = Data.FieldRequirements
+            .Where(r => r.ConnectedFrom.Contains("地獄", StringComparer.Ordinal))
+            .ToList();
+
+        foreach (var from in mirrorFields)
+        {
+            // 吸い込まれた時点の battle.Level は、元いたフィールドの上限が上限。
+            var carried = Data.FindField(from)!.LevelCap;
+
+            Assert.True(
+                exits.Any(r => r.RequiredEnemyLevel <= carried),
+                $"「{from}」から吸い込まれた人 (敵Lv 最大 {carried}) が地獄から出られない");
+        }
+    }
+
+    /// <summary>
+    /// 1 撃破あたりの 個体exp の期待値。<c>EncounterSpawner.ChooseForField</c> の抽選確率
+    /// (レア2 が 1/777、レア4 が 1/2048、レア3 が 7%、レア1 が 3%、残りがレア0) で重み付けする。
+    /// そのレア度の敵がフィールドに居なければ判定は素通りする。
+    /// </summary>
+    private static double ExpectedEnemyExp(string field)
+    {
+        var pool = Enumerable.Range(0, 5).ToDictionary(
+            rare => rare,
+            rare => Data.Enemies
+                .Where(e => e.Rarity == rare && e.Fields.Contains(field, StringComparer.Ordinal))
+                .Select(e => e.ExpMultiplier)
+                .ToList());
+
+        double total = 0, remaining = 1;
+
+        foreach (var (rare, chance) in new[] { (2, 1 / 777.0), (4, 1 / 2048.0), (3, 0.07), (1, 0.03) })
+        {
+            if (pool[rare].Count == 0)
+            {
+                continue;
+            }
+
+            total += remaining * chance * pool[rare].Average();
+            remaining -= remaining * chance;
+        }
+
+        return total + (remaining * (pool[0].Count > 0 ? pool[0].Average() : 1));
+    }
+
+    [Fact]
+    public void 自レベルが有効敵レベルに追従し続ける()
+    {
+        // 最上位ティアは 9600 撃破に及ぶので、自Lv と 有効敵Lv のわずかなずれが
+        // 滞在中に積み上がる。ずれると戦闘の重さが設計から外れるので、
+        // field.exp はこれが 1.0 に近くなるよう選んである
+        // (1 撃破で 敵Lv +1・自Lv +1 になるのは 個体exp × field.exp / 2 == 1 のとき)。
+        //
+        // レベルアップは累計xp >= (Lv+1)² なので 自Lv ≒ √(累計xp)。
+        // 参入時は 自Lv == 有効敵Lv == 参入Lv から始まる。
+        var problems = new List<string>();
+
+        foreach (var (field, entry, kills) in Tiers())
+        {
+            var perKill = ExpectedEnemyExp(field.Name) * field.ExpMultiplier;
+            double xp = (double)entry * entry;
+            double worst = 1;
+
+            for (var k = 1; k <= kills; k++)
+            {
+                var enemyLevel = entry + k;
+                xp += perKill * enemyLevel;
+
+                var ratio = Math.Sqrt(xp) / enemyLevel;
+                if (Math.Abs(ratio - 1) > Math.Abs(worst - 1))
+                {
+                    worst = ratio;
+                }
+            }
+
+            if (worst is < 0.85 or > 1.15)
+            {
+                problems.Add(
+                    $"{field.Name} (参入Lv {entry} → 上限 {field.LevelCap}、{kills} 撃破) で " +
+                    $"自Lv/有効敵Lv が {worst:F3} まで離れる " +
+                    $"(1撃破あたりの経験値 {perKill:F2} / 狙いは 2.00)");
+            }
+        }
+
+        Assert.True(problems.Count == 0, Join("階層の滞在中に自Lvが有効敵Lvから離れる", problems));
     }
 
     [Fact]
@@ -323,22 +511,36 @@ public sealed class BalanceInvariantTests
     {
         var sb = new StringBuilder();
         sb.AppendLine(
-            $"{"フィールド",-8}{"上限",6}{"HP倍",6}{"攻倍",6}{"経験倍",7}  " +
-            $"{"参入Lv",6}{"適正技",-12}{"参入turn",9}{"上限turn",9}{"被ダメ/体(参入)",10}{"exp/turn天井",13}");
+            $"{"フィールド",-8}{"上限",7}{"HP倍",6}{"攻倍",6}{"経験倍",7}  " +
+            $"{"参入Lv",7}{"滞在撃破",9}{"目安",7}  {"適正技",-12}" +
+            $"{"参入turn",9}{"上限turn",9}{"被ダメ/体",10}{"exp/turn天井",13}");
 
-        foreach (var (field, entry) in Tiers())
+        foreach (var (field, entry, kills) in Tiers())
         {
             var a = BalanceProbe.Measure(Data, field.Name, entry, entry);
             var b = BalanceProbe.Measure(Data, field.Name, field.LevelCap, field.LevelCap);
             sb.AppendLine(
-                $"{field.Name,-8}{field.LevelCap,6}{field.HpMultiplier,6:F2}{field.AttackMultiplier,6:F2}" +
-                $"{field.ExpMultiplier,7:F1}  {entry,6}{a.Skill.Name,-12}" +
+                $"{field.Name,-8}{field.LevelCap,7}{field.HpMultiplier,6:F2}{field.AttackMultiplier,6:F2}" +
+                $"{field.ExpMultiplier,7:F2}  {entry,7}{kills,9}{KillsToHours(kills),6:F1}h  {a.Skill.Name,-12}" +
                 $"{a.TurnsToKill,9:F2}{b.TurnsToKill,9:F2}{a.DamageTakenPerKill,10:P0}" +
                 $"{field.LevelCap * field.ExpMultiplier,13:F0}");
         }
 
+        sb.AppendLine();
+        sb.AppendLine("通常進行の外 (/go の行き先にならないフィールド):");
+
+        foreach (var f in SpecialFields())
+        {
+            sb.AppendLine(
+                $"  {f.Name,-8} 上限 {f.LevelCap,6}  HP倍 {f.HpMultiplier,5:F2}  攻倍 {f.AttackMultiplier,5:F2}" +
+                $"  経験倍 {f.ExpMultiplier,5:F2}  exp/hp {f.ExpMultiplier / f.HpMultiplier,5:F2}");
+        }
+
         return sb.ToString();
     }
+
+    /// <summary>撃破数を時間の目安へ。4 体/分 は「Lv100 分を 20〜30 分」という体感から。</summary>
+    private static double KillsToHours(int kills) => kills / 4.0 / 60.0;
 
     private static string Join(string headline, IReadOnlyList<string> problems)
         => $"{headline} ({problems.Count} 件):" + Environment.NewLine

@@ -1196,7 +1196,7 @@
     "code": "coin",
     "hp": 0.5,
     "zokusei": "地",
-    "exp": 5.0,
+    "exp": 0.5,
     "g": 50,
     "skill": [
       {
@@ -1716,7 +1716,7 @@
     "zokusei": "闇",
     "hp": 2,
     "spd": 10,
-    "exp": 8.0,
+    "exp": 2.0,
     "g": 10,
     "skill": [
       {
@@ -4033,7 +4033,7 @@
     "hp": 1,
     "atk": 1.111,
     "mp": 1500,
-    "exp": 2.0,
+    "exp": 1,
     "zokusei": "雷",
     "skill": [
       {
@@ -4230,7 +4230,7 @@
     "atk": 1,
     "spd": 1,
     "des": "-",
-    "exp": 2.0,
+    "exp": 1,
     "field": [
       "草原",
       "洞窟",
@@ -4261,7 +4261,7 @@
     "atk": 0.7,
     "mp": 44444,
     "spd": 0.1,
-    "exp": 2.0,
+    "exp": 0.8,
     "g": 0.8,
     "zokusei": "闇",
     "skill": [
@@ -4938,8 +4938,8 @@
   {
     "name": "Nightmare",
     "code": "nightmare",
-    "hp": 2.0,
-    "atk": 1.6,
+    "hp": 104,
+    "atk": 7.4,
     "spd": 3.7,
     "exp": 2.0,
     "g": 22.222,
@@ -5027,8 +5027,8 @@
   {
     "name": "Nightmare",
     "code": "omni-nightmare",
-    "hp": 2.0,
-    "atk": 1.6,
+    "hp": 104,
+    "atk": 7.4,
     "spd": 3.7,
     "exp": 2.0,
     "g": 22.222,
@@ -5118,8 +5118,8 @@
   {
     "name": "Protomare",
     "code": "daydream",
-    "hp": 2.0,
-    "atk": 1.6,
+    "hp": 47.5,
+    "atk": 2.7,
     "spd": 8.4,
     "mp": 114514,
     "exp": 2.0,

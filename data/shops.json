@@ -4,19 +4,19 @@
     "item": [
       {
         "id": "i",
-        "price": 50000
+        "price": 230000
       },
       {
         "id": "p",
-        "price": 1200
+        "price": 5500
       },
       {
         "id": "t",
-        "price": 3000
+        "price": 14000
       },
       {
         "id": "e",
-        "price": 7500
+        "price": 34000
       }
     ]
   },
@@ -25,19 +25,19 @@
     "item": [
       {
         "id": "c",
-        "price": 30000
+        "price": 138000
       },
       {
         "id": "p",
-        "price": 1200
+        "price": 5500
       },
       {
         "id": "t",
-        "price": 3000
+        "price": 14000
       },
       {
         "id": "e",
-        "price": 7500
+        "price": 34000
       }
     ]
   },
@@ -46,23 +46,23 @@
     "item": [
       {
         "id": "c",
-        "price": 150000
+        "price": 570000
       },
       {
         "id": "a",
-        "price": 100000
+        "price": 380000
       },
       {
         "id": "p",
-        "price": 6000
+        "price": 23000
       },
       {
         "id": "t",
-        "price": 15000
+        "price": 57000
       },
       {
         "id": "e",
-        "price": 38000
+        "price": 142000
       }
     ]
   },
@@ -88,15 +88,15 @@
     "item": [
       {
         "id": "p",
-        "price": 300
+        "price": 480
       },
       {
         "id": "t",
-        "price": 750
+        "price": 1200
       },
       {
         "id": "e",
-        "price": 1900
+        "price": 3000
       }
     ]
   },
@@ -105,15 +105,15 @@
     "item": [
       {
         "id": "p",
-        "price": 300
+        "price": 480
       },
       {
         "id": "t",
-        "price": 750
+        "price": 1200
       },
       {
         "id": "e",
-        "price": 1900
+        "price": 3000
       }
     ]
   },
@@ -122,15 +122,15 @@
     "item": [
       {
         "id": "p",
-        "price": 540
+        "price": 1200
       },
       {
         "id": "t",
-        "price": 1400
+        "price": 3000
       },
       {
         "id": "e",
-        "price": 3400
+        "price": 7500
       }
     ]
   },
@@ -139,15 +139,15 @@
     "item": [
       {
         "id": "p",
-        "price": 840
+        "price": 2600
       },
       {
         "id": "t",
-        "price": 2100
+        "price": 6600
       },
       {
         "id": "e",
-        "price": 5200
+        "price": 16000
       }
     ]
   },
@@ -156,15 +156,15 @@
     "item": [
       {
         "id": "p",
-        "price": 540
+        "price": 1200
       },
       {
         "id": "t",
-        "price": 1400
+        "price": 3000
       },
       {
         "id": "e",
-        "price": 3400
+        "price": 7500
       }
     ]
   },
@@ -173,15 +173,15 @@
     "item": [
       {
         "id": "p",
-        "price": 840
+        "price": 2600
       },
       {
         "id": "t",
-        "price": 2100
+        "price": 6600
       },
       {
         "id": "e",
-        "price": 5200
+        "price": 16000
       }
     ]
   },
@@ -190,15 +190,15 @@
     "item": [
       {
         "id": "p",
-        "price": 1700
+        "price": 11000
       },
       {
         "id": "t",
-        "price": 4200
+        "price": 28000
       },
       {
         "id": "e",
-        "price": 10000
+        "price": 70000
       }
     ]
   },
@@ -207,15 +207,15 @@
     "item": [
       {
         "id": "p",
-        "price": 2400
+        "price": 23000
       },
       {
         "id": "t",
-        "price": 6000
+        "price": 57000
       },
       {
         "id": "e",
-        "price": 15000
+        "price": 142000
       }
     ]
   },
@@ -224,15 +224,15 @@
     "item": [
       {
         "id": "p",
-        "price": 1700
+        "price": 11000
       },
       {
         "id": "t",
-        "price": 4200
+        "price": 28000
       },
       {
         "id": "e",
-        "price": 10000
+        "price": 70000
       }
     ]
   },
@@ -241,15 +241,15 @@
     "item": [
       {
         "id": "p",
-        "price": 3400
+        "price": 23000
       },
       {
         "id": "t",
-        "price": 8400
+        "price": 57000
       },
       {
         "id": "e",
-        "price": 21000
+        "price": 142000
       }
     ]
   },
@@ -258,15 +258,15 @@
     "item": [
       {
         "id": "p",
-        "price": 2400
+        "price": 23000
       },
       {
         "id": "t",
-        "price": 6000
+        "price": 57000
       },
       {
         "id": "e",
-        "price": 15000
+        "price": 142000
       }
     ]
   },
@@ -275,15 +275,15 @@
     "item": [
       {
         "id": "p",
-        "price": 4600
+        "price": 23000
       },
       {
         "id": "t",
-        "price": 11000
+        "price": 57000
       },
       {
         "id": "e",
-        "price": 28000
+        "price": 142000
       }
     ]
   }

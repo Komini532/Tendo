@@ -19,7 +19,7 @@ public sealed class MasterDataLoaderTests
     [InlineData("状態異常", 37)]
     [InlineData("アビリティ", 17)]
     [InlineData("フィールド", 16)]
-    [InlineData("移動条件", 16)]
+    [InlineData("移動条件", 13)]
     [InlineData("難易度", 4)]
     [InlineData("属性相性", 10)]
     [InlineData("ショップ", 16)]
@@ -209,8 +209,8 @@ public sealed class MasterDataLoaderTests
         Assert.NotNull(lunatic);
 
         // 解放条件は 99999 で永久に届かなかった。敵Lvがフィールドの上限で頭打ちになる
-        // 今の設計では届く値でないと意味が無いので、地獄の上限 2800 に合わせてある。
-        Assert.Equal(2800, lunatic.RequiredEnemyLevel);
+        // 今の設計では届く値でないと意味が無いので、最上位ティア (天界・遺跡) の上限に合わせてある。
+        Assert.Equal(19000, lunatic.RequiredEnemyLevel);
         Assert.Equal(2.2, lunatic.HpMultiplier);
         Assert.Equal(4, lunatic.Effects.Count);
         Assert.Equal("ツインウォール", lunatic.Effects[0].Name);
