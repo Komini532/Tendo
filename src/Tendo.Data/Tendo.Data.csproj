@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <!-- MySQL 9.7 永続化層。旧 db.js / ctrl.read / ctrl.write の置き換え。 -->
+  <ItemGroup>
+    <PackageReference Include="Dapper" Version="2.1.66" />
+    <PackageReference Include="MySqlConnector" Version="2.4.0" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="8.0.2" />
+    <PackageReference Include="Microsoft.Extensions.Options" Version="8.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="../Tendo.Game/Tendo.Game.csproj" />
+  </ItemGroup>
+
+  <!-- SQL は埋め込んで配布する。実行時に外部ファイルを探さなくて済む。 -->
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations/*.sql" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <InternalsVisibleTo Include="Tendo.Data.Tests" />
+  </ItemGroup>
+
+</Project>

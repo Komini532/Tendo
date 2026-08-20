@@ -1,0 +1,10048 @@
+[
+ {
+  "index": 0,
+  "seed": 2000,
+  "enemyCode": "test",
+  "field": "草原",
+  "difficulty": "NORMAL",
+  "enemyLevel": 1,
+  "exp": 95,
+  "gil": 0,
+  "drops": [],
+  "rewardLines": [
+   "< RESULT >",
+   "` 95の経験値を獲得！",
+   "` 0のギルを獲得！"
+  ],
+  "updateLines": [
+   "+ テストが9にレベルアップした！",
+   "+ ペット0が9にレベルアップした！"
+  ],
+  "playerLevel": 9,
+  "playerXp": 98,
+  "playerGil": 0,
+  "playerMaxHp": 190,
+  "playerMaxMp": 20,
+  "playerHp": 190,
+  "playerSkills": [],
+  "playerEffects": [
+   "毒:1:5"
+  ],
+  "playerItems": [],
+  "petLevel": 9,
+  "petXp": 95,
+  "nextEnemyCode": "matango",
+  "nextEnemyLevel": 2,
+  "nextEnemyHp": 70,
+  "petAbility": "荒くれ",
+  "petChance": 13
+ },
+ {
+  "index": 1,
+  "seed": 2001,
+  "enemyCode": "seed",
+  "field": "草原",
+  "difficulty": "HARD",
+  "enemyLevel": 14,
+  "exp": 16,
+  "gil": 5,
+  "drops": [],
+  "rewardLines": [
+   "< RESULT >",
+   "` 16の経験値を獲得！",
+   "` 5のギルを獲得！"
+  ],
+  "updateLines": [
+   "+ テストが19にレベルアップした！"
+  ],
+  "playerLevel": 19,
+  "playerXp": 376,
+  "playerGil": 5,
+  "playerMaxHp": 290,
+  "playerMaxMp": 42,
+  "playerHp": 290,
+  "playerSkills": [],
+  "playerEffects": [
+   "毒:1:5"
+  ],
+  "playerItems": [],
+  "petLevel": null,
+  "petXp": null,
+  "nextEnemyCode": "sasori",
+  "nextEnemyLevel": 15,
+  "nextEnemyHp": 240,
+  "petAbility": "マキナ",
+  "petChance": 11
+ },
+ {
+  "index": 2,
+  "seed": 2002,
+  "enemyCode": "anaconda",
+  "field": "草原",
+  "difficulty": "EXTREME",
+  "enemyLevel": 27,
+  "exp": 41,
+  "gil": 9,
+  "drops": [],
+  "rewardLines": [
+   "< RESULT >",
+   "` 41の経験値を獲得！",
+   "` 9のギルを獲得！"
+  ],
+  "updateLines": [
+   "+ テストは火の粉を習得した！",
+   "+ テストは電流を習得した！",
+   "+ テストが36にレベルアップした！"
+  ],
+  "playerLevel": 36,
+  "playerXp": 1336,
+  "playerGil": 9,
+  "playerMaxHp": 460,
+  "playerMaxMp": 80,
+  "playerHp": 460,
+  "playerSkills": [
+   "火の粉",
+   "電流"
+  ],
+  "playerEffects": [
+   "毒:1:5"
+  ],
+  "playerItems": [],
+  "petLevel": null,
+  "petXp": null,
+  "nextEnemyCode": "cherry",
+  "nextEnemyLevel": 28,
+  "nextEnemyHp": 416,
+  "petAbility": "不動",
+  "petChance": 92
+ },
+ {
+  "index": 3,
+  "seed": 2003,
+  "enemyCode": "imomushi",
+  "field": "草原",
+  "difficulty": "LUNATIC",
+  "enemyLevel": 40,
+  "exp": 95,
+  "gil": 13,
+  "drops": [],
+  "rewardLines": [
+   "< RESULT >",
+   "` 95の経験値を獲得！",
+   "` 13のギルを獲得！"
+  ],
+  "updateLines": [
+   "+ テストは火の粉を習得した！",
+   "+ テストは電流を習得した！",
+   "+ テストは淡い光を習得した！",
+   "+ テストは儚い闇を習得した！",
+   "+ テストが53にレベルアップした！"
+  ],
+  "playerLevel": 53,
+  "playerXp": 2903,
+  "playerGil": 13,
+  "playerMaxHp": 630,
+  "playerMaxMp": 118,
+  "playerHp": 630,
+  "playerSkills": [
+   "火の粉",
+   "電流",
+   "淡い光",
+   "儚い闇"
+  ],
+  "playerEffects": [
+   "毒:1:5"
+  ],
+  "playerItems": [],
+  "petLevel": null,
+  "petXp": null,
+  "nextEnemyCode": "matango",
+  "nextEnemyLevel": 41,
+  "nextEnemyHp": 2044,
+  "petAbility": "ポイズンLv.1",
+  "petChance": 18
+ },
+ {
+  "index": 4,
+  "seed": 2004,
+  "enemyCode": "sasori",
+  "field": "草原",
+  "difficulty": "NORMAL",
+  "enemyLevel": 53,
+  "exp": 50,
+  "gil": 18,
+  "drops": [],
+  "rewardLines": [
+   "< RESULT >",
+   "` 50の経験値を獲得！",
+   "` 18のギルを獲得！"
+  ],
+  "updateLines": [
+   "+ テストは火の粉を習得した！",
+   "+ テストは電流を習得した！",
+   "+ テストは淡い光を習得した！",
+   "+ テストは儚い闇を習得した！",
+   "+ テストが70にレベルアップした！",
+   "+ ペット4が7にレベルアップした！"
+  ],
+  "playerLevel": 70,
+  "playerXp": 4949,
+  "playerGil": 18,
+  "playerMaxHp": 800,
+  "playerMaxMp": 155,
+  "playerHp": 800,
+  "playerSkills": [
+   "火の粉",
+   "電流",
+   "淡い光",
+   "儚い闇"
+  ],
+  "playerEffects": [
+   "毒:1:5"
+  ],
+  "playerItems": [],
+  "petLevel": 7,
+  "petXp": 50,
+  "nextEnemyCode": "anaconda",
+  "nextEnemyLevel": 54,
+  "nextEnemyHp": 590,
+  "petAbility": "不動",
+  "petChance": 25
+ },
+ {
+  "index": 5,
+  "seed": 2005,
+  "enemyCode": "matango",
+  "field": "草原",
+  "difficulty": "HARD",
+  "enemyLevel": 66,
+  "exp": 75,
+  "gil": 22,
+  "drops": [],
+  "rewardLines": [
+   "< RESULT >",
+   "` 75の経験値を獲得！",
+   "` 22のギルを獲得！"
+  ],
+  "updateLines": [
+   "+ テストは火の粉を習得した！",
+   "+ テストは電流を習得した！",
+   "+ テストは淡い光を習得した！",
+   "+ テストは儚い闇を習得した！",
+   "+ テストが87にレベルアップした！"
+  ],
+  "playerLevel": 87,
+  "playerXp": 7643,
+  "playerGil": 22,
+  "playerMaxHp": 970,
+  "playerMaxMp": 193,
+  "playerHp": 970,
+  "playerSkills": [
+   "火の粉",
+   "電流",
+   "淡い光",
+   "儚い闇"
+  ],
+  "playerEffects": [
+   "毒:1:5"
+  ],
+  "playerItems": [],
+  "petLevel": null,
+  "petXp": null,
+  "nextEnemyCode": "h-moss",
+  "nextEnemyLevel": 67,
+  "nextEnemyHp": 1395,
+  "petAbility": "不動",
+  "petChance": 32
+ },
+ {
+  "index": 6,
+  "seed": 2006,
+  "enemyCode": "moss",
+  "field": "草原",
+  "difficulty": "EXTREME",
+  "enemyLevel": 79,
+  "exp": 120,
+  "gil": 26,
+  "drops": [],
+  "rewardLines": [
+   "< RESULT >",
+   "` 120の経験値を獲得！",
+   "` 26のギルを獲得！"
+  ],
+  "updateLines": [
+   "+ テストは火の粉を習得した！",
+   "+ テストは電流を習得した！",
+   "+ テストは淡い光を習得した！",
+   "+ テストは儚い闇を習得した！",
+   "+ テストはブレイブを習得した！",
+   "+ テストはプロテを習得した！",
+   "+ テストが104にレベルアップした！"
+  ],
+  "playerLevel": 104,
+  "playerXp": 10935,
+  "playerGil": 26,
+  "playerMaxHp": 1140,
+  "playerMaxMp": 231,
+  "playerHp": 1140,
+  "playerSkills": [
+   "火の粉",
+   "電流",
+   "淡い光",
+   "儚い闇",
+   "ブレイブ",
+   "プロテ"
+  ],
+  "playerEffects": [
+   "毒:1:5"
+  ],
+  "playerItems": [],
+  "petLevel": null,
+  "petXp": null,
+  "nextEnemyCode": "matango",
+  "nextEnemyLevel": 80,
+  "nextEnemyHp": 1292,
+  "petAbility": "不動",
+  "petChance": 64
+ },
+ {
+  "index": 7,
+  "seed": 2007,
+  "enemyCode": "cherry",
+  "field": "草原",
+  "difficulty": "LUNATIC",
+  "enemyLevel": 92,
+  "exp": 218,
+  "gil": 31,
+  "drops": [],
+  "rewardLines": [
+   "< RESULT >",
+   "` 218の経験値を獲得！",
+   "` 31のギルを獲得！"
+  ],
+  "updateLines": [
+   "+ テストは火の粉を習得した！",
+   "+ テストは電流を習得した！",
+   "+ テストは淡い光を習得した！",
+   "+ テストは儚い闇を習得した！",
+   "+ テストはブレイブを習得した！",
+   "+ テストはプロテを習得した！",
+   "+ テストが121にレベルアップした！"
+  ],
+  "playerLevel": 121,
+  "playerXp": 14858,
+  "playerGil": 31,
+  "playerMaxHp": 1310,
+  "playerMaxMp": 269,
+  "playerHp": 1310,
+  "playerSkills": [
+   "火の粉",
+   "電流",
+   "淡い光",
+   "儚い闇",
+   "ブレイブ",
+   "プロテ"
+  ],
+  "playerEffects": [
+   "毒:1:5"
+  ],
+  "playerItems": [],
+  "petLevel": null,
+  "petXp": null,
+  "nextEnemyCode": "thorn",
+  "nextEnemyLevel": 93,
+  "nextEnemyHp": 3529,
+  "petAbility": "不動",
+  "petChance": 24
+ },
+ {
+  "index": 8,
+  "seed": 2008,
+  "enemyCode": "grass",
+  "field": "草原",
+  "difficulty": "NORMAL",
+  "enemyLevel": 105,
+  "exp": 100,
+  "gil": 35,
+  "drops": [],
+  "rewardLines": [
+   "< RESULT >",
+   "` 100の経験値を獲得！",
+   "` 35のギルを獲得！"
+  ],
+  "updateLines": [
+   "+ テストは火の粉を習得した！",
+   "+ テストは電流を習得した！",
+   "+ テストは淡い光を習得した！",
+   "+ テストは儚い闇を習得した！",
+   "+ テストはブレイブを習得した！",
+   "+ テストはプロテを習得した！",
+   "+ テストが138にレベルアップした！",
+   "+ ペット8が10にレベルアップした！"
+  ],
+  "playerLevel": 138,
+  "playerXp": 19143,
+  "playerGil": 35,
+  "playerMaxHp": 1480,
+  "playerMaxMp": 306,
+  "playerHp": 1480,
+  "playerSkills": [
+   "火の粉",
+   "電流",
+   "淡い光",
+   "儚い闇",
+   "ブレイブ",
+   "プロテ"
+  ],
+  "playerEffects": [
+   "毒:1:5"
+  ],
+  "playerItems": [],
+  "petLevel": 10,
+  "petXp": 100,
+  "nextEnemyCode": "moss",
+  "nextEnemyLevel": 106,
+  "nextEnemyHp": 1375,
+  "petAbility": "チェーン",
+  "petChance": 73
+ },
+ {
+  "index": 9,
+  "seed": 2009,
+  "enemyCode": "thorn",
+  "field": "草原",
+  "difficulty": "HARD",
+  "enemyLevel": 118,
+  "exp": 135,
+  "gil": 39,
+  "drops": [],
+  "rewardLines": [
+   "< RESULT >",
+   "` 135の経験値を獲得！",
+   "` 39のギルを獲得！"
+  ],
+  "updateLines": [
+   "+ テストは火の粉を習得した！",
+   "+ テストは電流を習得した！",
+   "+ テストは淡い光を習得した！",
+   "+ テストは儚い闇を習得した！",
+   "+ テストはブレイブを習得した！",
+   "+ テストはプロテを習得した！",
+   "+ テストが155にレベルアップした！"
+  ],
+  "playerLevel": 155,
+  "playerXp": 24159,
+  "playerGil": 39,
+  "playerMaxHp": 1650,
+  "playerMaxMp": 344,
+  "playerHp": 1650,
+  "playerSkills": [
+   "火の粉",
+   "電流",
+   "淡い光",
+   "儚い闇",
+   "ブレイブ",
+   "プロテ"
+  ],
+  "playerEffects": [
+   "毒:1:5"
+  ],
+  "playerItems": [],
+  "petLevel": null,
+  "petXp": null,
+  "nextEnemyCode": "sasori",
+  "nextEnemyLevel": 119,
+  "nextEnemyHp": 1488,
+  "petAbility": "チェーン",
+  "petChance": 30
+ },
+ {
+  "index": 10,
+  "seed": 2010,
+  "enemyCode": "bat",
+  "field": "洞窟",
+  "difficulty": "EXTREME",
+  "enemyLevel": 131,
+  "exp": 220,
+  "gil": 44,
+  "drops": [],
+  "rewardLines": [
+   "< RESULT >",
+   "` 220の経験値を獲得！",
+   "` 44のギルを獲得！"
+  ],
+  "updateLines": [
+   "+ テストは火の粉を習得した！",
+   "+ テストは電流を習得した！",
+   "+ テストは淡い光を習得した！",
+   "+ テストは儚い闇を習得した！",
+   "+ テストはブレイブを習得した！",
+   "+ テストはプロテを習得した！",
+   "+ テストが172にレベルアップした！"
+  ],
+  "playerLevel": 172,
+  "playerXp": 29803,
+  "playerGil": 44,
+  "playerMaxHp": 1820,
+  "playerMaxMp": 382,
+  "playerHp": 1820,
+  "playerSkills": [
+   "火の粉",
+   "電流",
+   "淡い光",
+   "儚い闇",
+   "ブレイブ",
+   "プロテ"
+  ],
+  "playerEffects": [
+   "毒:1:5"
+  ],
+  "playerItems": [],
+  "petLevel": null,
+  "petXp": null,
+  "nextEnemyCode": "bat",
+  "nextEnemyLevel": 132,
+  "nextEnemyHp": 2082,
+  "petAbility": "不動",
+  "petChance": 82
+ },
+ {
+  "index": 11,
+  "seed": 2011,
+  "enemyCode": "maimai",
+  "field": "洞窟",
+  "difficulty": "LUNATIC",
+  "enemyLevel": 144,
+  "exp": 378,
+  "gil": 48,
+  "drops": [],
+  "rewardLines": [
+   "< RESULT >",
+   "` 378の経験値を獲得！",
+   "` 48のギルを獲得！"
+  ],
+  "updateLines": [
+   "+ テストは火の粉を習得した！",
+   "+ テストは電流を習得した！",
+   "+ テストは淡い光を習得した！",
+   "+ テストは儚い闇を習得した！",
+   "+ テストはブレイブを習得した！",
+   "+ テストはプロテを習得した！",
+   "+ テストが189にレベルアップした！"
+  ],
+  "playerLevel": 189,
+  "playerXp": 36098,
+  "playerGil": 48,
+  "playerMaxHp": 1990,
+  "playerMaxMp": 420,
+  "playerHp": 1990,
+  "playerSkills": [
+   "火の粉",
+   "電流",
+   "淡い光",
+   "儚い闇",
+   "ブレイブ",
+   "プロテ"
+  ],
+  "playerEffects": [
+   "毒:1:5"
+  ],
+  "playerItems": [],
+  "petLevel": null,
+  "petXp": null,
+  "nextEnemyCode": "yadokari",
+  "nextEnemyLevel": 145,
+  "nextEnemyHp": 7955,
+  "petAbility": "不動",
+  "petChance": 91
+ },
+ {
+  "index": 12,
+  "seed": 2012,
+  "enemyCode": "yadokari",
+  "field": "洞窟",
+  "difficulty": "NORMAL",
+  "enemyLevel": 157,
+  "exp": 165,
+  "gil": 52,
+  "drops": [],
+  "rewardLines": [
+   "< RESULT >",
+   "` 165の経験値を獲得！",
+   "` 52のギルを獲得！"
+  ],
+  "updateLines": [
+   "+ テストが14にレベルアップした！"
+  ],
+  "playerLevel": 14,
+  "playerXp": 200,
+  "playerGil": 52,
+  "playerMaxHp": 240,
+  "playerMaxMp": 31,
+  "playerHp": 240,
+  "playerSkills": [],
+  "playerEffects": [
+   "毒:1:5"
+  ],
+  "playerItems": [],
+  "petLevel": 13,
+  "petXp": 165,
+  "nextEnemyCode": "yadokari",
+  "nextEnemyLevel": 158,
+  "nextEnemyHp": 1946,
+  "petAbility": "不動",
+  "petChance": 17
+ },
+ {
+  "index": 13,
+  "seed": 2013,
+  "enemyCode": "icicle",
+  "field": "氷原",
+  "difficulty": "HARD",
+  "enemyLevel": 170,
+  "exp": 194,
+  "gil": 57,
+  "drops": [],
+  "rewardLines": [
+   "< RESULT >",
+   "` 194の経験値を獲得！",
+   "` 57のギルを獲得！"
+  ],
+  "updateLines": [
+   "+ テストは火の粉を習得した！",
+   "+ テストは電流を習得した！",
+   "+ テストが26にレベルアップした！"
+  ],
+  "playerLevel": 26,
+  "playerXp": 722,
+  "playerGil": 57,
+  "playerMaxHp": 360,
+  "playerMaxMp": 58,
+  "playerHp": 360,
+  "playerSkills": [
+   "火の粉",
+   "電流"
+  ],
+  "playerEffects": [
+   "毒:1:5"
+  ],
+  "playerItems": [],
+  "petLevel": null,
+  "petXp": null,
+  "nextEnemyCode": "yadokari",
+  "nextEnemyLevel": 171,
+  "nextEnemyHp": 2522,
+  "petAbility": "荒くれ",
+  "petChance": 59
+ },
+ {
+  "index": 14,
+  "seed": 2014,
+  "enemyCode": "snowman",
+  "field": "氷原",
+  "difficulty": "EXTREME",
+  "enemyLevel": 183,
+  "exp": 556,
+  "gil": 122,
+  "drops": [],
+  "rewardLines": [
+   "< RESULT >",
+   "` 556の経験値を獲得！",
+   "` 122のギルを獲得！"
+  ],
+  "updateLines": [
+   "+ テストは火の粉を習得した！",
+   "+ テストは電流を習得した！",
+   "+ テストが46にレベルアップした！"
+  ],
+  "playerLevel": 46,
+  "playerXp": 2155,
+  "playerGil": 122,
+  "playerMaxHp": 560,
+  "playerMaxMp": 102,
+  "playerHp": 560,
+  "playerSkills": [
+   "火の粉",
+   "電流"
+  ],
+  "playerEffects": [
+   "毒:1:5"
+  ],
+  "playerItems": [],
+  "petLevel": null,
+  "petXp": null,
+  "nextEnemyCode": "yadokari",
+  "nextEnemyLevel": 184,
+  "nextEnemyHp": 3432,
+  "petAbility": "ポイズンLv.1",
+  "petChance": 32
+ },
+ {
+  "index": 15,
+  "seed": 2015,
+  "enemyCode": "penguin",
+  "field": "氷原",
+  "difficulty": "LUNATIC",
+  "enemyLevel": 196,
+  "exp": 466,
+  "gil": 65,
+  "drops": [],
+  "rewardLines": [
+   "< RESULT >",
+   "` 466の経験値を獲得！",
+   "` 65のギルを獲得！"
+  ],
+  "updateLines": [
+   "+ テストは火の粉を習得した！",
+   "+ テストは電流を習得した！",
+   "+ テストは淡い光を習得した！",
+   "+ テストは儚い闇を習得した！",
+   "+ テストが60にレベルアップした！"
+  ],
+  "playerLevel": 60,
+  "playerXp": 3714,
+  "playerGil": 65,
+  "playerMaxHp": 700,
+  "playerMaxMp": 133,
+  "playerHp": 700,
+  "playerSkills": [
+   "火の粉",
+   "電流",
+   "淡い光",
+   "儚い闇"
+  ],
+  "playerEffects": [
+   "毒:1:5"
+  ],
+  "playerItems": [],
+  "petLevel": null,
+  "petXp": null,
+  "nextEnemyCode": "yadokari",
+  "nextEnemyLevel": 197,
+  "nextEnemyHp": 10728,
+  "petAbility": "勇奮",
+  "petChance": 8
+ },
+ {
+  "index": 16,
+  "seed": 2016,
+  "enemyCode": "mudhand",
+  "field": "峡谷",
+  "difficulty": "NORMAL",
+  "enemyLevel": 209,
+  "exp": 219,
+  "gil": 70,
+  "drops": [],
+  "rewardLines": [
+   "< RESULT >",
+   "` 219の経験値を獲得！",
+   "` 70のギルを獲得！"
+  ],
+  "updateLines": [
+   "+ テストは火の粉を習得した！",
+   "+ テストは電流を習得した！",
+   "+ テストは淡い光を習得した！",
+   "+ テストは儚い闇を習得した！",
+   "+ テストが75にレベルアップした！"
+  ],
+  "playerLevel": 75,
+  "playerXp": 5694,
+  "playerGil": 70,
+  "playerMaxHp": 850,
+  "playerMaxMp": 167,
+  "playerHp": 850,
+  "playerSkills": [
+   "火の粉",
+   "電流",
+   "淡い光",
+   "儚い闇"
+  ],
+  "playerEffects": [
+   "毒:1:5"
+  ],
+  "playerItems": [],
+  "petLevel": 17,
+  "petXp": 219,
+  "nextEnemyCode": "bat",
+  "nextEnemyLevel": 210,
+  "nextEnemyHp": 2150,
+  "petAbility": "チェーン",
+  "petChance": 73
+ },
+ {
+  "index": 17,
+  "seed": 2017,
+  "enemyCode": "rat",
+  "field": "洞窟",
+  "difficulty": "HARD",
+  "enemyLevel": 222,
+  "exp": 280,
+  "gil": 74,
+  "drops": [
+   "t:1"
+  ],
+  "rewardLines": [
+   "< RESULT >",
+   "` 280の経験値を獲得！",
+   "` 74のギルを獲得！",
+   "` エーテルを手に入れた！"
+  ],
+  "updateLines": [
+   "+ テストは火の粉を習得した！",
+   "+ テストは電流を習得した！",
+   "+ テストは淡い光を習得した！",
+   "+ テストは儚い闇を習得した！",
+   "+ テストが92にレベルアップした！"
+  ],
+  "playerLevel": 92,
+  "playerXp": 8560,
+  "playerGil": 74,
+  "playerMaxHp": 1020,
+  "playerMaxMp": 204,
+  "playerHp": 1020,
+  "playerSkills": [
+   "火の粉",
+   "電流",
+   "淡い光",
+   "儚い闇"
+  ],
+  "playerEffects": [
+   "毒:1:5"
+  ],
+  "playerItems": [
+   "t:1"
+  ],
+  "petLevel": null,
+  "petXp": null,
+  "nextEnemyCode": "maimai",
+  "nextEnemyLevel": 223,
+  "nextEnemyHp": 3271,
+  "petAbility": "ポイズンLv.1",
+  "petChance": 26
+ },
+ {
+  "index": 18,
+  "seed": 2018,
+  "enemyCode": "flea",
+  "field": "洞窟",
+  "difficulty": "EXTREME",
+  "enemyLevel": 235,
+  "exp": 395,
+  "gil": 39,
+  "drops": [],
+  "rewardLines": [
+   "< RESULT >",
+   "` 395の経験値を獲得！",
+   "` 39のギルを獲得！"
+  ],
+  "updateLines": [
+   "+ テストは火の粉を習得した！",
+   "+ テストは電流を習得した！",
+   "+ テストは淡い光を習得した！",
+   "+ テストは儚い闇を習得した！",
+   "+ テストはブレイブを習得した！",
+   "+ テストはプロテを習得した！",
+   "+ テストが109にレベルアップした！"
+  ],
+  "playerLevel": 109,
+  "playerXp": 12058,
+  "playerGil": 39,
+  "playerMaxHp": 1190,
+  "playerMaxMp": 242,
+  "playerHp": 1190,
+  "playerSkills": [
+   "火の粉",
+   "電流",
+   "淡い光",
+   "儚い闇",
+   "ブレイブ",
+   "プロテ"
+  ],
+  "playerEffects": [
+   "毒:1:5"
+  ],
+  "playerItems": [],
+  "petLevel": null,
+  "petXp": null,
+  "nextEnemyCode": "bat",
+  "nextEnemyLevel": 236,
+  "nextEnemyHp": 3663,
+  "petAbility": "ポイズンLv.2",
+  "petChance": 67
+ },
+ {
+  "index": 19,
+  "seed": 2019,
+  "enemyCode": "coin",
+  "field": "峡谷",
+  "difficulty": "LUNATIC",
+  "enemyLevel": 248,
+  "exp": 326,
+  "gil": 4150,
+  "drops": [],
+  "rewardLines": [
+   "< RESULT >",
+   "` 326の経験値を獲得！",
+   "` 4150のギルを獲得！"
+  ],
+  "updateLines": [
+   "+ テストは火の粉を習得した！",
+   "+ テストは電流を習得した！",
+   "+ テストは淡い光を習得した！",
+   "+ テストは儚い闇を習得した！",
+   "+ テストはブレイブを習得した！",
+   "+ テストはプロテを習得した！",
+   "+ テストが126にレベルアップした！"
+  ],
+  "playerLevel": 126,
+  "playerXp": 15950,
+  "playerGil": 4150,
+  "playerMaxHp": 1360,
+  "playerMaxMp": 280,
+  "playerHp": 1360,
+  "playerSkills": [
+   "火の粉",
+   "電流",
+   "淡い光",
+   "儚い闇",
+   "ブレイブ",
+   "プロテ"
+  ],
+  "playerEffects": [
+   "毒:1:5"
+  ],
+  "playerItems": [],
+  "petLevel": null,
+  "petXp": null,
+  "nextEnemyCode": "thorn",
+  "nextEnemyLevel": 249,
+  "nextEnemyHp": 9075,
+  "petAbility": "チェーン",
+  "petChance": 24
+ },
+ {
+  "index": 20,
+  "seed": 2020,
+  "enemyCode": "fog",
+  "field": "火山",
+  "difficulty": "NORMAL",
+  "enemyLevel": 261,
+  "exp": 300,
+  "gil": 87,
+  "drops": [],
+  "rewardLines": [
+   "< RESULT >",
+   "` 300の経験値を獲得！",
+   "` 87のギルを獲得！"
+  ],
+  "updateLines": [
+   "+ テストは火の粉を習得した！",
+   "+ テストは電流を習得した！",
+   "+ テストは淡い光を習得した！",
+   "+ テストは儚い闇を習得した！",
+   "+ テストはブレイブを習得した！",
+   "+ テストはプロテを習得した！",
+   "+ テストが143にレベルアップした！"
+  ],
+  "playerLevel": 143,
+  "playerXp": 20463,
+  "playerGil": 87,
+  "playerMaxHp": 1530,
+  "playerMaxMp": 317,
+  "playerHp": 1530,
+  "playerSkills": [
+   "火の粉",
+   "電流",
+   "淡い光",
+   "儚い闇",
+   "ブレイブ",
+   "プロテ"
+  ],
+  "playerEffects": [
+   "毒:1:5"
+  ],
+  "playerItems": [],
+  "petLevel": 21,
+  "petXp": 300,
+  "nextEnemyCode": "flea",
+  "nextEnemyLevel": 262,
+  "nextEnemyHp": 1884,
+  "petAbility": "不動",
+  "petChance": 6
+ },
+ {
+  "index": 21,
+  "seed": 2021,
+  "enemyCode": "bomb",
+  "field": "火山",
+  "difficulty": "HARD",
+  "enemyLevel": 274,
+  "exp": 378,
+  "gil": 91,
+  "drops": [],
+  "rewardLines": [
+   "< RESULT >",
+   "` 378の経験値を獲得！",
+   "` 91のギルを獲得！"
+  ],
+  "updateLines": [
+   "+ テストは火の粉を習得した！",
+   "+ テストは電流を習得した！",
+   "+ テストは淡い光を習得した！",
+   "+ テストは儚い闇を習得した！",
+   "+ テストはブレイブを習得した！",
+   "+ テストはプロテを習得した！",
+   "+ テストが160にレベルアップした！"
+  ],
+  "playerLevel": 160,
+  "playerXp": 25658,
+  "playerGil": 91,
+  "playerMaxHp": 1700,
+  "playerMaxMp": 355,
+  "playerHp": 1700,
+  "playerSkills": [
+   "火の粉",
+   "電流",
+   "淡い光",
+   "儚い闇",
+   "ブレイブ",
+   "プロテ"
+  ],
+  "playerEffects": [
+   "毒:1:5"
+  ],
+  "playerItems": [],
+  "petLevel": null,
+  "petXp": null,
+  "nextEnemyCode": "tank",
+  "nextEnemyLevel": 275,
+  "nextEnemyHp": 4020,
+  "petAbility": "ポイズンLv.2",
+  "petChance": 84
+ },
+ {
+  "index": 22,
+  "seed": 2022,
+  "enemyCode": "salamander",
+  "field": "火山",
+  "difficulty": "EXTREME",
+  "enemyLevel": 287,
+  "exp": 528,
+  "gil": 96,
+  "drops": [],
+  "rewardLines": [
+   "< RESULT >",
+   "` 528の経験値を獲得！",
+   "` 96のギルを獲得！"
+  ],
+  "updateLines": [
+   "+ テストは火の粉を習得した！",
+   "+ テストは電流を習得した！",
+   "+ テストは淡い光を習得した！",
+   "+ テストは儚い闇を習得した！",
+   "+ テストはブレイブを習得した！",
+   "+ テストはプロテを習得した！",
+   "+ テストが177にレベルアップした！"
+  ],
+  "playerLevel": 177,
+  "playerXp": 31503,
+  "playerGil": 96,
+  "playerMaxHp": 1870,
+  "playerMaxMp": 393,
+  "playerHp": 1870,
+  "playerSkills": [
+   "火の粉",
+   "電流",
+   "淡い光",
+   "儚い闇",
+   "ブレイブ",
+   "プロテ"
+  ],
+  "playerEffects": [
+   "毒:1:5"
+  ],
+  "playerItems": [],
+  "petLevel": null,
+  "petXp": null,
+  "nextEnemyCode": "uroboros",
+  "nextEnemyLevel": 288,
+  "nextEnemyHp": 4454,
+  "petAbility": "勇奮",
+  "petChance": 13
+ },
+ {
+  "index": 23,
+  "seed": 2023,
+  "enemyCode": "tank",
+  "field": "火山",
+  "difficulty": "LUNATIC",
+  "enemyLevel": 300,
+  "exp": 863,
+  "gil": 100,
+  "drops": [],
+  "rewardLines": [
+   "< RESULT >",
+   "` 863の経験値を獲得！",
+   "` 100のギルを獲得！"
+  ],
+  "updateLines": [
+   "+ テストは火の粉を習得した！",
+   "+ テストは電流を習得した！",
+   "+ テストは淡い光を習得した！",
+   "+ テストは儚い闇を習得した！",
+   "+ テストはブレイブを習得した！",
+   "+ テストはプロテを習得した！",
+   "+ テストが195にレベルアップした！"
+  ],
+  "playerLevel": 195,
+  "playerXp": 38111,
+  "playerGil": 100,
+  "playerMaxHp": 2050,
+  "playerMaxMp": 433,
+  "playerHp": 2050,
+  "playerSkills": [
+   "火の粉",
+   "電流",
+   "淡い光",
+   "儚い闇",
+   "ブレイブ",
+   "プロテ"
+  ],
+  "playerEffects": [
+   "毒:1:5"
+  ],
+  "playerItems": [],
+  "petLevel": null,
+  "petXp": null,
+  "nextEnemyCode": "charon",
+  "nextEnemyLevel": 301,
+  "nextEnemyHp": 14936,
+  "petAbility": "不動",
+  "petChance": 19
+ },
+ {
+  "index": 24,
+  "seed": 2024,
+  "enemyCode": "hellhound",
+  "field": "火山",
+  "difficulty": "NORMAL",
+  "enemyLevel": 313,
+  "exp": 360,
+  "gil": 104,
+  "drops": [],
+  "rewardLines": [
+   "< RESULT >",
+   "` 360の経験値を獲得！",
+   "` 104のギルを獲得！"
+  ],
+  "updateLines": [
+   "+ テストが21にレベルアップした！"
+  ],
+  "playerLevel": 21,
+  "playerXp": 459,
+  "playerGil": 104,
+  "playerMaxHp": 310,
+  "playerMaxMp": 47,
+  "playerHp": 310,
+  "playerSkills": [],
+  "playerEffects": [
+   "毒:1:5"
+  ],
+  "playerItems": [],
+  "petLevel": 25,
+  "petXp": 360,
+  "nextEnemyCode": "bat",
+  "nextEnemyLevel": 314,
+  "nextEnemyHp": 3190,
+  "petAbility": "ポイズンLv.1",
+  "petChance": 64
+ },
+ {
+  "index": 25,
+  "seed": 2025,
+  "enemyCode": "hydra",
+  "field": "火山",
+  "difficulty": "HARD",
+  "enemyLevel": 326,
+  "exp": 2249,
+  "gil": 109,
+  "drops": [],
+  "rewardLines": [
+   "< RESULT >",
+   "` 2249の経験値を獲得！",
+   "` 109のギルを獲得！"
+  ],
+  "updateLines": [
+   "+ テストは火の粉を習得した！",
+   "+ テストは電流を習得した！",
+   "+ テストは淡い光を習得した！",
+   "+ テストは儚い闇を習得した！",
+   "+ テストが54にレベルアップした！"
+  ],
+  "playerLevel": 54,
+  "playerXp": 2977,
+  "playerGil": 109,
+  "playerMaxHp": 640,
+  "playerMaxMp": 120,
+  "playerHp": 640,
+  "playerSkills": [
+   "火の粉",
+   "電流",
+   "淡い光",
+   "儚い闇"
+  ],
+  "playerEffects": [
+   "毒:1:5"
+  ],
+  "playerItems": [],
+  "petLevel": null,
+  "petXp": null,
+  "nextEnemyCode": "hellhound",
+  "nextEnemyLevel": 327,
+  "nextEnemyHp": 5279,
+  "petAbility": "不動",
+  "petChance": 27
+ },
+ {
+  "index": 26,
+  "seed": 2026,
+  "enemyCode": "uroboros",
+  "field": "峡谷",
+  "difficulty": "EXTREME",
+  "enemyLevel": 339,
+  "exp": 570,
+  "gil": 113,
+  "drops": [],
+  "rewardLines": [
+   "< RESULT >",
+   "` 570の経験値を獲得！",
+   "` 113のギルを獲得！"
+  ],
+  "updateLines": [
+   "+ テストは火の粉を習得した！",
+   "+ テストは電流を習得した！",
+   "+ テストは淡い光を習得した！",
+   "+ テストは儚い闇を習得した！",
+   "+ テストが50にレベルアップした！"
+  ],
+  "playerLevel": 50,
+  "playerXp": 2505,
+  "playerGil": 113,
+  "playerMaxHp": 600,
+  "playerMaxMp": 111,
+  "playerHp": 600,
+  "playerSkills": [
+   "火の粉",
+   "電流",
+   "淡い光",
+   "儚い闇"
+  ],
+  "playerEffects": [
+   "毒:1:5"
+  ],
+  "playerItems": [],
+  "petLevel": null,
+  "petXp": null,
+  "nextEnemyCode": "flea",
+  "nextEnemyLevel": 340,
+  "nextEnemyHp": 3694,
+  "petAbility": "荒くれ",
+  "petChance": 11
+ },
+ {
+  "index": 27,
+  "seed": 2027,
+  "enemyCode": "egg",
+  "field": "火山",
+  "difficulty": "LUNATIC",
+  "enemyLevel": 352,
+  "exp": 20240,
+  "gil": 1170,
+  "drops": [],
+  "rewardLines": [
+   "< RESULT >",
+   "` 20240の経験値を獲得！",
+   "` 1170のギルを獲得！"
+  ],
+  "updateLines": [
+   "+ テストは火の粉を習得した！",
+   "+ テストは電流を習得した！",
+   "+ テストは淡い光を習得した！",
+   "+ テストは儚い闇を習得した！",
+   "+ テストはブレイブを習得した！",
+   "+ テストはプロテを習得した！",
+   "+ テストが154にレベルアップした！"
+  ],
+  "playerLevel": 154,
+  "playerXp": 23960,
+  "playerGil": 1170,
+  "playerMaxHp": 1640,
+  "playerMaxMp": 342,
+  "playerHp": 1640,
+  "playerSkills": [
+   "火の粉",
+   "電流",
+   "淡い光",
+   "儚い闇",
+   "ブレイブ",
+   "プロテ"
+  ],
+  "playerEffects": [
+   "毒:1:5"
+  ],
+  "playerItems": [],
+  "petLevel": null,
+  "petXp": null,
+  "nextEnemyCode": "hellhound",
+  "nextEnemyLevel": 353,
+  "nextEnemyHp": 21086,
+  "petAbility": "勇奮",
+  "petChance": 94
+ },
+ {
+  "index": 28,
+  "seed": 2028,
+  "enemyCode": "ghost",
+  "field": "冥界",
+  "difficulty": "NORMAL",
+  "enemyLevel": 365,
+  "exp": 456,
+  "gil": 122,
+  "drops": [],
+  "rewardLines": [
+   "< RESULT >",
+   "` 456の経験値を獲得！",
+   "` 122のギルを獲得！"
+  ],
+  "updateLines": [
+   "+ テストは火の粉を習得した！",
+   "+ テストは電流を習得した！",
+   "+ テストは淡い光を習得した！",
+   "+ テストは儚い闇を習得した！",
+   "+ テストが80にレベルアップした！"
+  ],
+  "playerLevel": 80,
+  "playerXp": 6539,
+  "playerGil": 122,
+  "playerMaxHp": 900,
+  "playerMaxMp": 178,
+  "playerHp": 900,
+  "playerSkills": [
+   "火の粉",
+   "電流",
+   "淡い光",
+   "儚い闇"
+  ],
+  "playerEffects": [
+   "毒:1:5"
+  ],
+  "playerItems": [],
+  "petLevel": 29,
+  "petXp": 456,
+  "nextEnemyCode": "ghost",
+  "nextEnemyLevel": 366,
+  "nextEnemyHp": 3710,
+  "petAbility": "不動",
+  "petChance": 77
+ },
+ {
+  "index": 29,
+  "seed": 2029,
+  "enemyCode": "polter",
+  "field": "冥界",
+  "difficulty": "HARD",
+  "enemyLevel": 378,
+  "exp": 567,
+  "gil": 126,
+  "drops": [],
+  "rewardLines": [
+   "< RESULT >",
+   "` 567の経験値を獲得！",
+   "` 126のギルを獲得！"
+  ],
+  "updateLines": [
+   "+ テストは火の粉を習得した！",
+   "+ テストは電流を習得した！",
+   "+ テストは淡い光を習得した！",
+   "+ テストは儚い闇を習得した！",
+   "+ テストが97にレベルアップした！"
+  ],
+  "playerLevel": 97,
+  "playerXp": 9591,
+  "playerGil": 126,
+  "playerMaxHp": 1070,
+  "playerMaxMp": 215,
+  "playerHp": 1070,
+  "playerSkills": [
+   "火の粉",
+   "電流",
+   "淡い光",
+   "儚い闇"
+  ],
+  "playerEffects": [
+   "毒:1:5"
+  ],
+  "playerItems": [],
+  "petLevel": null,
+  "petXp": null,
+  "nextEnemyCode": "oboro",
+  "nextEnemyLevel": 379,
+  "nextEnemyHp": 6122,
+  "petAbility": "チェーン",
+  "petChance": 78
+ },
+ {
+  "index": 30,
+  "seed": 2030,
+  "enemyCode": "phantom",
+  "field": "冥界",
+  "difficulty": "EXTREME",
+  "enemyLevel": 391,
+  "exp": 782,
+  "gil": 130,
+  "drops": [],
+  "rewardLines": [
+   "< RESULT >",
+   "` 782の経験値を獲得！",
+   "` 130のギルを獲得！"
+  ],
+  "updateLines": [
+   "+ テストは火の粉を習得した！",
+   "+ テストは電流を習得した！",
+   "+ テストは淡い光を習得した！",
+   "+ テストは儚い闇を習得した！",
+   "+ テストはブレイブを習得した！",
+   "+ テストはプロテを習得した！",
+   "+ テストが115にレベルアップした！"
+  ],
+  "playerLevel": 115,
+  "playerXp": 13325,
+  "playerGil": 130,
+  "playerMaxHp": 1250,
+  "playerMaxMp": 255,
+  "playerHp": 1250,
+  "playerSkills": [
+   "火の粉",
+   "電流",
+   "淡い光",
+   "儚い闇",
+   "ブレイブ",
+   "プロテ"
+  ],
+  "playerEffects": [
+   "毒:1:5"
+  ],
+  "playerItems": [],
+  "petLevel": null,
+  "petXp": null,
+  "nextEnemyCode": "spirit",
+  "nextEnemyLevel": 392,
+  "nextEnemyHp": 8001,
+  "petAbility": "不動",
+  "petChance": 50
+ },
+ {
+  "index": 31,
+  "seed": 2031,
+  "enemyCode": "spirit",
+  "field": "冥界",
+  "difficulty": "LUNATIC",
+  "enemyLevel": 404,
+  "exp": 1263,
+  "gil": 135,
+  "drops": [],
+  "rewardLines": [
+   "< RESULT >",
+   "` 1263の経験値を獲得！",
+   "` 135のギルを獲得！"
+  ],
+  "updateLines": [
+   "+ テストは火の粉を習得した！",
+   "+ テストは電流を習得した！",
+   "+ テストは淡い光を習得した！",
+   "+ テストは儚い闇を習得した！",
+   "+ テストはブレイブを習得した！",
+   "+ テストはプロテを習得した！",
+   "+ テストが133にレベルアップした！"
+  ],
+  "playerLevel": 133,
+  "playerXp": 17903,
+  "playerGil": 135,
+  "playerMaxHp": 1430,
+  "playerMaxMp": 295,
+  "playerHp": 1430,
+  "playerSkills": [
+   "火の粉",
+   "電流",
+   "淡い光",
+   "儚い闇",
+   "ブレイブ",
+   "プロテ"
+  ],
+  "playerEffects": [
+   "毒:1:5"
+  ],
+  "playerItems": [],
+  "petLevel": null,
+  "petXp": null,
+  "nextEnemyCode": "oboro",
+  "nextEnemyLevel": 405,
+  "nextEnemyHp": 24214,
+  "petAbility": "勇奮",
+  "petChance": 62
+ },
+ {
+  "index": 32,
+  "seed": 2032,
+  "enemyCode": "shadow",
+  "field": "秘境",
+  "difficulty": "NORMAL",
+  "enemyLevel": 417,
+  "exp": 550,
+  "gil": 139,
+  "drops": [],
+  "rewardLines": [
+   "< RESULT >",
+   "` 550の経験値を獲得！",
+   "` 139のギルを獲得！"
+  ],
+  "updateLines": [
+   "+ テストは火の粉を習得した！",
+   "+ テストは電流を習得した！",
+   "+ テストは淡い光を習得した！",
+   "+ テストは儚い闇を習得した！",
+   "+ テストはブレイブを習得した！",
+   "+ テストはプロテを習得した！",
+   "+ テストが147にレベルアップした！",
+   "+ ペット32が23にレベルアップした！"
+  ],
+  "playerLevel": 147,
+  "playerXp": 21865,
+  "playerGil": 139,
+  "playerMaxHp": 1570,
+  "playerMaxMp": 326,
+  "playerHp": 1570,
+  "playerSkills": [
+   "火の粉",
+   "電流",
+   "淡い光",
+   "儚い闇",
+   "ブレイブ",
+   "プロテ"
+  ],
+  "playerEffects": [
+   "毒:1:5"
+  ],
+  "playerItems": [],
+  "petLevel": 23,
+  "petXp": 550,
+  "nextEnemyCode": "ghast",
+  "nextEnemyLevel": 418,
+  "nextEnemyHp": 3812,
+  "petAbility": "ポイズンLv.2",
+  "petChance": 78
+ },
+ {
+  "index": 33,
+  "seed": 2033,
+  "enemyCode": "ghast",
+  "field": "火山",
+  "difficulty": "HARD",
+  "enemyLevel": 430,
+  "exp": 712,
+  "gil": 143,
+  "drops": [],
+  "rewardLines": [
+   "< RESULT >",
+   "` 712の経験値を獲得！",
+   "` 143のギルを獲得！"
+  ],
+  "updateLines": [
+   "+ テストは火の粉を習得した！",
+   "+ テストは電流を習得した！",
+   "+ テストは淡い光を習得した！",
+   "+ テストは儚い闇を習得した！",
+   "+ テストはブレイブを習得した！",
+   "+ テストはプロテを習得した！",
+   "+ テストが165にレベルアップした！"
+  ],
+  "playerLevel": 165,
+  "playerXp": 27280,
+  "playerGil": 143,
+  "playerMaxHp": 1750,
+  "playerMaxMp": 366,
+  "playerHp": 1750,
+  "playerSkills": [
+   "火の粉",
+   "電流",
+   "淡い光",
+   "儚い闇",
+   "ブレイブ",
+   "プロテ"
+  ],
+  "playerEffects": [
+   "毒:1:5"
+  ],
+  "playerItems": [],
+  "petLevel": null,
+  "petXp": null,
+  "nextEnemyCode": "egg",
+  "nextEnemyLevel": 431,
+  "nextEnemyHp": 10404,
+  "petAbility": "ポイズンLv.1",
+  "petChance": 94
+ },
+ {
+  "index": 34,
+  "seed": 2034,
+  "enemyCode": "charon",
+  "field": "火山",
+  "difficulty": "EXTREME",
+  "enemyLevel": 443,
+  "exp": 815,
+  "gil": 148,
+  "drops": [],
+  "rewardLines": [
+   "< RESULT >",
+   "` 815の経験値を獲得！",
+   "` 148のギルを獲得！"
+  ],
+  "updateLines": [
+   "+ テストは火の粉を習得した！",
+   "+ テストは電流を習得した！",
+   "+ テストは淡い光を習得した！",
+   "+ テストは儚い闇を習得した！",
+   "+ テストはブレイブを習得した！",
+   "+ テストはプロテを習得した！",
+   "+ テストが182にレベルアップした！"
+  ],
+  "playerLevel": 182,
+  "playerXp": 33214,
+  "playerGil": 148,
+  "playerMaxHp": 1920,
+  "playerMaxMp": 404,
+  "playerHp": 1920,
+  "playerSkills": [
+   "火の粉",
+   "電流",
+   "淡い光",
+   "儚い闇",
+   "ブレイブ",
+   "プロテ"
+  ],
+  "playerEffects": [
+   "毒:1:5"
+  ],
+  "playerItems": [],
+  "petLevel": null,
+  "petXp": null,
+  "nextEnemyCode": "tank",
+  "nextEnemyLevel": 444,
+  "nextEnemyHp": 8175,
+  "petAbility": "勇奮",
+  "petChance": 24
+ },
+ {
+  "index": 35,
+  "seed": 2035,
+  "enemyCode": "plasma",
+  "field": "氷山",
+  "difficulty": "LUNATIC",
+  "enemyLevel": 456,
+  "exp": 1345,
+  "gil": 152,
+  "drops": [],
+  "rewardLines": [
+   "< RESULT >",
+   "` 1345の経験値を獲得！",
+   "` 152のギルを獲得！"
+  ],
+  "updateLines": [
+   "+ テストは火の粉を習得した！",
+   "+ テストは電流を習得した！",
+   "+ テストは淡い光を習得した！",
+   "+ テストは儚い闇を習得した！",
+   "+ テストはブレイブを習得した！",
+   "+ テストはプロテを習得した！",
+   "+ テストはフレアを習得した！",
+   "+ テストはザップを習得した！",
+   "+ テストはアクアを習得した！",
+   "+ テストが200にレベルアップした！"
+  ],
+  "playerLevel": 200,
+  "playerXp": 40153,
+  "playerGil": 152,
+  "playerMaxHp": 2100,
+  "playerMaxMp": 444,
+  "playerHp": 2100,
+  "playerSkills": [
+   "火の粉",
+   "電流",
+   "淡い光",
+   "儚い闇",
+   "ブレイブ",
+   "プロテ",
+   "フレア",
+   "ザップ",
+   "アクア"
+  ],
+  "playerEffects": [
+   "毒:1:5"
+  ],
+  "playerItems": [],
+  "petLevel": null,
+  "petXp": null,
+  "nextEnemyCode": "rat",
+  "nextEnemyLevel": 457,
+  "nextEnemyHp": 24593,
+  "petAbility": "勇奮",
+  "petChance": 6
+ },
+ {
+  "index": 36,
+  "seed": 2036,
+  "enemyCode": "crescent",
+  "field": "天界",
+  "difficulty": "NORMAL",
+  "enemyLevel": 469,
+  "exp": 610,
+  "gil": 156,
+  "drops": [],
+  "rewardLines": [
+   "< RESULT >",
+   "` 610の経験値を獲得！",
+   "` 156のギルを獲得！"
+  ],
+  "updateLines": [
+   "+ テストは火の粉を習得した！",
+   "+ テストは電流を習得した！",
+   "+ テストが28にレベルアップした！",
+   "+ ペット36が24にレベルアップした！"
+  ],
+  "playerLevel": 28,
+  "playerXp": 805,
+  "playerGil": 156,
+  "playerMaxHp": 380,
+  "playerMaxMp": 62,
+  "playerHp": 380,
+  "playerSkills": [
+   "火の粉",
+   "電流"
+  ],
+  "playerEffects": [
+   "毒:1:5"
+  ],
+  "playerItems": [],
+  "petLevel": 24,
+  "petXp": 610,
+  "nextEnemyCode": "teru",
+  "nextEnemyLevel": 470,
+  "nextEnemyHp": 8275,
+  "petAbility": "不動",
+  "petChance": 44
+ },
+ {
+  "index": 37,
+  "seed": 2037,
+  "enemyCode": "rain",
+  "field": "湖",
+  "difficulty": "HARD",
+  "enemyLevel": 482,
+  "exp": 694,
+  "gil": 161,
+  "drops": [],
+  "rewardLines": [
+   "< RESULT >",
+   "` 694の経験値を獲得！",
+   "` 161のギルを獲得！"
+  ],
+  "updateLines": [
+   "+ テストは火の粉を習得した！",
+   "+ テストは電流を習得した！",
+   "+ テストが40にレベルアップした！"
+  ],
+  "playerLevel": 40,
+  "playerXp": 1654,
+  "playerGil": 161,
+  "playerMaxHp": 500,
+  "playerMaxMp": 89,
+  "playerHp": 500,
+  "playerSkills": [
+   "火の粉",
+   "電流"
+  ],
+  "playerEffects": [
+   "毒:1:5"
+  ],
+  "playerItems": [],
+  "petLevel": null,
+  "petXp": null,
+  "nextEnemyCode": "yadokari",
+  "nextEnemyLevel": 483,
+  "nextEnemyHp": 7015,
+  "petAbility": "荒くれ",
+  "petChance": 58
+ },
+ {
+  "index": 38,
+  "seed": 2038,
+  "enemyCode": "sylph",
+  "field": "天界",
+  "difficulty": "EXTREME",
+  "enemyLevel": 495,
+  "exp": 1030,
+  "gil": 165,
+  "drops": [],
+  "rewardLines": [
+   "< RESULT >",
+   "` 1030の経験値を獲得！",
+   "` 165のギルを獲得！"
+  ],
+  "updateLines": [
+   "+ テストは火の粉を習得した！",
+   "+ テストは電流を習得した！",
+   "+ テストは淡い光を習得した！",
+   "+ テストは儚い闇を習得した！",
+   "+ テストが57にレベルアップした！"
+  ],
+  "playerLevel": 57,
+  "playerXp": 3333,
+  "playerGil": 165,
+  "playerMaxHp": 670,
+  "playerMaxMp": 127,
+  "playerHp": 670,
+  "playerSkills": [
+   "火の粉",
+   "電流",
+   "淡い光",
+   "儚い闇"
+  ],
+  "playerEffects": [
+   "毒:1:5"
+  ],
+  "playerItems": [],
+  "petLevel": null,
+  "petXp": null,
+  "nextEnemyCode": "teru",
+  "nextEnemyLevel": 496,
+  "nextEnemyHp": 13270,
+  "petAbility": "ポイズンLv.1",
+  "petChance": 39
+ },
+ {
+  "index": 39,
+  "seed": 2039,
+  "enemyCode": "wisp",
+  "field": "天界",
+  "difficulty": "LUNATIC",
+  "enemyLevel": 508,
+  "exp": 1651,
+  "gil": 169,
+  "drops": [],
+  "rewardLines": [
+   "< RESULT >",
+   "` 1651の経験値を獲得！",
+   "` 169のギルを獲得！"
+  ],
+  "updateLines": [
+   "+ テストは火の粉を習得した！",
+   "+ テストは電流を習得した！",
+   "+ テストは淡い光を習得した！",
+   "+ テストは儚い闇を習得した！",
+   "+ テストが76にレベルアップした！"
+  ],
+  "playerLevel": 76,
+  "playerXp": 5875,
+  "playerGil": 169,
+  "playerMaxHp": 860,
+  "playerMaxMp": 169,
+  "playerHp": 860,
+  "playerSkills": [
+   "火の粉",
+   "電流",
+   "淡い光",
+   "儚い闇"
+  ],
+  "playerEffects": [
+   "毒:1:5"
+  ],
+  "playerItems": [],
+  "petLevel": null,
+  "petXp": null,
+  "nextEnemyCode": "rain",
+  "nextEnemyLevel": 509,
+  "nextEnemyHp": 678821,
+  "petAbility": "ポイズンLv.1",
+  "petChance": 88
+ },
+ {
+  "index": 40,
+  "seed": 2040,
+  "enemyCode": "teru",
+  "field": "天界",
+  "difficulty": "NORMAL",
+  "enemyLevel": 521,
+  "exp": 677,
+  "gil": 174,
+  "drops": [],
+  "rewardLines": [
+   "< RESULT >",
+   "` 677の経験値を獲得！",
+   "` 174のギルを獲得！"
+  ],
+  "updateLines": [
+   "+ テストは火の粉を習得した！",
+   "+ テストは電流を習得した！",
+   "+ テストは淡い光を習得した！",
+   "+ テストは儚い闇を習得した！",
+   "+ テストが86にレベルアップした！",
+   "+ ペット40が26にレベルアップした！"
+  ],
+  "playerLevel": 86,
+  "playerXp": 7400,
+  "playerGil": 174,
+  "playerMaxHp": 960,
+  "playerMaxMp": 191,
+  "playerHp": 960,
+  "playerSkills": [
+   "火の粉",
+   "電流",
+   "淡い光",
+   "儚い闇"
+  ],
+  "playerEffects": [
+   "毒:1:5"
+  ],
+  "playerItems": [],
+  "petLevel": 26,
+  "petXp": 677,
+  "nextEnemyCode": "rain",
+  "nextEnemyLevel": 522,
+  "nextEnemyHp": 156650,
+  "petAbility": "マキナ",
+  "petChance": 24
+ },
+ {
+  "index": 41,
+  "seed": 2041,
+  "enemyCode": "prominence",
+  "field": "地獄",
+  "difficulty": "HARD",
+  "enemyLevel": 534,
+  "exp": 801,
+  "gil": 178,
+  "drops": [
+   "p:1"
+  ],
+  "rewardLines": [
+   "< RESULT >",
+   "` 801の経験値を獲得！",
+   "` 178のギルを獲得！",
+   "` ポーションを手に入れた！"
+  ],
+  "updateLines": [
+   "+ テストは火の粉を習得した！",
+   "+ テストは電流を習得した！",
+   "+ テストは淡い光を習得した！",
+   "+ テストは儚い闇を習得した！",
+   "+ テストはブレイブを習得した！",
+   "+ テストはプロテを習得した！",
+   "+ テストが102にレベルアップした！"
+  ],
+  "playerLevel": 102,
+  "playerXp": 10601,
+  "playerGil": 178,
+  "playerMaxHp": 1120,
+  "playerMaxMp": 226,
+  "playerHp": 1120,
+  "playerSkills": [
+   "火の粉",
+   "電流",
+   "淡い光",
+   "儚い闇",
+   "ブレイブ",
+   "プロテ"
+  ],
+  "playerEffects": [
+   "毒:1:5"
+  ],
+  "playerItems": [
+   "p:1"
+  ],
+  "petLevel": null,
+  "petXp": null,
+  "nextEnemyCode": "shadow",
+  "nextEnemyLevel": 535,
+  "nextEnemyHp": 7764,
+  "petAbility": "マキナ",
+  "petChance": 93
+ },
+ {
+  "index": 42,
+  "seed": 2042,
+  "enemyCode": "larva",
+  "field": "遺跡",
+  "difficulty": "EXTREME",
+  "enemyLevel": 547,
+  "exp": 1155,
+  "gil": 182,
+  "drops": [],
+  "rewardLines": [
+   "< RESULT >",
+   "` 1155の経験値を獲得！",
+   "` 182のギルを獲得！"
+  ],
+  "updateLines": [
+   "+ テストは火の粉を習得した！",
+   "+ テストは電流を習得した！",
+   "+ テストは淡い光を習得した！",
+   "+ テストは儚い闇を習得した！",
+   "+ テストはブレイブを習得した！",
+   "+ テストはプロテを習得した！",
+   "+ テストが120にレベルアップした！"
+  ],
+  "playerLevel": 120,
+  "playerXp": 14610,
+  "playerGil": 182,
+  "playerMaxHp": 1300,
+  "playerMaxMp": 266,
+  "playerHp": 1300,
+  "playerSkills": [
+   "火の粉",
+   "電流",
+   "淡い光",
+   "儚い闇",
+   "ブレイブ",
+   "プロテ"
+  ],
+  "playerEffects": [
+   "毒:1:5"
+  ],
+  "playerItems": [],
+  "petLevel": null,
+  "petXp": null,
+  "nextEnemyCode": "yadokari",
+  "nextEnemyLevel": 548,
+  "nextEnemyHp": 10072,
+  "petAbility": "荒くれ",
+  "petChance": 62
+ },
+ {
+  "index": 43,
+  "seed": 2043,
+  "enemyCode": "maiden",
+  "field": "遺跡",
+  "difficulty": "LUNATIC",
+  "enemyLevel": 560,
+  "exp": 1848,
+  "gil": 187,
+  "drops": [],
+  "rewardLines": [
+   "< RESULT >",
+   "` 1848の経験値を獲得！",
+   "` 187のギルを獲得！"
+  ],
+  "updateLines": [
+   "+ テストは火の粉を習得した！",
+   "+ テストは電流を習得した！",
+   "+ テストは淡い光を習得した！",
+   "+ テストは儚い闇を習得した！",
+   "+ テストはブレイブを習得した！",
+   "+ テストはプロテを習得した！",
+   "+ テストが139にレベルアップした！"
+  ],
+  "playerLevel": 139,
+  "playerXp": 19536,
+  "playerGil": 187,
+  "playerMaxHp": 1490,
+  "playerMaxMp": 309,
+  "playerHp": 1490,
+  "playerSkills": [
+   "火の粉",
+   "電流",
+   "淡い光",
+   "儚い闇",
+   "ブレイブ",
+   "プロテ"
+  ],
+  "playerEffects": [
+   "毒:1:5"
+  ],
+  "playerItems": [],
+  "petLevel": null,
+  "petXp": null,
+  "nextEnemyCode": "killer",
+  "nextEnemyLevel": 561,
+  "nextEnemyHp": 25153,
+  "petAbility": "勇奮",
+  "petChance": 37
+ },
+ {
+  "index": 44,
+  "seed": 2044,
+  "enemyCode": "knight",
+  "field": "遺跡",
+  "difficulty": "NORMAL",
+  "enemyLevel": 573,
+  "exp": 756,
+  "gil": 191,
+  "drops": [],
+  "rewardLines": [
+   "< RESULT >",
+   "` 756の経験値を獲得！",
+   "` 191のギルを獲得！"
+  ],
+  "updateLines": [
+   "+ テストは火の粉を習得した！",
+   "+ テストは電流を習得した！",
+   "+ テストは淡い光を習得した！",
+   "+ テストは儚い闇を習得した！",
+   "+ テストはブレイブを習得した！",
+   "+ テストはプロテを習得した！",
+   "+ テストが152にレベルアップした！",
+   "+ ペット44が27にレベルアップした！"
+  ],
+  "playerLevel": 152,
+  "playerXp": 23255,
+  "playerGil": 191,
+  "playerMaxHp": 1620,
+  "playerMaxMp": 337,
+  "playerHp": 1620,
+  "playerSkills": [
+   "火の粉",
+   "電流",
+   "淡い光",
+   "儚い闇",
+   "ブレイブ",
+   "プロテ"
+  ],
+  "playerEffects": [
+   "毒:1:5"
+  ],
+  "playerItems": [],
+  "petLevel": 27,
+  "petXp": 756,
+  "nextEnemyCode": "mudhand",
+  "nextEnemyLevel": 574,
+  "nextEnemyHp": 6938,
+  "petAbility": "不動",
+  "petChance": 67
+ },
+ {
+  "index": 45,
+  "seed": 2045,
+  "enemyCode": "oboro",
+  "field": "冥界",
+  "difficulty": "HARD",
+  "enemyLevel": 586,
+  "exp": 879,
+  "gil": 195,
+  "drops": [],
+  "rewardLines": [
+   "< RESULT >",
+   "` 879の経験値を獲得！",
+   "` 195のギルを獲得！"
+  ],
+  "updateLines": [
+   "+ テストは火の粉を習得した！",
+   "+ テストは電流を習得した！",
+   "+ テストは淡い光を習得した！",
+   "+ テストは儚い闇を習得した！",
+   "+ テストはブレイブを習得した！",
+   "+ テストはプロテを習得した！",
+   "+ テストが169にレベルアップした！"
+  ],
+  "playerLevel": 169,
+  "playerXp": 28767,
+  "playerGil": 195,
+  "playerMaxHp": 1790,
+  "playerMaxMp": 375,
+  "playerHp": 1790,
+  "playerSkills": [
+   "火の粉",
+   "電流",
+   "淡い光",
+   "儚い闇",
+   "ブレイブ",
+   "プロテ"
+  ],
+  "playerEffects": [
+   "毒:1:5"
+  ],
+  "playerItems": [],
+  "petLevel": null,
+  "petXp": null,
+  "nextEnemyCode": "ghost",
+  "nextEnemyLevel": 587,
+  "nextEnemyHp": 7104,
+  "petAbility": "チェーン",
+  "petChance": 52
+ },
+ {
+  "index": 46,
+  "seed": 2046,
+  "enemyCode": "killer",
+  "field": "遺跡",
+  "difficulty": "EXTREME",
+  "enemyLevel": 599,
+  "exp": 1265,
+  "gil": 200,
+  "drops": [],
+  "rewardLines": [
+   "< RESULT >",
+   "` 1265の経験値を獲得！",
+   "` 200のギルを獲得！"
+  ],
+  "updateLines": [
+   "+ テストは火の粉を習得した！",
+   "+ テストは電流を習得した！",
+   "+ テストは淡い光を習得した！",
+   "+ テストは儚い闇を習得した！",
+   "+ テストはブレイブを習得した！",
+   "+ テストはプロテを習得した！",
+   "+ テストが187にレベルアップした！"
+  ],
+  "playerLevel": 187,
+  "playerXp": 35120,
+  "playerGil": 200,
+  "playerMaxHp": 1970,
+  "playerMaxMp": 415,
+  "playerHp": 1970,
+  "playerSkills": [
+   "火の粉",
+   "電流",
+   "淡い光",
+   "儚い闇",
+   "ブレイブ",
+   "プロテ"
+  ],
+  "playerEffects": [
+   "毒:1:5"
+  ],
+  "playerItems": [],
+  "petLevel": null,
+  "petXp": null,
+  "nextEnemyCode": "knight",
+  "nextEnemyLevel": 600,
+  "nextEnemyHp": 7372,
+  "petAbility": "勇奮",
+  "petChance": 51
+ },
+ {
+  "index": 47,
+  "seed": 2047,
+  "enemyCode": "bahamut",
+  "field": "竜洞",
+  "difficulty": "LUNATIC",
+  "enemyLevel": 612,
+  "exp": 15300,
+  "gil": 204,
+  "drops": [],
+  "rewardLines": [
+   "< RESULT >",
+   "` 15300の経験値を獲得！",
+   "` 204のギルを獲得！"
+  ],
+  "updateLines": [
+   "+ テストは火の粉を習得した！",
+   "+ テストは電流を習得した！",
+   "+ テストは淡い光を習得した！",
+   "+ テストは儚い闇を習得した！",
+   "+ テストはブレイブを習得した！",
+   "+ テストはプロテを習得した！",
+   "+ テストはフレアを習得した！",
+   "+ テストはザップを習得した！",
+   "+ テストはアクアを習得した！",
+   "+ テストが236にレベルアップした！"
+  ],
+  "playerLevel": 236,
+  "playerXp": 55700,
+  "playerGil": 204,
+  "playerMaxHp": 2460,
+  "playerMaxMp": 524,
+  "playerHp": 2460,
+  "playerSkills": [
+   "火の粉",
+   "電流",
+   "淡い光",
+   "儚い闇",
+   "ブレイブ",
+   "プロテ",
+   "フレア",
+   "ザップ",
+   "アクア"
+  ],
+  "playerEffects": [
+   "毒:1:5"
+  ],
+  "playerItems": [],
+  "petLevel": null,
+  "petXp": null,
+  "nextEnemyCode": "bahamut",
+  "nextEnemyLevel": 613,
+  "nextEnemyHp": 81947,
+  "petAbility": "勇奮",
+  "petChance": 59
+ },
+ {
+  "index": 48,
+  "seed": 2048,
+  "enemyCode": "coatl",
+  "field": "竜洞",
+  "difficulty": "NORMAL",
+  "enemyLevel": 625,
+  "exp": 6250,
+  "gil": 208,
+  "drops": [],
+  "rewardLines": [
+   "< RESULT >",
+   "` 6250の経験値を獲得！",
+   "` 208のギルを獲得！"
+  ],
+  "updateLines": [
+   "+ テストは火の粉を習得した！",
+   "+ テストは電流を習得した！",
+   "+ テストは淡い光を習得した！",
+   "+ テストは儚い闇を習得した！",
+   "+ テストが81にレベルアップした！",
+   "+ ペット48が79にレベルアップした！"
+  ],
+  "playerLevel": 81,
+  "playerXp": 6573,
+  "playerGil": 208,
+  "playerMaxHp": 910,
+  "playerMaxMp": 180,
+  "playerHp": 910,
+  "playerSkills": [
+   "火の粉",
+   "電流",
+   "淡い光",
+   "儚い闇"
+  ],
+  "playerEffects": [
+   "毒:1:5"
+  ],
+  "playerItems": [],
+  "petLevel": 79,
+  "petXp": 6250,
+  "nextEnemyCode": "matango",
+  "nextEnemyLevel": 626,
+  "nextEnemyHp": 6310,
+  "petAbility": "不動",
+  "petChance": 90
+ },
+ {
+  "index": 49,
+  "seed": 2049,
+  "enemyCode": "twins",
+  "field": "竜洞",
+  "difficulty": "HARD",
+  "enemyLevel": 638,
+  "exp": 7656,
+  "gil": 213,
+  "drops": [],
+  "rewardLines": [
+   "< RESULT >",
+   "` 7656の経験値を獲得！",
+   "` 213のギルを獲得！"
+  ],
+  "updateLines": [
+   "+ テストは火の粉を習得した！",
+   "+ テストは電流を習得した！",
+   "+ テストは淡い光を習得した！",
+   "+ テストは儚い闇を習得した！",
+   "+ テストが94にレベルアップした！"
+  ],
+  "playerLevel": 94,
+  "playerXp": 8880,
+  "playerGil": 213,
+  "playerMaxHp": 1040,
+  "playerMaxMp": 209,
+  "playerHp": 1040,
+  "playerSkills": [
+   "火の粉",
+   "電流",
+   "淡い光",
+   "儚い闇"
+  ],
+  "playerEffects": [
+   "毒:1:5"
+  ],
+  "playerItems": [],
+  "petLevel": null,
+  "petXp": null,
+  "nextEnemyCode": "skull",
+  "nextEnemyLevel": 639,
+  "nextEnemyHp": 27665,
+  "petAbility": "ポイズンLv.1",
+  "petChance": 35
+ },
+ {
+  "index": 50,
+  "seed": 2050,
+  "enemyCode": "dinosaur",
+  "field": "竜洞",
+  "difficulty": "EXTREME",
+  "enemyLevel": 651,
+  "exp": 10416,
+  "gil": 217,
+  "drops": [],
+  "rewardLines": [
+   "< RESULT >",
+   "` 10416の経験値を獲得！",
+   "` 217のギルを獲得！"
+  ],
+  "updateLines": [
+   "+ テストは火の粉を習得した！",
+   "+ テストは電流を習得した！",
+   "+ テストは淡い光を習得した！",
+   "+ テストは儚い闇を習得した！",
+   "+ テストはブレイブを習得した！",
+   "+ テストはプロテを習得した！",
+   "+ テストが114にレベルアップした！"
+  ],
+  "playerLevel": 114,
+  "playerXp": 13119,
+  "playerGil": 217,
+  "playerMaxHp": 1240,
+  "playerMaxMp": 253,
+  "playerHp": 1240,
+  "playerSkills": [
+   "火の粉",
+   "電流",
+   "淡い光",
+   "儚い闇",
+   "ブレイブ",
+   "プロテ"
+  ],
+  "playerEffects": [
+   "毒:1:5"
+  ],
+  "playerItems": [],
+  "petLevel": null,
+  "petXp": null,
+  "nextEnemyCode": "coatl",
+  "nextEnemyLevel": 652,
+  "nextEnemyHp": 24852,
+  "petAbility": "荒くれ",
+  "petChance": 58
+ },
+ {
+  "index": 51,
+  "seed": 2051,
+  "enemyCode": "skull",
+  "field": "竜洞",
+  "difficulty": "LUNATIC",
+  "enemyLevel": 664,
+  "exp": 16600,
+  "gil": 221,
+  "drops": [],
+  "rewardLines": [
+   "< RESULT >",
+   "` 16600の経験値を獲得！",
+   "` 221のギルを獲得！"
+  ],
+  "updateLines": [
+   "+ テストは火の粉を習得した！",
+   "+ テストは電流を習得した！",
+   "+ テストは淡い光を習得した！",
+   "+ テストは儚い闇を習得した！",
+   "+ テストはブレイブを習得した！",
+   "+ テストはプロテを習得した！",
+   "+ テストが146にレベルアップした！"
+  ],
+  "playerLevel": 146,
+  "playerXp": 21360,
+  "playerGil": 221,
+  "playerMaxHp": 1560,
+  "playerMaxMp": 324,
+  "playerHp": 1560,
+  "playerSkills": [
+   "火の粉",
+   "電流",
+   "淡い光",
+   "儚い闇",
+   "ブレイブ",
+   "プロテ"
+  ],
+  "playerEffects": [
+   "毒:1:5"
+  ],
+  "playerItems": [],
+  "petLevel": null,
+  "petXp": null,
+  "nextEnemyCode": "rat",
+  "nextEnemyLevel": 665,
+  "nextEnemyHp": 35685,
+  "petAbility": "勇奮",
+  "petChance": 46
+ },
+ {
+  "index": 52,
+  "seed": 2052,
+  "enemyCode": "zombie",
+  "field": "竜洞",
+  "difficulty": "NORMAL",
+  "enemyLevel": 677,
+  "exp": 6770,
+  "gil": 226,
+  "drops": [],
+  "rewardLines": [
+   "< RESULT >",
+   "` 6770の経験値を獲得！",
+   "` 226のギルを獲得！"
+  ],
+  "updateLines": [
+   "+ テストは火の粉を習得した！",
+   "+ テストは電流を習得した！",
+   "+ テストは淡い光を習得した！",
+   "+ テストは儚い闇を習得した！",
+   "+ テストはブレイブを習得した！",
+   "+ テストはプロテを習得した！",
+   "+ テストが119にレベルアップした！",
+   "+ ペット52が82にレベルアップした！"
+  ],
+  "playerLevel": 119,
+  "playerXp": 14165,
+  "playerGil": 226,
+  "playerMaxHp": 1290,
+  "playerMaxMp": 264,
+  "playerHp": 1290,
+  "playerSkills": [
+   "火の粉",
+   "電流",
+   "淡い光",
+   "儚い闇",
+   "ブレイブ",
+   "プロテ"
+  ],
+  "playerEffects": [
+   "毒:1:5"
+  ],
+  "playerItems": [],
+  "petLevel": 82,
+  "petXp": 6770,
+  "nextEnemyCode": "matango",
+  "nextEnemyLevel": 678,
+  "nextEnemyHp": 6830,
+  "petAbility": "不動",
+  "petChance": 87
+ },
+ {
+  "index": 53,
+  "seed": 2053,
+  "enemyCode": "u-seed",
+  "field": "草原",
+  "difficulty": "HARD",
+  "enemyLevel": 690,
+  "exp": 15732,
+  "gil": 230,
+  "drops": [],
+  "rewardLines": [
+   "< RESULT >",
+   "` 15732の経験値を獲得！",
+   "` 230のギルを獲得！"
+  ],
+  "updateLines": [
+   "+ テストは火の粉を習得した！",
+   "+ テストは電流を習得した！",
+   "+ テストは淡い光を習得した！",
+   "+ テストは儚い闇を習得した！",
+   "+ テストはブレイブを習得した！",
+   "+ テストはプロテを習得した！",
+   "+ テストが162にレベルアップした！"
+  ],
+  "playerLevel": 162,
+  "playerXp": 26340,
+  "playerGil": 230,
+  "playerMaxHp": 1720,
+  "playerMaxMp": 360,
+  "playerHp": 1720,
+  "playerSkills": [
+   "火の粉",
+   "電流",
+   "淡い光",
+   "儚い闇",
+   "ブレイブ",
+   "プロテ"
+  ],
+  "playerEffects": [
+   "毒:1:5"
+  ],
+  "playerItems": [],
+  "petLevel": null,
+  "petXp": null,
+  "nextEnemyCode": "anaconda",
+  "nextEnemyLevel": 691,
+  "nextEnemyHp": 8352,
+  "petAbility": "荒くれ",
+  "petChance": 49
+ },
+ {
+  "index": 54,
+  "seed": 2054,
+  "enemyCode": "s-grass",
+  "field": "草原",
+  "difficulty": "EXTREME",
+  "enemyLevel": 703,
+  "exp": 21371,
+  "gil": 234,
+  "drops": [],
+  "rewardLines": [
+   "< RESULT >",
+   "` 21371の経験値を獲得！",
+   "` 234のギルを獲得！"
+  ],
+  "updateLines": [
+   "+ テストは火の粉を習得した！",
+   "+ テストは電流を習得した！",
+   "+ テストは淡い光を習得した！",
+   "+ テストは儚い闇を習得した！",
+   "+ テストはブレイブを習得した！",
+   "+ テストはプロテを習得した！",
+   "+ テストが189にレベルアップした！"
+  ],
+  "playerLevel": 189,
+  "playerXp": 35770,
+  "playerGil": 234,
+  "playerMaxHp": 1990,
+  "playerMaxMp": 420,
+  "playerHp": 1990,
+  "playerSkills": [
+   "火の粉",
+   "電流",
+   "淡い光",
+   "儚い闇",
+   "ブレイブ",
+   "プロテ"
+  ],
+  "playerEffects": [
+   "毒:1:5"
+  ],
+  "playerItems": [],
+  "petLevel": null,
+  "petXp": null,
+  "nextEnemyCode": "thorn",
+  "nextEnemyLevel": 704,
+  "nextEnemyHp": 8637,
+  "petAbility": "勇奮",
+  "petChance": 48
+ },
+ {
+  "index": 55,
+  "seed": 2055,
+  "enemyCode": "s-sasori",
+  "field": "峡谷",
+  "difficulty": "LUNATIC",
+  "enemyLevel": 716,
+  "exp": 37590,
+  "gil": 239,
+  "drops": [],
+  "rewardLines": [
+   "< RESULT >",
+   "` 37590の経験値を獲得！",
+   "` 239のギルを獲得！"
+  ],
+  "updateLines": [
+   "+ テストは火の粉を習得した！",
+   "+ テストは電流を習得した！",
+   "+ テストは淡い光を習得した！",
+   "+ テストは儚い闇を習得した！",
+   "+ テストはブレイブを習得した！",
+   "+ テストはプロテを習得した！",
+   "+ テストはフレアを習得した！",
+   "+ テストはザップを習得した！",
+   "+ テストはアクアを習得した！",
+   "+ テストが237にレベルアップした！"
+  ],
+  "playerLevel": 237,
+  "playerXp": 56358,
+  "playerGil": 239,
+  "playerMaxHp": 2470,
+  "playerMaxMp": 526,
+  "playerHp": 2470,
+  "playerSkills": [
+   "火の粉",
+   "電流",
+   "淡い光",
+   "儚い闇",
+   "ブレイブ",
+   "プロテ",
+   "フレア",
+   "ザップ",
+   "アクア"
+  ],
+  "playerEffects": [
+   "毒:1:5"
+  ],
+  "playerItems": [],
+  "petLevel": null,
+  "petXp": null,
+  "nextEnemyCode": "uroboros",
+  "nextEnemyLevel": 717,
+  "nextEnemyHp": 32086,
+  "petAbility": "不動",
+  "petChance": 69
+ },
+ {
+  "index": 56,
+  "seed": 2056,
+  "enemyCode": "h-moss",
+  "field": "草原",
+  "difficulty": "NORMAL",
+  "enemyLevel": 729,
+  "exp": 13851,
+  "gil": 243,
+  "drops": [
+   "t:1"
+  ],
+  "rewardLines": [
+   "< RESULT >",
+   "` 13851の経験値を獲得！",
+   "` 243のギルを獲得！",
+   "` エーテルを手に入れた！"
+  ],
+  "updateLines": [
+   "+ テストは火の粉を習得した！",
+   "+ テストは電流を習得した！",
+   "+ テストは淡い光を習得した！",
+   "+ テストは儚い闇を習得した！",
+   "+ テストはブレイブを習得した！",
+   "+ テストはプロテを習得した！",
+   "+ テストが193にレベルアップした！",
+   "+ ペット56が117にレベルアップした！"
+  ],
+  "playerLevel": 193,
+  "playerXp": 37566,
+  "playerGil": 243,
+  "playerMaxHp": 2030,
+  "playerMaxMp": 428,
+  "playerHp": 2030,
+  "playerSkills": [
+   "火の粉",
+   "電流",
+   "淡い光",
+   "儚い闇",
+   "ブレイブ",
+   "プロテ"
+  ],
+  "playerEffects": [
+   "毒:1:5"
+  ],
+  "playerItems": [
+   "t:1"
+  ],
+  "petLevel": 117,
+  "petXp": 13851,
+  "nextEnemyCode": "cherry",
+  "nextEnemyLevel": 730,
+  "nextEnemyHp": 5890,
+  "petAbility": "フリーズ・ザ・ワールド",
+  "petChance": 58
+ },
+ {
+  "index": 57,
+  "seed": 2057,
+  "enemyCode": "y-cherry",
+  "field": "秘境",
+  "difficulty": "HARD",
+  "enemyLevel": 742,
+  "exp": 23507,
+  "gil": 4940,
+  "drops": [],
+  "rewardLines": [
+   "< RESULT >",
+   "` 23507の経験値を獲得！",
+   "` 4940のギルを獲得！"
+  ],
+  "updateLines": [
+   "+ テストは火の粉を習得した！",
+   "+ テストは電流を習得した！",
+   "+ テストは淡い光を習得した！",
+   "+ テストは儚い闇を習得した！",
+   "+ テストはブレイブを習得した！",
+   "+ テストはプロテを習得した！",
+   "+ テストはフレアを習得した！",
+   "+ テストはザップを習得した！",
+   "+ テストはアクアを習得した！",
+   "+ テストが229にレベルアップした！"
+  ],
+  "playerLevel": 229,
+  "playerXp": 52747,
+  "playerGil": 4940,
+  "playerMaxHp": 2390,
+  "playerMaxMp": 508,
+  "playerHp": 2390,
+  "playerSkills": [
+   "火の粉",
+   "電流",
+   "淡い光",
+   "儚い闇",
+   "ブレイブ",
+   "プロテ",
+   "フレア",
+   "ザップ",
+   "アクア"
+  ],
+  "playerEffects": [
+   "毒:1:5"
+  ],
+  "playerItems": [],
+  "petLevel": null,
+  "petXp": null,
+  "nextEnemyCode": "coin",
+  "nextEnemyLevel": 743,
+  "nextEnemyHp": 4518,
+  "petAbility": "チェーン",
+  "petChance": 82
+ },
+ {
+  "index": 58,
+  "seed": 2058,
+  "enemyCode": "d-uroboros",
+  "field": "毒沼",
+  "difficulty": "EXTREME",
+  "enemyLevel": 755,
+  "exp": 27784,
+  "gil": 252,
+  "drops": [
+   "p:1"
+  ],
+  "rewardLines": [
+   "< RESULT >",
+   "` 27784の経験値を獲得！",
+   "` 252のギルを獲得！",
+   "` ポーションを手に入れた！"
+  ],
+  "updateLines": [
+   "+ テストは火の粉を習得した！",
+   "+ テストは電流を習得した！",
+   "+ テストは淡い光を習得した！",
+   "+ テストは儚い闇を習得した！",
+   "+ テストはブレイブを習得した！",
+   "+ テストはプロテを習得した！",
+   "+ テストはフレアを習得した！",
+   "+ テストはザップを習得した！",
+   "+ テストはアクアを習得した！",
+   "+ テストはプラントを習得した！",
+   "+ テストはフローズンを習得した！",
+   "+ テストが251にレベルアップした！"
+  ],
+  "playerLevel": 251,
+  "playerXp": 63127,
+  "playerGil": 252,
+  "playerMaxHp": 2610,
+  "playerMaxMp": 557,
+  "playerHp": 2610,
+  "playerSkills": [
+   "火の粉",
+   "電流",
+   "淡い光",
+   "儚い闇",
+   "ブレイブ",
+   "プロテ",
+   "フレア",
+   "ザップ",
+   "アクア",
+   "プラント",
+   "フローズン"
+  ],
+  "playerEffects": [
+   "毒:1:5"
+  ],
+  "playerItems": [
+   "p:1"
+  ],
+  "petLevel": null,
+  "petXp": null,
+  "nextEnemyCode": "flea",
+  "nextEnemyLevel": 756,
+  "nextEnemyHp": 8120,
+  "petAbility": "不動",
+  "petChance": 58
+ },
+ {
+  "index": 59,
+  "seed": 2059,
+  "enemyCode": "soh-cube",
+  "field": "地獄",
+  "difficulty": "LUNATIC",
+  "enemyLevel": 768,
+  "exp": 48000,
+  "gil": 5120,
+  "drops": [
+   "t:1"
+  ],
+  "rewardLines": [
+   "< RESULT >",
+   "` 48000の経験値を獲得！",
+   "` 5120のギルを獲得！",
+   "` エーテルを手に入れた！"
+  ],
+  "updateLines": [
+   "+ テストは火の粉を習得した！",
+   "+ テストは電流を習得した！",
+   "+ テストは淡い光を習得した！",
+   "+ テストは儚い闇を習得した！",
+   "+ テストはブレイブを習得した！",
+   "+ テストはプロテを習得した！",
+   "+ テストはフレアを習得した！",
+   "+ テストはザップを習得した！",
+   "+ テストはアクアを習得した！",
+   "+ テストが219にレベルアップした！"
+  ],
+  "playerLevel": 219,
+  "playerXp": 48024,
+  "playerGil": 5120,
+  "playerMaxHp": 2290,
+  "playerMaxMp": 486,
+  "playerHp": 2290,
+  "playerSkills": [
+   "火の粉",
+   "電流",
+   "淡い光",
+   "儚い闇",
+   "ブレイブ",
+   "プロテ",
+   "フレア",
+   "ザップ",
+   "アクア"
+  ],
+  "playerEffects": [
+   "毒:1:5"
+  ],
+  "playerItems": [
+   "t:1"
+  ],
+  "petLevel": null,
+  "petXp": null,
+  "nextEnemyCode": "phantom",
+  "nextEnemyLevel": 769,
+  "nextEnemyHp": 41231,
+  "petAbility": "不動",
+  "petChance": 62
+ },
+ {
+  "index": 60,
+  "seed": 2060,
+  "enemyCode": "yeti",
+  "field": "氷原",
+  "difficulty": "NORMAL",
+  "enemyLevel": 781,
+  "exp": 14839,
+  "gil": 260,
+  "drops": [],
+  "rewardLines": [
+   "< RESULT >",
+   "` 14839の経験値を獲得！",
+   "` 260のギルを獲得！"
+  ],
+  "updateLines": [
+   "+ テストは火の粉を習得した！",
+   "+ テストは電流を習得した！",
+   "+ テストは淡い光を習得した！",
+   "+ テストは儚い闇を習得した！",
+   "+ テストはブレイブを習得した！",
+   "+ テストはプロテを習得した！",
+   "+ テストが123にレベルアップした！",
+   "+ ペット60が121にレベルアップした！"
+  ],
+  "playerLevel": 123,
+  "playerXp": 15322,
+  "playerGil": 260,
+  "playerMaxHp": 1330,
+  "playerMaxMp": 273,
+  "playerHp": 1330,
+  "playerSkills": [
+   "火の粉",
+   "電流",
+   "淡い光",
+   "儚い闇",
+   "ブレイブ",
+   "プロテ"
+  ],
+  "playerEffects": [
+   "毒:1:5"
+  ],
+  "playerItems": [],
+  "petLevel": 121,
+  "petXp": 14839,
+  "nextEnemyCode": "snowman",
+  "nextEnemyLevel": 782,
+  "nextEnemyHp": 9434,
+  "petAbility": "勇奮",
+  "petChance": 32
+ },
+ {
+  "index": 61,
+  "seed": 2061,
+  "enemyCode": "well",
+  "field": "沼",
+  "difficulty": "HARD",
+  "enemyLevel": 794,
+  "exp": 20962,
+  "gil": 265,
+  "drops": [],
+  "rewardLines": [
+   "< RESULT >",
+   "` 20962の経験値を獲得！",
+   "` 265のギルを獲得！"
+  ],
+  "updateLines": [
+   "+ テストは火の粉を習得した！",
+   "+ テストは電流を習得した！",
+   "+ テストは淡い光を習得した！",
+   "+ テストは儚い闇を習得した！",
+   "+ テストはブレイブを習得した！",
+   "+ テストはプロテを習得した！",
+   "+ テストが149にレベルアップした！"
+  ],
+  "playerLevel": 149,
+  "playerXp": 22482,
+  "playerGil": 265,
+  "playerMaxHp": 1590,
+  "playerMaxMp": 331,
+  "playerHp": 1590,
+  "playerSkills": [
+   "火の粉",
+   "電流",
+   "淡い光",
+   "儚い闇",
+   "ブレイブ",
+   "プロテ"
+  ],
+  "playerEffects": [
+   "毒:1:5"
+  ],
+  "playerItems": [],
+  "petLevel": null,
+  "petXp": null,
+  "nextEnemyCode": "yadokari",
+  "nextEnemyLevel": 795,
+  "nextEnemyHp": 11508,
+  "petAbility": "不動",
+  "petChance": 40
+ },
+ {
+  "index": 62,
+  "seed": 2062,
+  "enemyCode": "delta",
+  "field": "遺跡",
+  "difficulty": "EXTREME",
+  "enemyLevel": 807,
+  "exp": 1704,
+  "gil": 269,
+  "drops": [],
+  "rewardLines": [
+   "< RESULT >",
+   "` 1704の経験値を獲得！",
+   "` 269のギルを獲得！"
+  ],
+  "updateLines": [
+   "+ テストは火の粉を習得した！",
+   "+ テストは電流を習得した！",
+   "+ テストは淡い光を習得した！",
+   "+ テストは儚い闇を習得した！",
+   "+ テストが69にレベルアップした！"
+  ],
+  "playerLevel": 69,
+  "playerXp": 4839,
+  "playerGil": 269,
+  "playerMaxHp": 790,
+  "playerMaxMp": 153,
+  "playerHp": 790,
+  "playerSkills": [
+   "火の粉",
+   "電流",
+   "淡い光",
+   "儚い闇"
+  ],
+  "playerEffects": [
+   "毒:1:5"
+  ],
+  "playerItems": [],
+  "petLevel": null,
+  "petXp": null,
+  "nextEnemyCode": "well",
+  "nextEnemyLevel": 808,
+  "nextEnemyHp": 49202,
+  "petAbility": "勇奮",
+  "petChance": 70
+ },
+ {
+  "index": 63,
+  "seed": 2063,
+  "enemyCode": "delta2nd",
+  "field": "草原",
+  "difficulty": "LUNATIC",
+  "enemyLevel": 820,
+  "exp": 77900,
+  "gil": 273,
+  "drops": [],
+  "rewardLines": [
+   "< RESULT >",
+   "` 77900の経験値を獲得！",
+   "` 273のギルを獲得！"
+  ],
+  "updateLines": [
+   "+ テストは火の粉を習得した！",
+   "+ テストは電流を習得した！",
+   "+ テストは淡い光を習得した！",
+   "+ テストは儚い闇を習得した！",
+   "+ テストはブレイブを習得した！",
+   "+ テストはプロテを習得した！",
+   "+ テストはフレアを習得した！",
+   "+ テストはザップを習得した！",
+   "+ テストはアクアを習得した！",
+   "+ テストはプラントを習得した！",
+   "+ テストはフローズンを習得した！",
+   "+ テストが288にレベルアップした！"
+  ],
+  "playerLevel": 288,
+  "playerXp": 83228,
+  "playerGil": 273,
+  "playerMaxHp": 2980,
+  "playerMaxMp": 639,
+  "playerHp": 2980,
+  "playerSkills": [
+   "火の粉",
+   "電流",
+   "淡い光",
+   "儚い闇",
+   "ブレイブ",
+   "プロテ",
+   "フレア",
+   "ザップ",
+   "アクア",
+   "プラント",
+   "フローズン"
+  ],
+  "playerEffects": [
+   "毒:1:5"
+  ],
+  "playerItems": [],
+  "petLevel": null,
+  "petXp": null,
+  "nextEnemyCode": "thorn",
+  "nextEnemyLevel": 821,
+  "nextEnemyHp": 29410,
+  "petAbility": "ポイズンLv.1",
+  "petChance": 94
+ },
+ {
+  "index": 64,
+  "seed": 2064,
+  "enemyCode": "mimic",
+  "field": "草原",
+  "difficulty": "NORMAL",
+  "enemyLevel": 833,
+  "exp": 791,
+  "gil": 55600,
+  "drops": [],
+  "rewardLines": [
+   "< RESULT >",
+   "` 791の経験値を獲得！",
+   "` 55600のギルを獲得！"
+  ],
+  "updateLines": [
+   "+ テストは火の粉を習得した！",
+   "+ テストは電流を習得した！",
+   "+ テストは淡い光を習得した！",
+   "+ テストは儚い闇を習得した！",
+   "+ テストが94にレベルアップした！",
+   "+ ペット64が28にレベルアップした！"
+  ],
+  "playerLevel": 94,
+  "playerXp": 8890,
+  "playerGil": 55600,
+  "playerMaxHp": 1040,
+  "playerMaxMp": 209,
+  "playerHp": 1040,
+  "playerSkills": [
+   "火の粉",
+   "電流",
+   "淡い光",
+   "儚い闇"
+  ],
+  "playerEffects": [
+   "毒:1:5"
+  ],
+  "playerItems": [],
+  "petLevel": 28,
+  "petXp": 791,
+  "nextEnemyCode": "imomushi",
+  "nextEnemyLevel": 834,
+  "nextEnemyHp": 13394,
+  "petAbility": "不動",
+  "petChance": 94
+ },
+ {
+  "index": 65,
+  "seed": 2065,
+  "enemyCode": "mirror",
+  "field": "毒沼",
+  "difficulty": "HARD",
+  "enemyLevel": 846,
+  "exp": 934,
+  "gil": 226,
+  "drops": [],
+  "rewardLines": [
+   "< RESULT >",
+   "` 934の経験値を獲得！",
+   "` 226のギルを獲得！"
+  ],
+  "updateLines": [
+   "+ テストは火の粉を習得した！",
+   "+ テストは電流を習得した！",
+   "+ テストは淡い光を習得した！",
+   "+ テストは儚い闇を習得した！",
+   "+ テストはブレイブを習得した！",
+   "+ テストはプロテを習得した！",
+   "+ テストが111にレベルアップした！"
+  ],
+  "playerLevel": 111,
+  "playerXp": 12382,
+  "playerGil": 226,
+  "playerMaxHp": 1210,
+  "playerMaxMp": 246,
+  "playerHp": 1210,
+  "playerSkills": [
+   "火の粉",
+   "電流",
+   "淡い光",
+   "儚い闇",
+   "ブレイブ",
+   "プロテ"
+  ],
+  "playerEffects": [
+   "毒:1:5"
+  ],
+  "playerItems": [],
+  "petLevel": null,
+  "petXp": null,
+  "nextEnemyCode": "flea",
+  "nextEnemyLevel": 847,
+  "nextEnemyHp": 7175,
+  "petAbility": "マキナ",
+  "petChance": 29
+ },
+ {
+  "index": 66,
+  "seed": 2066,
+  "enemyCode": "cicero",
+  "field": "草原",
+  "difficulty": "EXTREME",
+  "enemyLevel": 859,
+  "exp": 110983,
+  "gil": 14300,
+  "drops": [
+   "p:20",
+   "t:20",
+   "e:5"
+  ],
+  "rewardLines": [
+   "< RESULT >",
+   "` 110983の経験値を獲得！",
+   "` 14300のギルを獲得！",
+   "` ポーションを手に入れた！",
+   "` エーテルを手に入れた！",
+   "` エリクサーを手に入れた！"
+  ],
+  "updateLines": [
+   "+ テストは火の粉を習得した！",
+   "+ テストは電流を習得した！",
+   "+ テストは淡い光を習得した！",
+   "+ テストは儚い闇を習得した！",
+   "+ テストはブレイブを習得した！",
+   "+ テストはプロテを習得した！",
+   "+ テストはフレアを習得した！",
+   "+ テストはザップを習得した！",
+   "+ テストはアクアを習得した！",
+   "+ テストはプラントを習得した！",
+   "+ テストはフローズンを習得した！",
+   "+ テストはクエイクを習得した！",
+   "+ テストはヴォイドを習得した！",
+   "+ テストが355にレベルアップした！"
+  ],
+  "playerLevel": 355,
+  "playerXp": 126358,
+  "playerGil": 14300,
+  "playerMaxHp": 3650,
+  "playerMaxMp": 788,
+  "playerHp": 3650,
+  "playerSkills": [
+   "火の粉",
+   "電流",
+   "淡い光",
+   "儚い闇",
+   "ブレイブ",
+   "プロテ",
+   "フレア",
+   "ザップ",
+   "アクア",
+   "プラント",
+   "フローズン",
+   "クエイク",
+   "ヴォイド"
+  ],
+  "playerEffects": [
+   "毒:1:5"
+  ],
+  "playerItems": [
+   "p:20",
+   "t:20",
+   "e:5"
+  ],
+  "petLevel": null,
+  "petXp": null,
+  "nextEnemyCode": "s-grass",
+  "nextEnemyLevel": 860,
+  "nextEnemyHp": 101645,
+  "petAbility": "ポイズンLv.2",
+  "petChance": 28
+ },
+ {
+  "index": 67,
+  "seed": 2067,
+  "enemyCode": "dullahan",
+  "field": "峡谷",
+  "difficulty": "LUNATIC",
+  "enemyLevel": 872,
+  "exp": 228900,
+  "gil": 23280,
+  "drops": [
+   "p:20",
+   "t:20",
+   "e:5"
+  ],
+  "rewardLines": [
+   "< RESULT >",
+   "` 228900の経験値を獲得！",
+   "` 23280のギルを獲得！",
+   "` ポーションを手に入れた！",
+   "` エーテルを手に入れた！",
+   "` エリクサーを手に入れた！"
+  ],
+  "updateLines": [
+   "+ テストは火の粉を習得した！",
+   "+ テストは電流を習得した！",
+   "+ テストは淡い光を習得した！",
+   "+ テストは儚い闇を習得した！",
+   "+ テストはブレイブを習得した！",
+   "+ テストはプロテを習得した！",
+   "+ テストはフレアを習得した！",
+   "+ テストはザップを習得した！",
+   "+ テストはアクアを習得した！",
+   "+ テストはプラントを習得した！",
+   "+ テストはフローズンを習得した！",
+   "+ テストはクエイクを習得した！",
+   "+ テストはヴォイドを習得した！",
+   "+ テストは常闇を習得した！",
+   "+ テストは極光を習得した！",
+   "+ テストが498にレベルアップした！"
+  ],
+  "playerLevel": 498,
+  "playerXp": 248780,
+  "playerGil": 23280,
+  "playerMaxHp": 5080,
+  "playerMaxMp": 1106,
+  "playerHp": 5080,
+  "playerSkills": [
+   "火の粉",
+   "電流",
+   "淡い光",
+   "儚い闇",
+   "ブレイブ",
+   "プロテ",
+   "フレア",
+   "ザップ",
+   "アクア",
+   "プラント",
+   "フローズン",
+   "クエイク",
+   "ヴォイド",
+   "常闇",
+   "極光"
+  ],
+  "playerEffects": [
+   "毒:1:5"
+  ],
+  "playerItems": [
+   "p:20",
+   "t:20",
+   "e:5"
+  ],
+  "petLevel": null,
+  "petXp": null,
+  "nextEnemyCode": "mudhand",
+  "nextEnemyLevel": 873,
+  "nextEnemyHp": 46778,
+  "petAbility": "荒くれ",
+  "petChance": 81
+ },
+ {
+  "index": 68,
+  "seed": 2068,
+  "enemyCode": "curst",
+  "field": "沼",
+  "difficulty": "NORMAL",
+  "enemyLevel": 885,
+  "exp": 97350,
+  "gil": 23600,
+  "drops": [
+   "p:20",
+   "t:20",
+   "e:5"
+  ],
+  "rewardLines": [
+   "< RESULT >",
+   "` 97350の経験値を獲得！",
+   "` 23600のギルを獲得！",
+   "` ポーションを手に入れた！",
+   "` エーテルを手に入れた！",
+   "` エリクサーを手に入れた！"
+  ],
+  "updateLines": [
+   "+ テストは火の粉を習得した！",
+   "+ テストは電流を習得した！",
+   "+ テストは淡い光を習得した！",
+   "+ テストは儚い闇を習得した！",
+   "+ テストはブレイブを習得した！",
+   "+ テストはプロテを習得した！",
+   "+ テストはフレアを習得した！",
+   "+ テストはザップを習得した！",
+   "+ テストはアクアを習得した！",
+   "+ テストはプラントを習得した！",
+   "+ テストはフローズンを習得した！",
+   "+ テストはクエイクを習得した！",
+   "+ テストはヴォイドを習得した！",
+   "+ テストが349にレベルアップした！",
+   "+ ペット68が312にレベルアップした！"
+  ],
+  "playerLevel": 349,
+  "playerXp": 122313,
+  "playerGil": 23600,
+  "playerMaxHp": 3590,
+  "playerMaxMp": 775,
+  "playerHp": 3590,
+  "playerSkills": [
+   "火の粉",
+   "電流",
+   "淡い光",
+   "儚い闇",
+   "ブレイブ",
+   "プロテ",
+   "フレア",
+   "ザップ",
+   "アクア",
+   "プラント",
+   "フローズン",
+   "クエイク",
+   "ヴォイド"
+  ],
+  "playerEffects": [
+   "毒:1:5"
+  ],
+  "playerItems": [
+   "p:20",
+   "t:20",
+   "e:5"
+  ],
+  "petLevel": 312,
+  "petXp": 97350,
+  "nextEnemyCode": "matango",
+  "nextEnemyLevel": 886,
+  "nextEnemyHp": 8910,
+  "petAbility": "荒くれ",
+  "petChance": 83
+ },
+ {
+  "index": 69,
+  "seed": 2069,
+  "enemyCode": "death",
+  "field": "毒沼",
+  "difficulty": "HARD",
+  "enemyLevel": 898,
+  "exp": 123924,
+  "gil": 23920,
+  "drops": [
+   "p:20",
+   "t:20",
+   "e:5"
+  ],
+  "rewardLines": [
+   "< RESULT >",
+   "` 123924の経験値を獲得！",
+   "` 23920のギルを獲得！",
+   "` ポーションを手に入れた！",
+   "` エーテルを手に入れた！",
+   "` エリクサーを手に入れた！"
+  ],
+  "updateLines": [
+   "+ テストは火の粉を習得した！",
+   "+ テストは電流を習得した！",
+   "+ テストは淡い光を習得した！",
+   "+ テストは儚い闇を習得した！",
+   "+ テストはブレイブを習得した！",
+   "+ テストはプロテを習得した！",
+   "+ テストはフレアを習得した！",
+   "+ テストはザップを習得した！",
+   "+ テストはアクアを習得した！",
+   "+ テストはプラントを習得した！",
+   "+ テストはフローズンを習得した！",
+   "+ テストはクエイクを習得した！",
+   "+ テストはヴォイドを習得した！",
+   "+ テストが393にレベルアップした！"
+  ],
+  "playerLevel": 393,
+  "playerXp": 154548,
+  "playerGil": 23920,
+  "playerMaxHp": 4030,
+  "playerMaxMp": 872,
+  "playerHp": 4030,
+  "playerSkills": [
+   "火の粉",
+   "電流",
+   "淡い光",
+   "儚い闇",
+   "ブレイブ",
+   "プロテ",
+   "フレア",
+   "ザップ",
+   "アクア",
+   "プラント",
+   "フローズン",
+   "クエイク",
+   "ヴォイド"
+  ],
+  "playerEffects": [
+   "毒:1:5"
+  ],
+  "playerItems": [
+   "p:20",
+   "t:20",
+   "e:5"
+  ],
+  "petLevel": null,
+  "petXp": null,
+  "nextEnemyCode": "flea",
+  "nextEnemyLevel": 899,
+  "nextEnemyHp": 7612,
+  "petAbility": "勇奮",
+  "petChance": 15
+ },
+ {
+  "index": 70,
+  "seed": 2070,
+  "enemyCode": "byakko",
+  "field": "草原",
+  "difficulty": "EXTREME",
+  "enemyLevel": 11,
+  "exp": 1672,
+  "gil": 320,
+  "drops": [
+   "p:20",
+   "t:20",
+   "e:5"
+  ],
+  "rewardLines": [
+   "< RESULT >",
+   "` 1672の経験値を獲得！",
+   "` 320のギルを獲得！",
+   "` ポーションを手に入れた！",
+   "` エーテルを手に入れた！",
+   "` エリクサーを手に入れた！"
+  ],
+  "updateLines": [
+   "+ テストは火の粉を習得した！",
+   "+ テストは電流を習得した！",
+   "+ テストは淡い光を習得した！",
+   "+ テストは儚い闇を習得した！",
+   "+ テストはブレイブを習得した！",
+   "+ テストはプロテを習得した！",
+   "+ テストが196にレベルアップした！"
+  ],
+  "playerLevel": 196,
+  "playerXp": 38535,
+  "playerGil": 320,
+  "playerMaxHp": 2060,
+  "playerMaxMp": 435,
+  "playerHp": 2060,
+  "playerSkills": [
+   "火の粉",
+   "電流",
+   "淡い光",
+   "儚い闇",
+   "ブレイブ",
+   "プロテ"
+  ],
+  "playerEffects": [
+   "毒:1:5"
+  ],
+  "playerItems": [
+   "p:20",
+   "t:20",
+   "e:5"
+  ],
+  "petLevel": null,
+  "petXp": null,
+  "nextEnemyCode": "cherry",
+  "nextEnemyLevel": 12,
+  "nextEnemyHp": 222,
+  "petAbility": "マキナ",
+  "petChance": 27
+ },
+ {
+  "index": 71,
+  "seed": 2071,
+  "enemyCode": "condor",
+  "field": "湖",
+  "difficulty": "LUNATIC",
+  "enemyLevel": 24,
+  "exp": 7200,
+  "gil": 640,
+  "drops": [
+   "p:20",
+   "t:20",
+   "e:5"
+  ],
+  "rewardLines": [
+   "< RESULT >",
+   "` 7200の経験値を獲得！",
+   "` 640のギルを獲得！",
+   "` ポーションを手に入れた！",
+   "` エーテルを手に入れた！",
+   "` エリクサーを手に入れた！"
+  ],
+  "updateLines": [
+   "+ テストは火の粉を習得した！",
+   "+ テストは電流を習得した！",
+   "+ テストは淡い光を習得した！",
+   "+ テストは儚い闇を習得した！",
+   "+ テストが85にレベルアップした！"
+  ],
+  "playerLevel": 85,
+  "playerXp": 7280,
+  "playerGil": 640,
+  "playerMaxHp": 950,
+  "playerMaxMp": 189,
+  "playerHp": 950,
+  "playerSkills": [
+   "火の粉",
+   "電流",
+   "淡い光",
+   "儚い闇"
+  ],
+  "playerEffects": [
+   "毒:1:5"
+  ],
+  "playerItems": [
+   "p:20",
+   "t:20",
+   "e:5"
+  ],
+  "petLevel": null,
+  "petXp": null,
+  "nextEnemyCode": "bat",
+  "nextEnemyLevel": 25,
+  "nextEnemyHp": 1333,
+  "petAbility": "チェーン",
+  "petChance": 22
+ },
+ {
+  "index": 72,
+  "seed": 2072,
+  "enemyCode": "seiryu",
+  "field": "遺跡",
+  "difficulty": "NORMAL",
+  "enemyLevel": 37,
+  "exp": 4884,
+  "gil": 960,
+  "drops": [
+   "p:20",
+   "t:20",
+   "e:5"
+  ],
+  "rewardLines": [
+   "< RESULT >",
+   "` 4884の経験値を獲得！",
+   "` 960のギルを獲得！",
+   "` ポーションを手に入れた！",
+   "` エーテルを手に入れた！",
+   "` エリクサーを手に入れた！"
+  ],
+  "updateLines": [
+   "+ テストは火の粉を習得した！",
+   "+ テストは電流を習得した！",
+   "+ テストは淡い光を習得した！",
+   "+ テストは儚い闇を習得した！",
+   "+ テストが74にレベルアップした！",
+   "+ ペット72が69にレベルアップした！"
+  ],
+  "playerLevel": 74,
+  "playerXp": 5559,
+  "playerGil": 960,
+  "playerMaxHp": 840,
+  "playerMaxMp": 164,
+  "playerHp": 840,
+  "playerSkills": [
+   "火の粉",
+   "電流",
+   "淡い光",
+   "儚い闇"
+  ],
+  "playerEffects": [
+   "毒:1:5"
+  ],
+  "playerItems": [
+   "p:20",
+   "t:20",
+   "e:5"
+  ],
+  "petLevel": 69,
+  "petXp": 4884,
+  "nextEnemyCode": "killer",
+  "nextEnemyLevel": 38,
+  "nextEnemyHp": 430,
+  "petAbility": "勇奮",
+  "petChance": 9
+ },
+ {
+  "index": 73,
+  "seed": 2073,
+  "enemyCode": "gold-tiger",
+  "field": "遺跡",
+  "difficulty": "HARD",
+  "enemyLevel": 50,
+  "exp": 7920,
+  "gil": 25500,
+  "drops": [
+   "p:30",
+   "t:30",
+   "e:10",
+   "c:3"
+  ],
+  "rewardLines": [
+   "< RESULT >",
+   "` 7920の経験値を獲得！",
+   "` 25500のギルを獲得！",
+   "` ポーションを手に入れた！",
+   "` エーテルを手に入れた！",
+   "` エリクサーを手に入れた！",
+   "` チョコレートを手に入れた！"
+  ],
+  "updateLines": [
+   "+ テストは火の粉を習得した！",
+   "+ テストは電流を習得した！",
+   "+ テストは淡い光を習得した！",
+   "+ テストは儚い闇を習得した！",
+   "+ テストが98にレベルアップした！"
+  ],
+  "playerLevel": 98,
+  "playerXp": 9768,
+  "playerGil": 25500,
+  "playerMaxHp": 1080,
+  "playerMaxMp": 218,
+  "playerHp": 1080,
+  "playerSkills": [
+   "火の粉",
+   "電流",
+   "淡い光",
+   "儚い闇"
+  ],
+  "playerEffects": [
+   "毒:1:5"
+  ],
+  "playerItems": [
+   "p:30",
+   "t:30",
+   "e:10",
+   "c:3"
+  ],
+  "petLevel": null,
+  "petXp": null,
+  "nextEnemyCode": "matango",
+  "nextEnemyLevel": 51,
+  "nextEnemyHp": 672,
+  "petAbility": "勇奮",
+  "petChance": 78
+ },
+ {
+  "index": 74,
+  "seed": 2074,
+  "enemyCode": "nightmare",
+  "field": "草原",
+  "difficulty": "EXTREME",
+  "enemyLevel": 63,
+  "exp": 2128,
+  "gil": 467,
+  "drops": [],
+  "rewardLines": [
+   "< RESULT >",
+   "` 2128の経験値を獲得！",
+   "` 467のギルを獲得！"
+  ],
+  "updateLines": [
+   "+ テストは火の粉を習得した！",
+   "+ テストは電流を習得した！",
+   "+ テストは淡い光を習得した！",
+   "+ テストは儚い闇を習得した！",
+   "+ テストが75にレベルアップした！"
+  ],
+  "playerLevel": 75,
+  "playerXp": 5727,
+  "playerGil": 467,
+  "playerMaxHp": 850,
+  "playerMaxMp": 167,
+  "playerHp": 850,
+  "playerSkills": [
+   "火の粉",
+   "電流",
+   "淡い光",
+   "儚い闇"
+  ],
+  "playerEffects": [
+   "毒:1:5"
+  ],
+  "playerItems": [],
+  "petLevel": null,
+  "petXp": null,
+  "nextEnemyCode": "thorn",
+  "nextEnemyLevel": 64,
+  "nextEnemyHp": 854,
+  "petAbility": "不動",
+  "petChance": 50
+ },
+ {
+  "index": 75,
+  "seed": 2075,
+  "enemyCode": "omni-nightmare",
+  "field": "永遠悪夢",
+  "difficulty": "LUNATIC",
+  "enemyLevel": 76,
+  "exp": 6333,
+  "gil": 556,
+  "drops": [],
+  "rewardLines": [
+   "< RESULT >",
+   "` 6333の経験値を獲得！",
+   "` 556のギルを獲得！"
+  ],
+  "updateLines": [
+   "+ テストは火の粉を習得した！",
+   "+ テストは電流を習得した！",
+   "+ テストは淡い光を習得した！",
+   "+ テストは儚い闇を習得した！",
+   "+ テストはブレイブを習得した！",
+   "+ テストはプロテを習得した！",
+   "+ テストが110にレベルアップした！"
+  ],
+  "playerLevel": 110,
+  "playerXp": 12261,
+  "playerGil": 556,
+  "playerMaxHp": 1200,
+  "playerMaxMp": 244,
+  "playerHp": 1200,
+  "playerSkills": [
+   "火の粉",
+   "電流",
+   "淡い光",
+   "儚い闇",
+   "ブレイブ",
+   "プロテ"
+  ],
+  "playerEffects": [
+   "毒:1:5"
+  ],
+  "playerItems": [],
+  "petLevel": null,
+  "petXp": null,
+  "nextEnemyCode": "mimic",
+  "nextEnemyLevel": 77,
+  "nextEnemyHp": 2789,
+  "petAbility": "チェーン",
+  "petChance": 83
+ },
+ {
+  "index": 76,
+  "seed": 2076,
+  "enemyCode": "daydream",
+  "field": "草原",
+  "difficulty": "NORMAL",
+  "enemyLevel": 89,
+  "exp": 1879,
+  "gil": 667,
+  "drops": [],
+  "rewardLines": [
+   "< RESULT >",
+   "` 1879の経験値を獲得！",
+   "` 667のギルを獲得！"
+  ],
+  "updateLines": [
+   "+ テストは火の粉を習得した！",
+   "+ テストは電流を習得した！",
+   "+ テストは淡い光を習得した！",
+   "+ テストは儚い闇を習得した！",
+   "+ テストはブレイブを習得した！",
+   "+ テストはプロテを習得した！",
+   "+ テストが103にレベルアップした！",
+   "+ ペット76が43にレベルアップした！"
+  ],
+  "playerLevel": 103,
+  "playerXp": 10714,
+  "playerGil": 667,
+  "playerMaxHp": 1130,
+  "playerMaxMp": 229,
+  "playerHp": 1130,
+  "playerSkills": [
+   "火の粉",
+   "電流",
+   "淡い光",
+   "儚い闇",
+   "ブレイブ",
+   "プロテ"
+  ],
+  "playerEffects": [
+   "毒:1:5"
+  ],
+  "playerItems": [],
+  "petLevel": 43,
+  "petXp": 1879,
+  "nextEnemyCode": "grass",
+  "nextEnemyLevel": 90,
+  "nextEnemyHp": 1346,
+  "petAbility": "チェーン",
+  "petChance": 37
+ },
+ {
+  "index": 77,
+  "seed": 2077,
+  "enemyCode": "test",
+  "field": "草原",
+  "difficulty": "HARD",
+  "enemyLevel": 102,
+  "exp": 11628,
+  "gil": 2720,
+  "drops": [],
+  "rewardLines": [
+   "< RESULT >",
+   "` 11628の経験値を獲得！",
+   "` 2720のギルを獲得！"
+  ],
+  "updateLines": [
+   "+ テストは火の粉を習得した！",
+   "+ テストは電流を習得した！",
+   "+ テストは淡い光を習得した！",
+   "+ テストは儚い闇を習得した！",
+   "+ テストはブレイブを習得した！",
+   "+ テストはプロテを習得した！",
+   "+ テストが154にレベルアップした！"
+  ],
+  "playerLevel": 154,
+  "playerXp": 23948,
+  "playerGil": 2720,
+  "playerMaxHp": 1640,
+  "playerMaxMp": 342,
+  "playerHp": 1640,
+  "playerSkills": [
+   "火の粉",
+   "電流",
+   "淡い光",
+   "儚い闇",
+   "ブレイブ",
+   "プロテ"
+  ],
+  "playerEffects": [
+   "毒:1:5"
+  ],
+  "playerItems": [],
+  "petLevel": null,
+  "petXp": null,
+  "nextEnemyCode": "moss",
+  "nextEnemyLevel": 103,
+  "nextEnemyHp": 1605,
+  "petAbility": "ポイズンLv.2",
+  "petChance": 75
+ },
+ {
+  "index": 78,
+  "seed": 2078,
+  "enemyCode": "seed",
+  "field": "草原",
+  "difficulty": "EXTREME",
+  "enemyLevel": 115,
+  "exp": 175,
+  "gil": 38,
+  "drops": [],
+  "rewardLines": [
+   "< RESULT >",
+   "` 175の経験値を獲得！",
+   "` 38のギルを獲得！"
+  ],
+  "updateLines": [
+   "+ テストは火の粉を習得した！",
+   "+ テストは電流を習得した！",
+   "+ テストは淡い光を習得した！",
+   "+ テストは儚い闇を習得した！",
+   "+ テストはブレイブを習得した！",
+   "+ テストはプロテを習得した！",
+   "+ テストが128にレベルアップした！"
+  ],
+  "playerLevel": 128,
+  "playerXp": 16558,
+  "playerGil": 38,
+  "playerMaxHp": 1380,
+  "playerMaxMp": 284,
+  "playerHp": 1380,
+  "playerSkills": [
+   "火の粉",
+   "電流",
+   "淡い光",
+   "儚い闇",
+   "ブレイブ",
+   "プロテ"
+  ],
+  "playerEffects": [
+   "毒:1:5"
+  ],
+  "playerItems": [],
+  "petLevel": null,
+  "petXp": null,
+  "nextEnemyCode": "seed",
+  "nextEnemyLevel": 116,
+  "nextEnemyHp": 1839,
+  "petAbility": "ポイズンLv.1",
+  "petChance": 54
+ },
+ {
+  "index": 79,
+  "seed": 2079,
+  "enemyCode": "anaconda",
+  "field": "草原",
+  "difficulty": "LUNATIC",
+  "enemyLevel": 128,
+  "exp": 304,
+  "gil": 43,
+  "drops": [],
+  "rewardLines": [
+   "< RESULT >",
+   "` 304の経験値を獲得！",
+   "` 43のギルを獲得！"
+  ],
+  "updateLines": [
+   "+ テストは火の粉を習得した！",
+   "+ テストは電流を習得した！",
+   "+ テストは淡い光を習得した！",
+   "+ テストは儚い闇を習得した！",
+   "+ テストはブレイブを習得した！",
+   "+ テストはプロテを習得した！",
+   "+ テストが146にレベルアップした！"
+  ],
+  "playerLevel": 146,
+  "playerXp": 21328,
+  "playerGil": 43,
+  "playerMaxHp": 1560,
+  "playerMaxMp": 324,
+  "playerHp": 1560,
+  "playerSkills": [
+   "火の粉",
+   "電流",
+   "淡い光",
+   "儚い闇",
+   "ブレイブ",
+   "プロテ"
+  ],
+  "playerEffects": [
+   "毒:1:5"
+  ],
+  "playerItems": [],
+  "petLevel": null,
+  "petXp": null,
+  "nextEnemyCode": "imomushi",
+  "nextEnemyLevel": 129,
+  "nextEnemyHp": 9395,
+  "petAbility": "勇奮",
+  "petChance": 36
+ },
+ {
+  "index": 80,
+  "seed": 2080,
+  "enemyCode": "imomushi",
+  "field": "草原",
+  "difficulty": "NORMAL",
+  "enemyLevel": 141,
+  "exp": 134,
+  "gil": 47,
+  "drops": [],
+  "rewardLines": [
+   "< RESULT >",
+   "` 134の経験値を獲得！",
+   "` 47のギルを獲得！"
+  ],
+  "updateLines": [
+   "+ テストは火の粉を習得した！",
+   "+ テストは電流を習得した！",
+   "+ テストは淡い光を習得した！",
+   "+ テストは儚い闇を習得した！",
+   "+ テストはブレイブを習得した！",
+   "+ テストはプロテを習得した！",
+   "+ テストが162にレベルアップした！"
+  ],
+  "playerLevel": 162,
+  "playerXp": 26377,
+  "playerGil": 47,
+  "playerMaxHp": 1720,
+  "playerMaxMp": 360,
+  "playerHp": 1720,
+  "playerSkills": [
+   "火の粉",
+   "電流",
+   "淡い光",
+   "儚い闇",
+   "ブレイブ",
+   "プロテ"
+  ],
+  "playerEffects": [
+   "毒:1:5"
+  ],
+  "playerItems": [],
+  "petLevel": 21,
+  "petXp": 134,
+  "nextEnemyCode": "anaconda",
+  "nextEnemyLevel": 142,
+  "nextEnemyHp": 1470,
+  "petAbility": "ポイズンLv.2",
+  "petChance": 60
+ },
+ {
+  "index": 81,
+  "seed": 2081,
+  "enemyCode": "sasori",
+  "field": "草原",
+  "difficulty": "HARD",
+  "enemyLevel": 154,
+  "exp": 176,
+  "gil": 51,
+  "drops": [],
+  "rewardLines": [
+   "< RESULT >",
+   "` 176の経験値を獲得！",
+   "` 51のギルを獲得！"
+  ],
+  "updateLines": [
+   "+ テストは火の粉を習得した！",
+   "+ テストは電流を習得した！",
+   "+ テストは淡い光を習得した！",
+   "+ テストは儚い闇を習得した！",
+   "+ テストはブレイブを習得した！",
+   "+ テストはプロテを習得した！",
+   "+ テストが179にレベルアップした！"
+  ],
+  "playerLevel": 179,
+  "playerXp": 32216,
+  "playerGil": 51,
+  "playerMaxHp": 1890,
+  "playerMaxMp": 397,
+  "playerHp": 1890,
+  "playerSkills": [
+   "火の粉",
+   "電流",
+   "淡い光",
+   "儚い闇",
+   "ブレイブ",
+   "プロテ"
+  ],
+  "playerEffects": [
+   "毒:1:5"
+  ],
+  "playerItems": [],
+  "petLevel": null,
+  "petXp": null,
+  "nextEnemyCode": "matango",
+  "nextEnemyLevel": 155,
+  "nextEnemyHp": 1920,
+  "petAbility": "不動",
+  "petChance": 22
+ },
+ {
+  "index": 82,
+  "seed": 2082,
+  "enemyCode": "matango",
+  "field": "草原",
+  "difficulty": "EXTREME",
+  "enemyLevel": 167,
+  "exp": 254,
+  "gil": 56,
+  "drops": [],
+  "rewardLines": [
+   "< RESULT >",
+   "` 254の経験値を獲得！",
+   "` 56のギルを獲得！"
+  ],
+  "updateLines": [
+   "+ テストは火の粉を習得した！",
+   "+ テストは電流を習得した！",
+   "+ テストは淡い光を習得した！",
+   "+ テストは儚い闇を習得した！",
+   "+ テストはブレイブを習得した！",
+   "+ テストはプロテを習得した！",
+   "+ テストが196にレベルアップした！"
+  ],
+  "playerLevel": 196,
+  "playerXp": 38669,
+  "playerGil": 56,
+  "playerMaxHp": 2060,
+  "playerMaxMp": 435,
+  "playerHp": 2060,
+  "playerSkills": [
+   "火の粉",
+   "電流",
+   "淡い光",
+   "儚い闇",
+   "ブレイブ",
+   "プロテ"
+  ],
+  "playerEffects": [
+   "毒:1:5"
+  ],
+  "playerItems": [],
+  "petLevel": null,
+  "petXp": null,
+  "nextEnemyCode": "sasori",
+  "nextEnemyLevel": 168,
+  "nextEnemyHp": 2630,
+  "petAbility": "不動",
+  "petChance": 52
+ },
+ {
+  "index": 83,
+  "seed": 2083,
+  "enemyCode": "moss",
+  "field": "草原",
+  "difficulty": "LUNATIC",
+  "enemyLevel": 180,
+  "exp": 428,
+  "gil": 60,
+  "drops": [],
+  "rewardLines": [
+   "< RESULT >",
+   "` 428の経験値を獲得！",
+   "` 60のギルを獲得！"
+  ],
+  "updateLines": [
+   "+ テストが24にレベルアップした！"
+  ],
+  "playerLevel": 24,
+  "playerXp": 596,
+  "playerGil": 60,
+  "playerMaxHp": 340,
+  "playerMaxMp": 53,
+  "playerHp": 340,
+  "playerSkills": [],
+  "playerEffects": [
+   "毒:1:5"
+  ],
+  "playerItems": [],
+  "petLevel": null,
+  "petXp": null,
+  "nextEnemyCode": "moss",
+  "nextEnemyLevel": 181,
+  "nextEnemyHp": 10277,
+  "petAbility": "勇奮",
+  "petChance": 25
+ },
+ {
+  "index": 84,
+  "seed": 2084,
+  "enemyCode": "cherry",
+  "field": "草原",
+  "difficulty": "NORMAL",
+  "enemyLevel": 193,
+  "exp": 183,
+  "gil": 64,
+  "drops": [],
+  "rewardLines": [
+   "< RESULT >",
+   "` 183の経験値を獲得！",
+   "` 64のギルを獲得！"
+  ],
+  "updateLines": [
+   "+ テストは火の粉を習得した！",
+   "+ テストは電流を習得した！",
+   "+ テストが32にレベルアップした！"
+  ],
+  "playerLevel": 32,
+  "playerXp": 1082,
+  "playerGil": 64,
+  "playerMaxHp": 420,
+  "playerMaxMp": 71,
+  "playerHp": 420,
+  "playerSkills": [
+   "火の粉",
+   "電流"
+  ],
+  "playerEffects": [
+   "毒:1:5"
+  ],
+  "playerItems": [],
+  "petLevel": 25,
+  "petXp": 183,
+  "nextEnemyCode": "moss",
+  "nextEnemyLevel": 194,
+  "nextEnemyHp": 2475,
+  "petAbility": "勇奮",
+  "petChance": 66
+ },
+ {
+  "index": 85,
+  "seed": 2085,
+  "enemyCode": "grass",
+  "field": "草原",
+  "difficulty": "HARD",
+  "enemyLevel": 206,
+  "exp": 235,
+  "gil": 69,
+  "drops": [],
+  "rewardLines": [
+   "< RESULT >",
+   "` 235の経験値を獲得！",
+   "` 69のギルを獲得！"
+  ],
+  "updateLines": [
+   "+ テストは火の粉を習得した！",
+   "+ テストは電流を習得した！",
+   "+ テストが49にレベルアップした！"
+  ],
+  "playerLevel": 49,
+  "playerXp": 2443,
+  "playerGil": 69,
+  "playerMaxHp": 590,
+  "playerMaxMp": 109,
+  "playerHp": 590,
+  "playerSkills": [
+   "火の粉",
+   "電流"
+  ],
+  "playerEffects": [
+   "毒:1:5"
+  ],
+  "playerItems": [],
+  "petLevel": null,
+  "petXp": null,
+  "nextEnemyCode": "moss",
+  "nextEnemyLevel": 207,
+  "nextEnemyHp": 3165,
+  "petAbility": "不動",
+  "petChance": 80
+ },
+ {
+  "index": 86,
+  "seed": 2086,
+  "enemyCode": "thorn",
+  "field": "草原",
+  "difficulty": "EXTREME",
+  "enemyLevel": 219,
+  "exp": 333,
+  "gil": 73,
+  "drops": [
+   "p:1",
+   "t:1"
+  ],
+  "rewardLines": [
+   "< RESULT >",
+   "` 333の経験値を獲得！",
+   "` 73のギルを獲得！",
+   "` ポーションを手に入れた！",
+   "` エーテルを手に入れた！"
+  ],
+  "updateLines": [
+   "+ テストは火の粉を習得した！",
+   "+ テストは電流を習得した！",
+   "+ テストは淡い光を習得した！",
+   "+ テストは儚い闇を習得した！",
+   "+ テストが66にレベルアップした！"
+  ],
+  "playerLevel": 66,
+  "playerXp": 4428,
+  "playerGil": 73,
+  "playerMaxHp": 760,
+  "playerMaxMp": 147,
+  "playerHp": 760,
+  "playerSkills": [
+   "火の粉",
+   "電流",
+   "淡い光",
+   "儚い闇"
+  ],
+  "playerEffects": [
+   "毒:1:5"
+  ],
+  "playerItems": [
+   "p:1",
+   "t:1"
+  ],
+  "petLevel": null,
+  "petXp": null,
+  "nextEnemyCode": "imomushi",
+  "nextEnemyLevel": 220,
+  "nextEnemyHp": 5426,
+  "petAbility": "勇奮",
+  "petChance": 71
+ },
+ {
+  "index": 87,
+  "seed": 2087,
+  "enemyCode": "bat",
+  "field": "洞窟",
+  "difficulty": "LUNATIC",
+  "enemyLevel": 232,
+  "exp": 609,
+  "gil": 77,
+  "drops": [],
+  "rewardLines": [
+   "< RESULT >",
+   "` 609の経験値を獲得！",
+   "` 77のギルを獲得！"
+  ],
+  "updateLines": [
+   "+ テストは火の粉を習得した！",
+   "+ テストは電流を習得した！",
+   "+ テストは淡い光を習得した！",
+   "+ テストは儚い闇を習得した！",
+   "+ テストが84にレベルアップした！"
+  ],
+  "playerLevel": 84,
+  "playerXp": 7169,
+  "playerGil": 77,
+  "playerMaxHp": 940,
+  "playerMaxMp": 186,
+  "playerHp": 940,
+  "playerSkills": [
+   "火の粉",
+   "電流",
+   "淡い光",
+   "儚い闇"
+  ],
+  "playerEffects": [
+   "毒:1:5"
+  ],
+  "playerItems": [],
+  "petLevel": null,
+  "petXp": null,
+  "nextEnemyCode": "sasori",
+  "nextEnemyLevel": 233,
+  "nextEnemyHp": 10577,
+  "petAbility": "ポイズンLv.1",
+  "petChance": 41
+ },
+ {
+  "index": 88,
+  "seed": 2088,
+  "enemyCode": "maimai",
+  "field": "洞窟",
+  "difficulty": "NORMAL",
+  "enemyLevel": 245,
+  "exp": 257,
+  "gil": 82,
+  "drops": [],
+  "rewardLines": [
+   "< RESULT >",
+   "` 257の経験値を獲得！",
+   "` 82のギルを獲得！"
+  ],
+  "updateLines": [
+   "+ テストは火の粉を習得した！",
+   "+ テストは電流を習得した！",
+   "+ テストは淡い光を習得した！",
+   "+ テストは儚い闇を習得した！",
+   "+ テストが99にレベルアップした！"
+  ],
+  "playerLevel": 99,
+  "playerXp": 9860,
+  "playerGil": 82,
+  "playerMaxHp": 1090,
+  "playerMaxMp": 220,
+  "playerHp": 1090,
+  "playerSkills": [
+   "火の粉",
+   "電流",
+   "淡い光",
+   "儚い闇"
+  ],
+  "playerEffects": [
+   "毒:1:5"
+  ],
+  "playerItems": [],
+  "petLevel": 29,
+  "petXp": 257,
+  "nextEnemyCode": "maimai",
+  "nextEnemyLevel": 246,
+  "nextEnemyHp": 3002,
+  "petAbility": "ポイズンLv.1",
+  "petChance": 90
+ },
+ {
+  "index": 89,
+  "seed": 2089,
+  "enemyCode": "yadokari",
+  "field": "洞窟",
+  "difficulty": "HARD",
+  "enemyLevel": 258,
+  "exp": 325,
+  "gil": 86,
+  "drops": [],
+  "rewardLines": [
+   "< RESULT >",
+   "` 325の経験値を獲得！",
+   "` 86のギルを獲得！"
+  ],
+  "updateLines": [
+   "+ テストは火の粉を習得した！",
+   "+ テストは電流を習得した！",
+   "+ テストは淡い光を習得した！",
+   "+ テストは儚い闇を習得した！",
+   "+ テストはブレイブを習得した！",
+   "+ テストはプロテを習得した！",
+   "+ テストが116にレベルアップした！"
+  ],
+  "playerLevel": 116,
+  "playerXp": 13549,
+  "playerGil": 86,
+  "playerMaxHp": 1260,
+  "playerMaxMp": 258,
+  "playerHp": 1260,
+  "playerSkills": [
+   "火の粉",
+   "電流",
+   "淡い光",
+   "儚い闇",
+   "ブレイブ",
+   "プロテ"
+  ],
+  "playerEffects": [
+   "毒:1:5"
+  ],
+  "playerItems": [],
+  "petLevel": null,
+  "petXp": null,
+  "nextEnemyCode": "sasori",
+  "nextEnemyLevel": 259,
+  "nextEnemyHp": 3168,
+  "petAbility": "ポイズンLv.2",
+  "petChance": 67
+ },
+ {
+  "index": 90,
+  "seed": 2090,
+  "enemyCode": "icicle",
+  "field": "氷原",
+  "difficulty": "EXTREME",
+  "enemyLevel": 271,
+  "exp": 412,
+  "gil": 90,
+  "drops": [
+   "p:1"
+  ],
+  "rewardLines": [
+   "< RESULT >",
+   "` 412の経験値を獲得！",
+   "` 90のギルを獲得！",
+   "` ポーションを手に入れた！"
+  ],
+  "updateLines": [
+   "+ テストは火の粉を習得した！",
+   "+ テストは電流を習得した！",
+   "+ テストは淡い光を習得した！",
+   "+ テストは儚い闇を習得した！",
+   "+ テストはブレイブを習得した！",
+   "+ テストはプロテを習得した！",
+   "+ テストが133にレベルアップした！"
+  ],
+  "playerLevel": 133,
+  "playerXp": 17835,
+  "playerGil": 90,
+  "playerMaxHp": 1430,
+  "playerMaxMp": 295,
+  "playerHp": 1430,
+  "playerSkills": [
+   "火の粉",
+   "電流",
+   "淡い光",
+   "儚い闇",
+   "ブレイブ",
+   "プロテ"
+  ],
+  "playerEffects": [
+   "毒:1:5"
+  ],
+  "playerItems": [
+   "p:1"
+  ],
+  "petLevel": null,
+  "petXp": null,
+  "nextEnemyCode": "maimai",
+  "nextEnemyLevel": 272,
+  "nextEnemyHp": 5037,
+  "petAbility": "荒くれ",
+  "petChance": 28
+ },
+ {
+  "index": 91,
+  "seed": 2091,
+  "enemyCode": "snowman",
+  "field": "氷原",
+  "difficulty": "LUNATIC",
+  "enemyLevel": 284,
+  "exp": 1349,
+  "gil": 190,
+  "drops": [],
+  "rewardLines": [
+   "< RESULT >",
+   "` 1349の経験値を獲得！",
+   "` 190のギルを獲得！"
+  ],
+  "updateLines": [
+   "+ テストは火の粉を習得した！",
+   "+ テストは電流を習得した！",
+   "+ テストは淡い光を習得した！",
+   "+ テストは儚い闇を習得した！",
+   "+ テストはブレイブを習得した！",
+   "+ テストはプロテを習得した！",
+   "+ テストが153にレベルアップした！"
+  ],
+  "playerLevel": 153,
+  "playerXp": 23549,
+  "playerGil": 190,
+  "playerMaxHp": 1630,
+  "playerMaxMp": 340,
+  "playerHp": 1630,
+  "playerSkills": [
+   "火の粉",
+   "電流",
+   "淡い光",
+   "儚い闇",
+   "ブレイブ",
+   "プロテ"
+  ],
+  "playerEffects": [
+   "毒:1:5"
+  ],
+  "playerItems": [],
+  "petLevel": null,
+  "petXp": null,
+  "nextEnemyCode": "snowman",
+  "nextEnemyLevel": 285,
+  "nextEnemyHp": 15421,
+  "petAbility": "勇奮",
+  "petChance": 83
+ },
+ {
+  "index": 92,
+  "seed": 2092,
+  "enemyCode": "penguin",
+  "field": "氷原",
+  "difficulty": "NORMAL",
+  "enemyLevel": 297,
+  "exp": 282,
+  "gil": 99,
+  "drops": [],
+  "rewardLines": [
+   "< RESULT >",
+   "` 282の経験値を獲得！",
+   "` 99のギルを獲得！"
+  ],
+  "updateLines": [
+   "+ テストは火の粉を習得した！",
+   "+ テストは電流を習得した！",
+   "+ テストは淡い光を習得した！",
+   "+ テストは儚い闇を習得した！",
+   "+ テストはブレイブを習得した！",
+   "+ テストはプロテを習得した！",
+   "+ テストが166にレベルアップした！",
+   "+ ペット92が16にレベルアップした！"
+  ],
+  "playerLevel": 166,
+  "playerXp": 27837,
+  "playerGil": 99,
+  "playerMaxHp": 1760,
+  "playerMaxMp": 369,
+  "playerHp": 1760,
+  "playerSkills": [
+   "火の粉",
+   "電流",
+   "淡い光",
+   "儚い闇",
+   "ブレイブ",
+   "プロテ"
+  ],
+  "playerEffects": [
+   "毒:1:5"
+  ],
+  "playerItems": [],
+  "petLevel": 16,
+  "petXp": 282,
+  "nextEnemyCode": "maimai",
+  "nextEnemyLevel": 298,
+  "nextEnemyHp": 3626,
+  "petAbility": "フリーズ・ザ・ワールド",
+  "petChance": 69
+ },
+ {
+  "index": 93,
+  "seed": 2093,
+  "enemyCode": "mudhand",
+  "field": "峡谷",
+  "difficulty": "HARD",
+  "enemyLevel": 310,
+  "exp": 391,
+  "gil": 103,
+  "drops": [],
+  "rewardLines": [
+   "< RESULT >",
+   "` 391の経験値を獲得！",
+   "` 103のギルを獲得！"
+  ],
+  "updateLines": [
+   "+ テストは火の粉を習得した！",
+   "+ テストは電流を習得した！",
+   "+ テストは淡い光を習得した！",
+   "+ テストは儚い闇を習得した！",
+   "+ テストはブレイブを習得した！",
+   "+ テストはプロテを習得した！",
+   "+ テストが184にレベルアップした！"
+  ],
+  "playerLevel": 184,
+  "playerXp": 33879,
+  "playerGil": 103,
+  "playerMaxHp": 1940,
+  "playerMaxMp": 408,
+  "playerHp": 1940,
+  "playerSkills": [
+   "火の粉",
+   "電流",
+   "淡い光",
+   "儚い闇",
+   "ブレイブ",
+   "プロテ"
+  ],
+  "playerEffects": [
+   "毒:1:5"
+  ],
+  "playerItems": [],
+  "petLevel": null,
+  "petXp": null,
+  "nextEnemyCode": "bat",
+  "nextEnemyLevel": 311,
+  "nextEnemyHp": 3792,
+  "petAbility": "マキナ",
+  "petChance": 9
+ },
+ {
+  "index": 94,
+  "seed": 2094,
+  "enemyCode": "rat",
+  "field": "洞窟",
+  "difficulty": "EXTREME",
+  "enemyLevel": 323,
+  "exp": 543,
+  "gil": 108,
+  "drops": [],
+  "rewardLines": [
+   "< RESULT >",
+   "` 543の経験値を獲得！",
+   "` 108のギルを獲得！"
+  ],
+  "updateLines": [
+   "+ テストは火の粉を習得した！",
+   "+ テストは電流を習得した！",
+   "+ テストは淡い光を習得した！",
+   "+ テストは儚い闇を習得した！",
+   "+ テストはブレイブを習得した！",
+   "+ テストはプロテを習得した！",
+   "+ テストはフレアを習得した！",
+   "+ テストはザップを習得した！",
+   "+ テストはアクアを習得した！",
+   "+ テストが201にレベルアップした！"
+  ],
+  "playerLevel": 201,
+  "playerXp": 40542,
+  "playerGil": 108,
+  "playerMaxHp": 2110,
+  "playerMaxMp": 446,
+  "playerHp": 2110,
+  "playerSkills": [
+   "火の粉",
+   "電流",
+   "淡い光",
+   "儚い闇",
+   "ブレイブ",
+   "プロテ",
+   "フレア",
+   "ザップ",
+   "アクア"
+  ],
+  "playerEffects": [
+   "毒:1:5"
+  ],
+  "playerItems": [],
+  "petLevel": null,
+  "petXp": null,
+  "nextEnemyCode": "flea",
+  "nextEnemyLevel": 324,
+  "nextEnemyHp": 3523,
+  "petAbility": "荒くれ",
+  "petChance": 50
+ },
+ {
+  "index": 95,
+  "seed": 2095,
+  "enemyCode": "flea",
+  "field": "洞窟",
+  "difficulty": "LUNATIC",
+  "enemyLevel": 336,
+  "exp": 882,
+  "gil": 56,
+  "drops": [],
+  "rewardLines": [
+   "< RESULT >",
+   "` 882の経験値を獲得！",
+   "` 56のギルを獲得！"
+  ],
+  "updateLines": [
+   "+ テストは火の粉を習得した！",
+   "+ テストは電流を習得した！",
+   "+ テストが34にレベルアップした！"
+  ],
+  "playerLevel": 34,
+  "playerXp": 1170,
+  "playerGil": 56,
+  "playerMaxHp": 440,
+  "playerMaxMp": 75,
+  "playerHp": 440,
+  "playerSkills": [
+   "火の粉",
+   "電流"
+  ],
+  "playerEffects": [
+   "毒:1:5"
+  ],
+  "playerItems": [],
+  "petLevel": null,
+  "petXp": null,
+  "nextEnemyCode": "yadokari",
+  "nextEnemyLevel": 337,
+  "nextEnemyHp": 18194,
+  "petAbility": "勇奮",
+  "petChance": 6
+ },
+ {
+  "index": 96,
+  "seed": 2096,
+  "enemyCode": "coin",
+  "field": "峡谷",
+  "difficulty": "NORMAL",
+  "enemyLevel": 349,
+  "exp": 183,
+  "gil": 5800,
+  "drops": [
+   "p:1"
+  ],
+  "rewardLines": [
+   "< RESULT >",
+   "` 183の経験値を獲得！",
+   "` 5800のギルを獲得！",
+   "` ポーションを手に入れた！"
+  ],
+  "updateLines": [
+   "+ テストは火の粉を習得した！",
+   "+ テストは電流を習得した！",
+   "+ テストが36にレベルアップした！",
+   "+ ペット96が13にレベルアップした！"
+  ],
+  "playerLevel": 36,
+  "playerXp": 1338,
+  "playerGil": 5800,
+  "playerMaxHp": 460,
+  "playerMaxMp": 80,
+  "playerHp": 460,
+  "playerSkills": [
+   "火の粉",
+   "電流"
+  ],
+  "playerEffects": [
+   "毒:1:5"
+  ],
+  "playerItems": [
+   "p:1"
+  ],
+  "petLevel": 13,
+  "petXp": 183,
+  "nextEnemyCode": "mudhand",
+  "nextEnemyLevel": 350,
+  "nextEnemyHp": 4250,
+  "petAbility": "ポイズンLv.2",
+  "petChance": 16
+ },
+ {
+  "index": 97,
+  "seed": 2097,
+  "enemyCode": "fog",
+  "field": "火山",
+  "difficulty": "HARD",
+  "enemyLevel": 362,
+  "exp": 500,
+  "gil": 121,
+  "drops": [],
+  "rewardLines": [
+   "< RESULT >",
+   "` 500の経験値を獲得！",
+   "` 121のギルを獲得！"
+  ],
+  "updateLines": [
+   "+ テストは火の粉を習得した！",
+   "+ テストは電流を習得した！",
+   "+ テストは淡い光を習得した！",
+   "+ テストは儚い闇を習得した！",
+   "+ テストが55にレベルアップした！"
+  ],
+  "playerLevel": 55,
+  "playerXp": 3100,
+  "playerGil": 121,
+  "playerMaxHp": 650,
+  "playerMaxMp": 122,
+  "playerHp": 650,
+  "playerSkills": [
+   "火の粉",
+   "電流",
+   "淡い光",
+   "儚い闇"
+  ],
+  "playerEffects": [
+   "毒:1:5"
+  ],
+  "playerItems": [],
+  "petLevel": null,
+  "petXp": null,
+  "nextEnemyCode": "uroboros",
+  "nextEnemyLevel": 363,
+  "nextEnemyHp": 4416,
+  "petAbility": "ポイズンLv.2",
+  "petChance": 81
+ },
+ {
+  "index": 98,
+  "seed": 2098,
+  "enemyCode": "bomb",
+  "field": "火山",
+  "difficulty": "EXTREME",
+  "enemyLevel": 375,
+  "exp": 690,
+  "gil": 125,
+  "drops": [],
+  "rewardLines": [
+   "< RESULT >",
+   "` 690の経験値を獲得！",
+   "` 125のギルを獲得！"
+  ],
+  "updateLines": [
+   "+ テストは火の粉を習得した！",
+   "+ テストは電流を習得した！",
+   "+ テストは淡い光を習得した！",
+   "+ テストは儚い闇を習得した！",
+   "+ テストが72にレベルアップした！"
+  ],
+  "playerLevel": 72,
+  "playerXp": 5313,
+  "playerGil": 125,
+  "playerMaxHp": 820,
+  "playerMaxMp": 160,
+  "playerHp": 820,
+  "playerSkills": [
+   "火の粉",
+   "電流",
+   "淡い光",
+   "儚い闇"
+  ],
+  "playerEffects": [
+   "毒:1:5"
+  ],
+  "playerItems": [],
+  "petLevel": null,
+  "petXp": null,
+  "nextEnemyCode": "charon",
+  "nextEnemyLevel": 376,
+  "nextEnemyHp": 6363,
+  "petAbility": "勇奮",
+  "petChance": 90
+ },
+ {
+  "index": 99,
+  "seed": 2099,
+  "enemyCode": "salamander",
+  "field": "火山",
+  "difficulty": "LUNATIC",
+  "enemyLevel": 388,
+  "exp": 1116,
+  "gil": 129,
+  "drops": [],
+  "rewardLines": [
+   "< RESULT >",
+   "` 1116の経験値を獲得！",
+   "` 129のギルを獲得！"
+  ],
+  "updateLines": [
+   "+ テストは火の粉を習得した！",
+   "+ テストは電流を習得した！",
+   "+ テストは淡い光を習得した！",
+   "+ テストは儚い闇を習得した！",
+   "+ テストが91にレベルアップした！"
+  ],
+  "playerLevel": 91,
+  "playerXp": 8340,
+  "playerGil": 129,
+  "playerMaxHp": 1010,
+  "playerMaxMp": 202,
+  "playerHp": 1010,
+  "playerSkills": [
+   "火の粉",
+   "電流",
+   "淡い光",
+   "儚い闇"
+  ],
+  "playerEffects": [
+   "毒:1:5"
+  ],
+  "playerItems": [],
+  "petLevel": null,
+  "petXp": null,
+  "nextEnemyCode": "ghast",
+  "nextEnemyLevel": 389,
+  "nextEnemyHp": 15781,
+  "petAbility": "勇奮",
+  "petChance": 90
+ },
+ {
+  "index": 100,
+  "seed": 2100,
+  "enemyCode": "tank",
+  "field": "火山",
+  "difficulty": "NORMAL",
+  "enemyLevel": 401,
+  "exp": 461,
+  "gil": 134,
+  "drops": [],
+  "rewardLines": [
+   "< RESULT >",
+   "` 461の経験値を獲得！",
+   "` 134のギルを獲得！"
+  ],
+  "updateLines": [
+   "+ テストは火の粉を習得した！",
+   "+ テストは電流を習得した！",
+   "+ テストは淡い光を習得した！",
+   "+ テストは儚い闇を習得した！",
+   "+ テストはブレイブを習得した！",
+   "+ テストはプロテを習得した！",
+   "+ テストが104にレベルアップした！",
+   "+ ペット100が21にレベルアップした！"
+  ],
+  "playerLevel": 104,
+  "playerXp": 10864,
+  "playerGil": 134,
+  "playerMaxHp": 1140,
+  "playerMaxMp": 231,
+  "playerHp": 1140,
+  "playerSkills": [
+   "火の粉",
+   "電流",
+   "淡い光",
+   "儚い闇",
+   "ブレイブ",
+   "プロテ"
+  ],
+  "playerEffects": [
+   "毒:1:5"
+  ],
+  "playerItems": [],
+  "petLevel": 21,
+  "petXp": 461,
+  "nextEnemyCode": "hydra",
+  "nextEnemyLevel": 402,
+  "nextEnemyHp": 4954,
+  "petAbility": "ポイズンLv.1",
+  "petChance": 32
+ },
+ {
+  "index": 101,
+  "seed": 2101,
+  "enemyCode": "hellhound",
+  "field": "火山",
+  "difficulty": "HARD",
+  "enemyLevel": 414,
+  "exp": 571,
+  "gil": 138,
+  "drops": [],
+  "rewardLines": [
+   "< RESULT >",
+   "` 571の経験値を獲得！",
+   "` 138のギルを獲得！"
+  ],
+  "updateLines": [
+   "+ テストは火の粉を習得した！",
+   "+ テストは電流を習得した！",
+   "+ テストは淡い光を習得した！",
+   "+ テストは儚い闇を習得した！",
+   "+ テストはブレイブを習得した！",
+   "+ テストはプロテを習得した！",
+   "+ テストが121にレベルアップした！"
+  ],
+  "playerLevel": 121,
+  "playerXp": 14731,
+  "playerGil": 138,
+  "playerMaxHp": 1310,
+  "playerMaxMp": 269,
+  "playerHp": 1310,
+  "playerSkills": [
+   "火の粉",
+   "電流",
+   "淡い光",
+   "儚い闇",
+   "ブレイブ",
+   "プロテ"
+  ],
+  "playerEffects": [
+   "毒:1:5"
+  ],
+  "playerItems": [],
+  "petLevel": null,
+  "petXp": null,
+  "nextEnemyCode": "charon",
+  "nextEnemyLevel": 415,
+  "nextEnemyHp": 5538,
+  "petAbility": "マキナ",
+  "petChance": 24
+ },
+ {
+  "index": 102,
+  "seed": 2102,
+  "enemyCode": "hydra",
+  "field": "火山",
+  "difficulty": "EXTREME",
+  "enemyLevel": 427,
+  "exp": 3928,
+  "gil": 142,
+  "drops": [],
+  "rewardLines": [
+   "< RESULT >",
+   "` 3928の経験値を獲得！",
+   "` 142のギルを獲得！"
+  ],
+  "updateLines": [
+   "+ テストは火の粉を習得した！",
+   "+ テストは電流を習得した！",
+   "+ テストは淡い光を習得した！",
+   "+ テストは儚い闇を習得した！",
+   "+ テストはブレイブを習得した！",
+   "+ テストはプロテを習得した！",
+   "+ テストが149にレベルアップした！"
+  ],
+  "playerLevel": 149,
+  "playerXp": 22423,
+  "playerGil": 142,
+  "playerMaxHp": 1590,
+  "playerMaxMp": 331,
+  "playerHp": 1590,
+  "playerSkills": [
+   "火の粉",
+   "電流",
+   "淡い光",
+   "儚い闇",
+   "ブレイブ",
+   "プロテ"
+  ],
+  "playerEffects": [
+   "毒:1:5"
+  ],
+  "playerItems": [],
+  "petLevel": null,
+  "petXp": null,
+  "nextEnemyCode": "salamander",
+  "nextEnemyLevel": 428,
+  "nextEnemyHp": 5606,
+  "petAbility": "不動",
+  "petChance": 64
+ },
+ {
+  "index": 103,
+  "seed": 2103,
+  "enemyCode": "uroboros",
+  "field": "峡谷",
+  "difficulty": "LUNATIC",
+  "enemyLevel": 440,
+  "exp": 1155,
+  "gil": 147,
+  "drops": [],
+  "rewardLines": [
+   "< RESULT >",
+   "` 1155の経験値を獲得！",
+   "` 147のギルを獲得！"
+  ],
+  "updateLines": [
+   "+ テストは火の粉を習得した！",
+   "+ テストは電流を習得した！",
+   "+ テストは淡い光を習得した！",
+   "+ テストは儚い闇を習得した！",
+   "+ テストはブレイブを習得した！",
+   "+ テストはプロテを習得した！",
+   "+ テストが156にレベルアップした！"
+  ],
+  "playerLevel": 156,
+  "playerXp": 24563,
+  "playerGil": 147,
+  "playerMaxHp": 1660,
+  "playerMaxMp": 346,
+  "playerHp": 1660,
+  "playerSkills": [
+   "火の粉",
+   "電流",
+   "淡い光",
+   "儚い闇",
+   "ブレイブ",
+   "プロテ"
+  ],
+  "playerEffects": [
+   "毒:1:5"
+  ],
+  "playerItems": [],
+  "petLevel": null,
+  "petXp": null,
+  "nextEnemyCode": "sasori",
+  "nextEnemyLevel": 441,
+  "nextEnemyHp": 19820,
+  "petAbility": "不動",
+  "petChance": 71
+ },
+ {
+  "index": 104,
+  "seed": 2104,
+  "enemyCode": "egg",
+  "field": "火山",
+  "difficulty": "NORMAL",
+  "enemyLevel": 453,
+  "exp": 10419,
+  "gil": 1510,
+  "drops": [],
+  "rewardLines": [
+   "< RESULT >",
+   "` 10419の経験値を獲得！",
+   "` 1510のギルを獲得！"
+  ],
+  "updateLines": [
+   "+ テストは火の粉を習得した！",
+   "+ テストは電流を習得した！",
+   "+ テストは淡い光を習得した！",
+   "+ テストは儚い闇を習得した！",
+   "+ テストはブレイブを習得した！",
+   "+ テストはプロテを習得した！",
+   "+ テストが198にレベルアップした！",
+   "+ ペット104が102にレベルアップした！"
+  ],
+  "playerLevel": 198,
+  "playerXp": 39318,
+  "playerGil": 1510,
+  "playerMaxHp": 2080,
+  "playerMaxMp": 440,
+  "playerHp": 2080,
+  "playerSkills": [
+   "火の粉",
+   "電流",
+   "淡い光",
+   "儚い闇",
+   "ブレイブ",
+   "プロテ"
+  ],
+  "playerEffects": [
+   "毒:1:5"
+  ],
+  "playerItems": [],
+  "petLevel": 102,
+  "petXp": 10419,
+  "nextEnemyCode": "charon",
+  "nextEnemyLevel": 454,
+  "nextEnemyHp": 5044,
+  "petAbility": "チェーン",
+  "petChance": 9
+ },
+ {
+  "index": 105,
+  "seed": 2105,
+  "enemyCode": "ghost",
+  "field": "冥界",
+  "difficulty": "HARD",
+  "enemyLevel": 466,
+  "exp": 699,
+  "gil": 155,
+  "drops": [],
+  "rewardLines": [
+   "< RESULT >",
+   "` 699の経験値を獲得！",
+   "` 155のギルを獲得！"
+  ],
+  "updateLines": [
+   "+ テストは火の粉を習得した！",
+   "+ テストは電流を習得した！",
+   "+ テストは淡い光を習得した！",
+   "+ テストは儚い闇を習得した！",
+   "+ テストはブレイブを習得した！",
+   "+ テストはプロテを習得した！",
+   "+ テストが188にレベルアップした！"
+  ],
+  "playerLevel": 188,
+  "playerXp": 35667,
+  "playerGil": 155,
+  "playerMaxHp": 1980,
+  "playerMaxMp": 417,
+  "playerHp": 1980,
+  "playerSkills": [
+   "火の粉",
+   "電流",
+   "淡い光",
+   "儚い闇",
+   "ブレイブ",
+   "プロテ"
+  ],
+  "playerEffects": [
+   "毒:1:5"
+  ],
+  "playerItems": [],
+  "petLevel": null,
+  "petXp": null,
+  "nextEnemyCode": "oboro",
+  "nextEnemyLevel": 467,
+  "nextEnemyHp": 7530,
+  "petAbility": "勇奮",
+  "petChance": 66
+ },
+ {
+  "index": 106,
+  "seed": 2106,
+  "enemyCode": "polter",
+  "field": "冥界",
+  "difficulty": "EXTREME",
+  "enemyLevel": 479,
+  "exp": 958,
+  "gil": 160,
+  "drops": [],
+  "rewardLines": [
+   "< RESULT >",
+   "` 958の経験値を獲得！",
+   "` 160のギルを獲得！"
+  ],
+  "updateLines": [
+   "+ テストは火の粉を習得した！",
+   "+ テストは電流を習得した！",
+   "+ テストが31にレベルアップした！"
+  ],
+  "playerLevel": 31,
+  "playerXp": 973,
+  "playerGil": 160,
+  "playerMaxHp": 410,
+  "playerMaxMp": 69,
+  "playerHp": 410,
+  "playerSkills": [
+   "火の粉",
+   "電流"
+  ],
+  "playerEffects": [
+   "毒:1:5"
+  ],
+  "playerItems": [],
+  "petLevel": null,
+  "petXp": null,
+  "nextEnemyCode": "spirit",
+  "nextEnemyLevel": 480,
+  "nextEnemyHp": 9780,
+  "petAbility": "不動",
+  "petChance": 9
+ },
+ {
+  "index": 107,
+  "seed": 2107,
+  "enemyCode": "phantom",
+  "field": "冥界",
+  "difficulty": "LUNATIC",
+  "enemyLevel": 492,
+  "exp": 1538,
+  "gil": 164,
+  "drops": [],
+  "rewardLines": [
+   "< RESULT >",
+   "` 1538の経験値を獲得！",
+   "` 164のギルを獲得！"
+  ],
+  "updateLines": [
+   "+ テストは火の粉を習得した！",
+   "+ テストは電流を習得した！",
+   "+ テストが44にレベルアップした！"
+  ],
+  "playerLevel": 44,
+  "playerXp": 1978,
+  "playerGil": 164,
+  "playerMaxHp": 540,
+  "playerMaxMp": 98,
+  "playerHp": 540,
+  "playerSkills": [
+   "火の粉",
+   "電流"
+  ],
+  "playerEffects": [
+   "毒:1:5"
+  ],
+  "playerItems": [],
+  "petLevel": null,
+  "petXp": null,
+  "nextEnemyCode": "ghost",
+  "nextEnemyLevel": 493,
+  "nextEnemyHp": 22131,
+  "petAbility": "マキナ",
+  "petChance": 79
+ },
+ {
+  "index": 108,
+  "seed": 2108,
+  "enemyCode": "spirit",
+  "field": "冥界",
+  "difficulty": "NORMAL",
+  "enemyLevel": 505,
+  "exp": 631,
+  "gil": 168,
+  "drops": [],
+  "rewardLines": [
+   "< RESULT >",
+   "` 631の経験値を獲得！",
+   "` 168のギルを獲得！"
+  ],
+  "updateLines": [
+   "+ テストは火の粉を習得した！",
+   "+ テストは電流を習得した！",
+   "+ テストが45にレベルアップした！",
+   "+ ペット108が25にレベルアップした！"
+  ],
+  "playerLevel": 45,
+  "playerXp": 2074,
+  "playerGil": 168,
+  "playerMaxHp": 550,
+  "playerMaxMp": 100,
+  "playerHp": 550,
+  "playerSkills": [
+   "火の粉",
+   "電流"
+  ],
+  "playerEffects": [
+   "毒:1:5"
+  ],
+  "playerItems": [],
+  "petLevel": 25,
+  "petXp": 631,
+  "nextEnemyCode": "ghost",
+  "nextEnemyLevel": 506,
+  "nextEnemyHp": 5110,
+  "petAbility": "不動",
+  "petChance": 72
+ },
+ {
+  "index": 109,
+  "seed": 2109,
+  "enemyCode": "shadow",
+  "field": "秘境",
+  "difficulty": "HARD",
+  "enemyLevel": 518,
+  "exp": 821,
+  "gil": 173,
+  "drops": [],
+  "rewardLines": [
+   "< RESULT >",
+   "` 821の経験値を獲得！",
+   "` 173のギルを獲得！"
+  ],
+  "updateLines": [
+   "+ テストは火の粉を習得した！",
+   "+ テストは電流を習得した！",
+   "+ テストは淡い光を習得した！",
+   "+ テストは儚い闇を習得した！",
+   "+ テストが62にレベルアップした！"
+  ],
+  "playerLevel": 62,
+  "playerXp": 3845,
+  "playerGil": 173,
+  "playerMaxHp": 720,
+  "playerMaxMp": 138,
+  "playerHp": 720,
+  "playerSkills": [
+   "火の粉",
+   "電流",
+   "淡い光",
+   "儚い闇"
+  ],
+  "playerEffects": [
+   "毒:1:5"
+  ],
+  "playerItems": [],
+  "petLevel": null,
+  "petXp": null,
+  "nextEnemyCode": "shadow",
+  "nextEnemyLevel": 519,
+  "nextEnemyHp": 7534,
+  "petAbility": "荒くれ",
+  "petChance": 27
+ },
+ {
+  "index": 110,
+  "seed": 2110,
+  "enemyCode": "ghast",
+  "field": "火山",
+  "difficulty": "EXTREME",
+  "enemyLevel": 531,
+  "exp": 1172,
+  "gil": 177,
+  "drops": [],
+  "rewardLines": [
+   "< RESULT >",
+   "` 1172の経験値を獲得！",
+   "` 177のギルを獲得！"
+  ],
+  "updateLines": [
+   "+ テストは火の粉を習得した！",
+   "+ テストは電流を習得した！",
+   "+ テストは淡い光を習得した！",
+   "+ テストは儚い闇を習得した！",
+   "+ テストが79にレベルアップした！"
+  ],
+  "playerLevel": 79,
+  "playerXp": 6355,
+  "playerGil": 177,
+  "playerMaxHp": 890,
+  "playerMaxMp": 175,
+  "playerHp": 890,
+  "playerSkills": [
+   "火の粉",
+   "電流",
+   "淡い光",
+   "儚い闇"
+  ],
+  "playerEffects": [
+   "毒:1:5"
+  ],
+  "playerItems": [],
+  "petLevel": null,
+  "petXp": null,
+  "nextEnemyCode": "hellhound",
+  "nextEnemyLevel": 532,
+  "nextEnemyHp": 10831,
+  "petAbility": "ポイズンLv.2",
+  "petChance": 62
+ },
+ {
+  "index": 111,
+  "seed": 2111,
+  "enemyCode": "charon",
+  "field": "火山",
+  "difficulty": "LUNATIC",
+  "enemyLevel": 544,
+  "exp": 1564,
+  "gil": 181,
+  "drops": [],
+  "rewardLines": [
+   "< RESULT >",
+   "` 1564の経験値を獲得！",
+   "` 181のギルを獲得！"
+  ],
+  "updateLines": [
+   "+ テストは火の粉を習得した！",
+   "+ テストは電流を習得した！",
+   "+ テストは淡い光を習得した！",
+   "+ テストは儚い闇を習得した！",
+   "+ テストが97にレベルアップした！"
+  ],
+  "playerLevel": 97,
+  "playerXp": 9484,
+  "playerGil": 181,
+  "playerMaxHp": 1070,
+  "playerMaxMp": 215,
+  "playerHp": 1070,
+  "playerSkills": [
+   "火の粉",
+   "電流",
+   "淡い光",
+   "儚い闇"
+  ],
+  "playerEffects": [
+   "毒:1:5"
+  ],
+  "playerItems": [],
+  "petLevel": null,
+  "petXp": null,
+  "nextEnemyCode": "fog",
+  "nextEnemyLevel": 545,
+  "nextEnemyHp": 19598,
+  "petAbility": "勇奮",
+  "petChance": 33
+ },
+ {
+  "index": 112,
+  "seed": 2112,
+  "enemyCode": "plasma",
+  "field": "氷山",
+  "difficulty": "NORMAL",
+  "enemyLevel": 557,
+  "exp": 657,
+  "gil": 186,
+  "drops": [],
+  "rewardLines": [
+   "< RESULT >",
+   "` 657の経験値を獲得！",
+   "` 186のギルを獲得！"
+  ],
+  "updateLines": [
+   "+ テストは火の粉を習得した！",
+   "+ テストは電流を習得した！",
+   "+ テストは淡い光を習得した！",
+   "+ テストは儚い闇を習得した！",
+   "+ テストはブレイブを習得した！",
+   "+ テストはプロテを習得した！",
+   "+ テストが109にレベルアップした！",
+   "+ ペット112が25にレベルアップした！"
+  ],
+  "playerLevel": 109,
+  "playerXp": 11892,
+  "playerGil": 186,
+  "playerMaxHp": 1190,
+  "playerMaxMp": 242,
+  "playerHp": 1190,
+  "playerSkills": [
+   "火の粉",
+   "電流",
+   "淡い光",
+   "儚い闇",
+   "ブレイブ",
+   "プロテ"
+  ],
+  "playerEffects": [
+   "毒:1:5"
+  ],
+  "playerItems": [],
+  "petLevel": 25,
+  "petXp": 657,
+  "nextEnemyCode": "penguin",
+  "nextEnemyLevel": 558,
+  "nextEnemyHp": 6746,
+  "petAbility": "ポイズンLv.1",
+  "petChance": 88
+ },
+ {
+  "index": 113,
+  "seed": 2113,
+  "enemyCode": "crescent",
+  "field": "天界",
+  "difficulty": "HARD",
+  "enemyLevel": 570,
+  "exp": 889,
+  "gil": 190,
+  "drops": [],
+  "rewardLines": [
+   "< RESULT >",
+   "` 889の経験値を獲得！",
+   "` 190のギルを獲得！"
+  ],
+  "updateLines": [
+   "+ テストは火の粉を習得した！",
+   "+ テストは電流を習得した！",
+   "+ テストは淡い光を習得した！",
+   "+ テストは儚い闇を習得した！",
+   "+ テストはブレイブを習得した！",
+   "+ テストはプロテを習得した！",
+   "+ テストが126にレベルアップした！"
+  ],
+  "playerLevel": 126,
+  "playerXp": 16017,
+  "playerGil": 190,
+  "playerMaxHp": 1360,
+  "playerMaxMp": 280,
+  "playerHp": 1360,
+  "playerSkills": [
+   "火の粉",
+   "電流",
+   "淡い光",
+   "儚い闇",
+   "ブレイブ",
+   "プロテ"
+  ],
+  "playerEffects": [
+   "毒:1:5"
+  ],
+  "playerItems": [],
+  "petLevel": null,
+  "petXp": null,
+  "nextEnemyCode": "plasma",
+  "nextEnemyLevel": 571,
+  "nextEnemyHp": 10338,
+  "petAbility": "ポイズンLv.1",
+  "petChance": 95
+ },
+ {
+  "index": 114,
+  "seed": 2114,
+  "enemyCode": "rain",
+  "field": "湖",
+  "difficulty": "EXTREME",
+  "enemyLevel": 583,
+  "exp": 1119,
+  "gil": 194,
+  "drops": [],
+  "rewardLines": [
+   "< RESULT >",
+   "` 1119の経験値を獲得！",
+   "` 194のギルを獲得！"
+  ],
+  "updateLines": [
+   "+ テストは火の粉を習得した！",
+   "+ テストは電流を習得した！",
+   "+ テストは淡い光を習得した！",
+   "+ テストは儚い闇を習得した！",
+   "+ テストはブレイブを習得した！",
+   "+ テストはプロテを習得した！",
+   "+ テストが143にレベルアップした！"
+  ],
+  "playerLevel": 143,
+  "playerXp": 20718,
+  "playerGil": 194,
+  "playerMaxHp": 1530,
+  "playerMaxMp": 317,
+  "playerHp": 1530,
+  "playerSkills": [
+   "火の粉",
+   "電流",
+   "淡い光",
+   "儚い闇",
+   "ブレイブ",
+   "プロテ"
+  ],
+  "playerEffects": [
+   "毒:1:5"
+  ],
+  "playerItems": [],
+  "petLevel": null,
+  "petXp": null,
+  "nextEnemyCode": "ghast",
+  "nextEnemyLevel": 584,
+  "nextEnemyHp": 8065,
+  "petAbility": "勇奮",
+  "petChance": 28
+ },
+ {
+  "index": 115,
+  "seed": 2115,
+  "enemyCode": "sylph",
+  "field": "天界",
+  "difficulty": "LUNATIC",
+  "enemyLevel": 596,
+  "exp": 1937,
+  "gil": 199,
+  "drops": [],
+  "rewardLines": [
+   "< RESULT >",
+   "` 1937の経験値を獲得！",
+   "` 199のギルを獲得！"
+  ],
+  "updateLines": [
+   "+ テストは火の粉を習得した！",
+   "+ テストは電流を習得した！",
+   "+ テストは淡い光を習得した！",
+   "+ テストは儚い闇を習得した！",
+   "+ テストはブレイブを習得した！",
+   "+ テストはプロテを習得した！",
+   "+ テストが163にレベルアップした！"
+  ],
+  "playerLevel": 163,
+  "playerXp": 26585,
+  "playerGil": 199,
+  "playerMaxHp": 1730,
+  "playerMaxMp": 362,
+  "playerHp": 1730,
+  "playerSkills": [
+   "火の粉",
+   "電流",
+   "淡い光",
+   "儚い闇",
+   "ブレイブ",
+   "プロテ"
+  ],
+  "playerEffects": [
+   "毒:1:5"
+  ],
+  "playerItems": [],
+  "petLevel": null,
+  "petXp": null,
+  "nextEnemyCode": "sylph",
+  "nextEnemyLevel": 597,
+  "nextEnemyHp": 26753,
+  "petAbility": "不動",
+  "petChance": 25
+ },
+ {
+  "index": 116,
+  "seed": 2116,
+  "enemyCode": "wisp",
+  "field": "天界",
+  "difficulty": "NORMAL",
+  "enemyLevel": 609,
+  "exp": 792,
+  "gil": 203,
+  "drops": [],
+  "rewardLines": [
+   "< RESULT >",
+   "` 792の経験値を獲得！",
+   "` 203のギルを獲得！"
+  ],
+  "updateLines": [
+   "+ テストは火の粉を習得した！",
+   "+ テストは電流を習得した！",
+   "+ テストは淡い光を習得した！",
+   "+ テストは儚い闇を習得した！",
+   "+ テストはブレイブを習得した！",
+   "+ テストはプロテを習得した！",
+   "+ テストが176にレベルアップした！",
+   "+ ペット116が28にレベルアップした！"
+  ],
+  "playerLevel": 176,
+  "playerXp": 31067,
+  "playerGil": 203,
+  "playerMaxHp": 1860,
+  "playerMaxMp": 391,
+  "playerHp": 1860,
+  "playerSkills": [
+   "火の粉",
+   "電流",
+   "淡い光",
+   "儚い闇",
+   "ブレイブ",
+   "プロテ"
+  ],
+  "playerEffects": [
+   "毒:1:5"
+  ],
+  "playerItems": [],
+  "petLevel": 28,
+  "petXp": 792,
+  "nextEnemyCode": "sylph",
+  "nextEnemyLevel": 610,
+  "nextEnemyHp": 6150,
+  "petAbility": "チェーン",
+  "petChance": 57
+ },
+ {
+  "index": 117,
+  "seed": 2117,
+  "enemyCode": "teru",
+  "field": "天界",
+  "difficulty": "HARD",
+  "enemyLevel": 622,
+  "exp": 970,
+  "gil": 207,
+  "drops": [],
+  "rewardLines": [
+   "< RESULT >",
+   "` 970の経験値を獲得！",
+   "` 207のギルを獲得！"
+  ],
+  "updateLines": [
+   "+ テストは火の粉を習得した！",
+   "+ テストは電流を習得した！",
+   "+ テストは淡い光を習得した！",
+   "+ テストは儚い闇を習得した！",
+   "+ テストはブレイブを習得した！",
+   "+ テストはプロテを習得した！",
+   "+ テストが193にレベルアップした！"
+  ],
+  "playerLevel": 193,
+  "playerXp": 37450,
+  "playerGil": 207,
+  "playerMaxHp": 2030,
+  "playerMaxMp": 428,
+  "playerHp": 2030,
+  "playerSkills": [
+   "火の粉",
+   "電流",
+   "淡い光",
+   "儚い闇",
+   "ブレイブ",
+   "プロテ"
+  ],
+  "playerEffects": [
+   "毒:1:5"
+  ],
+  "playerItems": [],
+  "petLevel": null,
+  "petXp": null,
+  "nextEnemyCode": "wisp",
+  "nextEnemyLevel": 623,
+  "nextEnemyHp": 6041,
+  "petAbility": "ポイズンLv.1",
+  "petChance": 85
+ },
+ {
+  "index": 118,
+  "seed": 2118,
+  "enemyCode": "prominence",
+  "field": "地獄",
+  "difficulty": "EXTREME",
+  "enemyLevel": 635,
+  "exp": 1270,
+  "gil": 212,
+  "drops": [],
+  "rewardLines": [
+   "< RESULT >",
+   "` 1270の経験値を獲得！",
+   "` 212のギルを獲得！"
+  ],
+  "updateLines": [
+   "+ テストは火の粉を習得した！",
+   "+ テストは電流を習得した！",
+   "+ テストが36にレベルアップした！"
+  ],
+  "playerLevel": 36,
+  "playerXp": 1333,
+  "playerGil": 212,
+  "playerMaxHp": 460,
+  "playerMaxMp": 80,
+  "playerHp": 460,
+  "playerSkills": [
+   "火の粉",
+   "電流"
+  ],
+  "playerEffects": [
+   "毒:1:5"
+  ],
+  "playerItems": [],
+  "petLevel": null,
+  "petXp": null,
+  "nextEnemyCode": "wisp",
+  "nextEnemyLevel": 636,
+  "nextEnemyHp": 7810,
+  "petAbility": "勇奮",
+  "petChance": 92
+ },
+ {
+  "index": 119,
+  "seed": 2119,
+  "enemyCode": "larva",
+  "field": "遺跡",
+  "difficulty": "LUNATIC",
+  "enemyLevel": 648,
+  "exp": 2138,
+  "gil": 216,
+  "drops": [
+   "p:1"
+  ],
+  "rewardLines": [
+   "< RESULT >",
+   "` 2138の経験値を獲得！",
+   "` 216のギルを獲得！",
+   "` ポーションを手に入れた！"
+  ],
+  "updateLines": [
+   "+ テストは火の粉を習得した！",
+   "+ テストは電流を習得した！",
+   "+ テストは淡い光を習得した！",
+   "+ テストは儚い闇を習得した！",
+   "+ テストが52にレベルアップした！"
+  ],
+  "playerLevel": 52,
+  "playerXp": 2762,
+  "playerGil": 216,
+  "playerMaxHp": 620,
+  "playerMaxMp": 115,
+  "playerHp": 620,
+  "playerSkills": [
+   "火の粉",
+   "電流",
+   "淡い光",
+   "儚い闇"
+  ],
+  "playerEffects": [
+   "毒:1:5"
+  ],
+  "playerItems": [
+   "p:1"
+  ],
+  "petLevel": null,
+  "petXp": null,
+  "nextEnemyCode": "matango",
+  "nextEnemyLevel": 649,
+  "nextEnemyHp": 29064,
+  "petAbility": "勇奮",
+  "petChance": 21
+ },
+ {
+  "index": 120,
+  "seed": 2120,
+  "enemyCode": "maiden",
+  "field": "遺跡",
+  "difficulty": "NORMAL",
+  "enemyLevel": 661,
+  "exp": 873,
+  "gil": 220,
+  "drops": [],
+  "rewardLines": [
+   "< RESULT >",
+   "` 873の経験値を獲得！",
+   "` 220のギルを獲得！"
+  ],
+  "updateLines": [
+   "+ テストは火の粉を習得した！",
+   "+ テストは電流を習得した！",
+   "+ テストは淡い光を習得した！",
+   "+ テストは儚い闇を習得した！",
+   "+ テストが51にレベルアップした！",
+   "+ ペット120が29にレベルアップした！"
+  ],
+  "playerLevel": 51,
+  "playerXp": 2636,
+  "playerGil": 220,
+  "playerMaxHp": 610,
+  "playerMaxMp": 113,
+  "playerHp": 610,
+  "playerSkills": [
+   "火の粉",
+   "電流",
+   "淡い光",
+   "儚い闇"
+  ],
+  "playerEffects": [
+   "毒:1:5"
+  ],
+  "playerItems": [],
+  "petLevel": 29,
+  "petXp": 873,
+  "nextEnemyCode": "egg",
+  "nextEnemyLevel": 662,
+  "nextEnemyHp": 13290,
+  "petAbility": "不動",
+  "petChance": 62
+ },
+ {
+  "index": 121,
+  "seed": 2121,
+  "enemyCode": "knight",
+  "field": "遺跡",
+  "difficulty": "HARD",
+  "enemyLevel": 674,
+  "exp": 1068,
+  "gil": 225,
+  "drops": [],
+  "rewardLines": [
+   "< RESULT >",
+   "` 1068の経験値を獲得！",
+   "` 225のギルを獲得！"
+  ],
+  "updateLines": [
+   "+ テストは火の粉を習得した！",
+   "+ テストは電流を習得した！",
+   "+ テストは淡い光を習得した！",
+   "+ テストは儚い闇を習得した！",
+   "+ テストが67にレベルアップした！"
+  ],
+  "playerLevel": 67,
+  "playerXp": 4548,
+  "playerGil": 225,
+  "playerMaxHp": 770,
+  "playerMaxMp": 149,
+  "playerHp": 770,
+  "playerSkills": [
+   "火の粉",
+   "電流",
+   "淡い光",
+   "儚い闇"
+  ],
+  "playerEffects": [
+   "毒:1:5"
+  ],
+  "playerItems": [],
+  "petLevel": null,
+  "petXp": null,
+  "nextEnemyCode": "anaconda",
+  "nextEnemyLevel": 675,
+  "nextEnemyHp": 8160,
+  "petAbility": "英雄",
+  "petChance": 70
+ },
+ {
+  "index": 122,
+  "seed": 2122,
+  "enemyCode": "oboro",
+  "field": "冥界",
+  "difficulty": "EXTREME",
+  "enemyLevel": 687,
+  "exp": 1374,
+  "gil": 229,
+  "drops": [],
+  "rewardLines": [
+   "< RESULT >",
+   "` 1374の経験値を獲得！",
+   "` 229のギルを獲得！"
+  ],
+  "updateLines": [
+   "+ テストは火の粉を習得した！",
+   "+ テストは電流を習得した！",
+   "+ テストは淡い光を習得した！",
+   "+ テストは儚い闇を習得した！",
+   "+ テストが84にレベルアップした！"
+  ],
+  "playerLevel": 84,
+  "playerXp": 7149,
+  "playerGil": 229,
+  "playerMaxHp": 940,
+  "playerMaxMp": 186,
+  "playerHp": 940,
+  "playerSkills": [
+   "火の粉",
+   "電流",
+   "淡い光",
+   "儚い闇"
+  ],
+  "playerEffects": [
+   "毒:1:5"
+  ],
+  "playerItems": [],
+  "petLevel": null,
+  "petXp": null,
+  "nextEnemyCode": "ghost",
+  "nextEnemyLevel": 688,
+  "nextEnemyHp": 10534,
+  "petAbility": "勇奮",
+  "petChance": 73
+ },
+ {
+  "index": 123,
+  "seed": 2123,
+  "enemyCode": "killer",
+  "field": "遺跡",
+  "difficulty": "LUNATIC",
+  "enemyLevel": 700,
+  "exp": 2310,
+  "gil": 233,
+  "drops": [],
+  "rewardLines": [
+   "< RESULT >",
+   "` 2310の経験値を獲得！",
+   "` 233のギルを獲得！"
+  ],
+  "updateLines": [
+   "+ テストは火の粉を習得した！",
+   "+ テストは電流を習得した！",
+   "+ テストは淡い光を習得した！",
+   "+ テストは儚い闇を習得した！",
+   "+ テストはブレイブを習得した！",
+   "+ テストはプロテを習得した！",
+   "+ テストが104にレベルアップした！"
+  ],
+  "playerLevel": 104,
+  "playerXp": 10958,
+  "playerGil": 233,
+  "playerMaxHp": 1140,
+  "playerMaxMp": 231,
+  "playerHp": 1140,
+  "playerSkills": [
+   "火の粉",
+   "電流",
+   "淡い光",
+   "儚い闇",
+   "ブレイブ",
+   "プロテ"
+  ],
+  "playerEffects": [
+   "毒:1:5"
+  ],
+  "playerItems": [],
+  "petLevel": null,
+  "petXp": null,
+  "nextEnemyCode": "anaconda",
+  "nextEnemyLevel": 701,
+  "nextEnemyHp": 31375,
+  "petAbility": "荒くれ",
+  "petChance": 60
+ },
+ {
+  "index": 124,
+  "seed": 2124,
+  "enemyCode": "bahamut",
+  "field": "竜洞",
+  "difficulty": "NORMAL",
+  "enemyLevel": 713,
+  "exp": 7130,
+  "gil": 238,
+  "drops": [],
+  "rewardLines": [
+   "< RESULT >",
+   "` 7130の経験値を獲得！",
+   "` 238のギルを獲得！"
+  ],
+  "updateLines": [
+   "+ テストは火の粉を習得した！",
+   "+ テストは電流を習得した！",
+   "+ テストは淡い光を習得した！",
+   "+ テストは儚い闇を習得した！",
+   "+ テストはブレイブを習得した！",
+   "+ テストはプロテを習得した！",
+   "+ テストが138にレベルアップした！",
+   "+ ペット124が84にレベルアップした！"
+  ],
+  "playerLevel": 138,
+  "playerXp": 19229,
+  "playerGil": 238,
+  "playerMaxHp": 1480,
+  "playerMaxMp": 306,
+  "playerHp": 1480,
+  "playerSkills": [
+   "火の粉",
+   "電流",
+   "淡い光",
+   "儚い闇",
+   "ブレイブ",
+   "プロテ"
+  ],
+  "playerEffects": [
+   "毒:1:5"
+  ],
+  "playerItems": [],
+  "petLevel": 84,
+  "petXp": 7130,
+  "nextEnemyCode": "salamander",
+  "nextEnemyLevel": 714,
+  "nextEnemyHp": 6119,
+  "petAbility": "不動",
+  "petChance": 67
+ },
+ {
+  "index": 125,
+  "seed": 2125,
+  "enemyCode": "coatl",
+  "field": "竜洞",
+  "difficulty": "HARD",
+  "enemyLevel": 726,
+  "exp": 8712,
+  "gil": 242,
+  "drops": [],
+  "rewardLines": [
+   "< RESULT >",
+   "` 8712の経験値を獲得！",
+   "` 242のギルを獲得！"
+  ],
+  "updateLines": [
+   "+ テストは火の粉を習得した！",
+   "+ テストは電流を習得した！",
+   "+ テストは淡い光を習得した！",
+   "+ テストは儚い闇を習得した！",
+   "+ テストはブレイブを習得した！",
+   "+ テストはプロテを習得した！",
+   "+ テストが157にレベルアップした！"
+  ],
+  "playerLevel": 157,
+  "playerXp": 24840,
+  "playerGil": 242,
+  "playerMaxHp": 1670,
+  "playerMaxMp": 349,
+  "playerHp": 1670,
+  "playerSkills": [
+   "火の粉",
+   "電流",
+   "淡い光",
+   "儚い闇",
+   "ブレイブ",
+   "プロテ"
+  ],
+  "playerEffects": [
+   "毒:1:5"
+  ],
+  "playerItems": [],
+  "petLevel": null,
+  "petXp": null,
+  "nextEnemyCode": "zombie",
+  "nextEnemyLevel": 727,
+  "nextEnemyHp": 38446,
+  "petAbility": "英雄",
+  "petChance": 71
+ },
+ {
+  "index": 126,
+  "seed": 2126,
+  "enemyCode": "twins",
+  "field": "竜洞",
+  "difficulty": "EXTREME",
+  "enemyLevel": 739,
+  "exp": 11824,
+  "gil": 246,
+  "drops": [],
+  "rewardLines": [
+   "< RESULT >",
+   "` 11824の経験値を獲得！",
+   "` 246のギルを獲得！"
+  ],
+  "updateLines": [
+   "+ テストは火の粉を習得した！",
+   "+ テストは電流を習得した！",
+   "+ テストは淡い光を習得した！",
+   "+ テストは儚い闇を習得した！",
+   "+ テストはブレイブを習得した！",
+   "+ テストはプロテを習得した！",
+   "+ テストが180にレベルアップした！"
+  ],
+  "playerLevel": 180,
+  "playerXp": 32559,
+  "playerGil": 246,
+  "playerMaxHp": 1900,
+  "playerMaxMp": 400,
+  "playerHp": 1900,
+  "playerSkills": [
+   "火の粉",
+   "電流",
+   "淡い光",
+   "儚い闇",
+   "ブレイブ",
+   "プロテ"
+  ],
+  "playerEffects": [
+   "毒:1:5"
+  ],
+  "playerItems": [],
+  "petLevel": null,
+  "petXp": null,
+  "nextEnemyCode": "egg",
+  "nextEnemyLevel": 740,
+  "nextEnemyHp": 22572,
+  "petAbility": "EXポイズンLv.3",
+  "petChance": 56
+ },
+ {
+  "index": 127,
+  "seed": 2127,
+  "enemyCode": "dinosaur",
+  "field": "竜洞",
+  "difficulty": "LUNATIC",
+  "enemyLevel": 752,
+  "exp": 18800,
+  "gil": 251,
+  "drops": [],
+  "rewardLines": [
+   "< RESULT >",
+   "` 18800の経験値を獲得！",
+   "` 251のギルを獲得！"
+  ],
+  "updateLines": [
+   "+ テストは火の粉を習得した！",
+   "+ テストは電流を習得した！",
+   "+ テストは淡い光を習得した！",
+   "+ テストは儚い闇を習得した！",
+   "+ テストはブレイブを習得した！",
+   "+ テストはプロテを習得した！",
+   "+ テストはフレアを習得した！",
+   "+ テストはザップを習得した！",
+   "+ テストはアクアを習得した！",
+   "+ テストが211にレベルアップした！"
+  ],
+  "playerLevel": 211,
+  "playerXp": 44720,
+  "playerGil": 251,
+  "playerMaxHp": 2210,
+  "playerMaxMp": 468,
+  "playerHp": 2210,
+  "playerSkills": [
+   "火の粉",
+   "電流",
+   "淡い光",
+   "儚い闇",
+   "ブレイブ",
+   "プロテ",
+   "フレア",
+   "ザップ",
+   "アクア"
+  ],
+  "playerEffects": [
+   "毒:1:5"
+  ],
+  "playerItems": [],
+  "petLevel": null,
+  "petXp": null,
+  "nextEnemyCode": "coatl",
+  "nextEnemyLevel": 753,
+  "nextEnemyHp": 83881,
+  "petAbility": "不動",
+  "petChance": 28
+ },
+ {
+  "index": 128,
+  "seed": 2128,
+  "enemyCode": "skull",
+  "field": "竜洞",
+  "difficulty": "NORMAL",
+  "enemyLevel": 765,
+  "exp": 7650,
+  "gil": 255,
+  "drops": [],
+  "rewardLines": [
+   "< RESULT >",
+   "` 7650の経験値を獲得！",
+   "` 255のギルを獲得！"
+  ],
+  "updateLines": [
+   "+ テストは火の粉を習得した！",
+   "+ テストは電流を習得した！",
+   "+ テストは淡い光を習得した！",
+   "+ テストは儚い闇を習得した！",
+   "+ テストはブレイブを習得した！",
+   "+ テストはプロテを習得した！",
+   "+ テストが198にレベルアップした！",
+   "+ ペット128が87にレベルアップした！"
+  ],
+  "playerLevel": 198,
+  "playerXp": 39333,
+  "playerGil": 255,
+  "playerMaxHp": 2080,
+  "playerMaxMp": 440,
+  "playerHp": 2080,
+  "playerSkills": [
+   "火の粉",
+   "電流",
+   "淡い光",
+   "儚い闇",
+   "ブレイブ",
+   "プロテ"
+  ],
+  "playerEffects": [
+   "毒:1:5"
+  ],
+  "playerItems": [],
+  "petLevel": 87,
+  "petXp": 7650,
+  "nextEnemyCode": "fog",
+  "nextEnemyLevel": 766,
+  "nextEnemyHp": 6178,
+  "petAbility": "荒くれ",
+  "petChance": 93
+ },
+ {
+  "index": 129,
+  "seed": 2129,
+  "enemyCode": "zombie",
+  "field": "竜洞",
+  "difficulty": "HARD",
+  "enemyLevel": 778,
+  "exp": 9336,
+  "gil": 259,
+  "drops": [],
+  "rewardLines": [
+   "< RESULT >",
+   "` 9336の経験値を獲得！",
+   "` 259のギルを獲得！"
+  ],
+  "updateLines": [
+   "+ テストは火の粉を習得した！",
+   "+ テストは電流を習得した！",
+   "+ テストは淡い光を習得した！",
+   "+ テストは儚い闇を習得した！",
+   "+ テストはブレイブを習得した！",
+   "+ テストはプロテを習得した！",
+   "+ テストはフレアを習得した！",
+   "+ テストはザップを習得した！",
+   "+ テストはアクアを習得した！",
+   "+ テストが217にレベルアップした！"
+  ],
+  "playerLevel": 217,
+  "playerXp": 47360,
+  "playerGil": 259,
+  "playerMaxHp": 2270,
+  "playerMaxMp": 482,
+  "playerHp": 2270,
+  "playerSkills": [
+   "火の粉",
+   "電流",
+   "淡い光",
+   "儚い闇",
+   "ブレイブ",
+   "プロテ",
+   "フレア",
+   "ザップ",
+   "アクア"
+  ],
+  "playerEffects": [
+   "毒:1:5"
+  ],
+  "playerItems": [],
+  "petLevel": null,
+  "petXp": null,
+  "nextEnemyCode": "hydra",
+  "nextEnemyLevel": 779,
+  "nextEnemyHp": 11465,
+  "petAbility": "不動",
+  "petChance": 37
+ },
+ {
+  "index": 130,
+  "seed": 2130,
+  "enemyCode": "u-seed",
+  "field": "草原",
+  "difficulty": "EXTREME",
+  "enemyLevel": 791,
+  "exp": 24046,
+  "gil": 264,
+  "drops": [],
+  "rewardLines": [
+   "< RESULT >",
+   "` 24046の経験値を獲得！",
+   "` 264のギルを獲得！"
+  ],
+  "updateLines": [
+   "+ テストは火の粉を習得した！",
+   "+ テストは電流を習得した！",
+   "+ テストは淡い光を習得した！",
+   "+ テストは儚い闇を習得した！",
+   "+ テストはブレイブを習得した！",
+   "+ テストはプロテを習得した！",
+   "+ テストが155にレベルアップした！"
+  ],
+  "playerLevel": 155,
+  "playerXp": 24189,
+  "playerGil": 264,
+  "playerMaxHp": 1650,
+  "playerMaxMp": 344,
+  "playerHp": 1650,
+  "playerSkills": [
+   "火の粉",
+   "電流",
+   "淡い光",
+   "儚い闇",
+   "ブレイブ",
+   "プロテ"
+  ],
+  "playerEffects": [
+   "毒:1:5"
+  ],
+  "playerItems": [],
+  "petLevel": null,
+  "petXp": null,
+  "nextEnemyCode": "imomushi",
+  "nextEnemyLevel": 792,
+  "nextEnemyHp": 19337,
+  "petAbility": "EXポイズンLv.3",
+  "petChance": 62
+ },
+ {
+  "index": 131,
+  "seed": 2131,
+  "enemyCode": "s-grass",
+  "field": "草原",
+  "difficulty": "LUNATIC",
+  "enemyLevel": 804,
+  "exp": 38190,
+  "gil": 268,
+  "drops": [],
+  "rewardLines": [
+   "< RESULT >",
+   "` 38190の経験値を獲得！",
+   "` 268のギルを獲得！"
+  ],
+  "updateLines": [
+   "+ テストは火の粉を習得した！",
+   "+ テストは電流を習得した！",
+   "+ テストは淡い光を習得した！",
+   "+ テストは儚い闇を習得した！",
+   "+ テストはブレイブを習得した！",
+   "+ テストはプロテを習得した！",
+   "+ テストが197にレベルアップした！"
+  ],
+  "playerLevel": 197,
+  "playerXp": 39030,
+  "playerGil": 268,
+  "playerMaxHp": 2070,
+  "playerMaxMp": 437,
+  "playerHp": 2070,
+  "playerSkills": [
+   "火の粉",
+   "電流",
+   "淡い光",
+   "儚い闇",
+   "ブレイブ",
+   "プロテ"
+  ],
+  "playerEffects": [
+   "毒:1:5"
+  ],
+  "playerItems": [],
+  "petLevel": null,
+  "petXp": null,
+  "nextEnemyCode": "anaconda",
+  "nextEnemyLevel": 805,
+  "nextEnemyHp": 35996,
+  "petAbility": "勇奮",
+  "petChance": 93
+ },
+ {
+  "index": 132,
+  "seed": 2132,
+  "enemyCode": "s-sasori",
+  "field": "峡谷",
+  "difficulty": "NORMAL",
+  "enemyLevel": 817,
+  "exp": 17157,
+  "gil": 272,
+  "drops": [],
+  "rewardLines": [
+   "< RESULT >",
+   "` 17157の経験値を獲得！",
+   "` 272のギルを獲得！"
+  ],
+  "updateLines": [
+   "+ テストは火の粉を習得した！",
+   "+ テストは電流を習得した！",
+   "+ テストは淡い光を習得した！",
+   "+ テストは儚い闇を習得した！",
+   "+ テストはブレイブを習得した！",
+   "+ テストはプロテを習得した！",
+   "+ テストが138にレベルアップした！",
+   "+ ペット132が130にレベルアップした！"
+  ],
+  "playerLevel": 138,
+  "playerXp": 19272,
+  "playerGil": 272,
+  "playerMaxHp": 1480,
+  "playerMaxMp": 306,
+  "playerHp": 1480,
+  "playerSkills": [
+   "火の粉",
+   "電流",
+   "淡い光",
+   "儚い闇",
+   "ブレイブ",
+   "プロテ"
+  ],
+  "playerEffects": [
+   "毒:1:5"
+  ],
+  "playerItems": [],
+  "petLevel": 130,
+  "petXp": 17157,
+  "nextEnemyCode": "mudhand",
+  "nextEnemyLevel": 818,
+  "nextEnemyHp": 9866,
+  "petAbility": "ポイズンLv.1",
+  "petChance": 63
+ },
+ {
+  "index": 133,
+  "seed": 2133,
+  "enemyCode": "h-moss",
+  "field": "草原",
+  "difficulty": "HARD",
+  "enemyLevel": 830,
+  "exp": 18924,
+  "gil": 277,
+  "drops": [],
+  "rewardLines": [
+   "< RESULT >",
+   "` 18924の経験値を獲得！",
+   "` 277のギルを獲得！"
+  ],
+  "updateLines": [
+   "+ テストは火の粉を習得した！",
+   "+ テストは電流を習得した！",
+   "+ テストは淡い光を習得した！",
+   "+ テストは儚い闇を習得した！",
+   "+ テストはブレイブを習得した！",
+   "+ テストはプロテを習得した！",
+   "+ テストが151にレベルアップした！"
+  ],
+  "playerLevel": 151,
+  "playerXp": 22892,
+  "playerGil": 277,
+  "playerMaxHp": 1610,
+  "playerMaxMp": 335,
+  "playerHp": 1610,
+  "playerSkills": [
+   "火の粉",
+   "電流",
+   "淡い光",
+   "儚い闇",
+   "ブレイブ",
+   "プロテ"
+  ],
+  "playerEffects": [
+   "毒:1:5"
+  ],
+  "playerItems": [],
+  "petLevel": null,
+  "petXp": null,
+  "nextEnemyCode": "grass",
+  "nextEnemyLevel": 831,
+  "nextEnemyHp": 14420,
+  "petAbility": "勇奮",
+  "petChance": 54
+ },
+ {
+  "index": 134,
+  "seed": 2134,
+  "enemyCode": "y-cherry",
+  "field": "秘境",
+  "difficulty": "EXTREME",
+  "enemyLevel": 843,
+  "exp": 35608,
+  "gil": 5620,
+  "drops": [],
+  "rewardLines": [
+   "< RESULT >",
+   "` 35608の経験値を獲得！",
+   "` 5620のギルを獲得！"
+  ],
+  "updateLines": [
+   "+ テストは火の粉を習得した！",
+   "+ テストは電流を習得した！",
+   "+ テストは淡い光を習得した！",
+   "+ テストは儚い闇を習得した！",
+   "+ テストはブレイブを習得した！",
+   "+ テストはプロテを習得した！",
+   "+ テストはフレアを習得した！",
+   "+ テストはザップを習得した！",
+   "+ テストはアクアを習得した！",
+   "+ テストが204にレベルアップした！"
+  ],
+  "playerLevel": 204,
+  "playerXp": 42007,
+  "playerGil": 5620,
+  "playerMaxHp": 2140,
+  "playerMaxMp": 453,
+  "playerHp": 2140,
+  "playerSkills": [
+   "火の粉",
+   "電流",
+   "淡い光",
+   "儚い闇",
+   "ブレイブ",
+   "プロテ",
+   "フレア",
+   "ザップ",
+   "アクア"
+  ],
+  "playerEffects": [
+   "毒:1:5"
+  ],
+  "playerItems": [],
+  "petLevel": null,
+  "petXp": null,
+  "nextEnemyCode": "mudhand",
+  "nextEnemyLevel": 844,
+  "nextEnemyHp": 15471,
+  "petAbility": "勇奮",
+  "petChance": 64
+ },
+ {
+  "index": 135,
+  "seed": 2135,
+  "enemyCode": "d-uroboros",
+  "field": "毒沼",
+  "difficulty": "LUNATIC",
+  "enemyLevel": 856,
+  "exp": 49220,
+  "gil": 285,
+  "drops": [],
+  "rewardLines": [
+   "< RESULT >",
+   "` 49220の経験値を獲得！",
+   "` 285のギルを獲得！"
+  ],
+  "updateLines": [
+   "+ テストは火の粉を習得した！",
+   "+ テストは電流を習得した！",
+   "+ テストは淡い光を習得した！",
+   "+ テストは儚い闇を習得した！",
+   "+ テストはブレイブを習得した！",
+   "+ テストはプロテを習得した！",
+   "+ テストはフレアを習得した！",
+   "+ テストはザップを習得した！",
+   "+ テストはアクアを習得した！",
+   "+ テストが242にレベルアップした！"
+  ],
+  "playerLevel": 242,
+  "playerXp": 58628,
+  "playerGil": 285,
+  "playerMaxHp": 2520,
+  "playerMaxMp": 537,
+  "playerHp": 2520,
+  "playerSkills": [
+   "火の粉",
+   "電流",
+   "淡い光",
+   "儚い闇",
+   "ブレイブ",
+   "プロテ",
+   "フレア",
+   "ザップ",
+   "アクア"
+  ],
+  "playerEffects": [
+   "毒:1:5"
+  ],
+  "playerItems": [],
+  "petLevel": null,
+  "petXp": null,
+  "nextEnemyCode": "fog",
+  "nextEnemyLevel": 857,
+  "nextEnemyHp": 30690,
+  "petAbility": "荒くれ",
+  "petChance": 44
+ },
+ {
+  "index": 136,
+  "seed": 2136,
+  "enemyCode": "soh-cube",
+  "field": "地獄",
+  "difficulty": "NORMAL",
+  "enemyLevel": 869,
+  "exp": 21725,
+  "gil": 5800,
+  "drops": [
+   "t:1"
+  ],
+  "rewardLines": [
+   "< RESULT >",
+   "` 21725の経験値を獲得！",
+   "` 5800のギルを獲得！",
+   "` エーテルを手に入れた！"
+  ],
+  "updateLines": [
+   "+ テストは火の粉を習得した！",
+   "+ テストは電流を習得した！",
+   "+ テストは淡い光を習得した！",
+   "+ テストは儚い闇を習得した！",
+   "+ テストはブレイブを習得した！",
+   "+ テストはプロテを習得した！",
+   "+ テストが186にレベルアップした！",
+   "+ ペット136が147にレベルアップした！"
+  ],
+  "playerLevel": 186,
+  "playerXp": 34720,
+  "playerGil": 5800,
+  "playerMaxHp": 1960,
+  "playerMaxMp": 413,
+  "playerHp": 1960,
+  "playerSkills": [
+   "火の粉",
+   "電流",
+   "淡い光",
+   "儚い闇",
+   "ブレイブ",
+   "プロテ"
+  ],
+  "playerEffects": [
+   "毒:1:5"
+  ],
+  "playerItems": [
+   "t:1"
+  ],
+  "petLevel": 147,
+  "petXp": 21725,
+  "nextEnemyCode": "hydra",
+  "nextEnemyLevel": 870,
+  "nextEnemyHp": 10664,
+  "petAbility": "ポイズンLv.2",
+  "petChance": 48
+ },
+ {
+  "index": 137,
+  "seed": 2137,
+  "enemyCode": "yeti",
+  "field": "氷原",
+  "difficulty": "HARD",
+  "enemyLevel": 882,
+  "exp": 20110,
+  "gil": 294,
+  "drops": [],
+  "rewardLines": [
+   "< RESULT >",
+   "` 20110の経験値を獲得！",
+   "` 294のギルを獲得！"
+  ],
+  "updateLines": [
+   "+ テストは火の粉を習得した！",
+   "+ テストは電流を習得した！",
+   "+ テストは淡い光を習得した！",
+   "+ テストは儚い闇を習得した！",
+   "+ テストはブレイブを習得した！",
+   "+ テストはプロテを習得した！",
+   "+ テストが193にレベルアップした！"
+  ],
+  "playerLevel": 193,
+  "playerXp": 37270,
+  "playerGil": 294,
+  "playerMaxHp": 2030,
+  "playerMaxMp": 428,
+  "playerHp": 2030,
+  "playerSkills": [
+   "火の粉",
+   "電流",
+   "淡い光",
+   "儚い闇",
+   "ブレイブ",
+   "プロテ"
+  ],
+  "playerEffects": [
+   "毒:1:5"
+  ],
+  "playerItems": [],
+  "petLevel": null,
+  "petXp": null,
+  "nextEnemyCode": "yadokari",
+  "nextEnemyLevel": 883,
+  "nextEnemyHp": 12775,
+  "petAbility": "不動",
+  "petChance": 91
+ },
+ {
+  "index": 138,
+  "seed": 2138,
+  "enemyCode": "well",
+  "field": "沼",
+  "difficulty": "EXTREME",
+  "enemyLevel": 895,
+  "exp": 31504,
+  "gil": 298,
+  "drops": [],
+  "rewardLines": [
+   "< RESULT >",
+   "` 31504の経験値を獲得！",
+   "` 298のギルを獲得！"
+  ],
+  "updateLines": [
+   "+ テストは火の粉を習得した！",
+   "+ テストは電流を習得した！",
+   "+ テストは淡い光を習得した！",
+   "+ テストは儚い闇を習得した！",
+   "+ テストはブレイブを習得した！",
+   "+ テストはプロテを習得した！",
+   "+ テストはフレアを習得した！",
+   "+ テストはザップを習得した！",
+   "+ テストはアクアを習得した！",
+   "+ テストが231にレベルアップした！"
+  ],
+  "playerLevel": 231,
+  "playerXp": 53407,
+  "playerGil": 298,
+  "playerMaxHp": 2410,
+  "playerMaxMp": 513,
+  "playerHp": 2410,
+  "playerSkills": [
+   "火の粉",
+   "電流",
+   "淡い光",
+   "儚い闇",
+   "ブレイブ",
+   "プロテ",
+   "フレア",
+   "ザップ",
+   "アクア"
+  ],
+  "playerEffects": [
+   "毒:1:5"
+  ],
+  "playerItems": [],
+  "petLevel": null,
+  "petXp": null,
+  "nextEnemyCode": "uroboros",
+  "nextEnemyLevel": 896,
+  "nextEnemyHp": 13695,
+  "petAbility": "不動",
+  "petChance": 79
+ },
+ {
+  "index": 139,
+  "seed": 2139,
+  "enemyCode": "delta",
+  "field": "遺跡",
+  "difficulty": "LUNATIC",
+  "enemyLevel": 8,
+  "exp": 26,
+  "gil": 3,
+  "drops": [],
+  "rewardLines": [
+   "< RESULT >",
+   "` 26の経験値を獲得！",
+   "` 3のギルを獲得！"
+  ],
+  "updateLines": [
+   "+ テストは火の粉を習得した！",
+   "+ テストは電流を習得した！",
+   "+ テストは淡い光を習得した！",
+   "+ テストは儚い闇を習得した！",
+   "+ テストはブレイブを習得した！",
+   "+ テストはプロテを習得した！",
+   "+ テストが165にレベルアップした！"
+  ],
+  "playerLevel": 165,
+  "playerXp": 27250,
+  "playerGil": 3,
+  "playerMaxHp": 1750,
+  "playerMaxMp": 366,
+  "playerHp": 1750,
+  "playerSkills": [
+   "火の粉",
+   "電流",
+   "淡い光",
+   "儚い闇",
+   "ブレイブ",
+   "プロテ"
+  ],
+  "playerEffects": [
+   "毒:1:5"
+  ],
+  "playerItems": [],
+  "petLevel": null,
+  "petXp": null,
+  "nextEnemyCode": "rat",
+  "nextEnemyLevel": 9,
+  "nextEnemyHp": 702,
+  "petAbility": "ポイズンLv.2",
+  "petChance": 89
+ },
+ {
+  "index": 140,
+  "seed": 2140,
+  "enemyCode": "delta2nd",
+  "field": "草原",
+  "difficulty": "NORMAL",
+  "enemyLevel": 21,
+  "exp": 798,
+  "gil": 7,
+  "drops": [],
+  "rewardLines": [
+   "< RESULT >",
+   "` 798の経験値を獲得！",
+   "` 7のギルを獲得！"
+  ],
+  "updateLines": [
+   "+ テストは火の粉を習得した！",
+   "+ テストは電流を習得した！",
+   "+ テストは淡い光を習得した！",
+   "+ テストは儚い闇を習得した！",
+   "+ テストはブレイブを習得した！",
+   "+ テストはプロテを習得した！",
+   "+ テストが184にレベルアップした！",
+   "+ ペット140が28にレベルアップした！"
+  ],
+  "playerLevel": 184,
+  "playerXp": 33921,
+  "playerGil": 7,
+  "playerMaxHp": 1940,
+  "playerMaxMp": 408,
+  "playerHp": 1940,
+  "playerSkills": [
+   "火の粉",
+   "電流",
+   "淡い光",
+   "儚い闇",
+   "ブレイブ",
+   "プロテ"
+  ],
+  "playerEffects": [
+   "毒:1:5"
+  ],
+  "playerItems": [],
+  "petLevel": 28,
+  "petXp": 798,
+  "nextEnemyCode": "thorn",
+  "nextEnemyLevel": 22,
+  "nextEnemyHp": 226,
+  "petAbility": "チェーン",
+  "petChance": 26
+ },
+ {
+  "index": 141,
+  "seed": 2141,
+  "enemyCode": "mimic",
+  "field": "草原",
+  "difficulty": "HARD",
+  "enemyLevel": 34,
+  "exp": 39,
+  "gil": 2200,
+  "drops": [],
+  "rewardLines": [
+   "< RESULT >",
+   "` 39の経験値を獲得！",
+   "` 2200のギルを獲得！"
+  ],
+  "updateLines": [
+   "+ テストは火の粉を習得した！",
+   "+ テストは電流を習得した！",
+   "+ テストは淡い光を習得した！",
+   "+ テストは儚い闇を習得した！",
+   "+ テストはブレイブを習得した！",
+   "+ テストはプロテを習得した！",
+   "+ テストが199にレベルアップした！"
+  ],
+  "playerLevel": 199,
+  "playerXp": 39639,
+  "playerGil": 2200,
+  "playerMaxHp": 2090,
+  "playerMaxMp": 442,
+  "playerHp": 2090,
+  "playerSkills": [
+   "火の粉",
+   "電流",
+   "淡い光",
+   "儚い闇",
+   "ブレイブ",
+   "プロテ"
+  ],
+  "playerEffects": [
+   "毒:1:5"
+  ],
+  "playerItems": [],
+  "petLevel": null,
+  "petXp": null,
+  "nextEnemyCode": "matango",
+  "nextEnemyLevel": 35,
+  "nextEnemyHp": 480,
+  "petAbility": "チェーン",
+  "petChance": 38
+ },
+ {
+  "index": 142,
+  "seed": 2142,
+  "enemyCode": "mirror",
+  "field": "毒沼",
+  "difficulty": "EXTREME",
+  "enemyLevel": 47,
+  "exp": 69,
+  "gil": 13,
+  "drops": [],
+  "rewardLines": [
+   "< RESULT >",
+   "` 69の経験値を獲得！",
+   "` 13のギルを獲得！"
+  ],
+  "updateLines": [
+   "+ テストが18にレベルアップした！"
+  ],
+  "playerLevel": 18,
+  "playerXp": 324,
+  "playerGil": 13,
+  "playerMaxHp": 280,
+  "playerMaxMp": 40,
+  "playerHp": 280,
+  "playerSkills": [],
+  "playerEffects": [
+   "毒:1:5"
+  ],
+  "playerItems": [],
+  "petLevel": null,
+  "petXp": null,
+  "nextEnemyCode": "charon",
+  "nextEnemyLevel": 48,
+  "nextEnemyHp": 879,
+  "petAbility": "ポイズンLv.2",
+  "petChance": 64
+ },
+ {
+  "index": 143,
+  "seed": 2143,
+  "enemyCode": "cicero",
+  "field": "草原",
+  "difficulty": "LUNATIC",
+  "enemyLevel": 60,
+  "exp": 12113,
+  "gil": 1000,
+  "drops": [
+   "p:20",
+   "t:20",
+   "e:5"
+  ],
+  "rewardLines": [
+   "< RESULT >",
+   "` 12113の経験値を獲得！",
+   "` 1000のギルを獲得！",
+   "` ポーションを手に入れた！",
+   "` エーテルを手に入れた！",
+   "` エリクサーを手に入れた！"
+  ],
+  "updateLines": [
+   "+ テストは火の粉を習得した！",
+   "+ テストは電流を習得した！",
+   "+ テストは淡い光を習得した！",
+   "+ テストは儚い闇を習得した！",
+   "+ テストはブレイブを習得した！",
+   "+ テストはプロテを習得した！",
+   "+ テストが114にレベルアップした！"
+  ],
+  "playerLevel": 114,
+  "playerXp": 13201,
+  "playerGil": 1000,
+  "playerMaxHp": 1240,
+  "playerMaxMp": 253,
+  "playerHp": 1240,
+  "playerSkills": [
+   "火の粉",
+   "電流",
+   "淡い光",
+   "儚い闇",
+   "ブレイブ",
+   "プロテ"
+  ],
+  "playerEffects": [
+   "毒:1:5"
+  ],
+  "playerItems": [
+   "p:20",
+   "t:20",
+   "e:5"
+  ],
+  "petLevel": null,
+  "petXp": null,
+  "nextEnemyCode": "mimic",
+  "nextEnemyLevel": 61,
+  "nextEnemyHp": 2255,
+  "petAbility": "勇奮",
+  "petChance": 90
+ },
+ {
+  "index": 144,
+  "seed": 2144,
+  "enemyCode": "dullahan",
+  "field": "峡谷",
+  "difficulty": "NORMAL",
+  "enemyLevel": 73,
+  "exp": 7665,
+  "gil": 1920,
+  "drops": [
+   "p:20",
+   "t:20",
+   "e:5"
+  ],
+  "rewardLines": [
+   "< RESULT >",
+   "` 7665の経験値を獲得！",
+   "` 1920のギルを獲得！",
+   "` ポーションを手に入れた！",
+   "` エーテルを手に入れた！",
+   "` エリクサーを手に入れた！"
+  ],
+  "updateLines": [
+   "+ テストは火の粉を習得した！",
+   "+ テストは電流を習得した！",
+   "+ テストは淡い光を習得した！",
+   "+ テストは儚い闇を習得した！",
+   "+ テストはブレイブを習得した！",
+   "+ テストはプロテを習得した！",
+   "+ テストが100にレベルアップした！",
+   "+ ペット144が87にレベルアップした！"
+  ],
+  "playerLevel": 100,
+  "playerXp": 10164,
+  "playerGil": 1920,
+  "playerMaxHp": 1100,
+  "playerMaxMp": 222,
+  "playerHp": 1100,
+  "playerSkills": [
+   "火の粉",
+   "電流",
+   "淡い光",
+   "儚い闇",
+   "ブレイブ",
+   "プロテ"
+  ],
+  "playerEffects": [
+   "毒:1:5"
+  ],
+  "playerItems": [
+   "p:20",
+   "t:20",
+   "e:5"
+  ],
+  "petLevel": 87,
+  "petXp": 7665,
+  "nextEnemyCode": "mudhand",
+  "nextEnemyLevel": 74,
+  "nextEnemyHp": 938,
+  "petAbility": "勇奮",
+  "petChance": 63
+ },
+ {
+  "index": 145,
+  "seed": 2145,
+  "enemyCode": "curst",
+  "field": "沼",
+  "difficulty": "HARD",
+  "enemyLevel": 86,
+  "exp": 11352,
+  "gil": 2320,
+  "drops": [
+   "p:20",
+   "t:20",
+   "e:5"
+  ],
+  "rewardLines": [
+   "< RESULT >",
+   "` 11352の経験値を獲得！",
+   "` 2320のギルを獲得！",
+   "` ポーションを手に入れた！",
+   "` エーテルを手に入れた！",
+   "` エリクサーを手に入れた！"
+  ],
+  "updateLines": [
+   "+ テストは火の粉を習得した！",
+   "+ テストは電流を習得した！",
+   "+ テストは淡い光を習得した！",
+   "+ テストは儚い闇を習得した！",
+   "+ テストはブレイブを習得した！",
+   "+ テストはプロテを習得した！",
+   "+ テストが125にレベルアップした！"
+  ],
+  "playerLevel": 125,
+  "playerXp": 15840,
+  "playerGil": 2320,
+  "playerMaxHp": 1350,
+  "playerMaxMp": 278,
+  "playerHp": 1350,
+  "playerSkills": [
+   "火の粉",
+   "電流",
+   "淡い光",
+   "儚い闇",
+   "ブレイブ",
+   "プロテ"
+  ],
+  "playerEffects": [
+   "毒:1:5"
+  ],
+  "playerItems": [
+   "p:20",
+   "t:20",
+   "e:5"
+  ],
+  "petLevel": null,
+  "petXp": null,
+  "nextEnemyCode": "mudhand",
+  "nextEnemyLevel": 87,
+  "nextEnemyHp": 1313,
+  "petAbility": "不動",
+  "petChance": 85
+ },
+ {
+  "index": 146,
+  "seed": 2146,
+  "enemyCode": "death",
+  "field": "毒沼",
+  "difficulty": "EXTREME",
+  "enemyLevel": 99,
+  "exp": 18216,
+  "gil": 2640,
+  "drops": [
+   "p:20",
+   "t:20",
+   "e:5"
+  ],
+  "rewardLines": [
+   "< RESULT >",
+   "` 18216の経験値を獲得！",
+   "` 2640のギルを獲得！",
+   "` ポーションを手に入れた！",
+   "` エーテルを手に入れた！",
+   "` エリクサーを手に入れた！"
+  ],
+  "updateLines": [
+   "+ テストは火の粉を習得した！",
+   "+ テストは電流を習得した！",
+   "+ テストは淡い光を習得した！",
+   "+ テストは儚い闇を習得した！",
+   "+ テストはブレイブを習得した！",
+   "+ テストはプロテを習得した！",
+   "+ テストが158にレベルアップした！"
+  ],
+  "playerLevel": 158,
+  "playerXp": 25271,
+  "playerGil": 2640,
+  "playerMaxHp": 1680,
+  "playerMaxMp": 351,
+  "playerHp": 1680,
+  "playerSkills": [
+   "火の粉",
+   "電流",
+   "淡い光",
+   "儚い闇",
+   "ブレイブ",
+   "プロテ"
+  ],
+  "playerEffects": [
+   "毒:1:5"
+  ],
+  "playerItems": [
+   "p:20",
+   "t:20",
+   "e:5"
+  ],
+  "petLevel": null,
+  "petXp": null,
+  "nextEnemyCode": "bomb",
+  "nextEnemyLevel": 100,
+  "nextEnemyHp": 3116,
+  "petAbility": "不動",
+  "petChance": 11
+ },
+ {
+  "index": 147,
+  "seed": 2147,
+  "enemyCode": "byakko",
+  "field": "草原",
+  "difficulty": "LUNATIC",
+  "enemyLevel": 112,
+  "exp": 26600,
+  "gil": 2960,
+  "drops": [
+   "p:20",
+   "t:20",
+   "e:5"
+  ],
+  "rewardLines": [
+   "< RESULT >",
+   "` 26600の経験値を獲得！",
+   "` 2960のギルを獲得！",
+   "` ポーションを手に入れた！",
+   "` エーテルを手に入れた！",
+   "` エリクサーを手に入れた！"
+  ],
+  "updateLines": [
+   "+ テストは火の粉を習得した！",
+   "+ テストは電流を習得した！",
+   "+ テストは淡い光を習得した！",
+   "+ テストは儚い闇を習得した！",
+   "+ テストはブレイブを習得した！",
+   "+ テストはプロテを習得した！",
+   "+ テストが191にレベルアップした！"
+  ],
+  "playerLevel": 191,
+  "playerXp": 36800,
+  "playerGil": 2960,
+  "playerMaxHp": 2010,
+  "playerMaxMp": 424,
+  "playerHp": 2010,
+  "playerSkills": [
+   "火の粉",
+   "電流",
+   "淡い光",
+   "儚い闇",
+   "ブレイブ",
+   "プロテ"
+  ],
+  "playerEffects": [
+   "毒:1:5"
+  ],
+  "playerItems": [
+   "p:20",
+   "t:20",
+   "e:5"
+  ],
+  "petLevel": null,
+  "petXp": null,
+  "nextEnemyCode": "moss",
+  "nextEnemyLevel": 113,
+  "nextEnemyHp": 6499,
+  "petAbility": "チェーン",
+  "petChance": 18
+ },
+ {
+  "index": 148,
+  "seed": 2148,
+  "enemyCode": "condor",
+  "field": "湖",
+  "difficulty": "NORMAL",
+  "enemyLevel": 125,
+  "exp": 15000,
+  "gil": 3360,
+  "drops": [
+   "p:20",
+   "t:20",
+   "e:5"
+  ],
+  "rewardLines": [
+   "< RESULT >",
+   "` 15000の経験値を獲得！",
+   "` 3360のギルを獲得！",
+   "` ポーションを手に入れた！",
+   "` エーテルを手に入れた！",
+   "` エリクサーを手に入れた！"
+  ],
+  "updateLines": [
+   "+ テストは火の粉を習得した！",
+   "+ テストは電流を習得した！",
+   "+ テストは淡い光を習得した！",
+   "+ テストは儚い闇を習得した！",
+   "+ テストはブレイブを習得した！",
+   "+ テストはプロテを習得した！",
+   "+ テストが170にレベルアップした！",
+   "+ ペット148が122にレベルアップした！"
+  ],
+  "playerLevel": 170,
+  "playerXp": 28923,
+  "playerGil": 3360,
+  "playerMaxHp": 1800,
+  "playerMaxMp": 377,
+  "playerHp": 1800,
+  "playerSkills": [
+   "火の粉",
+   "電流",
+   "淡い光",
+   "儚い闇",
+   "ブレイブ",
+   "プロテ"
+  ],
+  "playerEffects": [
+   "毒:1:5"
+  ],
+  "playerItems": [
+   "p:20",
+   "t:20",
+   "e:5"
+  ],
+  "petLevel": 122,
+  "petXp": 15000,
+  "nextEnemyCode": "plasma",
+  "nextEnemyLevel": 126,
+  "nextEnemyHp": 1940,
+  "petAbility": "ポイズンLv.2",
+  "petChance": 47
+ },
+ {
+  "index": 149,
+  "seed": 2149,
+  "enemyCode": "seiryu",
+  "field": "遺跡",
+  "difficulty": "HARD",
+  "enemyLevel": 138,
+  "exp": 21859,
+  "gil": 3680,
+  "drops": [
+   "p:20",
+   "t:20",
+   "e:5"
+  ],
+  "rewardLines": [
+   "< RESULT >",
+   "` 21859の経験値を獲得！",
+   "` 3680のギルを獲得！",
+   "` ポーションを手に入れた！",
+   "` エーテルを手に入れた！",
+   "` エリクサーを手に入れた！"
+  ],
+  "updateLines": [
+   "+ テストは火の粉を習得した！",
+   "+ テストは電流を習得した！",
+   "+ テストは淡い光を習得した！",
+   "+ テストは儚い闇を習得した！",
+   "+ テストはブレイブを習得した！",
+   "+ テストはプロテを習得した！",
+   "+ テストはフレアを習得した！",
+   "+ テストはザップを習得した！",
+   "+ テストはアクアを習得した！",
+   "+ テストが200にレベルアップした！"
+  ],
+  "playerLevel": 200,
+  "playerXp": 40083,
+  "playerGil": 3680,
+  "playerMaxHp": 2100,
+  "playerMaxMp": 444,
+  "playerHp": 2100,
+  "playerSkills": [
+   "火の粉",
+   "電流",
+   "淡い光",
+   "儚い闇",
+   "ブレイブ",
+   "プロテ",
+   "フレア",
+   "ザップ",
+   "アクア"
+  ],
+  "playerEffects": [
+   "毒:1:5"
+  ],
+  "playerItems": [
+   "p:20",
+   "t:20",
+   "e:5"
+  ],
+  "petLevel": null,
+  "petXp": null,
+  "nextEnemyCode": "matango",
+  "nextEnemyLevel": 139,
+  "nextEnemyHp": 1728,
+  "petAbility": "勇奮",
+  "petChance": 6
+ },
+ {
+  "index": 150,
+  "seed": 2150,
+  "enemyCode": "gold-tiger",
+  "field": "遺跡",
+  "difficulty": "EXTREME",
+  "enemyLevel": 151,
+  "exp": 31891,
+  "gil": 75000,
+  "drops": [
+   "p:30",
+   "t:30",
+   "e:10",
+   "c:3"
+  ],
+  "rewardLines": [
+   "< RESULT >",
+   "` 31891の経験値を獲得！",
+   "` 75000のギルを獲得！",
+   "` ポーションを手に入れた！",
+   "` エーテルを手に入れた！",
+   "` エリクサーを手に入れた！",
+   "` チョコレートを手に入れた！"
+  ],
+  "updateLines": [
+   "+ テストは火の粉を習得した！",
+   "+ テストは電流を習得した！",
+   "+ テストは淡い光を習得した！",
+   "+ テストは儚い闇を習得した！",
+   "+ テストはブレイブを習得した！",
+   "+ テストはプロテを習得した！",
+   "+ テストはフレアを習得した！",
+   "+ テストはザップを習得した！",
+   "+ テストはアクアを習得した！",
+   "+ テストが234にレベルアップした！"
+  ],
+  "playerLevel": 234,
+  "playerXp": 54994,
+  "playerGil": 75000,
+  "playerMaxHp": 2440,
+  "playerMaxMp": 519,
+  "playerHp": 2440,
+  "playerSkills": [
+   "火の粉",
+   "電流",
+   "淡い光",
+   "儚い闇",
+   "ブレイブ",
+   "プロテ",
+   "フレア",
+   "ザップ",
+   "アクア"
+  ],
+  "playerEffects": [
+   "毒:1:5"
+  ],
+  "playerItems": [
+   "p:30",
+   "t:30",
+   "e:10",
+   "c:3"
+  ],
+  "petLevel": null,
+  "petXp": null,
+  "nextEnemyCode": "matango",
+  "nextEnemyLevel": 152,
+  "nextEnemyHp": 2386,
+  "petAbility": "不動",
+  "petChance": 75
+ },
+ {
+  "index": 151,
+  "seed": 2151,
+  "enemyCode": "nightmare",
+  "field": "草原",
+  "difficulty": "LUNATIC",
+  "enemyLevel": 164,
+  "exp": 8655,
+  "gil": 1222,
+  "drops": [],
+  "rewardLines": [
+   "< RESULT >",
+   "` 8655の経験値を獲得！",
+   "` 1222のギルを獲得！"
+  ],
+  "updateLines": [
+   "+ テストは火の粉を習得した！",
+   "+ テストは電流を習得した！",
+   "+ テストは淡い光を習得した！",
+   "+ テストは儚い闇を習得した！",
+   "+ テストはブレイブを習得した！",
+   "+ テストはプロテを習得した！",
+   "+ テストが192にレベルアップした！"
+  ],
+  "playerLevel": 192,
+  "playerXp": 37215,
+  "playerGil": 1222,
+  "playerMaxHp": 2020,
+  "playerMaxMp": 426,
+  "playerHp": 2020,
+  "playerSkills": [
+   "火の粉",
+   "電流",
+   "淡い光",
+   "儚い闇",
+   "ブレイブ",
+   "プロテ"
+  ],
+  "playerEffects": [
+   "毒:1:5"
+  ],
+  "playerItems": [],
+  "petLevel": null,
+  "petXp": null,
+  "nextEnemyCode": "thorn",
+  "nextEnemyLevel": 165,
+  "nextEnemyHp": 6088,
+  "petAbility": "勇奮",
+  "petChance": 92
+ },
+ {
+  "index": 152,
+  "seed": 2152,
+  "enemyCode": "omni-nightmare",
+  "field": "永遠悪夢",
+  "difficulty": "NORMAL",
+  "enemyLevel": 177,
+  "exp": 5900,
+  "gil": 1311,
+  "drops": [],
+  "rewardLines": [
+   "< RESULT >",
+   "` 5900の経験値を獲得！",
+   "` 1311のギルを獲得！"
+  ],
+  "updateLines": [
+   "+ テストは火の粉を習得した！",
+   "+ テストは電流を習得した！",
+   "+ テストは淡い光を習得した！",
+   "+ テストは儚い闇を習得した！",
+   "+ テストはブレイブを習得した！",
+   "+ テストはプロテを習得した！",
+   "+ テストはフレアを習得した！",
+   "+ テストはザップを習得した！",
+   "+ テストはアクアを習得した！",
+   "+ テストが201にレベルアップした！",
+   "+ ペット152が76にレベルアップした！"
+  ],
+  "playerLevel": 201,
+  "playerXp": 40495,
+  "playerGil": 1311,
+  "playerMaxHp": 2110,
+  "playerMaxMp": 446,
+  "playerHp": 2110,
+  "playerSkills": [
+   "火の粉",
+   "電流",
+   "淡い光",
+   "儚い闇",
+   "ブレイブ",
+   "プロテ",
+   "フレア",
+   "ザップ",
+   "アクア"
+  ],
+  "playerEffects": [
+   "毒:1:5"
+  ],
+  "playerItems": [],
+  "petLevel": 76,
+  "petXp": 5900,
+  "nextEnemyCode": "omni-nightmare",
+  "nextEnemyLevel": 178,
+  "nextEnemyHp": 185170,
+  "petAbility": "ポイズンLv.2",
+  "petChance": 72
+ },
+ {
+  "index": 153,
+  "seed": 2153,
+  "enemyCode": "daydream",
+  "field": "草原",
+  "difficulty": "HARD",
+  "enemyLevel": 190,
+  "exp": 4813,
+  "gil": 1400,
+  "drops": [],
+  "rewardLines": [
+   "< RESULT >",
+   "` 4813の経験値を獲得！",
+   "` 1400のギルを獲得！"
+  ],
+  "updateLines": [
+   "+ テストは火の粉を習得した！",
+   "+ テストは電流を習得した！",
+   "+ テストは淡い光を習得した！",
+   "+ テストは儚い闇を習得した！",
+   "+ テストが69にレベルアップした！"
+  ],
+  "playerLevel": 69,
+  "playerXp": 4821,
+  "playerGil": 1400,
+  "playerMaxHp": 790,
+  "playerMaxMp": 153,
+  "playerHp": 790,
+  "playerSkills": [
+   "火の粉",
+   "電流",
+   "淡い光",
+   "儚い闇"
+  ],
+  "playerEffects": [
+   "毒:1:5"
+  ],
+  "playerItems": [],
+  "petLevel": null,
+  "petXp": null,
+  "nextEnemyCode": "cherry",
+  "nextEnemyLevel": 191,
+  "nextEnemyHp": 1894,
+  "petAbility": "チェーン",
+  "petChance": 33
+ },
+ {
+  "index": 154,
+  "seed": 2154,
+  "enemyCode": "test",
+  "field": "草原",
+  "difficulty": "EXTREME",
+  "enemyLevel": 203,
+  "exp": 30856,
+  "gil": 5440,
+  "drops": [],
+  "rewardLines": [
+   "< RESULT >",
+   "` 30856の経験値を獲得！",
+   "` 5440のギルを獲得！"
+  ],
+  "updateLines": [
+   "+ テストは火の粉を習得した！",
+   "+ テストは電流を習得した！",
+   "+ テストは淡い光を習得した！",
+   "+ テストは儚い闇を習得した！",
+   "+ テストはブレイブを習得した！",
+   "+ テストはプロテを習得した！",
+   "+ テストが176にレベルアップした！"
+  ],
+  "playerLevel": 176,
+  "playerXp": 31255,
+  "playerGil": 5440,
+  "playerMaxHp": 1860,
+  "playerMaxMp": 391,
+  "playerHp": 1860,
+  "playerSkills": [
+   "火の粉",
+   "電流",
+   "淡い光",
+   "儚い闇",
+   "ブレイブ",
+   "プロテ"
+  ],
+  "playerEffects": [
+   "毒:1:5"
+  ],
+  "playerItems": [],
+  "petLevel": null,
+  "petXp": null,
+  "nextEnemyCode": "sasori",
+  "nextEnemyLevel": 204,
+  "nextEnemyHp": 3177,
+  "petAbility": "勇奮",
+  "petChance": 41
+ },
+ {
+  "index": 155,
+  "seed": 2155,
+  "enemyCode": "seed",
+  "field": "草原",
+  "difficulty": "LUNATIC",
+  "enemyLevel": 216,
+  "exp": 513,
+  "gil": 72,
+  "drops": [],
+  "rewardLines": [
+   "< RESULT >",
+   "` 513の経験値を獲得！",
+   "` 72のギルを獲得！"
+  ],
+  "updateLines": [
+   "+ テストは火の粉を習得した！",
+   "+ テストは電流を習得した！",
+   "+ テストが43にレベルアップした！"
+  ],
+  "playerLevel": 43,
+  "playerXp": 1881,
+  "playerGil": 72,
+  "playerMaxHp": 530,
+  "playerMaxMp": 95,
+  "playerHp": 530,
+  "playerSkills": [
+   "火の粉",
+   "電流"
+  ],
+  "playerEffects": [
+   "毒:1:5"
+  ],
+  "playerItems": [],
+  "petLevel": null,
+  "petXp": null,
+  "nextEnemyCode": "moss",
+  "nextEnemyLevel": 217,
+  "nextEnemyHp": 12277,
+  "petAbility": "ポイズンLv.1",
+  "petChance": 37
+ },
+ {
+  "index": 156,
+  "seed": 2156,
+  "enemyCode": "anaconda",
+  "field": "草原",
+  "difficulty": "NORMAL",
+  "enemyLevel": 229,
+  "exp": 218,
+  "gil": 76,
+  "drops": [
+   "p:1",
+   "t:1"
+  ],
+  "rewardLines": [
+   "< RESULT >",
+   "` 218の経験値を獲得！",
+   "` 76のギルを獲得！",
+   "` ポーションを手に入れた！",
+   "` エーテルを手に入れた！"
+  ],
+  "updateLines": [
+   "+ テストは火の粉を習得した！",
+   "+ テストは電流を習得した！",
+   "+ テストは淡い光を習得した！",
+   "+ テストは儚い闇を習得した！",
+   "+ テストが55にレベルアップした！",
+   "+ ペット156が14にレベルアップした！"
+  ],
+  "playerLevel": 55,
+  "playerXp": 3133,
+  "playerGil": 76,
+  "playerMaxHp": 650,
+  "playerMaxMp": 122,
+  "playerHp": 650,
+  "playerSkills": [
+   "火の粉",
+   "電流",
+   "淡い光",
+   "儚い闇"
+  ],
+  "playerEffects": [
+   "毒:1:5"
+  ],
+  "playerItems": [
+   "p:1",
+   "t:1"
+  ],
+  "petLevel": 14,
+  "petXp": 218,
+  "nextEnemyCode": "matango",
+  "nextEnemyLevel": 230,
+  "nextEnemyHp": 2350,
+  "petAbility": "英雄",
+  "petChance": 77
+ },
+ {
+  "index": 157,
+  "seed": 2157,
+  "enemyCode": "imomushi",
+  "field": "草原",
+  "difficulty": "HARD",
+  "enemyLevel": 242,
+  "exp": 276,
+  "gil": 81,
+  "drops": [
+   "p:1"
+  ],
+  "rewardLines": [
+   "< RESULT >",
+   "` 276の経験値を獲得！",
+   "` 81のギルを獲得！",
+   "` ポーションを手に入れた！"
+  ],
+  "updateLines": [
+   "+ テストは火の粉を習得した！",
+   "+ テストは電流を習得した！",
+   "+ テストは淡い光を習得した！",
+   "+ テストは儚い闇を習得した！",
+   "+ テストが72にレベルアップした！"
+  ],
+  "playerLevel": 72,
+  "playerXp": 5316,
+  "playerGil": 81,
+  "playerMaxHp": 820,
+  "playerMaxMp": 160,
+  "playerHp": 820,
+  "playerSkills": [
+   "火の粉",
+   "電流",
+   "淡い光",
+   "儚い闇"
+  ],
+  "playerEffects": [
+   "毒:1:5"
+  ],
+  "playerItems": [
+   "p:1"
+  ],
+  "petLevel": null,
+  "petXp": null,
+  "nextEnemyCode": "cherry",
+  "nextEnemyLevel": 243,
+  "nextEnemyHp": 2393,
+  "petAbility": "不動",
+  "petChance": 89
+ },
+ {
+  "index": 158,
+  "seed": 2158,
+  "enemyCode": "sasori",
+  "field": "草原",
+  "difficulty": "EXTREME",
+  "enemyLevel": 255,
+  "exp": 388,
+  "gil": 85,
+  "drops": [],
+  "rewardLines": [
+   "< RESULT >",
+   "` 388の経験値を獲得！",
+   "` 85のギルを獲得！"
+  ],
+  "updateLines": [
+   "+ テストは火の粉を習得した！",
+   "+ テストは電流を習得した！",
+   "+ テストは淡い光を習得した！",
+   "+ テストは儚い闇を習得した！",
+   "+ テストが90にレベルアップした！"
+  ],
+  "playerLevel": 90,
+  "playerXp": 8131,
+  "playerGil": 85,
+  "playerMaxHp": 1000,
+  "playerMaxMp": 200,
+  "playerHp": 1000,
+  "playerSkills": [
+   "火の粉",
+   "電流",
+   "淡い光",
+   "儚い闇"
+  ],
+  "playerEffects": [
+   "毒:1:5"
+  ],
+  "playerItems": [],
+  "petLevel": null,
+  "petXp": null,
+  "nextEnemyCode": "matango",
+  "nextEnemyLevel": 256,
+  "nextEnemyHp": 3967,
+  "petAbility": "不動",
+  "petChance": 91
+ },
+ {
+  "index": 159,
+  "seed": 2159,
+  "enemyCode": "matango",
+  "field": "草原",
+  "difficulty": "LUNATIC",
+  "enemyLevel": 268,
+  "exp": 637,
+  "gil": 89,
+  "drops": [],
+  "rewardLines": [
+   "< RESULT >",
+   "` 637の経験値を獲得！",
+   "` 89のギルを獲得！"
+  ],
+  "updateLines": [
+   "+ テストは火の粉を習得した！",
+   "+ テストは電流を習得した！",
+   "+ テストは淡い光を習得した！",
+   "+ テストは儚い闇を習得した！",
+   "+ テストはブレイブを習得した！",
+   "+ テストはプロテを習得した！",
+   "+ テストが107にレベルアップした！"
+  ],
+  "playerLevel": 107,
+  "playerXp": 11661,
+  "playerGil": 89,
+  "playerMaxHp": 1170,
+  "playerMaxMp": 238,
+  "playerHp": 1170,
+  "playerSkills": [
+   "火の粉",
+   "電流",
+   "淡い光",
+   "儚い闇",
+   "ブレイブ",
+   "プロテ"
+  ],
+  "playerEffects": [
+   "毒:1:5"
+  ],
+  "playerItems": [],
+  "petLevel": null,
+  "petXp": null,
+  "nextEnemyCode": "grass",
+  "nextEnemyLevel": 269,
+  "nextEnemyHp": 17436,
+  "petAbility": "ポイズンLv.1",
+  "petChance": 33
+ },
+ {
+  "index": 160,
+  "seed": 2160,
+  "enemyCode": "moss",
+  "field": "草原",
+  "difficulty": "NORMAL",
+  "enemyLevel": 281,
+  "exp": 267,
+  "gil": 94,
+  "drops": [
+   "t:1"
+  ],
+  "rewardLines": [
+   "< RESULT >",
+   "` 267の経験値を獲得！",
+   "` 94のギルを獲得！",
+   "` エーテルを手に入れた！"
+  ],
+  "updateLines": [
+   "+ テストは火の粉を習得した！",
+   "+ テストは電流を習得した！",
+   "+ テストは淡い光を習得した！",
+   "+ テストは儚い闇を習得した！",
+   "+ テストはブレイブを習得した！",
+   "+ テストはプロテを習得した！",
+   "+ テストが123にレベルアップした！",
+   "+ ペット160が16にレベルアップした！"
+  ],
+  "playerLevel": 123,
+  "playerXp": 15150,
+  "playerGil": 94,
+  "playerMaxHp": 1330,
+  "playerMaxMp": 273,
+  "playerHp": 1330,
+  "playerSkills": [
+   "火の粉",
+   "電流",
+   "淡い光",
+   "儚い闇",
+   "ブレイブ",
+   "プロテ"
+  ],
+  "playerEffects": [
+   "毒:1:5"
+  ],
+  "playerItems": [
+   "t:1"
+  ],
+  "petLevel": 16,
+  "petXp": 267,
+  "nextEnemyCode": "imomushi",
+  "nextEnemyLevel": 282,
+  "nextEnemyHp": 4562,
+  "petAbility": "チェーン",
+  "petChance": 14
+ },
+ {
+  "index": 161,
+  "seed": 2161,
+  "enemyCode": "cherry",
+  "field": "草原",
+  "difficulty": "HARD",
+  "enemyLevel": 294,
+  "exp": 335,
+  "gil": 98,
+  "drops": [],
+  "rewardLines": [
+   "< RESULT >",
+   "` 335の経験値を獲得！",
+   "` 98のギルを獲得！"
+  ],
+  "updateLines": [
+   "+ テストは火の粉を習得した！",
+   "+ テストは電流を習得した！",
+   "+ テストは淡い光を習得した！",
+   "+ テストは儚い闇を習得した！",
+   "+ テストはブレイブを習得した！",
+   "+ テストはプロテを習得した！",
+   "+ テストが140にレベルアップした！"
+  ],
+  "playerLevel": 140,
+  "playerXp": 19655,
+  "playerGil": 98,
+  "playerMaxHp": 1500,
+  "playerMaxMp": 311,
+  "playerHp": 1500,
+  "playerSkills": [
+   "火の粉",
+   "電流",
+   "淡い光",
+   "儚い闇",
+   "ブレイブ",
+   "プロテ"
+  ],
+  "playerEffects": [
+   "毒:1:5"
+  ],
+  "playerItems": [],
+  "petLevel": null,
+  "petXp": null,
+  "nextEnemyCode": "sasori",
+  "nextEnemyLevel": 295,
+  "nextEnemyHp": 3600,
+  "petAbility": "勇奮",
+  "petChance": 25
+ },
+ {
+  "index": 162,
+  "seed": 2162,
+  "enemyCode": "grass",
+  "field": "草原",
+  "difficulty": "EXTREME",
+  "enemyLevel": 307,
+  "exp": 467,
+  "gil": 102,
+  "drops": [],
+  "rewardLines": [
+   "< RESULT >",
+   "` 467の経験値を獲得！",
+   "` 102のギルを獲得！"
+  ],
+  "updateLines": [
+   "+ テストは火の粉を習得した！",
+   "+ テストは電流を習得した！",
+   "+ テストは淡い光を習得した！",
+   "+ テストは儚い闇を習得した！",
+   "+ テストはブレイブを習得した！",
+   "+ テストはプロテを習得した！",
+   "+ テストが157にレベルアップした！"
+  ],
+  "playerLevel": 157,
+  "playerXp": 24802,
+  "playerGil": 102,
+  "playerMaxHp": 1670,
+  "playerMaxMp": 349,
+  "playerHp": 1670,
+  "playerSkills": [
+   "火の粉",
+   "電流",
+   "淡い光",
+   "儚い闇",
+   "ブレイブ",
+   "プロテ"
+  ],
+  "playerEffects": [
+   "毒:1:5"
+  ],
+  "playerItems": [],
+  "petLevel": null,
+  "petXp": null,
+  "nextEnemyCode": "anaconda",
+  "nextEnemyLevel": 308,
+  "nextEnemyHp": 4758,
+  "petAbility": "不動",
+  "petChance": 67
+ },
+ {
+  "index": 163,
+  "seed": 2163,
+  "enemyCode": "thorn",
+  "field": "草原",
+  "difficulty": "LUNATIC",
+  "enemyLevel": 320,
+  "exp": 760,
+  "gil": 107,
+  "drops": [],
+  "rewardLines": [
+   "< RESULT >",
+   "` 760の経験値を獲得！",
+   "` 107のギルを獲得！"
+  ],
+  "updateLines": [
+   "+ テストは火の粉を習得した！",
+   "+ テストは電流を習得した！",
+   "+ テストは淡い光を習得した！",
+   "+ テストは儚い闇を習得した！",
+   "+ テストはブレイブを習得した！",
+   "+ テストはプロテを習得した！",
+   "+ テストが175にレベルアップした！"
+  ],
+  "playerLevel": 175,
+  "playerXp": 30688,
+  "playerGil": 107,
+  "playerMaxHp": 1850,
+  "playerMaxMp": 389,
+  "playerHp": 1850,
+  "playerSkills": [
+   "火の粉",
+   "電流",
+   "淡い光",
+   "儚い闇",
+   "ブレイブ",
+   "プロテ"
+  ],
+  "playerEffects": [
+   "毒:1:5"
+  ],
+  "playerItems": [],
+  "petLevel": null,
+  "petXp": null,
+  "nextEnemyCode": "anaconda",
+  "nextEnemyLevel": 321,
+  "nextEnemyHp": 14487,
+  "petAbility": "荒くれ",
+  "petChance": 92
+ },
+ {
+  "index": 164,
+  "seed": 2164,
+  "enemyCode": "bat",
+  "field": "洞窟",
+  "difficulty": "NORMAL",
+  "enemyLevel": 333,
+  "exp": 350,
+  "gil": 111,
+  "drops": [],
+  "rewardLines": [
+   "< RESULT >",
+   "` 350の経験値を獲得！",
+   "` 111のギルを獲得！"
+  ],
+  "updateLines": [
+   "+ テストは火の粉を習得した！",
+   "+ テストは電流を習得した！",
+   "+ テストは淡い光を習得した！",
+   "+ テストは儚い闇を習得した！",
+   "+ テストはブレイブを習得した！",
+   "+ テストはプロテを習得した！",
+   "+ テストが190にレベルアップした！",
+   "+ ペット164が18にレベルアップした！"
+  ],
+  "playerLevel": 190,
+  "playerXp": 36449,
+  "playerGil": 111,
+  "playerMaxHp": 2000,
+  "playerMaxMp": 422,
+  "playerHp": 2000,
+  "playerSkills": [
+   "火の粉",
+   "電流",
+   "淡い光",
+   "儚い闇",
+   "ブレイブ",
+   "プロテ"
+  ],
+  "playerEffects": [
+   "毒:1:5"
+  ],
+  "playerItems": [],
+  "petLevel": 18,
+  "petXp": 350,
+  "nextEnemyCode": "rat",
+  "nextEnemyLevel": 334,
+  "nextEnemyHp": 4058,
+  "petAbility": "勇奮",
+  "petChance": 90
+ },
+ {
+  "index": 165,
+  "seed": 2165,
+  "enemyCode": "maimai",
+  "field": "洞窟",
+  "difficulty": "HARD",
+  "enemyLevel": 346,
+  "exp": 436,
+  "gil": 115,
+  "drops": [],
+  "rewardLines": [
+   "< RESULT >",
+   "` 436の経験値を獲得！",
+   "` 115のギルを獲得！"
+  ],
+  "updateLines": [
+   "+ テストが22にレベルアップした！"
+  ],
+  "playerLevel": 22,
+  "playerXp": 484,
+  "playerGil": 115,
+  "playerMaxHp": 320,
+  "playerMaxMp": 49,
+  "playerHp": 320,
+  "playerSkills": [],
+  "playerEffects": [
+   "毒:1:5"
+  ],
+  "playerItems": [],
+  "petLevel": null,
+  "petXp": null,
+  "nextEnemyCode": "bat",
+  "nextEnemyLevel": 347,
+  "nextEnemyHp": 4224,
+  "petAbility": "荒くれ",
+  "petChance": 95
+ },
+ {
+  "index": 166,
+  "seed": 2166,
+  "enemyCode": "yadokari",
+  "field": "洞窟",
+  "difficulty": "EXTREME",
+  "enemyLevel": 359,
+  "exp": 603,
+  "gil": 120,
+  "drops": [],
+  "rewardLines": [
+   "< RESULT >",
+   "` 603の経験値を獲得！",
+   "` 120のギルを獲得！"
+  ],
+  "updateLines": [
+   "+ テストは火の粉を習得した！",
+   "+ テストは電流を習得した！",
+   "+ テストが34にレベルアップした！"
+  ],
+  "playerLevel": 34,
+  "playerXp": 1178,
+  "playerGil": 120,
+  "playerMaxHp": 440,
+  "playerMaxMp": 75,
+  "playerHp": 440,
+  "playerSkills": [
+   "火の粉",
+   "電流"
+  ],
+  "playerEffects": [
+   "毒:1:5"
+  ],
+  "playerItems": [],
+  "petLevel": null,
+  "petXp": null,
+  "nextEnemyCode": "anaconda",
+  "nextEnemyLevel": 360,
+  "nextEnemyHp": 5548,
+  "petAbility": "勇奮",
+  "petChance": 46
+ },
+ {
+  "index": 167,
+  "seed": 2167,
+  "enemyCode": "icicle",
+  "field": "氷原",
+  "difficulty": "LUNATIC",
+  "enemyLevel": 372,
+  "exp": 884,
+  "gil": 124,
+  "drops": [],
+  "rewardLines": [
+   "< RESULT >",
+   "` 884の経験値を獲得！",
+   "` 124のギルを獲得！"
+  ],
+  "updateLines": [
+   "+ テストは火の粉を習得した！",
+   "+ テストは電流を習得した！",
+   "+ テストは淡い光を習得した！",
+   "+ テストは儚い闇を習得した！",
+   "+ テストが50にレベルアップした！"
+  ],
+  "playerLevel": 50,
+  "playerXp": 2564,
+  "playerGil": 124,
+  "playerMaxHp": 600,
+  "playerMaxMp": 111,
+  "playerHp": 600,
+  "playerSkills": [
+   "火の粉",
+   "電流",
+   "淡い光",
+   "儚い闇"
+  ],
+  "playerEffects": [
+   "毒:1:5"
+  ],
+  "playerItems": [],
+  "petLevel": null,
+  "petXp": null,
+  "nextEnemyCode": "icicle",
+  "nextEnemyLevel": 373,
+  "nextEnemyHp": 15141,
+  "petAbility": "勇奮",
+  "petChance": 22
+ },
+ {
+  "index": 168,
+  "seed": 2168,
+  "enemyCode": "snowman",
+  "field": "氷原",
+  "difficulty": "NORMAL",
+  "enemyLevel": 385,
+  "exp": 732,
+  "gil": 256,
+  "drops": [
+   "p:1"
+  ],
+  "rewardLines": [
+   "< RESULT >",
+   "` 732の経験値を獲得！",
+   "` 256のギルを獲得！",
+   "` ポーションを手に入れた！"
+  ],
+  "updateLines": [
+   "+ テストは火の粉を習得した！",
+   "+ テストは電流を習得した！",
+   "+ テストは淡い光を習得した！",
+   "+ テストは儚い闇を習得した！",
+   "+ テストが63にレベルアップした！",
+   "+ ペット168が27にレベルアップした！"
+  ],
+  "playerLevel": 63,
+  "playerXp": 4095,
+  "playerGil": 256,
+  "playerMaxHp": 730,
+  "playerMaxMp": 140,
+  "playerHp": 730,
+  "playerSkills": [
+   "火の粉",
+   "電流",
+   "淡い光",
+   "儚い闇"
+  ],
+  "playerEffects": [
+   "毒:1:5"
+  ],
+  "playerItems": [
+   "p:1"
+  ],
+  "petLevel": 27,
+  "petXp": 732,
+  "nextEnemyCode": "icicle",
+  "nextEnemyLevel": 386,
+  "nextEnemyHp": 3524,
+  "petAbility": "ポイズンLv.1",
+  "petChance": 55
+ },
+ {
+  "index": 169,
+  "seed": 2169,
+  "enemyCode": "penguin",
+  "field": "氷原",
+  "difficulty": "HARD",
+  "enemyLevel": 398,
+  "exp": 454,
+  "gil": 133,
+  "drops": [],
+  "rewardLines": [
+   "< RESULT >",
+   "` 454の経験値を獲得！",
+   "` 133のギルを獲得！"
+  ],
+  "updateLines": [
+   "+ テストは火の粉を習得した！",
+   "+ テストは電流を習得した！",
+   "+ テストは淡い光を習得した！",
+   "+ テストは儚い闇を習得した！",
+   "+ テストが77にレベルアップした！"
+  ],
+  "playerLevel": 77,
+  "playerXp": 6078,
+  "playerGil": 133,
+  "playerMaxHp": 870,
+  "playerMaxMp": 171,
+  "playerHp": 870,
+  "playerSkills": [
+   "火の粉",
+   "電流",
+   "淡い光",
+   "儚い闇"
+  ],
+  "playerEffects": [
+   "毒:1:5"
+  ],
+  "playerItems": [],
+  "petLevel": null,
+  "petXp": null,
+  "nextEnemyCode": "penguin",
+  "nextEnemyLevel": 399,
+  "nextEnemyHp": 5806,
+  "petAbility": "不動",
+  "petChance": 63
+ },
+ {
+  "index": 170,
+  "seed": 2170,
+  "enemyCode": "mudhand",
+  "field": "峡谷",
+  "difficulty": "EXTREME",
+  "enemyLevel": 411,
+  "exp": 690,
+  "gil": 137,
+  "drops": [],
+  "rewardLines": [
+   "< RESULT >",
+   "` 690の経験値を獲得！",
+   "` 137のギルを獲得！"
+  ],
+  "updateLines": [
+   "+ テストは火の粉を習得した！",
+   "+ テストは電流を習得した！",
+   "+ テストは淡い光を習得した！",
+   "+ テストは儚い闇を習得した！",
+   "+ テストが95にレベルアップした！"
+  ],
+  "playerLevel": 95,
+  "playerXp": 9153,
+  "playerGil": 137,
+  "playerMaxHp": 1050,
+  "playerMaxMp": 211,
+  "playerHp": 1050,
+  "playerSkills": [
+   "火の粉",
+   "電流",
+   "淡い光",
+   "儚い闇"
+  ],
+  "playerEffects": [
+   "毒:1:5"
+  ],
+  "playerItems": [],
+  "petLevel": null,
+  "petXp": null,
+  "nextEnemyCode": "sasori",
+  "nextEnemyLevel": 412,
+  "nextEnemyHp": 6338,
+  "petAbility": "ポイズンLv.2",
+  "petChance": 45
+ },
+ {
+  "index": 171,
+  "seed": 2171,
+  "enemyCode": "rat",
+  "field": "洞窟",
+  "difficulty": "LUNATIC",
+  "enemyLevel": 424,
+  "exp": 1113,
+  "gil": 141,
+  "drops": [],
+  "rewardLines": [
+   "< RESULT >",
+   "` 1113の経験値を獲得！",
+   "` 141のギルを獲得！"
+  ],
+  "updateLines": [
+   "+ テストは火の粉を習得した！",
+   "+ テストは電流を習得した！",
+   "+ テストは淡い光を習得した！",
+   "+ テストは儚い闇を習得した！",
+   "+ テストはブレイブを習得した！",
+   "+ テストはプロテを習得した！",
+   "+ テストが113にレベルアップした！"
+  ],
+  "playerLevel": 113,
+  "playerXp": 12993,
+  "playerGil": 141,
+  "playerMaxHp": 1230,
+  "playerMaxMp": 251,
+  "playerHp": 1230,
+  "playerSkills": [
+   "火の粉",
+   "電流",
+   "淡い光",
+   "儚い闇",
+   "ブレイブ",
+   "プロテ"
+  ],
+  "playerEffects": [
+   "毒:1:5"
+  ],
+  "playerItems": [],
+  "petLevel": null,
+  "petXp": null,
+  "nextEnemyCode": "sasori",
+  "nextEnemyLevel": 425,
+  "nextEnemyHp": 19109,
+  "petAbility": "ポイズンLv.2",
+  "petChance": 84
+ },
+ {
+  "index": 172,
+  "seed": 2172,
+  "enemyCode": "flea",
+  "field": "洞窟",
+  "difficulty": "NORMAL",
+  "enemyLevel": 437,
+  "exp": 459,
+  "gil": 73,
+  "drops": [],
+  "rewardLines": [
+   "< RESULT >",
+   "` 459の経験値を獲得！",
+   "` 73のギルを獲得！"
+  ],
+  "updateLines": [
+   "+ テストは火の粉を習得した！",
+   "+ テストは電流を習得した！",
+   "+ テストは淡い光を習得した！",
+   "+ テストは儚い闇を習得した！",
+   "+ テストはブレイブを習得した！",
+   "+ テストはプロテを習得した！",
+   "+ テストが127にレベルアップした！"
+  ],
+  "playerLevel": 127,
+  "playerXp": 16334,
+  "playerGil": 73,
+  "playerMaxHp": 1370,
+  "playerMaxMp": 282,
+  "playerHp": 1370,
+  "playerSkills": [
+   "火の粉",
+   "電流",
+   "淡い光",
+   "儚い闇",
+   "ブレイブ",
+   "プロテ"
+  ],
+  "playerEffects": [
+   "毒:1:5"
+  ],
+  "playerItems": [],
+  "petLevel": 23,
+  "petXp": 459,
+  "nextEnemyCode": "yadokari",
+  "nextEnemyLevel": 438,
+  "nextEnemyHp": 5306,
+  "petAbility": "荒くれ",
+  "petChance": 68
+ },
+ {
+  "index": 173,
+  "seed": 2173,
+  "enemyCode": "coin",
+  "field": "峡谷",
+  "difficulty": "HARD",
+  "enemyLevel": 450,
+  "exp": 284,
+  "gil": 7500,
+  "drops": [],
+  "rewardLines": [
+   "< RESULT >",
+   "` 284の経験値を獲得！",
+   "` 7500のギルを獲得！"
+  ],
+  "updateLines": [
+   "+ テストは火の粉を習得した！",
+   "+ テストは電流を習得した！",
+   "+ テストは淡い光を習得した！",
+   "+ テストは儚い闇を習得した！",
+   "+ テストはブレイブを習得した！",
+   "+ テストはプロテを習得した！",
+   "+ テストが143にレベルアップした！"
+  ],
+  "playerLevel": 143,
+  "playerXp": 20732,
+  "playerGil": 7500,
+  "playerMaxHp": 1530,
+  "playerMaxMp": 317,
+  "playerHp": 1530,
+  "playerSkills": [
+   "火の粉",
+   "電流",
+   "淡い光",
+   "儚い闇",
+   "ブレイブ",
+   "プロテ"
+  ],
+  "playerEffects": [
+   "毒:1:5"
+  ],
+  "playerItems": [],
+  "petLevel": null,
+  "petXp": null,
+  "nextEnemyCode": "bat",
+  "nextEnemyLevel": 451,
+  "nextEnemyHp": 5472,
+  "petAbility": "マキナ",
+  "petChance": 11
+ },
+ {
+  "index": 174,
+  "seed": 2174,
+  "enemyCode": "fog",
+  "field": "火山",
+  "difficulty": "EXTREME",
+  "enemyLevel": 463,
+  "exp": 852,
+  "gil": 154,
+  "drops": [
+   "p:1"
+  ],
+  "rewardLines": [
+   "< RESULT >",
+   "` 852の経験値を獲得！",
+   "` 154のギルを獲得！",
+   "` ポーションを手に入れた！"
+  ],
+  "updateLines": [
+   "+ テストは火の粉を習得した！",
+   "+ テストは電流を習得した！",
+   "+ テストは淡い光を習得した！",
+   "+ テストは儚い闇を習得した！",
+   "+ テストはブレイブを習得した！",
+   "+ テストはプロテを習得した！",
+   "+ テストが162にレベルアップした！"
+  ],
+  "playerLevel": 162,
+  "playerXp": 26451,
+  "playerGil": 154,
+  "playerMaxHp": 1720,
+  "playerMaxMp": 360,
+  "playerHp": 1720,
+  "playerSkills": [
+   "火の粉",
+   "電流",
+   "淡い光",
+   "儚い闇",
+   "ブレイブ",
+   "プロテ"
+  ],
+  "playerEffects": [
+   "毒:1:5"
+  ],
+  "playerItems": [
+   "p:1"
+  ],
+  "petLevel": null,
+  "petXp": null,
+  "nextEnemyCode": "charon",
+  "nextEnemyLevel": 464,
+  "nextEnemyHp": 7834,
+  "petAbility": "チェーン",
+  "petChance": 73
+ },
+ {
+  "index": 175,
+  "seed": 2175,
+  "enemyCode": "bomb",
+  "field": "火山",
+  "difficulty": "LUNATIC",
+  "enemyLevel": 476,
+  "exp": 1369,
+  "gil": 159,
+  "drops": [],
+  "rewardLines": [
+   "< RESULT >",
+   "` 1369の経験値を獲得！",
+   "` 159のギルを獲得！"
+  ],
+  "updateLines": [
+   "+ テストは火の粉を習得した！",
+   "+ テストは電流を習得した！",
+   "+ テストは淡い光を習得した！",
+   "+ テストは儚い闇を習得した！",
+   "+ テストはブレイブを習得した！",
+   "+ テストはプロテを習得した！",
+   "+ テストが180にレベルアップした！"
+  ],
+  "playerLevel": 180,
+  "playerXp": 32697,
+  "playerGil": 159,
+  "playerMaxHp": 1900,
+  "playerMaxMp": 400,
+  "playerHp": 1900,
+  "playerSkills": [
+   "火の粉",
+   "電流",
+   "淡い光",
+   "儚い闇",
+   "ブレイブ",
+   "プロテ"
+  ],
+  "playerEffects": [
+   "毒:1:5"
+  ],
+  "playerItems": [],
+  "petLevel": null,
+  "petXp": null,
+  "nextEnemyCode": "ghast",
+  "nextEnemyLevel": 477,
+  "nextEnemyHp": 19300,
+  "petAbility": "不動",
+  "petChance": 57
+ },
+ {
+  "index": 176,
+  "seed": 2176,
+  "enemyCode": "salamander",
+  "field": "火山",
+  "difficulty": "NORMAL",
+  "enemyLevel": 489,
+  "exp": 562,
+  "gil": 163,
+  "drops": [
+   "t:1"
+  ],
+  "rewardLines": [
+   "< RESULT >",
+   "` 562の経験値を獲得！",
+   "` 163のギルを獲得！",
+   "` エーテルを手に入れた！"
+  ],
+  "updateLines": [
+   "+ テストは火の粉を習得した！",
+   "+ テストは電流を習得した！",
+   "+ テストは淡い光を習得した！",
+   "+ テストは儚い闇を習得した！",
+   "+ テストはブレイブを習得した！",
+   "+ テストはプロテを習得した！",
+   "+ テストが195にレベルアップした！"
+  ],
+  "playerLevel": 195,
+  "playerXp": 38197,
+  "playerGil": 163,
+  "playerMaxHp": 2050,
+  "playerMaxMp": 433,
+  "playerHp": 2050,
+  "playerSkills": [
+   "火の粉",
+   "電流",
+   "淡い光",
+   "儚い闇",
+   "ブレイブ",
+   "プロテ"
+  ],
+  "playerEffects": [
+   "毒:1:5"
+  ],
+  "playerItems": [
+   "t:1"
+  ],
+  "petLevel": 27,
+  "petXp": 562,
+  "nextEnemyCode": "hellhound",
+  "nextEnemyLevel": 490,
+  "nextEnemyHp": 6567,
+  "petAbility": "英雄",
+  "petChance": 36
+ },
+ {
+  "index": 177,
+  "seed": 2177,
+  "enemyCode": "tank",
+  "field": "火山",
+  "difficulty": "HARD",
+  "enemyLevel": 502,
+  "exp": 693,
+  "gil": 167,
+  "drops": [],
+  "rewardLines": [
+   "< RESULT >",
+   "` 693の経験値を獲得！",
+   "` 167のギルを獲得！"
+  ],
+  "updateLines": [
+   "+ テストは火の粉を習得した！",
+   "+ テストは電流を習得した！",
+   "+ テストが28にレベルアップした！"
+  ],
+  "playerLevel": 28,
+  "playerXp": 813,
+  "playerGil": 167,
+  "playerMaxHp": 380,
+  "playerMaxMp": 62,
+  "playerHp": 380,
+  "playerSkills": [
+   "火の粉",
+   "電流"
+  ],
+  "playerEffects": [
+   "毒:1:5"
+  ],
+  "playerItems": [],
+  "petLevel": null,
+  "petXp": null,
+  "nextEnemyCode": "mimic",
+  "nextEnemyLevel": 503,
+  "nextEnemyHp": 4587,
+  "petAbility": "荒くれ",
+  "petChance": 12
+ },
+ {
+  "index": 178,
+  "seed": 2178,
+  "enemyCode": "hellhound",
+  "field": "火山",
+  "difficulty": "EXTREME",
+  "enemyLevel": 515,
+  "exp": 948,
+  "gil": 172,
+  "drops": [],
+  "rewardLines": [
+   "< RESULT >",
+   "` 948の経験値を獲得！",
+   "` 172のギルを獲得！"
+  ],
+  "updateLines": [
+   "+ テストは火の粉を習得した！",
+   "+ テストは電流を習得した！",
+   "+ テストが41にレベルアップした！"
+  ],
+  "playerLevel": 41,
+  "playerXp": 1731,
+  "playerGil": 172,
+  "playerMaxHp": 510,
+  "playerMaxMp": 91,
+  "playerHp": 510,
+  "playerSkills": [
+   "火の粉",
+   "電流"
+  ],
+  "playerEffects": [
+   "毒:1:5"
+  ],
+  "playerItems": [],
+  "petLevel": null,
+  "petXp": null,
+  "nextEnemyCode": "mimic",
+  "nextEnemyLevel": 516,
+  "nextEnemyHp": 5958,
+  "petAbility": "ポイズンLv.2",
+  "petChance": 18
+ },
+ {
+  "index": 179,
+  "seed": 2179,
+  "enemyCode": "hydra",
+  "field": "火山",
+  "difficulty": "LUNATIC",
+  "enemyLevel": 528,
+  "exp": 7590,
+  "gil": 176,
+  "drops": [],
+  "rewardLines": [
+   "< RESULT >",
+   "` 7590の経験値を獲得！",
+   "` 176のギルを獲得！"
+  ],
+  "updateLines": [
+   "+ テストは火の粉を習得した！",
+   "+ テストは電流を習得した！",
+   "+ テストは淡い光を習得した！",
+   "+ テストは儚い闇を習得した！",
+   "+ テストが98にレベルアップした！"
+  ],
+  "playerLevel": 98,
+  "playerXp": 9614,
+  "playerGil": 176,
+  "playerMaxHp": 1080,
+  "playerMaxMp": 218,
+  "playerHp": 1080,
+  "playerSkills": [
+   "火の粉",
+   "電流",
+   "淡い光",
+   "儚い闇"
+  ],
+  "playerEffects": [
+   "毒:1:5"
+  ],
+  "playerItems": [],
+  "petLevel": null,
+  "petXp": null,
+  "nextEnemyCode": "fog",
+  "nextEnemyLevel": 529,
+  "nextEnemyHp": 19029,
+  "petAbility": "不動",
+  "petChance": 86
+ },
+ {
+  "index": 180,
+  "seed": 2180,
+  "enemyCode": "uroboros",
+  "field": "峡谷",
+  "difficulty": "NORMAL",
+  "enemyLevel": 541,
+  "exp": 568,
+  "gil": 180,
+  "drops": [],
+  "rewardLines": [
+   "< RESULT >",
+   "` 568の経験値を獲得！",
+   "` 180のギルを獲得！"
+  ],
+  "updateLines": [
+   "+ テストは火の粉を習得した！",
+   "+ テストは電流を習得した！",
+   "+ テストは淡い光を習得した！",
+   "+ テストは儚い闇を習得した！",
+   "+ テストが66にレベルアップした！",
+   "+ ペット180が23にレベルアップした！"
+  ],
+  "playerLevel": 66,
+  "playerXp": 4411,
+  "playerGil": 180,
+  "playerMaxHp": 760,
+  "playerMaxMp": 147,
+  "playerHp": 760,
+  "playerSkills": [
+   "火の粉",
+   "電流",
+   "淡い光",
+   "儚い闇"
+  ],
+  "playerEffects": [
+   "毒:1:5"
+  ],
+  "playerItems": [],
+  "petLevel": 23,
+  "petXp": 568,
+  "nextEnemyCode": "mudhand",
+  "nextEnemyLevel": 542,
+  "nextEnemyHp": 6554,
+  "petAbility": "不動",
+  "petChance": 77
+ },
+ {
+  "index": 181,
+  "seed": 2181,
+  "enemyCode": "egg",
+  "field": "火山",
+  "difficulty": "HARD",
+  "enemyLevel": 554,
+  "exp": 15290,
+  "gil": 1850,
+  "drops": [],
+  "rewardLines": [
+   "< RESULT >",
+   "` 15290の経験値を獲得！",
+   "` 1850のギルを獲得！"
+  ],
+  "updateLines": [
+   "+ テストは火の粉を習得した！",
+   "+ テストは電流を習得した！",
+   "+ テストは淡い光を習得した！",
+   "+ テストは儚い闇を習得した！",
+   "+ テストはブレイブを習得した！",
+   "+ テストはプロテを習得した！",
+   "+ テストが146にレベルアップした！"
+  ],
+  "playerLevel": 146,
+  "playerXp": 21530,
+  "playerGil": 1850,
+  "playerMaxHp": 1560,
+  "playerMaxMp": 324,
+  "playerHp": 1560,
+  "playerSkills": [
+   "火の粉",
+   "電流",
+   "淡い光",
+   "儚い闇",
+   "ブレイブ",
+   "プロテ"
+  ],
+  "playerEffects": [
+   "毒:1:5"
+  ],
+  "playerItems": [],
+  "petLevel": null,
+  "petXp": null,
+  "nextEnemyCode": "hydra",
+  "nextEnemyLevel": 555,
+  "nextEnemyHp": 8185,
+  "petAbility": "マキナ",
+  "petChance": 47
+ },
+ {
+  "index": 182,
+  "seed": 2182,
+  "enemyCode": "ghost",
+  "field": "冥界",
+  "difficulty": "EXTREME",
+  "enemyLevel": 567,
+  "exp": 1134,
+  "gil": 189,
+  "drops": [],
+  "rewardLines": [
+   "< RESULT >",
+   "` 1134の経験値を獲得！",
+   "` 189のギルを獲得！"
+  ],
+  "updateLines": [
+   "+ テストは火の粉を習得した！",
+   "+ テストは電流を習得した！",
+   "+ テストは淡い光を習得した！",
+   "+ テストは儚い闇を習得した！",
+   "+ テストはブレイブを習得した！",
+   "+ テストはプロテを習得した！",
+   "+ テストが101にレベルアップした！"
+  ],
+  "playerLevel": 101,
+  "playerXp": 10349,
+  "playerGil": 189,
+  "playerMaxHp": 1110,
+  "playerMaxMp": 224,
+  "playerHp": 1110,
+  "playerSkills": [
+   "火の粉",
+   "電流",
+   "淡い光",
+   "儚い闇",
+   "ブレイブ",
+   "プロテ"
+  ],
+  "playerEffects": [
+   "毒:1:5"
+  ],
+  "playerItems": [],
+  "petLevel": null,
+  "petXp": null,
+  "nextEnemyCode": "oboro",
+  "nextEnemyLevel": 568,
+  "nextEnemyHp": 11585,
+  "petAbility": "不動",
+  "petChance": 8
+ },
+ {
+  "index": 183,
+  "seed": 2183,
+  "enemyCode": "polter",
+  "field": "冥界",
+  "difficulty": "LUNATIC",
+  "enemyLevel": 580,
+  "exp": 1813,
+  "gil": 193,
+  "drops": [],
+  "rewardLines": [
+   "< RESULT >",
+   "` 1813の経験値を獲得！",
+   "` 193のギルを獲得！"
+  ],
+  "updateLines": [
+   "+ テストは火の粉を習得した！",
+   "+ テストは電流を習得した！",
+   "+ テストは淡い光を習得した！",
+   "+ テストは儚い闇を習得した！",
+   "+ テストはブレイブを習得した！",
+   "+ テストはプロテを習得した！",
+   "+ テストが120にレベルアップした！"
+  ],
+  "playerLevel": 120,
+  "playerXp": 14581,
+  "playerGil": 193,
+  "playerMaxHp": 1300,
+  "playerMaxMp": 266,
+  "playerHp": 1300,
+  "playerSkills": [
+   "火の粉",
+   "電流",
+   "淡い光",
+   "儚い闇",
+   "ブレイブ",
+   "プロテ"
+  ],
+  "playerEffects": [
+   "毒:1:5"
+  ],
+  "playerItems": [],
+  "petLevel": null,
+  "petXp": null,
+  "nextEnemyCode": "polter",
+  "nextEnemyLevel": 581,
+  "nextEnemyHp": 31206,
+  "petAbility": "勇奮",
+  "petChance": 14
+ },
+ {
+  "index": 184,
+  "seed": 2184,
+  "enemyCode": "phantom",
+  "field": "冥界",
+  "difficulty": "NORMAL",
+  "enemyLevel": 593,
+  "exp": 741,
+  "gil": 198,
+  "drops": [],
+  "rewardLines": [
+   "< RESULT >",
+   "` 741の経験値を獲得！",
+   "` 198のギルを獲得！"
+  ],
+  "updateLines": [
+   "+ テストは火の粉を習得した！",
+   "+ テストは電流を習得した！",
+   "+ テストは淡い光を習得した！",
+   "+ テストは儚い闇を習得した！",
+   "+ テストはブレイブを習得した！",
+   "+ テストはプロテを習得した！",
+   "+ テストが132にレベルアップした！",
+   "+ ペット184が27にレベルアップした！"
+  ],
+  "playerLevel": 132,
+  "playerXp": 17640,
+  "playerGil": 198,
+  "playerMaxHp": 1420,
+  "playerMaxMp": 293,
+  "playerHp": 1420,
+  "playerSkills": [
+   "火の粉",
+   "電流",
+   "淡い光",
+   "儚い闇",
+   "ブレイブ",
+   "プロテ"
+  ],
+  "playerEffects": [
+   "毒:1:5"
+  ],
+  "playerItems": [],
+  "petLevel": 27,
+  "petXp": 741,
+  "nextEnemyCode": "ghost",
+  "nextEnemyLevel": 594,
+  "nextEnemyHp": 5990,
+  "petAbility": "マキナ",
+  "petChance": 30
+ },
+ {
+  "index": 185,
+  "seed": 2185,
+  "enemyCode": "spirit",
+  "field": "冥界",
+  "difficulty": "HARD",
+  "enemyLevel": 606,
+  "exp": 909,
+  "gil": 202,
+  "drops": [],
+  "rewardLines": [
+   "< RESULT >",
+   "` 909の経験値を獲得！",
+   "` 202のギルを獲得！"
+  ],
+  "updateLines": [
+   "+ テストは火の粉を習得した！",
+   "+ テストは電流を習得した！",
+   "+ テストは淡い光を習得した！",
+   "+ テストは儚い闇を習得した！",
+   "+ テストはブレイブを習得した！",
+   "+ テストはプロテを習得した！",
+   "+ テストが150にレベルアップした！"
+  ],
+  "playerLevel": 150,
+  "playerXp": 22517,
+  "playerGil": 202,
+  "playerMaxHp": 1600,
+  "playerMaxMp": 333,
+  "playerHp": 1600,
+  "playerSkills": [
+   "火の粉",
+   "電流",
+   "淡い光",
+   "儚い闇",
+   "ブレイブ",
+   "プロテ"
+  ],
+  "playerEffects": [
+   "毒:1:5"
+  ],
+  "playerItems": [],
+  "petLevel": null,
+  "petXp": null,
+  "nextEnemyCode": "ghost",
+  "nextEnemyLevel": 607,
+  "nextEnemyHp": 7344,
+  "petAbility": "ポイズンLv.1",
+  "petChance": 86
+ },
+ {
+  "index": 186,
+  "seed": 2186,
+  "enemyCode": "shadow",
+  "field": "秘境",
+  "difficulty": "EXTREME",
+  "enemyLevel": 619,
+  "exp": 1307,
+  "gil": 206,
+  "drops": [],
+  "rewardLines": [
+   "< RESULT >",
+   "` 1307の経験値を獲得！",
+   "` 206のギルを獲得！"
+  ],
+  "updateLines": [
+   "+ テストは火の粉を習得した！",
+   "+ テストは電流を習得した！",
+   "+ テストは淡い光を習得した！",
+   "+ テストは儚い闇を習得した！",
+   "+ テストはブレイブを習得した！",
+   "+ テストはプロテを習得した！",
+   "+ テストが167にレベルアップした！"
+  ],
+  "playerLevel": 167,
+  "playerXp": 28202,
+  "playerGil": 206,
+  "playerMaxHp": 1770,
+  "playerMaxMp": 371,
+  "playerHp": 1770,
+  "playerSkills": [
+   "火の粉",
+   "電流",
+   "淡い光",
+   "儚い闇",
+   "ブレイブ",
+   "プロテ"
+  ],
+  "playerEffects": [
+   "毒:1:5"
+  ],
+  "playerItems": [],
+  "petLevel": null,
+  "petXp": null,
+  "nextEnemyCode": "mudhand",
+  "nextEnemyLevel": 620,
+  "nextEnemyHp": 11385,
+  "petAbility": "不動",
+  "petChance": 32
+ },
+ {
+  "index": 187,
+  "seed": 2187,
+  "enemyCode": "ghast",
+  "field": "火山",
+  "difficulty": "LUNATIC",
+  "enemyLevel": 632,
+  "exp": 2180,
+  "gil": 211,
+  "drops": [],
+  "rewardLines": [
+   "< RESULT >",
+   "` 2180の経験値を獲得！",
+   "` 211のギルを獲得！"
+  ],
+  "updateLines": [
+   "+ テストは火の粉を習得した！",
+   "+ テストは電流を習得した！",
+   "+ テストは淡い光を習得した！",
+   "+ テストは儚い闇を習得した！",
+   "+ テストはブレイブを習得した！",
+   "+ テストはプロテを習得した！",
+   "+ テストが186にレベルアップした！"
+  ],
+  "playerLevel": 186,
+  "playerXp": 34940,
+  "playerGil": 211,
+  "playerMaxHp": 1960,
+  "playerMaxMp": 413,
+  "playerHp": 1960,
+  "playerSkills": [
+   "火の粉",
+   "電流",
+   "淡い光",
+   "儚い闇",
+   "ブレイブ",
+   "プロテ"
+  ],
+  "playerEffects": [
+   "毒:1:5"
+  ],
+  "playerItems": [],
+  "petLevel": null,
+  "petXp": null,
+  "nextEnemyCode": "flea",
+  "nextEnemyLevel": 633,
+  "nextEnemyHp": 19914,
+  "petAbility": "勇奮",
+  "petChance": 50
+ },
+ {
+  "index": 188,
+  "seed": 2188,
+  "enemyCode": "charon",
+  "field": "火山",
+  "difficulty": "NORMAL",
+  "enemyLevel": 645,
+  "exp": 742,
+  "gil": 215,
+  "drops": [],
+  "rewardLines": [
+   "< RESULT >",
+   "` 742の経験値を獲得！",
+   "` 215のギルを獲得！"
+  ],
+  "updateLines": [
+   "+ テストは火の粉を習得した！",
+   "+ テストは電流を習得した！",
+   "+ テストは淡い光を習得した！",
+   "+ テストは儚い闇を習得した！",
+   "+ テストはブレイブを習得した！",
+   "+ テストはプロテを習得した！",
+   "+ テストが199にレベルアップした！",
+   "+ ペット188が27にレベルアップした！"
+  ],
+  "playerLevel": 199,
+  "playerXp": 39945,
+  "playerGil": 215,
+  "playerMaxHp": 2090,
+  "playerMaxMp": 442,
+  "playerHp": 2090,
+  "playerSkills": [
+   "火の粉",
+   "電流",
+   "淡い光",
+   "儚い闇",
+   "ブレイブ",
+   "プロテ"
+  ],
+  "playerEffects": [
+   "毒:1:5"
+  ],
+  "playerItems": [],
+  "petLevel": 27,
+  "petXp": 742,
+  "nextEnemyCode": "fog",
+  "nextEnemyLevel": 646,
+  "nextEnemyHp": 5218,
+  "petAbility": "チェーン",
+  "petChance": 76
+ },
+ {
+  "index": 189,
+  "seed": 2189,
+  "enemyCode": "plasma",
+  "field": "氷山",
+  "difficulty": "HARD",
+  "enemyLevel": 658,
+  "exp": 932,
+  "gil": 219,
+  "drops": [],
+  "rewardLines": [
+   "< RESULT >",
+   "` 932の経験値を獲得！",
+   "` 219のギルを獲得！"
+  ],
+  "updateLines": [
+   "+ テストは火の粉を習得した！",
+   "+ テストは電流を習得した！",
+   "+ テストが34にレベルアップした！"
+  ],
+  "playerLevel": 34,
+  "playerXp": 1156,
+  "playerGil": 219,
+  "playerMaxHp": 440,
+  "playerMaxMp": 75,
+  "playerHp": 440,
+  "playerSkills": [
+   "火の粉",
+   "電流"
+  ],
+  "playerEffects": [
+   "毒:1:5"
+  ],
+  "playerItems": [],
+  "petLevel": null,
+  "petXp": null,
+  "nextEnemyCode": "rat",
+  "nextEnemyLevel": 659,
+  "nextEnemyHp": 9550,
+  "petAbility": "ポイズンLv.1",
+  "petChance": 64
+ },
+ {
+  "index": 190,
+  "seed": 2190,
+  "enemyCode": "crescent",
+  "field": "天界",
+  "difficulty": "EXTREME",
+  "enemyLevel": 671,
+  "exp": 1396,
+  "gil": 224,
+  "drops": [],
+  "rewardLines": [
+   "< RESULT >",
+   "` 1396の経験値を獲得！",
+   "` 224のギルを獲得！"
+  ],
+  "updateLines": [
+   "+ テストは火の粉を習得した！",
+   "+ テストは電流を習得した！",
+   "+ テストが49にレベルアップした！"
+  ],
+  "playerLevel": 49,
+  "playerXp": 2419,
+  "playerGil": 224,
+  "playerMaxHp": 590,
+  "playerMaxMp": 109,
+  "playerHp": 590,
+  "playerSkills": [
+   "火の粉",
+   "電流"
+  ],
+  "playerEffects": [
+   "毒:1:5"
+  ],
+  "playerItems": [],
+  "petLevel": null,
+  "petXp": null,
+  "nextEnemyCode": "rain",
+  "nextEnemyLevel": 672,
+  "nextEnemyHp": 306508,
+  "petAbility": "不動",
+  "petChance": 16
+ },
+ {
+  "index": 191,
+  "seed": 2191,
+  "enemyCode": "rain",
+  "field": "湖",
+  "difficulty": "LUNATIC",
+  "enemyLevel": 684,
+  "exp": 2052,
+  "gil": 228,
+  "drops": [],
+  "rewardLines": [
+   "< RESULT >",
+   "` 2052の経験値を獲得！",
+   "` 228のギルを獲得！"
+  ],
+  "updateLines": [
+   "+ テストは火の粉を習得した！",
+   "+ テストは電流を習得した！",
+   "+ テストは淡い光を習得した！",
+   "+ テストは儚い闇を習得した！",
+   "+ テストが66にレベルアップした！"
+  ],
+  "playerLevel": 66,
+  "playerXp": 4452,
+  "playerGil": 228,
+  "playerMaxHp": 760,
+  "playerMaxMp": 147,
+  "playerHp": 760,
+  "playerSkills": [
+   "火の粉",
+   "電流",
+   "淡い光",
+   "儚い闇"
+  ],
+  "playerEffects": [
+   "毒:1:5"
+  ],
+  "playerItems": [],
+  "petLevel": null,
+  "petXp": null,
+  "nextEnemyCode": "ghast",
+  "nextEnemyLevel": 685,
+  "nextEnemyHp": 27619,
+  "petAbility": "不動",
+  "petChance": 58
+ },
+ {
+  "index": 192,
+  "seed": 2192,
+  "enemyCode": "sylph",
+  "field": "天界",
+  "difficulty": "NORMAL",
+  "enemyLevel": 697,
+  "exp": 906,
+  "gil": 232,
+  "drops": [],
+  "rewardLines": [
+   "< RESULT >",
+   "` 906の経験値を獲得！",
+   "` 232のギルを獲得！"
+  ],
+  "updateLines": [
+   "+ テストは火の粉を習得した！",
+   "+ テストは電流を習得した！",
+   "+ テストは淡い光を習得した！",
+   "+ テストは儚い闇を習得した！",
+   "+ テストが72にレベルアップした！",
+   "+ ペット192が30にレベルアップした！"
+  ],
+  "playerLevel": 72,
+  "playerXp": 5261,
+  "playerGil": 232,
+  "playerMaxHp": 820,
+  "playerMaxMp": 160,
+  "playerHp": 820,
+  "playerSkills": [
+   "火の粉",
+   "電流",
+   "淡い光",
+   "儚い闇"
+  ],
+  "playerEffects": [
+   "毒:1:5"
+  ],
+  "playerItems": [],
+  "petLevel": 30,
+  "petXp": 906,
+  "nextEnemyCode": "crescent",
+  "nextEnemyLevel": 698,
+  "nextEnemyHp": 7030,
+  "petAbility": "ポイズンLv.2",
+  "petChance": 58
+ },
+ {
+  "index": 193,
+  "seed": 2193,
+  "enemyCode": "wisp",
+  "field": "天界",
+  "difficulty": "HARD",
+  "enemyLevel": 710,
+  "exp": 1108,
+  "gil": 237,
+  "drops": [],
+  "rewardLines": [
+   "< RESULT >",
+   "` 1108の経験値を獲得！",
+   "` 237のギルを獲得！"
+  ],
+  "updateLines": [
+   "+ テストは火の粉を習得した！",
+   "+ テストは電流を習得した！",
+   "+ テストは淡い光を習得した！",
+   "+ テストは儚い闇を習得した！",
+   "+ テストが89にレベルアップした！"
+  ],
+  "playerLevel": 89,
+  "playerXp": 7996,
+  "playerGil": 237,
+  "playerMaxHp": 990,
+  "playerMaxMp": 198,
+  "playerHp": 990,
+  "playerSkills": [
+   "火の粉",
+   "電流",
+   "淡い光",
+   "儚い闇"
+  ],
+  "playerEffects": [
+   "毒:1:5"
+  ],
+  "playerItems": [],
+  "petLevel": null,
+  "petXp": null,
+  "nextEnemyCode": "teru",
+  "nextEnemyLevel": 711,
+  "nextEnemyHp": 14991,
+  "petAbility": "荒くれ",
+  "petChance": 51
+ },
+ {
+  "index": 194,
+  "seed": 2194,
+  "enemyCode": "teru",
+  "field": "天界",
+  "difficulty": "EXTREME",
+  "enemyLevel": 723,
+  "exp": 1504,
+  "gil": 241,
+  "drops": [],
+  "rewardLines": [
+   "< RESULT >",
+   "` 1504の経験値を獲得！",
+   "` 241のギルを獲得！"
+  ],
+  "updateLines": [
+   "+ テストは火の粉を習得した！",
+   "+ テストは電流を習得した！",
+   "+ テストは淡い光を習得した！",
+   "+ テストは儚い闇を習得した！",
+   "+ テストはブレイブを習得した！",
+   "+ テストはプロテを習得した！",
+   "+ テストが107にレベルアップした！"
+  ],
+  "playerLevel": 107,
+  "playerXp": 11503,
+  "playerGil": 241,
+  "playerMaxHp": 1170,
+  "playerMaxMp": 238,
+  "playerHp": 1170,
+  "playerSkills": [
+   "火の粉",
+   "電流",
+   "淡い光",
+   "儚い闇",
+   "ブレイブ",
+   "プロテ"
+  ],
+  "playerEffects": [
+   "毒:1:5"
+  ],
+  "playerItems": [],
+  "petLevel": null,
+  "petXp": null,
+  "nextEnemyCode": "mimic",
+  "nextEnemyLevel": 724,
+  "nextEnemyHp": 8330,
+  "petAbility": "ポイズンLv.2",
+  "petChance": 5
+ },
+ {
+  "index": 195,
+  "seed": 2195,
+  "enemyCode": "prominence",
+  "field": "地獄",
+  "difficulty": "LUNATIC",
+  "enemyLevel": 736,
+  "exp": 2300,
+  "gil": 245,
+  "drops": [
+   "t:1"
+  ],
+  "rewardLines": [
+   "< RESULT >",
+   "` 2300の経験値を獲得！",
+   "` 245のギルを獲得！",
+   "` エーテルを手に入れた！"
+  ],
+  "updateLines": [
+   "+ テストは火の粉を習得した！",
+   "+ テストは電流を習得した！",
+   "+ テストは淡い光を習得した！",
+   "+ テストは儚い闇を習得した！",
+   "+ テストはブレイブを習得した！",
+   "+ テストはプロテを習得した！",
+   "+ テストが126にレベルアップした！"
+  ],
+  "playerLevel": 126,
+  "playerXp": 15988,
+  "playerGil": 245,
+  "playerMaxHp": 1360,
+  "playerMaxMp": 280,
+  "playerHp": 1360,
+  "playerSkills": [
+   "火の粉",
+   "電流",
+   "淡い光",
+   "儚い闇",
+   "ブレイブ",
+   "プロテ"
+  ],
+  "playerEffects": [
+   "毒:1:5"
+  ],
+  "playerItems": [
+   "t:1"
+  ],
+  "petLevel": null,
+  "petXp": null,
+  "nextEnemyCode": "ghast",
+  "nextEnemyLevel": 737,
+  "nextEnemyHp": 29699,
+  "petAbility": "不動",
+  "petChance": 85
+ },
+ {
+  "index": 196,
+  "seed": 2196,
+  "enemyCode": "larva",
+  "field": "遺跡",
+  "difficulty": "NORMAL",
+  "enemyLevel": 749,
+  "exp": 989,
+  "gil": 250,
+  "drops": [],
+  "rewardLines": [
+   "< RESULT >",
+   "` 989の経験値を獲得！",
+   "` 250のギルを獲得！"
+  ],
+  "updateLines": [
+   "+ テストは火の粉を習得した！",
+   "+ テストは電流を習得した！",
+   "+ テストは淡い光を習得した！",
+   "+ テストは儚い闇を習得した！",
+   "+ テストはブレイブを習得した！",
+   "+ テストはプロテを習得した！",
+   "+ テストが137にレベルアップした！",
+   "+ ペット196が31にレベルアップした！"
+  ],
+  "playerLevel": 137,
+  "playerXp": 18944,
+  "playerGil": 250,
+  "playerMaxHp": 1470,
+  "playerMaxMp": 304,
+  "playerHp": 1470,
+  "playerSkills": [
+   "火の粉",
+   "電流",
+   "淡い光",
+   "儚い闇",
+   "ブレイブ",
+   "プロテ"
+  ],
+  "playerEffects": [
+   "毒:1:5"
+  ],
+  "playerItems": [],
+  "petLevel": 31,
+  "petXp": 989,
+  "nextEnemyCode": "oboro",
+  "nextEnemyLevel": 750,
+  "nextEnemyHp": 10048,
+  "petAbility": "勇奮",
+  "petChance": 88
+ },
+ {
+  "index": 197,
+  "seed": 2197,
+  "enemyCode": "maiden",
+  "field": "遺跡",
+  "difficulty": "HARD",
+  "enemyLevel": 762,
+  "exp": 1207,
+  "gil": 254,
+  "drops": [],
+  "rewardLines": [
+   "< RESULT >",
+   "` 1207の経験値を獲得！",
+   "` 254のギルを獲得！"
+  ],
+  "updateLines": [
+   "+ テストは火の粉を習得した！",
+   "+ テストは電流を習得した！",
+   "+ テストは淡い光を習得した！",
+   "+ テストは儚い闇を習得した！",
+   "+ テストはブレイブを習得した！",
+   "+ テストはプロテを習得した！",
+   "+ テストが154にレベルアップした！"
+  ],
+  "playerLevel": 154,
+  "playerXp": 24007,
+  "playerGil": 254,
+  "playerMaxHp": 1640,
+  "playerMaxMp": 342,
+  "playerHp": 1640,
+  "playerSkills": [
+   "火の粉",
+   "電流",
+   "淡い光",
+   "儚い闇",
+   "ブレイブ",
+   "プロテ"
+  ],
+  "playerEffects": [
+   "毒:1:5"
+  ],
+  "playerItems": [],
+  "petLevel": null,
+  "petXp": null,
+  "nextEnemyCode": "oboro",
+  "nextEnemyLevel": 763,
+  "nextEnemyHp": 12265,
+  "petAbility": "チェーン",
+  "petChance": 70
+ },
+ {
+  "index": 198,
+  "seed": 2198,
+  "enemyCode": "knight",
+  "field": "遺跡",
+  "difficulty": "EXTREME",
+  "enemyLevel": 775,
+  "exp": 1637,
+  "gil": 258,
+  "drops": [],
+  "rewardLines": [
+   "< RESULT >",
+   "` 1637の経験値を獲得！",
+   "` 258のギルを獲得！"
+  ],
+  "updateLines": [
+   "+ テストは火の粉を習得した！",
+   "+ テストは電流を習得した！",
+   "+ テストは淡い光を習得した！",
+   "+ テストは儚い闇を習得した！",
+   "+ テストはブレイブを習得した！",
+   "+ テストはプロテを習得した！",
+   "+ テストが172にレベルアップした！"
+  ],
+  "playerLevel": 172,
+  "playerXp": 29860,
+  "playerGil": 258,
+  "playerMaxHp": 1820,
+  "playerMaxMp": 382,
+  "playerHp": 1820,
+  "playerSkills": [
+   "火の粉",
+   "電流",
+   "淡い光",
+   "儚い闇",
+   "ブレイブ",
+   "プロテ"
+  ],
+  "playerEffects": [
+   "毒:1:5"
+  ],
+  "playerItems": [],
+  "petLevel": null,
+  "petXp": null,
+  "nextEnemyCode": "egg",
+  "nextEnemyLevel": 776,
+  "nextEnemyHp": 23666,
+  "petAbility": "チェーン",
+  "petChance": 47
+ },
+ {
+  "index": 199,
+  "seed": 2199,
+  "enemyCode": "oboro",
+  "field": "冥界",
+  "difficulty": "LUNATIC",
+  "enemyLevel": 788,
+  "exp": 2463,
+  "gil": 263,
+  "drops": [],
+  "rewardLines": [
+   "< RESULT >",
+   "` 2463の経験値を獲得！",
+   "` 263のギルを獲得！"
+  ],
+  "updateLines": [
+   "+ テストは火の粉を習得した！",
+   "+ テストは電流を習得した！",
+   "+ テストは淡い光を習得した！",
+   "+ テストは儚い闇を習得した！",
+   "+ テストはブレイブを習得した！",
+   "+ テストはプロテを習得した！",
+   "+ テストが191にレベルアップした！"
+  ],
+  "playerLevel": 191,
+  "playerXp": 36687,
+  "playerGil": 263,
+  "playerMaxHp": 2010,
+  "playerMaxMp": 424,
+  "playerHp": 2010,
+  "playerSkills": [
+   "火の粉",
+   "電流",
+   "淡い光",
+   "儚い闇",
+   "ブレイブ",
+   "プロテ"
+  ],
+  "playerEffects": [
+   "毒:1:5"
+  ],
+  "playerItems": [],
+  "petLevel": null,
+  "petXp": null,
+  "nextEnemyCode": "oboro",
+  "nextEnemyLevel": 789,
+  "nextEnemyHp": 46961,
+  "petAbility": "不動",
+  "petChance": 33
+ }
+]
