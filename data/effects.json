@@ -909,35 +909,6 @@
   },
   {
     "name": "被ダメージ上昇",
-    "effect": [
-      {
-        "def": 0.9
-      },
-      {
-        "def": 0.8
-      },
-      {
-        "def": 0.7
-      },
-      {
-        "def": 0.6
-      },
-      {
-        "def": 0.5
-      },
-      {
-        "def": 0.4
-      },
-      {
-        "def": 0.3
-      },
-      {
-        "def": 0.2
-      },
-      {
-        "def": 0.1
-      }
-    ],
     "protect": [
       "被ダメージ上昇"
     ],
@@ -951,7 +922,71 @@
         "damage": 0,
         "mheal": 0,
         "atk": 1,
-        "def": 1,
+        "def": 0.9,
+        "nomove": 0
+      },
+      {
+        "heal": 0,
+        "damage": 0,
+        "mheal": 0,
+        "atk": 1,
+        "def": 0.8,
+        "nomove": 0
+      },
+      {
+        "heal": 0,
+        "damage": 0,
+        "mheal": 0,
+        "atk": 1,
+        "def": 0.7,
+        "nomove": 0
+      },
+      {
+        "heal": 0,
+        "damage": 0,
+        "mheal": 0,
+        "atk": 1,
+        "def": 0.6,
+        "nomove": 0
+      },
+      {
+        "heal": 0,
+        "damage": 0,
+        "mheal": 0,
+        "atk": 1,
+        "def": 0.5,
+        "nomove": 0
+      },
+      {
+        "heal": 0,
+        "damage": 0,
+        "mheal": 0,
+        "atk": 1,
+        "def": 0.4,
+        "nomove": 0
+      },
+      {
+        "heal": 0,
+        "damage": 0,
+        "mheal": 0,
+        "atk": 1,
+        "def": 0.3,
+        "nomove": 0
+      },
+      {
+        "heal": 0,
+        "damage": 0,
+        "mheal": 0,
+        "atk": 1,
+        "def": 0.2,
+        "nomove": 0
+      },
+      {
+        "heal": 0,
+        "damage": 0,
+        "mheal": 0,
+        "atk": 1,
+        "def": 0.1,
         "nomove": 0
       }
     ]

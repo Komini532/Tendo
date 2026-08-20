@@ -38,12 +38,11 @@ jobs:
         with:
           node-version: "22"
 
-      - name: マスターデータが legacy と一致することを確認
-        # data/*.json は legacy/mmo/*.js から生成したもの。
-        # 手で編集されていたり、生成し忘れがあればここで気付ける。
-        run: |
-          node tools/dump-master-data.js
-          git diff --exit-code -- data/
+      # data/*.json は移植時に legacy/mmo/*.js から生成したが、以後はそちらが正。
+      # バランス調整で意図的に legacy から離れているので、突き合わせる検査は置かない
+      # (tools/dump-master-data.js を走らせると調整が巻き戻る)。
+      # データの健全性は Tendo.Game.Tests の MasterDataLoaderTests と
+      # BalanceInvariantTests が見ている。
 
       - name: 差分テストの参照ケースが再現することを確認
         # 参照実装を変えたのに固定ケースを更新し忘れていないか。

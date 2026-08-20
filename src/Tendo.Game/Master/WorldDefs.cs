@@ -2,7 +2,19 @@ using System.Text.Json.Serialization;
 
 namespace Tendo.Game.Master;
 
-/// <summary>旧 <c>mmo/field.js</c>。フィールド 16 種。</summary>
+/// <summary>
+/// 旧 <c>mmo/field.js</c>。フィールド 16 種。
+///
+/// 旧実装のフィールドは経験値倍率しか持っておらず、敵の強さはどこでも同じだった。
+/// 「敵Lv上限」「敵HP倍率」「敵攻撃力倍率」はバランス調整で足したもので、
+/// フィールドを階層として機能させるための 3 本柱になる。
+///
+/// 設計の中身は <c>docs/balance.md</c> を参照。要点だけ書くと、
+/// 経験値/ターン は <c>ExpMultiplier / HpMultiplier</c> に比例し敵Lvが約分されて消えるので、
+/// HP 倍率だけ上げても上位フィールドは「遅いだけ」になる。
+/// 1 撃破は最短 1 ターンなので <see cref="LevelCap"/> が
+/// 「経験値/ターン ≦ 上限 × 経験値倍率」という硬い天井を作り、これが階層を成立させる。
+/// </summary>
 public sealed record FieldDef
 {
     [JsonPropertyName("name")]
@@ -11,6 +23,25 @@ public sealed record FieldDef
     /// <summary>獲得経験値の倍率。</summary>
     [JsonPropertyName("exp")]
     public double ExpMultiplier { get; init; } = 1;
+
+    /// <summary>敵の最大 HP 倍率。「適正スキル 2 回で個体倍率 1.0 の敵を倒せる」から逆算した値。</summary>
+    [JsonPropertyName("hp")]
+    public double HpMultiplier { get; init; } = 1;
+
+    /// <summary>敵の与ダメージ倍率。フィールドの危険度をHPと独立に決めるためのつまみ。</summary>
+    [JsonPropertyName("atk")]
+    public double AttackMultiplier { get; init; } = 1;
+
+    /// <summary>
+    /// このフィールドで通用する敵Lvの上限。
+    ///
+    /// 戦闘・報酬の計算はすべて <c>min(battle.Level, LevelCap)</c> (有効敵Lv) を使い、
+    /// 上限に達したチャンネルではそれ以上 <c>battle.Level</c> も伸びない
+    /// (<see cref="Tendo.Game.Engine.EncounterSpawner.SpawnNext"/>)。
+    /// 未指定は上限なしを意味する。
+    /// </summary>
+    [JsonPropertyName("cap")]
+    public int LevelCap { get; init; } = int.MaxValue;
 }
 
 /// <summary>

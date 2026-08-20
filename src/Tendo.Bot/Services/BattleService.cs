@@ -94,6 +94,7 @@ public sealed class BattleService
             Player = player,
             Enemy = enemy,
             Difficulty = difficulty,
+            Field = _data.FindField(battle.Field) ?? _data.DefaultField,
             PlayerName = displayName,
         };
 

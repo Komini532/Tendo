@@ -71,6 +71,7 @@ public sealed class BattleLoopTests
                 Player = loadedPlayer,
                 Enemy = currentEnemy,
                 Difficulty = _data.FindDifficulty(loadedBattle.Difficulty) ?? _data.DefaultDifficulty,
+                Field = _data.FindField(loadedBattle.Field) ?? _data.DefaultField,
                 PlayerName = "テスト",
             };
 
@@ -171,6 +172,7 @@ public sealed class BattleLoopTests
                 Player = loadedPlayer!,
                 Enemy = _data.FindEnemy(loadedBattle!.EnemyCode)!,
                 Difficulty = _data.DefaultDifficulty,
+                Field = _data.FindField(loadedBattle.Field) ?? _data.DefaultField,
                 PlayerName = "テスト",
             };
 

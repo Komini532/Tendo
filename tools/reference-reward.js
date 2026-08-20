@@ -37,8 +37,11 @@ function computeReward(einfo, enemy) {
   const fdata = fi.find((f) => f.name == enemy.f);
   const ddata = df.find((d) => d.name == enemy.d);
 
-  const exp = Math.round(einfo.exp * enemy.lv * (fdata ? fdata.exp : 1) * (ddata ? ddata.exp : 1));
-  const gil = Math.round(einfo.g * Math.round(enemy.lv / 3));
+  // 敵Lvはフィールドの上限でクランプした有効敵Lvを使う。
+  const lv = Math.min(enemy.lv, fdata && fdata.cap != null ? fdata.cap : Infinity);
+
+  const exp = Math.round(einfo.exp * lv * (fdata ? fdata.exp : 1) * (ddata ? ddata.exp : 1));
+  const gil = Math.round(einfo.g * Math.round(lv / 3));
 
   const lines = ["< RESULT >", `\` ${exp}の経験値を獲得！`, `\` ${gil}のギルを獲得！`];
   const item = [];
@@ -166,10 +169,17 @@ for (let i = 0; i < count; i++) {
   applyToPlayer(player, "テスト", reward.exp, reward.gil, reward.item, update);
 
   const next = chooseNext(enemy.f);
-  const nextLevel = enemy.lv + 1;
+  const fdef = fi.find((f) => f.name == enemy.f);
+  const cap = fdef && fdef.cap != null ? fdef.cap : Infinity;
+  // 上限に達したフィールドではレベルが伸びない (EncounterSpawner.SpawnNext と同じ)。
+  const nextLevel = enemy.lv < cap ? enemy.lv + 1 : enemy.lv;
   const ddata = df.find((d) => d.name == enemy.d);
   const nextHp = next
-    ? Math.round((nextLevel * next.hp * 10 + fix.enemy) * (ddata ? ddata.hp : 1))
+    ? Math.round(
+        (Math.min(nextLevel, cap) * next.hp * 10 + fix.enemy) *
+          (fdef && fdef.hp != null ? fdef.hp : 1) *
+          (ddata ? ddata.hp : 1)
+      )
     : null;
 
   const petAbility = chooseAbility(einfo);

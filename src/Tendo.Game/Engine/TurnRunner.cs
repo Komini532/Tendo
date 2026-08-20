@@ -104,7 +104,9 @@ public sealed class TurnRunner
 
         // --- 敏捷順に行動 ----------------------------------------------------
         // 旧: spd = player.spd*player.lv - einfo.spd*enemy.lv; jun = spd>=0 (true=先攻)
-        var speed = (player.Speed * player.Level) - (context.Enemy.SpeedMultiplier * battle.Level);
+        // 敵側は生の battle.Level ではなく有効敵Lv (フィールドの上限でクランプ) を使う。
+        var speed = (player.Speed * player.Level)
+                    - (context.Enemy.SpeedMultiplier * context.EnemyLevel);
         var playerFirst = speed >= 0;
 
         RunExchange(context, skill, attacker, defender, playerFirst, log);
@@ -293,10 +295,16 @@ public sealed class TurnRunner
             var name = EffectRules.SelectEnemySkill(_random, context.Enemy.Skills);
             var skill = (name is null ? null : _data.FindSkill(name)) ?? fallback;
 
+            // 括弧の位置まで ea.js (と tools/reference-battle.js) に合わせてある。
+            // 掛け算を先に全て済ませてから 3 と 30 で割ること。順序を変えると
+            // 浮動小数の丸めがずれて、差分テストが 1 ダメージ単位で食い違う。
             var damage = JsMath.RoundToLong(
-                skill.Attack * ((context.Battle.Level * 10) + _data.Fix.Enemy) / 3.0
+                skill.Attack
+                * ((context.EnemyLevel * 10) + _data.Fix.Enemy)
                 * context.Enemy.AttackMultiplier
+                * context.Field.AttackMultiplier
                 * context.Difficulty.AttackMultiplier
+                / 3.0
                 / 30.0
                 * (JsMath.Random(_random, 85, 100) / 100.0));
 

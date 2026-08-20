@@ -24,6 +24,15 @@ public sealed class TurnContext
 
     public required DifficultyDef Difficulty { get; init; }
 
+    /// <summary>現在のフィールド定義。敵HP・敵与ダメの倍率と敵Lv上限を持つ。</summary>
+    public required FieldDef Field { get; init; }
+
+    /// <summary>
+    /// 有効敵Lv。<c>min(Battle.Level, Field.LevelCap)</c>。
+    /// 敵の強さと報酬はすべてこの値で決まる (<see cref="MasterData.EffectiveLevel"/>)。
+    /// </summary>
+    public int EnemyLevel => Math.Min(Battle.Level, Field.LevelCap);
+
     /// <summary>旧 <c>tinfo.name</c>。サーバーでの表示名。</summary>
     public required string PlayerName { get; init; }
 

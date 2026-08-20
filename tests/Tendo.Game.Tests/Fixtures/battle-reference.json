@@ -10,29 +10,30 @@
   "enemyLevel": 1,
   "hasPet": true,
   "petAbility": "なし",
-  "resultPlayerHp": 0,
+  "resultPlayerHp": 52,
   "resultPlayerMp": 999999,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 191,
+  "resultEnemyHp": 47,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [
-   "毒:1:3",
-   "天邪鬼:1:5",
-   "再生:1:4"
+   "毒:1:2",
+   "天邪鬼:1:4",
+   "再生:1:3"
   ],
   "resultEnemyEffects": [
-   "ダメージ上昇:10:9999",
-   "ダメージ軽減:10:9999",
-   "猛毒耐性:1:9999",
-   "即死耐性:1:9999"
+   "ダメージ上昇:10:9998",
+   "ダメージ軽減:10:9998",
+   "猛毒耐性:1:9998",
+   "即死耐性:1:9998"
   ],
   "resultField": "草原",
   "resultMoved": false,
   "log": [
    "+ テストの何もしない！",
    "+ ペット0の攻撃！yayyyyに9ダメージ！",
-   "- yayyyyの攻撃！テストに250ダメージ！",
-   "テストは倒れた…"
+   "- yayyyyの攻撃！テストに58ダメージ！",
+   "- テストは毒で体力を3回復した！",
+   "+ テストは再生で3ダメージ受けた！"
   ]
  },
  {
@@ -46,10 +47,10 @@
   "enemyLevel": 14,
   "hasPet": false,
   "petAbility": null,
-  "resultPlayerHp": 212,
+  "resultPlayerHp": 239,
   "resultPlayerMp": 25,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 228,
+  "resultEnemyHp": 160,
   "resultEnemyMp": 100,
   "resultPlayerEffects": [],
   "resultEnemyEffects": [
@@ -61,7 +62,7 @@
   "log": [
    "+ テストの痺れ粉！",
    "+ 悪魔の種は麻痺状態になった！",
-   "- 悪魔の種の攻撃！テストに68ダメージ！"
+   "- 悪魔の種の攻撃！テストに41ダメージ！"
   ]
  },
  {
@@ -75,10 +76,10 @@
   "enemyLevel": 27,
   "hasPet": false,
   "petAbility": null,
-  "resultPlayerHp": 295,
+  "resultPlayerHp": 366,
   "resultPlayerMp": 999999,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 291,
+  "resultEnemyHp": 141,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [],
   "resultEnemyEffects": [
@@ -89,7 +90,7 @@
   "resultMoved": false,
   "log": [
    "+ テストの槍突き！アナコンダに195ダメージ！",
-   "- アナコンダの攻撃！テストに155ダメージ！"
+   "- アナコンダの攻撃！テストに84ダメージ！"
   ]
  },
  {
@@ -103,10 +104,10 @@
   "enemyLevel": 40,
   "hasPet": false,
   "petAbility": null,
-  "resultPlayerHp": 139,
+  "resultPlayerHp": 382,
   "resultPlayerMp": 115,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 3066,
+  "resultEnemyHp": 1063,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [
    "毒:4:5"
@@ -119,7 +120,7 @@
   "resultMoved": false,
   "log": [
    "+ テストの泥玉！キャタピラーには効いていない！",
-   "- キャタピラーの攻撃！テストに450ダメージ！",
+   "- キャタピラーの攻撃！テストに207ダメージ！",
    "- テストは毒で31ダメージ受けた！",
    "キャタピラーの「ツインウォール」状態が切れた！"
   ]
@@ -135,10 +136,10 @@
   "enemyLevel": 53,
   "hasPet": false,
   "petAbility": null,
-  "resultPlayerHp": 642,
+  "resultPlayerHp": 701,
   "resultPlayerMp": 999449,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 580,
+  "resultEnemyHp": 406,
   "resultEnemyMp": 500,
   "resultPlayerEffects": [],
   "resultEnemyEffects": [],
@@ -147,7 +148,7 @@
   "log": [
    "+ テストの吸い込み！",
    "+ サソリの体が地獄に吸い込まれる！",
-   "- サソリの攻撃！テストに148ダメージ！"
+   "- サソリの攻撃！テストに89ダメージ！"
   ]
  },
  {
@@ -161,10 +162,10 @@
   "enemyLevel": 66,
   "hasPet": true,
   "petAbility": "ポイズンLv.1",
-  "resultPlayerHp": 726,
+  "resultPlayerHp": 819,
   "resultPlayerMp": 191,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 839,
+  "resultEnemyHp": 575,
   "resultEnemyMp": 500,
   "resultPlayerEffects": [],
   "resultEnemyEffects": [
@@ -175,8 +176,8 @@
   "log": [
    "+ テストの終焉の闇！魔力が足りない！",
    "+ ペット5の攻撃！マタンゴに40ダメージ！",
-   "- マタンゴの攻撃！テストに234ダメージ！",
-   "+ マタンゴは再生で体力を27回復した！"
+   "- マタンゴの攻撃！テストに141ダメージ！",
+   "+ マタンゴは再生で体力を19回復した！"
   ]
  },
  {
@@ -223,28 +224,27 @@
   "enemyLevel": 92,
   "hasPet": false,
   "petAbility": null,
-  "resultPlayerHp": 0,
+  "resultPlayerHp": 756,
   "resultPlayerMp": 218,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 3493,
+  "resultEnemyHp": 1494,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [
-   "天邪鬼:1:5",
-   "ダメージ上昇:2:4"
+   "天邪鬼:1:4",
+   "ダメージ上昇:2:3"
   ],
   "resultEnemyEffects": [
-   "ツインウォール:1:1",
-   "ダメージ上昇:7:8",
-   "ダメージ軽減:7:8",
-   "完全耐性:1:20"
+   "ダメージ上昇:7:7",
+   "ダメージ軽減:7:7",
+   "完全耐性:1:19"
   ],
   "resultField": "草原",
   "resultMoved": false,
   "log": [
    "+ テストのブレイブ！",
    "+ テストはダメージ上昇状態になった！",
-   "- チェリーの攻撃！テストに1649ダメージ！",
-   "テストは倒れた…"
+   "- チェリーの攻撃！テストに544ダメージ！",
+   "チェリーの「ツインウォール」状態が切れた！"
   ]
  },
  {
@@ -261,14 +261,14 @@
   "resultPlayerHp": 1470,
   "resultPlayerMp": 999943,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 897,
+  "resultEnemyHp": 442,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [],
   "resultEnemyEffects": [],
   "resultField": "草原",
   "resultMoved": false,
   "log": [
-   "+ テストのクエイク！グラスに665ダメージ！",
+   "+ テストのクエイク！グラスに601ダメージ！",
    "- グラスの何もしない！"
   ]
  },
@@ -311,10 +311,10 @@
   "enemyLevel": 131,
   "hasPet": true,
   "petAbility": "フリーズ・ザ・ワールド",
-  "resultPlayerHp": 1232,
+  "resultPlayerHp": 1477,
   "resultPlayerMp": 999598,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 2029,
+  "resultEnemyHp": 1676,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [],
   "resultEnemyEffects": [
@@ -324,7 +324,7 @@
   "resultField": "洞窟",
   "resultMoved": false,
   "log": [
-   "- コウモリの攻撃！テストに578ダメージ！",
+   "- コウモリの攻撃！テストに333ダメージ！",
    "+ テストのブラックホール！コウモリには効いていない！",
    "+ ペット10の攻撃！コウモリに38ダメージ！"
   ]
@@ -340,10 +340,10 @@
   "enemyLevel": 144,
   "hasPet": false,
   "petAbility": null,
-  "resultPlayerHp": 697,
+  "resultPlayerHp": 1609,
   "resultPlayerMp": 280,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 7901,
+  "resultEnemyHp": 3286,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [
    "再生:3:3"
@@ -356,7 +356,7 @@
   "resultMoved": false,
   "log": [
    "+ テストのウェルテクス！マイマイには効いていない！",
-   "- マイマイの攻撃！テストに1407ダメージ！",
+   "- マイマイの攻撃！テストに495ダメージ！",
    "+ テストは再生で体力を124回復した！",
    "マイマイの「ツインウォール」状態が切れた！"
   ]
@@ -387,7 +387,7 @@
   "resultField": "洞窟",
   "resultMoved": false,
   "log": [
-   "+ テストのデッドワールド！ヤドカリに3982ダメージ！",
+   "+ テストのデッドワールド！ヤドカリに3575ダメージ！",
    "+ ヤドカリの再生状態が解除された！",
    "+ テストはダメージ低下状態になった！",
    "- テストは毒で90ダメージ受けた！",
@@ -405,10 +405,10 @@
   "enemyLevel": 170,
   "hasPet": false,
   "petAbility": null,
-  "resultPlayerHp": 1626,
+  "resultPlayerHp": 1876,
   "resultPlayerMp": 493,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 1277,
+  "resultEnemyHp": 1145,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [],
   "resultEnemyEffects": [
@@ -418,7 +418,7 @@
   "resultMoved": false,
   "log": [
    "+ テストの攻撃！アイシクルに619ダメージ！",
-   "- アイシクルの攻撃！テストに694ダメージ！"
+   "- アイシクルの攻撃！テストに444ダメージ！"
   ]
  },
  {
@@ -432,10 +432,10 @@
   "enemyLevel": 183,
   "hasPet": false,
   "petAbility": null,
-  "resultPlayerHp": 1486,
+  "resultPlayerHp": 1912,
   "resultPlayerMp": 999996,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 2895,
+  "resultEnemyHp": 2330,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [
    "天邪鬼:1:4"
@@ -449,8 +449,8 @@
   "log": [
    "+ テストの毒針！スノーマンに412ダメージ！",
    "+ スノーマンは毒状態になった！",
-   "- スノーマンの雪玉！テストに1004ダメージ！",
-   "- スノーマンは毒で107ダメージ受けた！"
+   "- スノーマンの雪玉！テストに578ダメージ！",
+   "- スノーマンは毒で88ダメージ受けた！"
   ]
  },
  {
@@ -464,10 +464,10 @@
   "enemyLevel": 196,
   "hasPet": true,
   "petAbility": "孔明の罠",
-  "resultPlayerHp": 1425,
+  "resultPlayerHp": 2104,
   "resultPlayerMp": 568,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 10674,
+  "resultEnemyHp": 4439,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [
    "毒:1:5"
@@ -482,7 +482,7 @@
    "+ テストの椅子で打つ！ペンギンには効いていない！",
    "+ ペット15の鬼火！",
    "+ ペンギンは完全耐性で火傷状態にならない！",
-   "- ペンギンの攻撃！テストに1152ダメージ！",
+   "- ペンギンの攻撃！テストに473ダメージ！",
    "- テストは毒で83ダメージ受けた！",
    "ペンギンの「ツインウォール」状態が切れた！"
   ]
@@ -498,10 +498,10 @@
   "enemyLevel": 209,
   "hasPet": false,
   "petAbility": null,
-  "resultPlayerHp": 1941,
+  "resultPlayerHp": 2226,
   "resultPlayerMp": 999999,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 1457,
+  "resultEnemyHp": 1687,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [],
   "resultEnemyEffects": [],
@@ -509,7 +509,7 @@
   "resultMoved": false,
   "log": [
    "+ テストの引っかく！マッドハンドに1101ダメージ！",
-   "- マッドハンドの引っかく！テストに889ダメージ！"
+   "- マッドハンドの引っかく！テストに604ダメージ！"
   ]
  },
  {
@@ -523,10 +523,10 @@
   "enemyLevel": 222,
   "hasPet": false,
   "petAbility": null,
-  "resultPlayerHp": 2221,
+  "resultPlayerHp": 2502,
   "resultPlayerMp": 644,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 1772,
+  "resultEnemyHp": 1251,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [],
   "resultEnemyEffects": [],
@@ -534,7 +534,7 @@
   "resultMoved": false,
   "log": [
    "+ テストの針飛ばし！ネズミに1485ダメージ！",
-   "- ネズミの引っかく！テストに779ダメージ！",
+   "- ネズミの引っかく！テストに498ダメージ！",
    "ネズミの「浮遊」状態が切れた！"
   ]
  },
@@ -552,7 +552,7 @@
   "resultPlayerHp": 0,
   "resultPlayerMp": 999999,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 2576,
+  "resultEnemyHp": 3024,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [
    "毒:4:5"
@@ -563,7 +563,7 @@
   "resultField": "洞窟",
   "resultMoved": false,
   "log": [
-   "- ノミの攻撃！テストに764ダメージ！",
+   "- ノミの攻撃！テストに440ダメージ！",
    "テストは倒れた…"
   ]
  },
@@ -581,7 +581,7 @@
   "resultPlayerHp": 340,
   "resultPlayerMp": 53,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 5733,
+  "resultEnemyHp": 3093,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [],
   "resultEnemyEffects": [
@@ -609,14 +609,14 @@
   "resultPlayerHp": 0,
   "resultPlayerMp": 999999,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 2138,
+  "resultEnemyHp": 3724,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [],
   "resultEnemyEffects": [],
   "resultField": "火山",
   "resultMoved": false,
   "log": [
-   "- フォグの攻撃！テストに914ダメージ！",
+   "- フォグの攻撃！テストに658ダメージ！",
    "テストは倒れた…"
   ]
  },
@@ -634,7 +634,7 @@
   "resultPlayerHp": 704,
   "resultPlayerMp": 73,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 6203,
+  "resultEnemyHp": 8898,
   "resultEnemyMp": 3000,
   "resultPlayerEffects": [
    "毒:2:3",
@@ -645,7 +645,7 @@
   "resultMoved": false,
   "log": [
    "- ボムの何もしない！",
-   "+ テストのヴォイド！ボムに433ダメージ！",
+   "+ テストのヴォイド！ボムに392ダメージ！",
    "- テストは毒で体力を24回復した！"
   ]
  },
@@ -663,7 +663,7 @@
   "resultPlayerHp": 0,
   "resultPlayerMp": 999999,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 3784,
+  "resultEnemyHp": 6132,
   "resultEnemyMp": 2500,
   "resultPlayerEffects": [
    "再生:2:4"
@@ -675,7 +675,7 @@
   "resultField": "火山",
   "resultMoved": false,
   "log": [
-   "- サラマンダーの攻撃！テストに1493ダメージ！",
+   "- サラマンダーの攻撃！テストに966ダメージ！",
    "テストは倒れた…"
   ]
  },
@@ -693,7 +693,7 @@
   "resultPlayerHp": 0,
   "resultPlayerMp": 204,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 16221,
+  "resultEnemyHp": 11242,
   "resultEnemyMp": 750,
   "resultPlayerEffects": [],
   "resultEnemyEffects": [
@@ -704,7 +704,7 @@
   "resultField": "火山",
   "resultMoved": false,
   "log": [
-   "- タンクの攻撃！テストに3286ダメージ！",
+   "- タンクの攻撃！テストに1302ダメージ！",
    "タンクの「ツインウォール」状態が切れた！",
    "テストは倒れた…"
   ]
@@ -720,20 +720,21 @@
   "enemyLevel": 313,
   "hasPet": false,
   "petAbility": null,
-  "resultPlayerHp": 0,
-  "resultPlayerMp": 999999,
+  "resultPlayerHp": 149,
+  "resultPlayerMp": 999862,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 4213,
+  "resultEnemyHp": 4574,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [
-   "毒:5:3"
+   "毒:5:2"
   ],
   "resultEnemyEffects": [],
   "resultField": "火山",
   "resultMoved": false,
   "log": [
-   "- ヘルハウンドの引っかく！テストに1343ダメージ！",
-   "テストは倒れた…"
+   "- ヘルハウンドの引っかく！テストに967ダメージ！",
+   "+ テストのテラグロウ！ヘルハウンドに1324ダメージ！",
+   "- テストは毒で74ダメージ受けた！"
   ]
  },
  {
@@ -750,14 +751,14 @@
   "resultPlayerHp": 0,
   "resultPlayerMp": 280,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 4833,
+  "resultEnemyHp": 6766,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [],
   "resultEnemyEffects": [],
   "resultField": "火山",
   "resultMoved": false,
   "log": [
-   "- ヒドラの猛毒牙！テストに2574ダメージ！",
+   "- ヒドラの猛毒牙！テストに1853ダメージ！",
    "テストは倒れた…"
   ]
  },
@@ -772,10 +773,10 @@
   "enemyLevel": 339,
   "hasPet": false,
   "petAbility": null,
-  "resultPlayerHp": 50,
+  "resultPlayerHp": 626,
   "resultPlayerMp": 999999,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 4840,
+  "resultEnemyHp": 5235,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [],
   "resultEnemyEffects": [
@@ -785,7 +786,7 @@
   "resultField": "峡谷",
   "resultMoved": false,
   "log": [
-   "- ウロボロスの攻撃！テストに1480ダメージ！",
+   "- ウロボロスの攻撃！テストに904ダメージ！",
    "+ テストの噛みつく！ウロボロスに389ダメージ！"
   ]
  },
@@ -803,7 +804,7 @@
   "resultPlayerHp": 0,
   "resultPlayerMp": 355,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 31508,
+  "resultEnemyHp": 21837,
   "resultEnemyMp": 820,
   "resultPlayerEffects": [
    "毒:3:6"
@@ -815,7 +816,7 @@
   "resultField": "火山",
   "resultMoved": false,
   "log": [
-   "- エッグの粉塵！テストに6091ダメージ！",
+   "- エッグの粉塵！テストに2413ダメージ！",
    "エッグの「ツインウォール」状態が切れた！",
    "テストは倒れた…"
   ]
@@ -831,10 +832,10 @@
   "enemyLevel": 365,
   "hasPet": false,
   "petAbility": null,
-  "resultPlayerHp": 966,
+  "resultPlayerHp": 1128,
   "resultPlayerMp": 999999,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 821,
+  "resultEnemyHp": 6260,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [
    "天邪鬼:1:4"
@@ -843,7 +844,7 @@
   "resultField": "冥界",
   "resultMoved": false,
   "log": [
-   "- ゴーストの攻撃！テストに904ダメージ！",
+   "- ゴーストの攻撃！テストに742ダメージ！",
    "+ テストの大鎌！ゴーストに2879ダメージ！"
   ]
  },
@@ -858,10 +859,10 @@
   "enemyLevel": 378,
   "hasPet": false,
   "petAbility": null,
-  "resultPlayerHp": 0,
-  "resultPlayerMp": 431,
+  "resultPlayerHp": 5,
+  "resultPlayerMp": 251,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 5503,
+  "resultEnemyHp": 12741,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [],
   "resultEnemyEffects": [
@@ -870,8 +871,8 @@
   "resultField": "冥界",
   "resultMoved": false,
   "log": [
-   "- ポルターガイストの椅子で打つ！テストに2482ダメージ！",
-   "テストは倒れた…"
+   "- ポルターガイストの椅子で打つ！テストに2035ダメージ！",
+   "+ テストの粉塵！ポルターガイストに852ダメージ！"
   ]
  },
  {
@@ -888,7 +889,7 @@
   "resultPlayerHp": 0,
   "resultPlayerMp": 999999,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 7208,
+  "resultEnemyHp": 17569,
   "resultEnemyMp": 978,
   "resultPlayerEffects": [
    "毒:1:5"
@@ -900,7 +901,7 @@
   "resultField": "冥界",
   "resultMoved": false,
   "log": [
-   "- ファントムの儚い闇！テストに3172ダメージ！",
+   "- ファントムの儚い闇！テストに2538ダメージ！",
    "テストは倒れた…"
   ]
  },
@@ -915,10 +916,10 @@
   "enemyLevel": 4,
   "hasPet": false,
   "petAbility": null,
-  "resultPlayerHp": 2246,
+  "resultPlayerHp": 2314,
   "resultPlayerMp": 506,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 459,
+  "resultEnemyHp": 561,
   "resultEnemyMp": 978,
   "resultPlayerEffects": [],
   "resultEnemyEffects": [
@@ -929,7 +930,7 @@
   "resultMoved": false,
   "log": [
    "+ テストの-273度！魔力が足りない！",
-   "- スピリットの儚い闇！テストに134ダメージ！",
+   "- スピリットの儚い闇！テストに66ダメージ！",
    "スピリットの「ツインウォール」状態が切れた！"
   ]
  },
@@ -999,21 +1000,21 @@
   "enemyLevel": 43,
   "hasPet": false,
   "petAbility": null,
-  "resultPlayerHp": 2890,
+  "resultPlayerHp": 2738,
   "resultPlayerMp": 999749,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 0,
+  "resultEnemyHp": 215,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [],
   "resultEnemyEffects": [
-   "ダメージ軽減:1:9999",
-   "理不尽体:1:9999"
+   "ダメージ軽減:1:9998",
+   "理不尽体:1:9998"
   ],
   "resultField": "火山",
   "resultMoved": false,
   "log": [
-   "+ テストの常闇！カロンに1523ダメージ！",
-   "` カロンを倒した！"
+   "+ テストの常闇！カロンに883ダメージ！",
+   "- カロンの攻撃！テストに152ダメージ！"
   ]
  },
  {
@@ -1027,10 +1028,10 @@
   "enemyLevel": 56,
   "hasPet": true,
   "petAbility": "不動",
-  "resultPlayerHp": 2279,
+  "resultPlayerHp": 2649,
   "resultPlayerMp": 562,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 3955,
+  "resultEnemyHp": 4836,
   "resultEnemyMp": 985,
   "resultPlayerEffects": [
    "天邪鬼:1:4"
@@ -1044,7 +1045,7 @@
   "log": [
    "+ テストのアース！プラズマには効いていない！",
    "+ ペット35の攻撃！プラズマには効いていない！",
-   "- プラズマの電流！テストに781ダメージ！",
+   "- プラズマの電流！テストに411ダメージ！",
    "プラズマの「ツインウォール」状態が切れた！"
   ]
  },
@@ -1062,7 +1063,7 @@
   "resultPlayerHp": 0,
   "resultPlayerMp": 999999,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 740,
+  "resultEnemyHp": 2361,
   "resultEnemyMp": 978,
   "resultPlayerEffects": [
    "毒:2:3"
@@ -1073,7 +1074,7 @@
   "resultField": "天界",
   "resultMoved": false,
   "log": [
-   "- クレセントの淡い光！テストに265ダメージ！",
+   "- クレセントの淡い光！テストに247ダメージ！",
    "テストは倒れた…"
   ]
  },
@@ -1088,10 +1089,10 @@
   "enemyLevel": 82,
   "hasPet": false,
   "petAbility": null,
-  "resultPlayerHp": 317,
+  "resultPlayerHp": 264,
   "resultPlayerMp": 67,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 29580,
+  "resultEnemyHp": 3833,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [],
   "resultEnemyEffects": [
@@ -1100,7 +1101,7 @@
   "resultField": "湖",
   "resultMoved": false,
   "log": [
-   "- レインの攻撃！テストに83ダメージ！",
+   "- レインの攻撃！テストに136ダメージ！",
    "+ テストのグランドフォース！魔力が足りない！"
   ]
  },
@@ -1115,12 +1116,15 @@
   "enemyLevel": 95,
   "hasPet": false,
   "petAbility": null,
-  "resultPlayerHp": 0,
-  "resultPlayerMp": 999999,
+  "resultPlayerHp": 60,
+  "resultPlayerMp": 999444,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 1520,
+  "resultEnemyHp": 4785,
   "resultEnemyMp": 978,
-  "resultPlayerEffects": [],
+  "resultPlayerEffects": [
+   "再生:3:9",
+   "豊穣の宣告:1:2"
+  ],
   "resultEnemyEffects": [
    "理不尽体:1:9998",
    "魔法障壁:1:4"
@@ -1128,8 +1132,11 @@
   "resultField": "天界",
   "resultMoved": false,
   "log": [
-   "- シルフの淡い光！テストに651ダメージ！",
-   "テストは倒れた…"
+   "- シルフの淡い光！テストに546ダメージ！",
+   "+ テストの妖精の加護！",
+   "+ テストは再生状態になった！",
+   "+ テストは豊穣の宣告状態になった！",
+   "+ テストは再生で体力を36回復した！"
   ]
  },
  {
@@ -1146,7 +1153,7 @@
   "resultPlayerHp": 0,
   "resultPlayerMp": 142,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 4062,
+  "resultEnemyHp": 7930,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [
    "毒:5:6"
@@ -1158,7 +1165,7 @@
   "resultField": "天界",
   "resultMoved": false,
   "log": [
-   "- ウィルオウィスプの攻撃！テストに2862ダメージ！",
+   "- ウィルオウィスプの攻撃！テストに1354ダメージ！",
    "ウィルオウィスプの「ツインウォール」状態が切れた！",
    "テストは倒れた…"
   ]
@@ -1177,7 +1184,7 @@
   "resultPlayerHp": 910,
   "resultPlayerMp": 999999,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 1298,
+  "resultEnemyHp": 6044,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [],
   "resultEnemyEffects": [],
@@ -1200,17 +1207,17 @@
   "enemyLevel": 134,
   "hasPet": false,
   "petAbility": null,
-  "resultPlayerHp": 544,
+  "resultPlayerHp": 419,
   "resultPlayerMp": 218,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 1668,
+  "resultEnemyHp": 6655,
   "resultEnemyMp": 985,
   "resultPlayerEffects": [],
   "resultEnemyEffects": [],
   "resultField": "地獄",
   "resultMoved": false,
   "log": [
-   "- プロミネンスの火の粉！テストに536ダメージ！",
+   "- プロミネンスの火の粉！テストに661ダメージ！",
    "+ テストの絶望の歌！"
   ]
  },
@@ -1228,7 +1235,7 @@
   "resultPlayerHp": 0,
   "resultPlayerMp": 999999,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 2310,
+  "resultEnemyHp": 7273,
   "resultEnemyMp": 599,
   "resultPlayerEffects": [
    "毒:3:5",
@@ -1243,7 +1250,7 @@
   "resultField": "遺跡",
   "resultMoved": false,
   "log": [
-   "- ラーヴァのブラックホール！テストに3406ダメージ！",
+   "- ラーヴァのブラックホール！テストに1733ダメージ！",
    "- テストは即死状態になった！",
    "テストは倒れた…"
   ]
@@ -1262,7 +1269,7 @@
   "resultPlayerHp": 0,
   "resultPlayerMp": 293,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 7333,
+  "resultEnemyHp": 11580,
   "resultEnemyMp": 777,
   "resultPlayerEffects": [],
   "resultEnemyEffects": [
@@ -1271,7 +1278,7 @@
   "resultField": "遺跡",
   "resultMoved": false,
   "log": [
-   "- アイアンメイデンの針飛ばし！テストに3991ダメージ！",
+   "- アイアンメイデンの針飛ばし！テストに1888ダメージ！",
    "アイアンメイデンの「ツインウォール」状態が切れた！",
    "テストは倒れた…"
   ]
@@ -1287,27 +1294,27 @@
   "enemyLevel": 173,
   "hasPet": false,
   "petAbility": null,
-  "resultPlayerHp": 971,
+  "resultPlayerHp": 1156,
   "resultPlayerMp": 992222,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 0,
+  "resultEnemyHp": 412,
   "resultEnemyMp": 444,
   "resultPlayerEffects": [
-   "再生:3:4"
+   "再生:3:3"
   ],
   "resultEnemyEffects": [
-   "ダメージ軽減:4:9999",
-   "ダメージ低下:8:8",
-   "被ダメージ上昇:8:8"
+   "ダメージ軽減:4:9998",
+   "ダメージ低下:8:7",
+   "被ダメージ上昇:8:7"
   ],
   "resultField": "遺跡",
   "resultMoved": false,
   "log": [
-   "- ナイトの攻撃！テストに619ダメージ！",
+   "- ナイトの攻撃！テストに533ダメージ！",
    "+ テストの虚ろな悪夢！ナイトに5266ダメージ！",
    "+ ナイトはダメージ低下状態になった！",
    "+ ナイトは被ダメージ上昇状態になった！",
-   "` ナイトを倒した！"
+   "+ テストは再生で体力を99回復した！"
   ]
  },
  {
@@ -1321,10 +1328,10 @@
   "enemyLevel": 186,
   "hasPet": true,
   "petAbility": "英雄",
-  "resultPlayerHp": 1319,
+  "resultPlayerHp": 1239,
   "resultPlayerMp": 354,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 2063,
+  "resultEnemyHp": 6397,
   "resultEnemyMp": 4429,
   "resultPlayerEffects": [
    "毒:1:3"
@@ -1333,8 +1340,8 @@
   "resultField": "冥界",
   "resultMoved": false,
   "log": [
-   "- 朧車の火の粉！テストに386ダメージ！",
-   "+ テストの火の粉！朧車に319ダメージ！",
+   "- 朧車の火の粉！テストに466ダメージ！",
+   "+ テストの火の粉！朧車に447ダメージ！",
    "+ ペット45の猛毒牙！朧車に653ダメージ！",
    "朧車の「浮遊」状態が切れた！",
    "- テストは毒で55ダメージ受けた！"
@@ -1351,10 +1358,10 @@
   "enemyLevel": 199,
   "hasPet": false,
   "petAbility": null,
-  "resultPlayerHp": 0,
-  "resultPlayerMp": 999999,
+  "resultPlayerHp": 86,
+  "resultPlayerMp": 999957,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 3101,
+  "resultEnemyHp": 9280,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [],
   "resultEnemyEffects": [
@@ -1367,9 +1374,9 @@
   "resultField": "遺跡",
   "resultMoved": false,
   "log": [
-   "- キラーマシンの攻撃！テストに1141ダメージ！",
-   "- キラーマシンの攻撃！テストに1245ダメージ！",
-   "テストは倒れた…"
+   "- キラーマシンの攻撃！テストに881ダメージ！",
+   "- キラーマシンの攻撃！テストに963ダメージ！",
+   "+ テストのザップ！キラーマシンに481ダメージ！"
   ]
  },
  {
@@ -1383,22 +1390,21 @@
   "enemyLevel": 212,
   "hasPet": false,
   "petAbility": null,
-  "resultPlayerHp": 0,
+  "resultPlayerHp": 210,
   "resultPlayerMp": 194,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 28486,
+  "resultEnemyHp": 41244,
   "resultEnemyMp": 10000,
   "resultPlayerEffects": [],
   "resultEnemyEffects": [
-   "ツインウォール:1:1",
-   "完全耐性:1:20"
+   "完全耐性:1:19"
   ],
   "resultField": "竜洞",
   "resultMoved": false,
   "log": [
    "+ テストの極光！バハムートには効いていない！",
-   "- バハムートの引っかく！テストに3905ダメージ！",
-   "テストは倒れた…"
+   "- バハムートの引っかく！テストに1890ダメージ！",
+   "バハムートの「ツインウォール」状態が切れた！"
   ]
  },
  {
@@ -1415,7 +1421,7 @@
   "resultPlayerHp": 0,
   "resultPlayerMp": 999999,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 5675,
+  "resultEnemyHp": 19884,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [
    "毒:4:3"
@@ -1427,7 +1433,7 @@
   "resultField": "竜洞",
   "resultMoved": false,
   "log": [
-   "- コアトルの引っかく！テストに3552ダメージ！",
+   "- コアトルの引っかく！テストに3315ダメージ！",
    "テストは倒れた…"
   ]
  },
@@ -1442,26 +1448,25 @@
   "enemyLevel": 238,
   "hasPet": false,
   "petAbility": null,
-  "resultPlayerHp": 0,
+  "resultPlayerHp": 832,
   "resultPlayerMp": 75,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 6827,
+  "resultEnemyHp": 20670,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [
-   "天邪鬼:1:5",
-   "ダメージ低下:5:10"
+   "天邪鬼:1:4",
+   "ダメージ低下:5:9"
   ],
   "resultEnemyEffects": [
-   "被ダメージ上昇:3:9999"
+   "被ダメージ上昇:3:9998"
   ],
   "resultField": "竜洞",
   "resultMoved": false,
   "log": [
-   "+ テストのシグルイ！双頭龍に11797ダメージ！",
+   "+ テストのシグルイ！双頭龍に4554ダメージ！",
    "+ テストはダメージ低下状態になった！",
-   "- 双頭龍の攻撃！テストに865ダメージ！",
-   "- 双頭龍の頭突き！テストに1732ダメージ！",
-   "テストは倒れた…"
+   "- 双頭龍の攻撃！テストに761ダメージ！",
+   "- 双頭龍の攻撃！テストに847ダメージ！"
   ]
  },
  {
@@ -1475,10 +1480,10 @@
   "enemyLevel": 251,
   "hasPet": true,
   "petAbility": "最強の槍",
-  "resultPlayerHp": 159,
+  "resultPlayerHp": 1200,
   "resultPlayerMp": 999851,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 8469,
+  "resultEnemyHp": 33234,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [],
   "resultEnemyEffects": [
@@ -1489,7 +1494,7 @@
   "resultField": "竜洞",
   "resultMoved": false,
   "log": [
-   "- 恐竜の攻撃！テストに2451ダメージ！",
+   "- 恐竜の攻撃！テストに1410ダメージ！",
    "+ テストのボルテガ！恐竜には効いていない！",
    "+ ペット50の切り裂く！恐竜には効いていない！"
   ]
@@ -1505,13 +1510,13 @@
   "enemyLevel": 264,
   "hasPet": false,
   "petAbility": null,
-  "resultPlayerHp": 0,
+  "resultPlayerHp": 2237,
   "resultPlayerMp": 595,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 42458,
+  "resultEnemyHp": 51243,
   "resultEnemyMp": 6666,
   "resultPlayerEffects": [
-   "毒:2:6"
+   "毒:2:5"
   ],
   "resultEnemyEffects": [
    "ダメージ低下:8:2",
@@ -1521,9 +1526,10 @@
   "resultField": "竜洞",
   "resultMoved": false,
   "log": [
-   "- スカルドラゴンの攻撃！テストに3614ダメージ！",
+   "- スカルドラゴンの攻撃！テストに444ダメージ！",
+   "+ テストのスーパーノヴァ！魔力が足りない！",
    "スカルドラゴンの「ツインウォール」状態が切れた！",
-   "テストは倒れた…"
+   "- テストは毒で99ダメージ受けた！"
   ]
  },
  {
@@ -1537,24 +1543,23 @@
   "enemyLevel": 277,
   "hasPet": false,
   "petAbility": null,
-  "resultPlayerHp": 0,
+  "resultPlayerHp": 1203,
   "resultPlayerMp": 999999,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 11148,
+  "resultEnemyHp": 22248,
   "resultEnemyMp": 899,
   "resultPlayerEffects": [
-   "被ダメージ上昇:3:5"
+   "被ダメージ上昇:3:4"
   ],
   "resultEnemyEffects": [
-   "被ダメージ上昇:5:9999"
+   "被ダメージ上昇:5:9998"
   ],
   "resultField": "竜洞",
   "resultMoved": false,
   "log": [
-   "+ テストの毒牙！ドラゴンゾンビに1090ダメージ！",
-   "- ドラゴンゾンビのメルトン！テストに5514ダメージ！",
-   "- テストは被ダメージ上昇状態になった！",
-   "テストは倒れた…"
+   "+ テストの毒牙！ドラゴンゾンビに2180ダメージ！",
+   "- ドラゴンゾンビのメルトン！テストに1747ダメージ！",
+   "- テストは被ダメージ上昇状態になった！"
   ]
  },
  {
@@ -1571,7 +1576,7 @@
   "resultPlayerHp": 0,
   "resultPlayerMp": 4,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 18723,
+  "resultEnemyHp": 2642,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [],
   "resultEnemyEffects": [
@@ -1580,8 +1585,8 @@
   "resultField": "草原",
   "resultMoved": false,
   "log": [
-   "- 不滅の種の攻撃！テストに846ダメージ！",
-   "+ 不滅の種は再生で体力を567回復した！",
+   "- 不滅の種の攻撃！テストに181ダメージ！",
+   "+ 不滅の種は再生で体力を80回復した！",
    "テストは倒れた…"
   ]
  },
@@ -1599,7 +1604,7 @@
   "resultPlayerHp": 0,
   "resultPlayerMp": 999999,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 38103,
+  "resultEnemyHp": 3403,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [
    "毒:5:5"
@@ -1613,8 +1618,8 @@
   "resultField": "草原",
   "resultMoved": false,
   "log": [
-   "- 草のツルの鞭！テストに2865ダメージ！",
-   "+ 草は再生で体力を2241回復した！",
+   "- 草のツルの鞭！テストに527ダメージ！",
+   "+ 草は再生で体力を200回復した！",
    "テストは倒れた…"
   ]
  },
@@ -1632,7 +1637,7 @@
   "resultPlayerHp": 0,
   "resultPlayerMp": 80,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 17355,
+  "resultEnemyHp": 9365,
   "resultEnemyMp": 500,
   "resultPlayerEffects": [
    "再生:2:4"
@@ -1645,7 +1650,7 @@
   "resultField": "峡谷",
   "resultMoved": false,
   "log": [
-   "- 神速のサソリの攻撃！テストに8456ダメージ！",
+   "- 神速のサソリの攻撃！テストに3163ダメージ！",
    "神速のサソリの「ツインウォール」状態が切れた！",
    "テストは倒れた…"
   ]
@@ -1661,20 +1666,20 @@
   "enemyLevel": 329,
   "hasPet": false,
   "petAbility": null,
-  "resultPlayerHp": 0,
+  "resultPlayerHp": 275,
   "resultPlayerMp": 999999,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 5511,
+  "resultEnemyHp": 898,
   "resultEnemyMp": 10000,
   "resultPlayerEffects": [
-   "天邪鬼:1:5"
+   "天邪鬼:1:4"
   ],
   "resultEnemyEffects": [],
   "resultField": "草原",
   "resultMoved": false,
   "log": [
-   "- 貧弱なモスのツルの鞭！テストに1884ダメージ！",
-   "テストは倒れた…"
+   "- 貧弱なモスのツルの鞭！テストに355ダメージ！",
+   "+ テストの矢！貧弱なモスに299ダメージ！"
   ]
  },
  {
@@ -1688,10 +1693,10 @@
   "enemyLevel": 342,
   "hasPet": false,
   "petAbility": null,
-  "resultPlayerHp": 19,
+  "resultPlayerHp": 34,
   "resultPlayerMp": 155,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 22632,
+  "resultEnemyHp": 23383,
   "resultEnemyMp": 2000,
   "resultPlayerEffects": [
    "毒:3:3"
@@ -1700,7 +1705,7 @@
   "resultField": "秘境",
   "resultMoved": false,
   "log": [
-   "- 夜桜のツルの鞭！テストに748ダメージ！",
+   "- 夜桜のツルの鞭！テストに733ダメージ！",
    "+ テストのノーライフ！魔力が足りない！",
    "- テストは毒で33ダメージ受けた！"
   ]
@@ -1719,7 +1724,7 @@
   "resultPlayerHp": 970,
   "resultPlayerMp": 999999,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 20457,
+  "resultEnemyHp": 22470,
   "resultEnemyMp": 943,
   "resultPlayerEffects": [
    "時間停止:1:2"
@@ -1751,7 +1756,7 @@
   "resultPlayerHp": 1104,
   "resultPlayerMp": 189,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 90169,
+  "resultEnemyHp": 97348,
   "resultEnemyMp": 2895,
   "resultPlayerEffects": [
    "火傷:2:3"
@@ -1784,7 +1789,7 @@
   "resultPlayerHp": 0,
   "resultPlayerMp": 999999,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 5117,
+  "resultEnemyHp": 2835,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [
    "毒:1:3"
@@ -1793,7 +1798,7 @@
   "resultField": "氷原",
   "resultMoved": false,
   "log": [
-   "- イエティの吹雪！テストに3518ダメージ！",
+   "- イエティの吹雪！テストに1487ダメージ！",
    "テストは倒れた…"
   ]
  },
@@ -1808,18 +1813,21 @@
   "enemyLevel": 394,
   "hasPet": false,
   "petAbility": null,
-  "resultPlayerHp": 0,
-  "resultPlayerMp": 306,
+  "resultPlayerHp": 189,
+  "resultPlayerMp": 151,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 18972,
+  "resultEnemyHp": 15526,
   "resultEnemyMp": 1000,
-  "resultPlayerEffects": [],
+  "resultPlayerEffects": [
+   "ダメージ上昇:5:4"
+  ],
   "resultEnemyEffects": [],
   "resultField": "沼",
   "resultMoved": false,
   "log": [
-   "- ウェルの攻撃！テストに1899ダメージ！",
-   "テストは倒れた…"
+   "- ウェルの攻撃！テストに1291ダメージ！",
+   "+ テストのストル！",
+   "+ テストはダメージ上昇状態になった！"
   ]
  },
  {
@@ -1833,22 +1841,22 @@
   "enemyLevel": 7,
   "hasPet": false,
   "petAbility": null,
-  "resultPlayerHp": 1650,
+  "resultPlayerHp": 1581,
   "resultPlayerMp": 999999,
   "resultPlayerGil": 99600,
-  "resultEnemyHp": 0,
-  "resultEnemyMp": 1500,
+  "resultEnemyHp": 347,
+  "resultEnemyMp": 1485,
   "resultPlayerEffects": [],
   "resultEnemyEffects": [
-   "ダメージ軽減:1:9999",
-   "理不尽体:1:9999"
+   "ダメージ軽減:1:9998",
+   "理不尽体:1:9998"
   ],
   "resultField": "遺跡",
   "resultMoved": false,
   "log": [
    "+ テストは400ギルを投げつけた！",
    "+ テストの銭投げ！デルタ1stに227ダメージ！",
-   "- DELTA 2nd-Form Loading..."
+   "- デルタ1stの電流！テストに69ダメージ！"
   ]
  },
  {
@@ -1862,10 +1870,10 @@
   "enemyLevel": 20,
   "hasPet": false,
   "petAbility": null,
-  "resultPlayerHp": 1265,
+  "resultPlayerHp": 1698,
   "resultPlayerMp": 222,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 2444,
+  "resultEnemyHp": 847,
   "resultEnemyMp": 3000,
   "resultPlayerEffects": [
    "毒:4:5",
@@ -1879,7 +1887,7 @@
   "resultMoved": false,
   "log": [
    "+ テストの絶対零度！デルタ2ndには効いていない！",
-   "- デルタ2ndの矢！テストに646ダメージ！",
+   "- デルタ2ndの矢！テストに213ダメージ！",
    "- テストは毒で体力を91回復した！",
    "デルタ2ndの「ツインウォール」状態が切れた！"
   ]
@@ -1954,10 +1962,10 @@
   "enemyLevel": 59,
   "hasPet": false,
   "petAbility": null,
-  "resultPlayerHp": 1913,
+  "resultPlayerHp": 2100,
   "resultPlayerMp": 999999,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 2146,
+  "resultEnemyHp": 1291,
   "resultEnemyMp": 10000,
   "resultPlayerEffects": [
    "毒:2:4",
@@ -1971,7 +1979,7 @@
   "resultMoved": false,
   "log": [
    "+ テストの殻で挟む！キケロに620ダメージ！",
-   "- キケロの攻撃！テストに407ダメージ！",
+   "- キケロの攻撃！テストに220ダメージ！",
    "- テストは毒で83ダメージ受けた！",
    "+ テストは再生で体力を73回復した！"
   ]
@@ -1990,7 +1998,7 @@
   "resultPlayerHp": 0,
   "resultPlayerMp": 533,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 6622,
+  "resultEnemyHp": 3573,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [],
   "resultEnemyEffects": [
@@ -2003,7 +2011,7 @@
   "resultMoved": false,
   "log": [
    "+ テストの雪玉！デュラハンには効いていない！",
-   "- デュラハンの槍突き！テストに26339ダメージ！",
+   "- デュラハンの槍突き！テストに4561ダメージ！",
    "テストは倒れた…"
   ]
  },
@@ -2043,7 +2051,7 @@
   "enemyLevel": 98,
   "hasPet": false,
   "petAbility": null,
-  "resultPlayerHp": 2042,
+  "resultPlayerHp": 2265,
   "resultPlayerMp": 608,
   "resultPlayerGil": 100000,
   "resultEnemyHp": 0,
@@ -2055,7 +2063,7 @@
   "resultField": "毒沼",
   "resultMoved": false,
   "log": [
-   "- デスの攻撃！テストに798ダメージ！",
+   "- デスの攻撃！テストに575ダメージ！",
    "+ テストのメガフレア！デスに6920ダメージ！",
    "` デスを倒した！"
   ]
@@ -2071,10 +2079,10 @@
   "enemyLevel": 111,
   "hasPet": true,
   "petAbility": "勇奮",
-  "resultPlayerHp": 2761,
+  "resultPlayerHp": 2882,
   "resultPlayerMp": 999555,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 10874,
+  "resultEnemyHp": 2736,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [
    "天邪鬼:1:4"
@@ -2094,10 +2102,10 @@
    "+ 白虎は火傷状態になった！",
    "+ 白虎は理不尽体で麻痺状態にならない！",
    "+ ペット70の攻撃！白虎には効いていない！",
-   "- 白虎の噛みつく！テストに249ダメージ！",
-   "+ 白虎は再生で体力を796回復した！",
-   "- 白虎は猛毒で2122ダメージ受けた！",
-   "- 白虎は火傷で530ダメージ受けた！"
+   "- 白虎の噛みつく！テストに128ダメージ！",
+   "+ 白虎は再生で体力を200回復した！",
+   "- 白虎は猛毒で534ダメージ受けた！",
+   "- 白虎は火傷で133ダメージ受けた！"
   ]
  },
  {
@@ -2114,7 +2122,7 @@
   "resultPlayerHp": 0,
   "resultPlayerMp": 18,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 275750,
+  "resultEnemyHp": 15676,
   "resultEnemyMp": 750,
   "resultPlayerEffects": [],
   "resultEnemyEffects": [
@@ -2126,7 +2134,7 @@
   "resultField": "湖",
   "resultMoved": false,
   "log": [
-   "- 極楽鳥の常闇！テストに5258ダメージ！",
+   "- 極楽鳥の常闇！テストに1809ダメージ！",
    "極楽鳥の「ツインウォール」状態が切れた！",
    "テストは倒れた…"
   ]
@@ -2145,7 +2153,7 @@
   "resultPlayerHp": 0,
   "resultPlayerMp": 999999,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 6489,
+  "resultEnemyHp": 13270,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [
    "毒:3:3"
@@ -2157,7 +2165,7 @@
   "resultField": "遺跡",
   "resultMoved": false,
   "log": [
-   "- 青龍の切り裂く！テストに2637ダメージ！",
+   "- 青龍の切り裂く！テストに3174ダメージ！",
    "テストは倒れた…"
   ]
  },
@@ -2175,7 +2183,7 @@
   "resultPlayerHp": 520,
   "resultPlayerMp": 15,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 27060,
+  "resultEnemyHp": 19588,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [],
   "resultEnemyEffects": [
@@ -2188,7 +2196,7 @@
   "log": [
    "- 金虎は石化で動けない！",
    "+ テストの黒雷！金虎に6ダメージ！",
-   "+ 金虎は再生で体力を3007回復した！"
+   "+ 金虎は再生で体力を2177回復した！"
   ]
  },
  {
@@ -2205,7 +2213,7 @@
   "resultPlayerHp": 0,
   "resultPlayerMp": 999999,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 257746,
+  "resultEnemyHp": 2153,
   "resultEnemyMp": 122269,
   "resultPlayerEffects": [
    "凍結:4:7"
@@ -2222,9 +2230,9 @@
   "resultField": "草原",
   "resultMoved": false,
   "log": [
-   "- Nightmareのアンディファインド！テストに55981ダメージ！",
+   "- Nightmareのアンディファインド！テストに4080ダメージ！",
    "- テストは凍結状態になった！",
-   "- Nightmareのスペース！テストに917ダメージ！",
+   "- Nightmareのスペース！テストに65ダメージ！",
    "テストは倒れた…"
   ]
  },
@@ -2242,7 +2250,7 @@
   "resultPlayerHp": 654,
   "resultPlayerMp": 68,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 813652,
+  "resultEnemyHp": 37307,
   "resultEnemyMp": 123537,
   "resultPlayerEffects": [
    "毒:1:5",
@@ -2291,7 +2299,7 @@
   "resultPlayerHp": 1030,
   "resultPlayerMp": 999827,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 89825,
+  "resultEnemyHp": 1435,
   "resultEnemyMp": 114514,
   "resultPlayerEffects": [],
   "resultEnemyEffects": [
@@ -2318,26 +2326,27 @@
   "enemyLevel": 202,
   "hasPet": false,
   "petAbility": null,
-  "resultPlayerHp": 0,
+  "resultPlayerHp": 1125,
   "resultPlayerMp": 244,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 36420,
+  "resultEnemyHp": 0,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [
-   "天邪鬼:1:5",
-   "再生:3:4"
+   "天邪鬼:1:4",
+   "再生:3:3"
   ],
   "resultEnemyEffects": [
-   "ダメージ上昇:10:9998",
-   "ダメージ軽減:10:9998",
-   "猛毒耐性:1:9998",
-   "即死耐性:1:9998"
+   "ダメージ上昇:10:9999",
+   "ダメージ軽減:10:9999",
+   "猛毒耐性:1:9999",
+   "即死耐性:1:9999"
   ],
   "resultField": "草原",
   "resultMoved": false,
   "log": [
-   "- yayyyyの攻撃！テストに10548ダメージ！",
-   "テストは倒れた…"
+   "+ テストの「::atk」！yayyyyに39996ダメージ！",
+   "+ テストは再生で75ダメージ受けた！",
+   "` yayyyyを倒した！"
   ]
  },
  {
@@ -2351,10 +2360,10 @@
   "enemyLevel": 215,
   "hasPet": false,
   "petAbility": null,
-  "resultPlayerHp": 344,
+  "resultPlayerHp": 1055,
   "resultPlayerMp": 999987,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 3239,
+  "resultEnemyHp": 1069,
   "resultEnemyMp": 100,
   "resultPlayerEffects": [
    "毒:4:4"
@@ -2370,9 +2379,9 @@
   "log": [
    "+ テストの毒の粉！",
    "+ 悪魔の種は毒状態になった！",
-   "- 悪魔の種の攻撃！テストに957ダメージ！",
+   "- 悪魔の種の攻撃！テストに246ダメージ！",
    "- テストは毒で69ダメージ受けた！",
-   "- 悪魔の種は毒で105ダメージ受けた！"
+   "- 悪魔の種は毒で34ダメージ受けた！"
   ]
  },
  {
@@ -2386,10 +2395,10 @@
   "enemyLevel": 228,
   "hasPet": false,
   "petAbility": null,
-  "resultPlayerHp": 0,
+  "resultPlayerHp": 1167,
   "resultPlayerMp": 320,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 10355,
+  "resultEnemyHp": 1617,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [],
   "resultEnemyEffects": [
@@ -2400,9 +2409,9 @@
   "resultField": "草原",
   "resultMoved": false,
   "log": [
-   "- アナコンダの噛みつく！テストに3479ダメージ！",
-   "アナコンダの「ツインウォール」状態が切れた！",
-   "テストは倒れた…"
+   "+ テストの水鉄砲！アナコンダには効いていない！",
+   "- アナコンダの攻撃！テストに373ダメージ！",
+   "アナコンダの「ツインウォール」状態が切れた！"
   ]
  },
  {
@@ -2416,19 +2425,19 @@
   "enemyLevel": 241,
   "hasPet": true,
   "petAbility": "デッド・オア・ダイ",
-  "resultPlayerHp": 1389,
+  "resultPlayerHp": 1710,
   "resultPlayerMp": 999999,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 2323,
+  "resultEnemyHp": 0,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [],
   "resultEnemyEffects": [],
   "resultField": "草原",
   "resultMoved": false,
   "log": [
-   "- キャタピラーの攻撃！テストに321ダメージ！",
-   "+ テストの石入りの雪玉！キャタピラーに1398ダメージ！",
-   "+ ペット80の針飛ばし！キャタピラーに185ダメージ！"
+   "+ テストの石入りの雪玉！キャタピラーに1505ダメージ！",
+   "+ ペット80の針飛ばし！キャタピラーに203ダメージ！",
+   "` キャタピラーを倒した！"
   ]
  },
  {
@@ -2442,10 +2451,10 @@
   "enemyLevel": 254,
   "hasPet": false,
   "petAbility": null,
-  "resultPlayerHp": 870,
+  "resultPlayerHp": 1701,
   "resultPlayerMp": 290,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 3011,
+  "resultEnemyHp": 854,
   "resultEnemyMp": 500,
   "resultPlayerEffects": [
    "毒:2:3"
@@ -2457,11 +2466,11 @@
   "resultField": "草原",
   "resultMoved": false,
   "log": [
-   "- サソリの攻撃！テストに943ダメージ！",
    "+ テストの鬼火！",
    "+ サソリは火傷状態になった！",
-   "- サソリは火傷で97ダメージ受けた！",
-   "- テストは毒で67ダメージ受けた！"
+   "- サソリの攻撃！テストに112ダメージ！",
+   "- テストは毒で67ダメージ受けた！",
+   "- サソリは火傷で28ダメージ受けた！"
   ]
  },
  {
@@ -2475,7 +2484,7 @@
   "enemyLevel": 267,
   "hasPet": false,
   "petAbility": null,
-  "resultPlayerHp": 223,
+  "resultPlayerHp": 2050,
   "resultPlayerMp": 993333,
   "resultPlayerGil": 100000,
   "resultEnemyHp": 0,
@@ -2489,8 +2498,7 @@
   "resultField": "草原",
   "resultMoved": false,
   "log": [
-   "- マタンゴの攻撃！テストに1827ダメージ！",
-   "+ テストの浄罪の光！マタンゴに12347ダメージ！",
+   "+ テストの浄罪の光！マタンゴに11935ダメージ！",
    "` マタンゴを倒した！"
   ]
  },
@@ -2505,23 +2513,25 @@
   "enemyLevel": 280,
   "hasPet": false,
   "petAbility": null,
-  "resultPlayerHp": 0,
-  "resultPlayerMp": 471,
+  "resultPlayerHp": 2220,
+  "resultPlayerMp": 73,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 15776,
+  "resultEnemyHp": 2002,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [],
   "resultEnemyEffects": [
    "ダメージ上昇:7:7",
    "ダメージ軽減:7:7",
-   "完全耐性:1:19"
+   "完全耐性:1:19",
+   "時間停止:1:2"
   ],
   "resultField": "草原",
   "resultMoved": false,
   "log": [
-   "- モスの攻撃！テストに4901ダメージ！",
-   "モスの「ツインウォール」状態が切れた！",
-   "テストは倒れた…"
+   "+ テストのタイムストッパー！",
+   "+ モスは時間停止状態になった！",
+   "- モスは時間停止で動けない！",
+   "モスの「ツインウォール」状態が切れた！"
   ]
  },
  {
@@ -2535,10 +2545,10 @@
   "enemyLevel": 293,
   "hasPet": false,
   "petAbility": null,
-  "resultPlayerHp": 1711,
+  "resultPlayerHp": 2539,
   "resultPlayerMp": 999977,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 1567,
+  "resultEnemyHp": 0,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [
    "毒:5:2",
@@ -2548,9 +2558,9 @@
   "resultField": "草原",
   "resultMoved": false,
   "log": [
-   "- チェリーの攻撃！テストに828ダメージ！",
-   "+ テストの儚い闇！チェリーに827ダメージ！",
-   "- テストは毒で体力を149回復した！"
+   "+ テストの儚い闇！チェリーに878ダメージ！",
+   "- テストは毒で体力を149回復した！",
+   "` チェリーを倒した！"
   ]
  },
  {
@@ -2567,16 +2577,16 @@
   "resultPlayerHp": 2560,
   "resultPlayerMp": 498,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 3276,
+  "resultEnemyHp": 0,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [],
   "resultEnemyEffects": [],
   "resultField": "草原",
   "resultMoved": false,
   "log": [
-   "- グラスの何もしない！",
-   "+ テストのフローズン！グラスに1897ダメージ！",
-   "+ ペット85の引っかく！グラスに175ダメージ！"
+   "+ テストのフローズン！グラスに1849ダメージ！",
+   "+ ペット85の引っかく！グラスに168ダメージ！",
+   "` グラスを倒した！"
   ]
  },
  {
@@ -2590,10 +2600,10 @@
   "enemyLevel": 319,
   "hasPet": false,
   "petAbility": null,
-  "resultPlayerHp": 0,
-  "resultPlayerMp": 999999,
+  "resultPlayerHp": 2309,
+  "resultPlayerMp": 999915,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 3955,
+  "resultEnemyHp": 282,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [],
   "resultEnemyEffects": [
@@ -2604,8 +2614,8 @@
   "resultField": "草原",
   "resultMoved": false,
   "log": [
-   "- ソーンの針飛ばし！テストに4500ダメージ！",
-   "テストは倒れた…"
+   "+ テストのレイン！ソーンに821ダメージ！",
+   "- ソーンの攻撃！テストに421ダメージ！"
   ]
  },
  {
@@ -2619,13 +2629,13 @@
   "enemyLevel": 332,
   "hasPet": false,
   "petAbility": null,
-  "resultPlayerHp": 0,
-  "resultPlayerMp": 622,
+  "resultPlayerHp": 1578,
+  "resultPlayerMp": 221,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 14976,
+  "resultEnemyHp": 4712,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [
-   "毒:3:6"
+   "毒:3:5"
   ],
   "resultEnemyEffects": [
    "完全耐性:1:19"
@@ -2633,9 +2643,10 @@
   "resultField": "洞窟",
   "resultMoved": false,
   "log": [
-   "- コウモリの噛みつく！テストに4507ダメージ！",
+   "- コウモリの噛みつく！テストに1201ダメージ！",
+   "+ テストのライトニング！コウモリには効いていない！",
    "コウモリの「ツインウォール」状態が切れた！",
-   "テストは倒れた…"
+   "- テストは毒で121ダメージ受けた！"
   ]
  },
  {
@@ -2649,25 +2660,22 @@
   "enemyLevel": 345,
   "hasPet": false,
   "petAbility": null,
-  "resultPlayerHp": 2313,
+  "resultPlayerHp": 2799,
   "resultPlayerMp": 999862,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 2296,
+  "resultEnemyHp": 785,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [
    "再生:2:3"
   ],
   "resultEnemyEffects": [
-   "ダメージ軽減:5:9998",
-   "火傷:6:3"
+   "ダメージ軽減:5:9998"
   ],
   "resultField": "洞窟",
   "resultMoved": false,
   "log": [
-   "- マイマイの攻撃！テストに885ダメージ！",
-   "+ テストのヘルファイア！マイマイに1370ダメージ！",
-   "+ マイマイは火傷状態になった！",
-   "- マイマイは火傷で524ダメージ受けた！",
+   "+ テストのヘルファイア！マイマイに1777ダメージ！",
+   "- マイマイの攻撃！テストに399ダメージ！",
    "+ テストは再生で体力を128回復した！"
   ]
  },
@@ -2685,7 +2693,7 @@
   "resultPlayerHp": 0,
   "resultPlayerMp": 31,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 5378,
+  "resultEnemyHp": 3170,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [],
   "resultEnemyEffects": [
@@ -2695,8 +2703,8 @@
   "resultField": "洞窟",
   "resultMoved": false,
   "log": [
-   "- ヤドカリの攻撃！テストに1137ダメージ！",
-   "+ ヤドカリは再生で体力を163回復した！",
+   "- ヤドカリの攻撃！テストに511ダメージ！",
+   "+ ヤドカリは再生で体力を96回復した！",
    "テストは倒れた…"
   ]
  },
@@ -2714,7 +2722,7 @@
   "resultPlayerHp": 0,
   "resultPlayerMp": 999999,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 5151,
+  "resultEnemyHp": 3213,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [
    "毒:1:5"
@@ -2726,7 +2734,7 @@
   "resultField": "氷原",
   "resultMoved": false,
   "log": [
-   "- アイシクルの攻撃！テストに2369ダメージ！",
+   "- アイシクルの攻撃！テストに924ダメージ！",
    "テストは倒れた…"
   ]
  },
@@ -2744,7 +2752,7 @@
   "resultPlayerHp": 580,
   "resultPlayerMp": 92,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 20700,
+  "resultEnemyHp": 5636,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [
    "天邪鬼:1:4"
@@ -2774,17 +2782,17 @@
   "enemyLevel": 397,
   "hasPet": false,
   "petAbility": null,
-  "resultPlayerHp": 127,
+  "resultPlayerHp": 455,
   "resultPlayerMp": 999999,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 4415,
+  "resultEnemyHp": 2163,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [],
   "resultEnemyEffects": [],
   "resultField": "氷原",
   "resultMoved": false,
   "log": [
-   "- ペンギンの攻撃！テストに623ダメージ！",
+   "- ペンギンの攻撃！テストに295ダメージ！",
    "+ テストの槍突き！ペンギンに399ダメージ！"
   ]
  },
@@ -2830,7 +2838,7 @@
   "resultPlayerHp": 1090,
   "resultPlayerMp": 999449,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 496,
+  "resultEnemyHp": 411,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [],
   "resultEnemyEffects": [
@@ -2855,10 +2863,10 @@
   "enemyLevel": 36,
   "hasPet": true,
   "petAbility": "フリーズ・ザ・ワールド",
-  "resultPlayerHp": 986,
+  "resultPlayerHp": 1163,
   "resultPlayerMp": 258,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 1342,
+  "resultEnemyHp": 758,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [],
   "resultEnemyEffects": [
@@ -2869,7 +2877,7 @@
   "log": [
    "+ テストの終焉の闇！魔力が足りない！",
    "+ ペット95のツルの鞭！ノミには効いていない！",
-   "- ノミの攻撃！テストに274ダメージ！",
+   "- ノミの攻撃！テストに97ダメージ！",
    "ノミの「ツインウォール」状態が切れた！"
   ]
  },
@@ -2915,10 +2923,10 @@
   "enemyLevel": 62,
   "hasPet": false,
   "petAbility": null,
-  "resultPlayerHp": 1335,
+  "resultPlayerHp": 1409,
   "resultPlayerMp": 285,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 655,
+  "resultEnemyHp": 1126,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [
    "ダメージ上昇:2:3"
@@ -2929,7 +2937,7 @@
   "log": [
    "+ テストのブレイブ！",
    "+ テストはダメージ上昇状態になった！",
-   "- フォグの攻撃！テストに265ダメージ！"
+   "- フォグの攻撃！テストに191ダメージ！"
   ]
  },
  {
@@ -2946,7 +2954,7 @@
   "resultPlayerHp": 1770,
   "resultPlayerMp": 999943,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 1164,
+  "resultEnemyHp": 2177,
   "resultEnemyMp": 3000,
   "resultPlayerEffects": [
    "天邪鬼:1:4"
@@ -2958,7 +2966,7 @@
   "resultField": "火山",
   "resultMoved": false,
   "log": [
-   "+ テストのクエイク！ボムに1192ダメージ！",
+   "+ テストのクエイク！ボムに1078ダメージ！",
    "- ボムの何もしない！"
   ]
  },
@@ -2973,27 +2981,28 @@
   "enemyLevel": 88,
   "hasPet": false,
   "petAbility": null,
-  "resultPlayerHp": 0,
+  "resultPlayerHp": 870,
   "resultPlayerMp": 324,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 3546,
+  "resultEnemyHp": 2864,
   "resultEnemyMp": 2500,
   "resultPlayerEffects": [
-   "毒:5:6",
-   "再生:1:4"
+   "毒:5:5",
+   "再生:1:3"
   ],
   "resultEnemyEffects": [
-   "ダメージ上昇:1:9999",
-   "ツインウォール:1:1",
-   "ダメージ上昇:7:8",
-   "完全耐性:1:20"
+   "ダメージ上昇:1:9998",
+   "ダメージ上昇:7:7",
+   "完全耐性:1:19"
   ],
   "resultField": "火山",
   "resultMoved": false,
   "log": [
    "+ テストのブリザード！サラマンダーには効いていない！",
-   "- サラマンダーの引っかく！テストに2549ダメージ！",
-   "テストは倒れた…"
+   "- サラマンダーの引っかく！テストに1010ダメージ！",
+   "- テストは毒で121ダメージ受けた！",
+   "+ テストは再生で体力を61回復した！",
+   "サラマンダーの「ツインウォール」状態が切れた！"
   ]
  },
  {
@@ -3019,7 +3028,7 @@
   "resultField": "火山",
   "resultMoved": false,
   "log": [
-   "+ テストのブラックホール！タンクに2684ダメージ！",
+   "+ テストのブラックホール！タンクに1766ダメージ！",
    "+ ペット100の攻撃！タンクに22ダメージ！",
    "` タンクを倒した！"
   ]
@@ -3045,7 +3054,7 @@
   "resultField": "火山",
   "resultMoved": false,
   "log": [
-   "+ テストのウェルテクス！ヘルハウンドに3512ダメージ！",
+   "+ テストのウェルテクス！ヘルハウンドに4660ダメージ！",
    "` ヘルハウンドを倒した！"
   ]
  },
@@ -3075,7 +3084,7 @@
   "resultField": "火山",
   "resultMoved": false,
   "log": [
-   "+ テストのデッドワールド！ヒドラに4005ダメージ！",
+   "+ テストのデッドワールド！ヒドラに3597ダメージ！",
    "+ テストはダメージ低下状態になった！",
    "+ ヒドラは理不尽体で石化状態にならない！",
    "- テストは毒で102ダメージ受けた！",
@@ -3093,10 +3102,10 @@
   "enemyLevel": 140,
   "hasPet": false,
   "petAbility": null,
-  "resultPlayerHp": 98,
+  "resultPlayerHp": 1677,
   "resultPlayerMp": 559,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 6444,
+  "resultEnemyHp": 3477,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [],
   "resultEnemyEffects": [
@@ -3108,7 +3117,7 @@
   "resultMoved": false,
   "log": [
    "+ テストの攻撃！ウロボロスには効いていない！",
-   "- ウロボロスの攻撃！テストに2522ダメージ！",
+   "- ウロボロスの攻撃！テストに943ダメージ！",
    "ウロボロスの「ツインウォール」状態が切れた！"
   ]
  },
@@ -3123,10 +3132,10 @@
   "enemyLevel": 153,
   "hasPet": false,
   "petAbility": null,
-  "resultPlayerHp": 2111,
+  "resultPlayerHp": 2301,
   "resultPlayerMp": 999996,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 2236,
+  "resultEnemyHp": 3441,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [],
   "resultEnemyEffects": [
@@ -3135,10 +3144,10 @@
   "resultField": "火山",
   "resultMoved": false,
   "log": [
-   "- エッグの頭突き！テストに679ダメージ！",
+   "- エッグの頭突き！テストに489ダメージ！",
    "+ テストの毒針！エッグに777ダメージ！",
    "+ エッグは毒状態になった！",
-   "- エッグは毒で97ダメージ受けた！"
+   "- エッグは毒で136ダメージ受けた！"
   ]
  },
  {
@@ -3155,7 +3164,7 @@
   "resultPlayerHp": 3053,
   "resultPlayerMp": 635,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 179,
+  "resultEnemyHp": 3195,
   "resultEnemyMp": 800,
   "resultPlayerEffects": [
    "毒:1:3",
@@ -3187,7 +3196,7 @@
   "resultPlayerHp": 0,
   "resultPlayerMp": 999999,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 3341,
+  "resultEnemyHp": 8144,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [],
   "resultEnemyEffects": [
@@ -3197,7 +3206,7 @@
   "resultField": "冥界",
   "resultMoved": false,
   "log": [
-   "- ポルターガイストの攻撃！テストに855ダメージ！",
+   "- ポルターガイストの攻撃！テストに630ダメージ！",
    "テストは倒れた…"
   ]
  },
@@ -3215,7 +3224,7 @@
   "resultPlayerHp": 0,
   "resultPlayerMp": 44,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 10461,
+  "resultEnemyHp": 12792,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [],
   "resultEnemyEffects": [
@@ -3225,7 +3234,7 @@
   "resultField": "冥界",
   "resultMoved": false,
   "log": [
-   "- ファントムの攻撃！テストに2731ダメージ！",
+   "- ファントムの攻撃！テストに1232ダメージ！",
    "ファントムの「ツインウォール」状態が切れた！",
    "テストは倒れた…"
   ]
@@ -3244,7 +3253,7 @@
   "resultPlayerHp": 0,
   "resultPlayerMp": 999999,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 2777,
+  "resultEnemyHp": 6858,
   "resultEnemyMp": 978,
   "resultPlayerEffects": [
    "毒:4:3"
@@ -3255,7 +3264,7 @@
   "resultField": "冥界",
   "resultMoved": false,
   "log": [
-   "- スピリットの儚い闇！テストに776ダメージ！",
+   "- スピリットの儚い闇！テストに691ダメージ！",
    "テストは倒れた…"
   ]
  },
@@ -3273,7 +3282,7 @@
   "resultPlayerHp": 0,
   "resultPlayerMp": 120,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 3199,
+  "resultEnemyHp": 6046,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [],
   "resultEnemyEffects": [
@@ -3282,7 +3291,7 @@
   "resultField": "秘境",
   "resultMoved": false,
   "log": [
-   "- シャドウの攻撃！テストに874ダメージ！",
+   "- シャドウの攻撃！テストに673ダメージ！",
    "テストは倒れた…"
   ]
  },
@@ -3297,13 +3306,14 @@
   "enemyLevel": 231,
   "hasPet": true,
   "petAbility": "EXポイズンLv.3",
-  "resultPlayerHp": 0,
-  "resultPlayerMp": 999999,
+  "resultPlayerHp": 159,
+  "resultPlayerMp": 999951,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 3236,
+  "resultEnemyHp": 4917,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [
-   "再生:3:4"
+   "再生:3:3",
+   "ダメージ軽減:2:3"
   ],
   "resultEnemyEffects": [
    "理不尽体:1:9998"
@@ -3311,8 +3321,11 @@
   "resultField": "火山",
   "resultMoved": false,
   "log": [
-   "- ガストの攻撃！テストに1085ダメージ！",
-   "テストは倒れた…"
+   "- ガストの攻撃！テストに702ダメージ！",
+   "+ テストのプロテ！",
+   "+ テストはダメージ軽減状態になった！",
+   "+ ペット110の攻撃！ガストに39ダメージ！",
+   "+ テストは再生で体力を51回復した！"
   ]
  },
  {
@@ -3329,7 +3342,7 @@
   "resultPlayerHp": 0,
   "resultPlayerMp": 195,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 12150,
+  "resultEnemyHp": 8421,
   "resultEnemyMp": 958,
   "resultPlayerEffects": [
    "毒:2:6",
@@ -3343,7 +3356,7 @@
   "resultField": "火山",
   "resultMoved": false,
   "log": [
-   "- カロンのフレア！テストに4757ダメージ！",
+   "- カロンのフレア！テストに1884ダメージ！",
    "- テストは火傷状態になった！",
    "カロンの「ツインウォール」状態が切れた！",
    "テストは倒れた…"
@@ -3360,10 +3373,10 @@
   "enemyLevel": 257,
   "hasPet": false,
   "petAbility": null,
-  "resultPlayerHp": 430,
+  "resultPlayerHp": 559,
   "resultPlayerMp": 999904,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 3276,
+  "resultEnemyHp": 9030,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [
    "天邪鬼:1:4"
@@ -3372,8 +3385,8 @@
   "resultField": "氷山",
   "resultMoved": false,
   "log": [
-   "- プラズマの攻撃！テストに720ダメージ！",
-   "+ テストのハードプラント！プラズマに629ダメージ！"
+   "- プラズマの攻撃！テストに591ダメージ！",
+   "+ テストのハードプラント！プラズマに615ダメージ！"
   ]
  },
  {
@@ -3387,10 +3400,10 @@
   "enemyLevel": 270,
   "hasPet": false,
   "petAbility": null,
-  "resultPlayerHp": 477,
+  "resultPlayerHp": 595,
   "resultPlayerMp": 216,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 3300,
+  "resultEnemyHp": 10527,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [
    "浮遊:1:11"
@@ -3401,7 +3414,7 @@
   "resultField": "天界",
   "resultMoved": false,
   "log": [
-   "- クレセントの攻撃！テストに843ダメージ！",
+   "- クレセントの攻撃！テストに725ダメージ！",
    "+ テストのレビテート！",
    "+ テストは浮遊状態になった！"
   ]
@@ -3420,7 +3433,7 @@
   "resultPlayerHp": 1397,
   "resultPlayerMp": 999862,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 129124,
+  "resultEnemyHp": 16188,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [
    "毒:5:4"
@@ -3453,7 +3466,7 @@
   "resultPlayerHp": 0,
   "resultPlayerMp": 346,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 13376,
+  "resultEnemyHp": 21124,
   "resultEnemyMp": 978,
   "resultPlayerEffects": [],
   "resultEnemyEffects": [
@@ -3463,7 +3476,7 @@
   "resultField": "天界",
   "resultMoved": false,
   "log": [
-   "- シルフの淡い光！テストに4073ダメージ！",
+   "- シルフの淡い光！テストに2092ダメージ！",
    "シルフの「ツインウォール」状態が切れた！",
    "テストは倒れた…"
   ]
@@ -3482,7 +3495,7 @@
   "resultPlayerHp": 1830,
   "resultPlayerMp": 999999,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 1889,
+  "resultEnemyHp": 9384,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [],
   "resultEnemyEffects": [],
@@ -3504,10 +3517,10 @@
   "enemyLevel": 322,
   "hasPet": false,
   "petAbility": null,
-  "resultPlayerHp": 1285,
+  "resultPlayerHp": 1346,
   "resultPlayerMp": 422,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 5826,
+  "resultEnemyHp": 20766,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [
    "毒:3:3"
@@ -3516,7 +3529,7 @@
   "resultField": "天界",
   "resultMoved": false,
   "log": [
-   "- てるてる坊主の攻撃！テストに632ダメージ！",
+   "- てるてる坊主の攻撃！テストに571ダメージ！",
    "+ テストのしっぽ！てるてる坊主に996ダメージ！",
    "- テストは毒で83ダメージ受けた！"
   ]
@@ -3532,10 +3545,10 @@
   "enemyLevel": 335,
   "hasPet": false,
   "petAbility": null,
-  "resultPlayerHp": 202,
+  "resultPlayerHp": 0,
   "resultPlayerMp": 999999,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 3512,
+  "resultEnemyHp": 20349,
   "resultEnemyMp": 985,
   "resultPlayerEffects": [],
   "resultEnemyEffects": [
@@ -3545,8 +3558,8 @@
   "resultField": "地獄",
   "resultMoved": false,
   "log": [
-   "- プロミネンスの火の粉！テストに1968ダメージ！",
-   "+ テストの大鎌！プロミネンスに1656ダメージ！"
+   "- プロミネンスの火の粉！テストに2179ダメージ！",
+   "テストは倒れた…"
   ]
  },
  {
@@ -3563,7 +3576,7 @@
   "resultPlayerHp": 2340,
   "resultPlayerMp": 317,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 15687,
+  "resultEnemyHp": 24774,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [
    "天邪鬼:1:4"
@@ -3596,7 +3609,7 @@
   "resultPlayerHp": 0,
   "resultPlayerMp": 999999,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 3660,
+  "resultEnemyHp": 11675,
   "resultEnemyMp": 376,
   "resultPlayerEffects": [
    "毒:1:3"
@@ -3605,7 +3618,7 @@
   "resultField": "遺跡",
   "resultMoved": false,
   "log": [
-   "- アイアンメイデンのブラックホール！テストに6778ダメージ！",
+   "- アイアンメイデンのブラックホール！テストに3836ダメージ！",
    "テストは倒れた…"
   ]
  },
@@ -3620,10 +3633,10 @@
   "enemyLevel": 374,
   "hasPet": false,
   "petAbility": null,
-  "resultPlayerHp": 1137,
+  "resultPlayerHp": 1368,
   "resultPlayerMp": 573,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 3650,
+  "resultEnemyHp": 14508,
   "resultEnemyMp": 444,
   "resultPlayerEffects": [
    "再生:2:3"
@@ -3634,7 +3647,7 @@
   "resultField": "遺跡",
   "resultMoved": false,
   "log": [
-   "- ナイトの攻撃！テストに1655ダメージ！",
+   "- ナイトの攻撃！テストに1424ダメージ！",
    "+ テストの-273度！魔力が足りない！",
    "+ テストは再生で体力を112回復した！"
   ]
@@ -3653,7 +3666,7 @@
   "resultPlayerHp": 2761,
   "resultPlayerMp": 999999,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 7624,
+  "resultEnemyHp": 19005,
   "resultEnemyMp": 4339,
   "resultPlayerEffects": [
    "火傷:2:3"
@@ -3685,7 +3698,7 @@
   "resultPlayerHp": 0,
   "resultPlayerMp": 648,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 17998,
+  "resultEnemyHp": 28423,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [
    "毒:4:6"
@@ -3699,8 +3712,8 @@
   "resultField": "遺跡",
   "resultMoved": false,
   "log": [
-   "- キラーマシンの矢！テストに17813ダメージ！",
-   "- キラーマシンの矢！テストに17244ダメージ！",
+   "- キラーマシンの矢！テストに8426ダメージ！",
+   "- キラーマシンの矢！テストに8158ダメージ！",
    "キラーマシンの「ツインウォール」状態が切れた！",
    "テストは倒れた…"
   ]
@@ -3716,18 +3729,18 @@
   "enemyLevel": 13,
   "hasPet": false,
   "petAbility": null,
-  "resultPlayerHp": 108,
+  "resultPlayerHp": 118,
   "resultPlayerMp": 999749,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 206,
+  "resultEnemyHp": 1219,
   "resultEnemyMp": 10000,
   "resultPlayerEffects": [],
   "resultEnemyEffects": [],
   "resultField": "竜洞",
   "resultMoved": false,
   "log": [
-   "+ テストの常闇！バハムートに234ダメージ！",
-   "- バハムートの引っかく！テストに82ダメージ！"
+   "+ テストの常闇！バハムートに136ダメージ！",
+   "- バハムートの引っかく！テストに72ダメージ！"
   ]
  },
  {
@@ -3744,7 +3757,7 @@
   "resultPlayerHp": 0,
   "resultPlayerMp": 58,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 840,
+  "resultEnemyHp": 2989,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [],
   "resultEnemyEffects": [
@@ -3755,7 +3768,7 @@
   "resultField": "竜洞",
   "resultMoved": false,
   "log": [
-   "- コアトルの引っかく！テストに550ダメージ！",
+   "- コアトルの引っかく！テストに512ダメージ！",
    "テストは倒れた…"
   ]
  },
@@ -3770,28 +3783,28 @@
   "enemyLevel": 39,
   "hasPet": false,
   "petAbility": null,
-  "resultPlayerHp": 0,
+  "resultPlayerHp": 28,
   "resultPlayerMp": 999939,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 3929,
+  "resultEnemyHp": 5441,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [
-   "毒:2:5",
-   "天邪鬼:1:5"
+   "毒:2:4",
+   "天邪鬼:1:4"
   ],
   "resultEnemyEffects": [
-   "被ダメージ上昇:3:9999",
-   "理不尽体:1:9999",
-   "ダメージ上昇:4:5"
+   "被ダメージ上昇:3:9998",
+   "理不尽体:1:9998",
+   "ダメージ上昇:4:4"
   ],
   "resultField": "竜洞",
   "resultMoved": false,
   "log": [
    "+ テストのパラライズ！",
    "+ 双頭龍は理不尽体で麻痺状態にならない！",
-   "- 双頭龍の攻撃！テストに322ダメージ！",
-   "- 双頭龍の攻撃！テストに322ダメージ！",
-   "テストは倒れた…"
+   "- 双頭龍の攻撃！テストに255ダメージ！",
+   "- 双頭龍の攻撃！テストに266ダメージ！",
+   "- テストは毒で体力を19回復した！"
   ]
  },
  {
@@ -3808,7 +3821,7 @@
   "resultPlayerHp": 0,
   "resultPlayerMp": 133,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 5306,
+  "resultEnemyHp": 10479,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [],
   "resultEnemyEffects": [
@@ -3819,7 +3832,7 @@
   "resultField": "竜洞",
   "resultMoved": false,
   "log": [
-   "- 恐竜の引っかく！テストに3370ダメージ！",
+   "- 恐竜の引っかく！テストに1186ダメージ！",
    "恐竜の「ツインウォール」状態が切れた！",
    "テストは倒れた…"
   ]
@@ -3835,20 +3848,26 @@
   "enemyLevel": 65,
   "hasPet": false,
   "petAbility": null,
-  "resultPlayerHp": 0,
-  "resultPlayerMp": 999999,
+  "resultPlayerHp": 783,
+  "resultPlayerMp": 999444,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 2390,
+  "resultEnemyHp": 5900,
   "resultEnemyMp": 6416,
-  "resultPlayerEffects": [],
+  "resultPlayerEffects": [
+   "再生:3:9",
+   "豊穣の宣告:1:2"
+  ],
   "resultEnemyEffects": [
    "ダメージ低下:8:2"
   ],
   "resultField": "竜洞",
   "resultMoved": false,
   "log": [
-   "- スカルドラゴンの常闇！テストに1087ダメージ！",
-   "テストは倒れた…"
+   "- スカルドラゴンの常闇！テストに141ダメージ！",
+   "+ テストの妖精の加護！",
+   "+ テストは再生状態になった！",
+   "+ テストは豊穣の宣告状態になった！",
+   "+ テストは再生で体力を54回復した！"
   ]
  },
  {
@@ -3862,23 +3881,23 @@
   "enemyLevel": 78,
   "hasPet": false,
   "petAbility": null,
-  "resultPlayerHp": 0,
+  "resultPlayerHp": 451,
   "resultPlayerMp": 209,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 3721,
+  "resultEnemyHp": 7529,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [
-   "毒:5:4"
+   "毒:5:3"
   ],
   "resultEnemyEffects": [
-   "被ダメージ上昇:5:9999"
+   "被ダメージ上昇:5:9998"
   ],
   "resultField": "竜洞",
   "resultMoved": false,
   "log": [
-   "+ テストのツルの鞭！ドラゴンゾンビに457ダメージ！",
-   "- ドラゴンゾンビの引っかく！テストに1652ダメージ！",
-   "テストは倒れた…"
+   "+ テストのツルの鞭！ドラゴンゾンビに914ダメージ！",
+   "- ドラゴンゾンビの引っかく！テストに524ダメージ！",
+   "- テストは毒で65ダメージ受けた！"
   ]
  },
  {
@@ -3892,10 +3911,10 @@
   "enemyLevel": 91,
   "hasPet": true,
   "petAbility": "英雄",
-  "resultPlayerHp": 764,
+  "resultPlayerHp": 969,
   "resultPlayerMp": 999999,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 7496,
+  "resultEnemyHp": 3010,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [],
   "resultEnemyEffects": [
@@ -3908,8 +3927,8 @@
   "log": [
    "+ テストの頭突き！不滅の種には効いていない！",
    "+ ペット130の攻撃！不滅の種には効いていない！",
-   "- 不滅の種の攻撃！テストに446ダメージ！",
-   "+ 不滅の種は再生で体力を227回復した！"
+   "- 不滅の種の攻撃！テストに241ダメージ！",
+   "+ 不滅の種は再生で体力を91回復した！"
   ]
  },
  {
@@ -3923,25 +3942,25 @@
   "enemyLevel": 104,
   "hasPet": false,
   "petAbility": null,
-  "resultPlayerHp": 0,
+  "resultPlayerHp": 116,
   "resultPlayerMp": 284,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 36133,
+  "resultEnemyHp": 4991,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [],
   "resultEnemyEffects": [
-   "再生:3:9999",
-   "被ダメージ上昇:2:9999",
-   "ツインウォール:1:1",
-   "ダメージ上昇:7:8",
-   "完全耐性:1:20"
+   "再生:3:9998",
+   "被ダメージ上昇:2:9998",
+   "ダメージ上昇:7:7",
+   "完全耐性:1:19"
   ],
   "resultField": "草原",
   "resultMoved": false,
   "log": [
    "+ テストの絶望の歌！",
-   "- 草のツルの鞭！テストに3976ダメージ！",
-   "テストは倒れた…"
+   "- 草のツルの鞭！テストに1264ダメージ！",
+   "+ 草は再生で体力を294回復した！",
+   "草の「ツインウォール」状態が切れた！"
   ]
  },
  {
@@ -3955,10 +3974,10 @@
   "enemyLevel": 117,
   "hasPet": false,
   "petAbility": null,
-  "resultPlayerHp": 1044,
+  "resultPlayerHp": 1201,
   "resultPlayerMp": 999999,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 1064,
+  "resultEnemyHp": 1197,
   "resultEnemyMp": 500,
   "resultPlayerEffects": [
    "毒:3:2",
@@ -3968,7 +3987,7 @@
   "resultField": "峡谷",
   "resultMoved": false,
   "log": [
-   "- 神速のサソリの攻撃！テストに489ダメージ！",
+   "- 神速のサソリの攻撃！テストに332ダメージ！",
    "+ テストの炎牙！神速のサソリに413ダメージ！",
    "- テストは毒で65ダメージ受けた！",
    "+ テストは再生で体力を48回復した！"
@@ -3985,10 +4004,10 @@
   "enemyLevel": 130,
   "hasPet": false,
   "petAbility": null,
-  "resultPlayerHp": 437,
+  "resultPlayerHp": 1121,
   "resultPlayerMp": 360,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 1549,
+  "resultEnemyHp": 335,
   "resultEnemyMp": 10000,
   "resultPlayerEffects": [
    "天邪鬼:1:4"
@@ -3998,7 +4017,7 @@
   "resultMoved": false,
   "log": [
    "+ テストの切り裂く！貧弱なモスに1101ダメージ！",
-   "- 貧弱なモスの頭突き！テストに1283ダメージ！"
+   "- 貧弱なモスの頭突き！テストに599ダメージ！"
   ]
  },
  {
@@ -4015,7 +4034,7 @@
   "resultPlayerHp": 1890,
   "resultPlayerMp": 992222,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 12031,
+  "resultEnemyHp": 12304,
   "resultEnemyMp": 1952,
   "resultPlayerEffects": [],
   "resultEnemyEffects": [
@@ -4042,13 +4061,13 @@
   "enemyLevel": 156,
   "hasPet": true,
   "petAbility": "最強の槍",
-  "resultPlayerHp": 0,
-  "resultPlayerMp": 435,
+  "resultPlayerHp": 418,
+  "resultPlayerMp": 420,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 26407,
+  "resultEnemyHp": 14568,
   "resultEnemyMp": 1341,
   "resultPlayerEffects": [
-   "毒:1:6"
+   "毒:1:5"
   ],
   "resultEnemyEffects": [
    "ダメージ軽減:3:9998",
@@ -4057,9 +4076,11 @@
   "resultField": "毒沼",
   "resultMoved": false,
   "log": [
-   "- ダイアルの猛毒牙！テストに3984ダメージ！",
+   "- ダイアルの猛毒牙！テストに1578ダメージ！",
+   "+ テストの火の粉！ダイアルには効いていない！",
+   "+ ペット135の攻撃！ダイアルには効いていない！",
    "ダイアルの「ツインウォール」状態が切れた！",
-   "テストは倒れた…"
+   "- テストは毒で64ダメージ受けた！"
   ]
  },
  {
@@ -4076,7 +4097,7 @@
   "resultPlayerHp": 2160,
   "resultPlayerMp": 999957,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 8594,
+  "resultEnemyHp": 19678,
   "resultEnemyMp": 2895,
   "resultPlayerEffects": [
    "火傷:2:3"
@@ -4102,18 +4123,18 @@
   "enemyLevel": 182,
   "hasPet": false,
   "petAbility": null,
-  "resultPlayerHp": 2400,
+  "resultPlayerHp": 1649,
   "resultPlayerMp": 261,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 0,
+  "resultEnemyHp": 364,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [],
   "resultEnemyEffects": [],
   "resultField": "氷原",
   "resultMoved": false,
   "log": [
-   "+ テストの極光！イエティに3663ダメージ！",
-   "` イエティを倒した！"
+   "+ テストの極光！イエティに2126ダメージ！",
+   "- イエティの攻撃！テストに751ダメージ！"
   ]
  },
  {
@@ -4127,24 +4148,24 @@
   "enemyLevel": 195,
   "hasPet": false,
   "petAbility": null,
-  "resultPlayerHp": 0,
+  "resultPlayerHp": 328,
   "resultPlayerMp": 999891,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 10077,
+  "resultEnemyHp": 7854,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [
-   "毒:4:5"
+   "毒:4:4"
   ],
   "resultEnemyEffects": [
-   "理不尽体:1:9999",
-   "ダメージ上昇:4:5"
+   "理不尽体:1:9998",
+   "ダメージ上昇:4:4"
   ],
   "resultField": "沼",
   "resultMoved": false,
   "log": [
-   "+ テストのスペース！ウェルに1855ダメージ！",
-   "- ウェルの水鉄砲！テストに3457ダメージ！",
-   "テストは倒れた…"
+   "+ テストのスペース！ウェルに1793ダメージ！",
+   "- ウェルの水鉄砲！テストに2113ダメージ！",
+   "- テストは毒で129ダメージ受けた！"
   ]
  },
  {
@@ -4158,25 +4179,24 @@
   "enemyLevel": 208,
   "hasPet": false,
   "petAbility": null,
-  "resultPlayerHp": 0,
+  "resultPlayerHp": 657,
   "resultPlayerMp": 142,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 9466,
+  "resultEnemyHp": 14948,
   "resultEnemyMp": 1500,
   "resultPlayerEffects": [],
   "resultEnemyEffects": [
-   "ダメージ軽減:1:9999",
-   "ツインウォール:1:1",
-   "ダメージ上昇:7:8",
-   "ダメージ軽減:7:8",
-   "完全耐性:1:20"
+   "ダメージ軽減:1:9998",
+   "ダメージ上昇:7:7",
+   "ダメージ軽減:7:7",
+   "完全耐性:1:19"
   ],
   "resultField": "遺跡",
   "resultMoved": false,
   "log": [
    "+ テストのシグルイ！デルタ1stには効いていない！",
-   "- デルタ1stの攻撃！テストに4401ダメージ！",
-   "テストは倒れた…"
+   "- デルタ1stの攻撃！テストに2083ダメージ！",
+   "デルタ1stの「ツインウォール」状態が切れた！"
   ]
  },
  {
@@ -4190,24 +4210,24 @@
   "enemyLevel": 221,
   "hasPet": true,
   "petAbility": "チェーン",
-  "resultPlayerHp": 1600,
+  "resultPlayerHp": 2910,
   "resultPlayerMp": 999851,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 3716,
+  "resultEnemyHp": 0,
   "resultEnemyMp": 3000,
   "resultPlayerEffects": [
    "天邪鬼:1:4"
   ],
   "resultEnemyEffects": [
-   "ダメージ軽減:3:9998"
+   "ダメージ軽減:3:9999"
   ],
   "resultField": "草原",
   "resultMoved": false,
   "log": [
-   "+ テストのボルテガ！デルタ2ndに1707ダメージ！",
-   "+ ペット140の電流！デルタ2ndに75ダメージ！",
-   "+ ペット140の電流！デルタ2ndに77ダメージ！",
-   "- デルタ2ndの矢！テストに1310ダメージ！"
+   "+ テストのボルテガ！デルタ2ndに2362ダメージ！",
+   "+ ペット140の電流！デルタ2ndに88ダメージ！",
+   "+ ペット140の電流！デルタ2ndに90ダメージ！",
+   "` デルタ2ndを倒した！"
   ]
  },
  {
@@ -4221,10 +4241,10 @@
   "enemyLevel": 234,
   "hasPet": false,
   "petAbility": null,
-  "resultPlayerHp": 1685,
+  "resultPlayerHp": 2632,
   "resultPlayerMp": 662,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 2166,
+  "resultEnemyHp": 672,
   "resultEnemyMp": 50000,
   "resultPlayerEffects": [
    "毒:2:3"
@@ -4238,7 +4258,7 @@
   "resultMoved": false,
   "log": [
    "+ テストのスーパーノヴァ！魔力が足りない！",
-   "- ミミックの噛みつく！テストに1285ダメージ！",
+   "- ミミックの噛みつく！テストに338ダメージ！",
    "- テストは毒で110ダメージ受けた！"
   ]
  },
@@ -4256,7 +4276,7 @@
   "resultPlayerHp": 250,
   "resultPlayerMp": 999999,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 827,
+  "resultEnemyHp": 2698,
   "resultEnemyMp": 44444,
   "resultPlayerEffects": [],
   "resultEnemyEffects": [
@@ -4284,7 +4304,7 @@
   "resultPlayerHp": 0,
   "resultPlayerMp": 71,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 34885,
+  "resultEnemyHp": 4697,
   "resultEnemyMp": 10000,
   "resultPlayerEffects": [
    "再生:3:4"
@@ -4297,7 +4317,7 @@
   "resultField": "草原",
   "resultMoved": false,
   "log": [
-   "- キケロの攻撃！テストに4928ダメージ！",
+   "- キケロの攻撃！テストに644ダメージ！",
    "キケロの「ツインウォール」状態が切れた！",
    "テストは倒れた…"
   ]
@@ -4316,7 +4336,7 @@
   "resultPlayerHp": 0,
   "resultPlayerMp": 999999,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 5510,
+  "resultEnemyHp": 6006,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [
    "毒:5:3"
@@ -4327,7 +4347,7 @@
   "resultField": "峡谷",
   "resultMoved": false,
   "log": [
-   "- デュラハンの槍突き！テストに13211ダメージ！",
+   "- デュラハンの槍突き！テストに4160ダメージ！",
    "テストは倒れた…"
   ]
  },
@@ -4345,7 +4365,7 @@
   "resultPlayerHp": 0,
   "resultPlayerMp": 147,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 5016,
+  "resultEnemyHp": 5467,
   "resultEnemyMp": 750,
   "resultPlayerEffects": [],
   "resultEnemyEffects": [
@@ -4354,7 +4374,7 @@
   "resultField": "沼",
   "resultMoved": false,
   "log": [
-   "- カーストの常闇！テストに13923ダメージ！",
+   "- カーストの常闇！テストに3816ダメージ！",
    "テストは倒れた…"
   ]
  },
@@ -4372,7 +4392,7 @@
   "resultPlayerHp": 0,
   "resultPlayerMp": 999999,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 7648,
+  "resultEnemyHp": 10566,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [],
   "resultEnemyEffects": [
@@ -4381,7 +4401,7 @@
   "resultField": "毒沼",
   "resultMoved": false,
   "log": [
-   "- デスの大鎌！テストに14204ダメージ！",
+   "- デスの大鎌！テストに9193ダメージ！",
    "テストは倒れた…"
   ]
  },
@@ -4396,14 +4416,14 @@
   "enemyLevel": 312,
   "hasPet": false,
   "petAbility": null,
-  "resultPlayerHp": 0,
+  "resultPlayerHp": 780,
   "resultPlayerMp": 222,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 110725,
+  "resultEnemyHp": 4991,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [
-   "毒:3:6",
-   "天邪鬼:1:5"
+   "毒:3:5",
+   "天邪鬼:1:4"
   ],
   "resultEnemyEffects": [
    "再生:3:9998",
@@ -4413,10 +4433,11 @@
   "resultField": "草原",
   "resultMoved": false,
   "log": [
-   "- 白虎のしっぽ！テストに3185ダメージ！",
-   "+ 白虎は再生で体力を6513回復した！",
+   "- 白虎のしっぽ！テストに366ダメージ！",
+   "+ テストのノーライフ！魔力が足りない！",
+   "+ 白虎は再生で体力を294回復した！",
    "白虎の「ツインウォール」状態が切れた！",
-   "テストは倒れた…"
+   "- テストは毒で体力を46回復した！"
   ]
  },
  {
@@ -4430,10 +4451,10 @@
   "enemyLevel": 325,
   "hasPet": false,
   "petAbility": null,
-  "resultPlayerHp": 830,
+  "resultPlayerHp": 796,
   "resultPlayerMp": 999984,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 162127,
+  "resultEnemyHp": 18028,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [],
   "resultEnemyEffects": [
@@ -4442,8 +4463,8 @@
   "resultField": "湖",
   "resultMoved": false,
   "log": [
-   "- 極楽鳥の攻撃！テストに440ダメージ！",
-   "+ テストの電流！極楽鳥に423ダメージ！"
+   "- 極楽鳥の攻撃！テストに474ダメージ！",
+   "+ テストの電流！極楽鳥に494ダメージ！"
   ]
  },
  {
@@ -4460,7 +4481,7 @@
   "resultPlayerHp": 0,
   "resultPlayerMp": 297,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 19123,
+  "resultEnemyHp": 39007,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [],
   "resultEnemyEffects": [
@@ -4471,7 +4492,7 @@
   "resultField": "遺跡",
   "resultMoved": false,
   "log": [
-   "- 青龍の切り裂く！テストに7994ダメージ！",
+   "- 青龍の切り裂く！テストに9619ダメージ！",
    "テストは倒れた…"
   ]
  },
@@ -4489,7 +4510,7 @@
   "resultPlayerHp": 1560,
   "resultPlayerMp": 999921,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 80105,
+  "resultEnemyHp": 56947,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [
    "毒:1:4"
@@ -4508,7 +4529,7 @@
    "- 金虎は石化で動けない！",
    "+ テストの青い炎！金虎に6ダメージ！",
    "+ ペット150の何もしない！",
-   "+ 金虎は再生で体力を8901回復した！",
+   "+ 金虎は再生で体力を6328回復した！",
    "- テストは毒で50ダメージ受けた！"
   ]
  },
@@ -4526,7 +4547,7 @@
   "resultPlayerHp": 0,
   "resultPlayerMp": 373,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 1682543,
+  "resultEnemyHp": 3157,
   "resultEnemyMp": 122615,
   "resultPlayerEffects": [
    "即死:1:1",
@@ -4543,8 +4564,8 @@
   "resultField": "草原",
   "resultMoved": false,
   "log": [
-   "- Nightmareのノーライフ！テストに91483ダメージ！",
-   "- Nightmareの-273度！テストに167455ダメージ！",
+   "- Nightmareのノーライフ！テストに1858ダメージ！",
+   "- Nightmareの-273度！テストに3401ダメージ！",
    "- テストは即死状態になった！",
    "- テストは凍結状態になった！",
    "Nightmareの「ツインウォール」状態が切れた！",
@@ -4565,7 +4586,7 @@
   "resultPlayerHp": 0,
   "resultPlayerMp": 999999,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 392130,
+  "resultEnemyHp": 36053,
   "resultEnemyMp": 122615,
   "resultPlayerEffects": [
    "凍結:2:3"
@@ -4579,8 +4600,8 @@
   "resultField": "永遠悪夢",
   "resultMoved": false,
   "log": [
-   "- Nightmareのノーライフ！テストに42138ダメージ！",
-   "- Nightmareの-273度！テストに78029ダメージ！",
+   "- Nightmareのノーライフ！テストに8018ダメージ！",
+   "- Nightmareの-273度！テストに14847ダメージ！",
    "- テストは凍結状態になった！",
    "テストは倒れた…"
   ]
@@ -4599,7 +4620,7 @@
   "resultPlayerHp": 0,
   "resultPlayerMp": 448,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 222360,
+  "resultEnemyHp": 1722,
   "resultEnemyMp": 112466,
   "resultPlayerEffects": [
    "毒:4:4",
@@ -4615,7 +4636,7 @@
   "resultField": "草原",
   "resultMoved": false,
   "log": [
-   "- Protomareのアンディファインド！テストに49059ダメージ！",
+   "- Protomareのアンディファインド！テストに4637ダメージ！",
    "- テストは凍結状態になった！",
    "テストは倒れた…"
   ]
@@ -4666,10 +4687,10 @@
   "enemyLevel": 16,
   "hasPet": true,
   "petAbility": "勇奮",
-  "resultPlayerHp": 2021,
+  "resultPlayerHp": 2316,
   "resultPlayerMp": 524,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 933,
+  "resultEnemyHp": 323,
   "resultEnemyMp": 100,
   "resultPlayerEffects": [],
   "resultEnemyEffects": [
@@ -4682,7 +4703,7 @@
   "log": [
    "+ テストの猛毒牙！悪魔の種には効いていない！",
    "+ ペット155の攻撃！悪魔の種には効いていない！",
-   "- 悪魔の種のツルの鞭！テストに439ダメージ！",
+   "- 悪魔の種のツルの鞭！テストに144ダメージ！",
    "悪魔の種の「ツインウォール」状態が切れた！"
   ]
  },
@@ -4752,21 +4773,21 @@
   "enemyLevel": 55,
   "hasPet": false,
   "petAbility": null,
-  "resultPlayerHp": 2571,
+  "resultPlayerHp": 2970,
   "resultPlayerMp": 999749,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 58,
+  "resultEnemyHp": 0,
   "resultEnemyMp": 500,
   "resultPlayerEffects": [],
   "resultEnemyEffects": [
-   "理不尽体:1:9998",
-   "ダメージ上昇:4:4"
+   "理不尽体:1:9999",
+   "ダメージ上昇:4:5"
   ],
   "resultField": "草原",
   "resultMoved": false,
   "log": [
    "+ テストの大砲！サソリに854ダメージ！",
-   "- サソリの攻撃！テストに399ダメージ！"
+   "` サソリを倒した！"
   ]
  },
  {
@@ -4783,7 +4804,7 @@
   "resultPlayerHp": 0,
   "resultPlayerMp": 9,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 3345,
+  "resultEnemyHp": 1159,
   "resultEnemyMp": 500,
   "resultPlayerEffects": [
    "毒:5:6"
@@ -4796,8 +4817,8 @@
   "resultField": "草原",
   "resultMoved": false,
   "log": [
-   "- マタンゴの攻撃！テストに1431ダメージ！",
-   "+ マタンゴは再生で体力を101回復した！",
+   "- マタンゴの攻撃！テストに472ダメージ！",
+   "+ マタンゴは再生で体力を35回復した！",
    "マタンゴの「ツインウォール」状態が切れた！",
    "テストは倒れた…"
   ]
@@ -4813,10 +4834,10 @@
   "enemyLevel": 81,
   "hasPet": true,
   "petAbility": "マキナ",
-  "resultPlayerHp": 35,
+  "resultPlayerHp": 145,
   "resultPlayerMp": 999555,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 763,
+  "resultEnemyHp": 510,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [],
   "resultEnemyEffects": [
@@ -4827,14 +4848,14 @@
   "resultField": "草原",
   "resultMoved": false,
   "log": [
-   "- モスのツルの鞭！テストに275ダメージ！",
+   "- モスのツルの鞭！テストに165ダメージ！",
    "+ テストの病夢！",
    "+ モスは猛毒状態になった！",
    "+ モスは火傷状態になった！",
    "+ モスは麻痺状態になった！",
    "+ ペット160の噛みつく！モスに79ダメージ！",
-   "- モスは猛毒で177ダメージ受けた！",
-   "- モスは火傷で44ダメージ受けた！"
+   "- モスは猛毒で124ダメージ受けた！",
+   "- モスは火傷で31ダメージ受けた！"
   ]
  },
  {
@@ -4848,10 +4869,10 @@
   "enemyLevel": 94,
   "hasPet": false,
   "petAbility": null,
-  "resultPlayerHp": 193,
+  "resultPlayerHp": 308,
   "resultPlayerMp": 62,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 781,
+  "resultEnemyHp": 635,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [
    "天邪鬼:1:4"
@@ -4860,8 +4881,8 @@
   "resultField": "草原",
   "resultMoved": false,
   "log": [
-   "- チェリーの攻撃！テストに287ダメージ！",
-   "+ テストの淡い光！チェリーに181ダメージ！",
+   "- チェリーの攻撃！テストに172ダメージ！",
+   "+ テストの淡い光！チェリーに197ダメージ！",
    "チェリーの「浮遊」状態が切れた！"
   ]
  },
@@ -4879,7 +4900,7 @@
   "resultPlayerHp": 623,
   "resultPlayerMp": 999951,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 2212,
+  "resultEnemyHp": 1376,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [
    "毒:3:4"
@@ -4892,7 +4913,7 @@
   "resultMoved": false,
   "log": [
    "- グラスの何もしない！",
-   "+ テストのプラント！グラスに206ダメージ！",
+   "+ テストのプラント！グラスに189ダメージ！",
    "- テストは毒で27ダメージ受けた！"
   ]
  },
@@ -4910,7 +4931,7 @@
   "resultPlayerHp": 820,
   "resultPlayerMp": 82,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 4488,
+  "resultEnemyHp": 1617,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [],
   "resultEnemyEffects": [
@@ -4935,10 +4956,10 @@
   "enemyLevel": 133,
   "hasPet": false,
   "petAbility": null,
-  "resultPlayerHp": 649,
+  "resultPlayerHp": 772,
   "resultPlayerMp": 999844,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 1380,
+  "resultEnemyHp": 1159,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [
    "ダメージ軽減:5:4"
@@ -4947,7 +4968,7 @@
   "resultField": "洞窟",
   "resultMoved": false,
   "log": [
-   "- コウモリの攻撃！テストに341ダメージ！",
+   "- コウモリの攻撃！テストに218ダメージ！",
    "+ テストのシェル！",
    "+ テストはダメージ軽減状態になった！"
   ]
@@ -4963,10 +4984,10 @@
   "enemyLevel": 146,
   "hasPet": true,
   "petAbility": "デッド・オア・ダイ",
-  "resultPlayerHp": 194,
+  "resultPlayerHp": 542,
   "resultPlayerMp": 134,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 1744,
+  "resultEnemyHp": 1375,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [
    "毒:1:3",
@@ -4981,12 +5002,12 @@
   "resultField": "洞窟",
   "resultMoved": false,
   "log": [
-   "- マイマイの水鉄砲！テストに966ダメージ！",
+   "- マイマイの水鉄砲！テストに618ダメージ！",
    "+ テストのメルトン！マイマイに344ダメージ！",
    "+ マイマイは被ダメージ上昇状態になった！",
-   "+ ペット165の火の粉！マイマイに29ダメージ！",
+   "+ ペット165の火の粉！マイマイに59ダメージ！",
    "+ マイマイは火傷状態になった！",
-   "- マイマイは火傷で45ダメージ受けた！",
+   "- マイマイは火傷で38ダメージ受けた！",
    "- テストは毒で36ダメージ受けた！",
    "+ テストは再生で体力を36回復した！"
   ]
@@ -5002,10 +5023,10 @@
   "enemyLevel": 159,
   "hasPet": false,
   "petAbility": null,
-  "resultPlayerHp": 592,
+  "resultPlayerHp": 905,
   "resultPlayerMp": 999827,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 3069,
+  "resultEnemyHp": 2544,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [],
   "resultEnemyEffects": [
@@ -5019,9 +5040,9 @@
   "resultField": "洞窟",
   "resultMoved": false,
   "log": [
-   "- ヤドカリの攻撃！テストに738ダメージ！",
+   "- ヤドカリの攻撃！テストに425ダメージ！",
    "+ テストのエンプティセット！ヤドカリには効いていない！",
-   "+ ヤドカリは再生で体力を93回復した！"
+   "+ ヤドカリは再生で体力を77回復した！"
   ]
  },
  {
@@ -5035,10 +5056,10 @@
   "enemyLevel": 172,
   "hasPet": false,
   "petAbility": null,
-  "resultPlayerHp": 0,
+  "resultPlayerHp": 292,
   "resultPlayerMp": 311,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 7102,
+  "resultEnemyHp": 3271,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [],
   "resultEnemyEffects": [
@@ -5049,9 +5070,9 @@
   "resultField": "氷原",
   "resultMoved": false,
   "log": [
-   "- アイシクルの攻撃！テストに3433ダメージ！",
-   "アイシクルの「ツインウォール」状態が切れた！",
-   "テストは倒れた…"
+   "- アイシクルの攻撃！テストに1208ダメージ！",
+   "+ テストの「::atk」！アイシクルには効いていない！",
+   "アイシクルの「ツインウォール」状態が切れた！"
   ]
  },
  {
@@ -5068,7 +5089,7 @@
   "resultPlayerHp": 1754,
   "resultPlayerMp": 999987,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 2199,
+  "resultEnemyHp": 1847,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [
    "毒:4:2",
@@ -5083,7 +5104,7 @@
    "- スノーマンの何もしない！",
    "+ テストの毒の粉！",
    "+ スノーマンは毒状態になった！",
-   "- スノーマンは毒で71ダメージ受けた！",
+   "- スノーマンは毒で60ダメージ受けた！",
    "- テストは毒で体力を84回復した！"
   ]
  },
@@ -5098,10 +5119,10 @@
   "enemyLevel": 198,
   "hasPet": false,
   "petAbility": null,
-  "resultPlayerHp": 1372,
+  "resultPlayerHp": 1491,
   "resultPlayerMp": 386,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 2388,
+  "resultEnemyHp": 1922,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [],
   "resultEnemyEffects": [
@@ -5110,7 +5131,7 @@
   "resultField": "氷原",
   "resultMoved": false,
   "log": [
-   "- ペンギンの攻撃！テストに468ダメージ！",
+   "- ペンギンの攻撃！テストに349ダメージ！",
    "+ テストの水鉄砲！ペンギンに523ダメージ！",
    "ペンギンの「浮遊」状態が切れた！"
   ]
@@ -5126,10 +5147,10 @@
   "enemyLevel": 211,
   "hasPet": true,
   "petAbility": "なし",
-  "resultPlayerHp": 449,
+  "resultPlayerHp": 1056,
   "resultPlayerMp": 999999,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 2950,
+  "resultEnemyHp": 3247,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [],
   "resultEnemyEffects": [
@@ -5140,7 +5161,7 @@
   "resultField": "峡谷",
   "resultMoved": false,
   "log": [
-   "- マッドハンドの引っかく！テストに1561ダメージ！",
+   "- マッドハンドの引っかく！テストに954ダメージ！",
    "+ テストの石入りの雪玉！マッドハンドに911ダメージ！",
    "+ ペット170の引っかく！マッドハンドに64ダメージ！"
   ]
@@ -5156,13 +5177,13 @@
   "enemyLevel": 224,
   "hasPet": false,
   "petAbility": null,
-  "resultPlayerHp": 0,
-  "resultPlayerMp": 462,
+  "resultPlayerHp": 1180,
+  "resultPlayerMp": 357,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 12168,
+  "resultEnemyHp": 5060,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [
-   "毒:2:6"
+   "毒:2:5"
   ],
   "resultEnemyEffects": [
    "完全耐性:1:19"
@@ -5170,9 +5191,11 @@
   "resultField": "洞窟",
   "resultMoved": false,
   "log": [
-   "- ネズミの引っかく！テストに2618ダメージ！",
+   "- ネズミの引っかく！テストに922ダメージ！",
+   "+ テストの鬼火！",
+   "+ ネズミは完全耐性で火傷状態にならない！",
    "ネズミの「ツインウォール」状態が切れた！",
-   "テストは倒れた…"
+   "- テストは毒で78ダメージ受けた！"
   ]
  },
  {
@@ -5186,7 +5209,7 @@
   "enemyLevel": 237,
   "hasPet": false,
   "petAbility": null,
-  "resultPlayerHp": 1931,
+  "resultPlayerHp": 2082,
   "resultPlayerMp": 993333,
   "resultPlayerGil": 100000,
   "resultEnemyHp": 0,
@@ -5198,7 +5221,7 @@
   "resultField": "洞窟",
   "resultMoved": false,
   "log": [
-   "- ノミの攻撃！テストに419ダメージ！",
+   "- ノミの攻撃！テストに268ダメージ！",
    "+ テストの浄罪の光！ノミに20078ダメージ！",
    "+ ノミは石化状態になった！",
    "` ノミを倒した！"
@@ -5215,10 +5238,10 @@
   "enemyLevel": 250,
   "hasPet": false,
   "petAbility": null,
-  "resultPlayerHp": 1712,
+  "resultPlayerHp": 1971,
   "resultPlayerMp": 139,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 1560,
+  "resultEnemyHp": 1700,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [],
   "resultEnemyEffects": [
@@ -5227,7 +5250,7 @@
   "resultField": "峡谷",
   "resultMoved": false,
   "log": [
-   "- 踊る金貨の攻撃！テストに808ダメージ！",
+   "- 踊る金貨の攻撃！テストに549ダメージ！",
    "+ テストのタイムストッパー！",
    "+ 踊る金貨は時間停止状態になった！"
   ]
@@ -5243,10 +5266,10 @@
   "enemyLevel": 263,
   "hasPet": false,
   "petAbility": null,
-  "resultPlayerHp": 54,
+  "resultPlayerHp": 905,
   "resultPlayerMp": 999977,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 3274,
+  "resultEnemyHp": 5628,
   "resultEnemyMp": 820,
   "resultPlayerEffects": [
    "毒:5:4",
@@ -5259,7 +5282,7 @@
   "resultField": "火山",
   "resultMoved": false,
   "log": [
-   "- フォグの粉塵！テストに2412ダメージ！",
+   "- フォグの粉塵！テストに1561ダメージ！",
    "- テストは火傷状態になった！",
    "+ テストの儚い闇！フォグには効いていない！",
    "- テストは毒で168ダメージ受けた！",
@@ -5280,7 +5303,7 @@
   "resultPlayerHp": 2860,
   "resultPlayerMp": 565,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 24753,
+  "resultEnemyHp": 17156,
   "resultEnemyMp": 3000,
   "resultPlayerEffects": [
    "天邪鬼:1:4"
@@ -5310,23 +5333,23 @@
   "enemyLevel": 289,
   "hasPet": false,
   "petAbility": null,
-  "resultPlayerHp": 3219,
+  "resultPlayerHp": 2617,
   "resultPlayerMp": 999915,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 0,
+  "resultEnemyHp": 1001,
   "resultEnemyMp": 2500,
   "resultPlayerEffects": [
    "再生:3:3"
   ],
   "resultEnemyEffects": [
-   "ダメージ上昇:1:9999"
+   "ダメージ上昇:1:9998"
   ],
   "resultField": "火山",
   "resultMoved": false,
   "log": [
    "+ テストのレイン！サラマンダーに3115ダメージ！",
-   "+ テストは再生で体力を189回復した！",
-   "` サラマンダーを倒した！"
+   "- サラマンダーの攻撃！テストに602ダメージ！",
+   "+ テストは再生で体力を189回復した！"
   ]
  },
  {
@@ -5343,7 +5366,7 @@
   "resultPlayerHp": 0,
   "resultPlayerMp": 22,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 4409,
+  "resultEnemyHp": 6172,
   "resultEnemyMp": 500,
   "resultPlayerEffects": [
    "毒:3:4"
@@ -5355,7 +5378,7 @@
   "resultField": "火山",
   "resultMoved": false,
   "log": [
-   "- タンクの大砲！テストに2323ダメージ！",
+   "- タンクの大砲！テストに1673ダメージ！",
    "テストは倒れた…"
   ]
  },
@@ -5373,7 +5396,7 @@
   "resultPlayerHp": 0,
   "resultPlayerMp": 999999,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 6444,
+  "resultEnemyHp": 8903,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [],
   "resultEnemyEffects": [
@@ -5383,7 +5406,7 @@
   "resultField": "火山",
   "resultMoved": false,
   "log": [
-   "- ヘルハウンドの引っかく！テストに2378ダメージ！",
+   "- ヘルハウンドの引っかく！テストに1539ダメージ！",
    "テストは倒れた…"
   ]
  },
@@ -5401,7 +5424,7 @@
   "resultPlayerHp": 0,
   "resultPlayerMp": 98,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 18005,
+  "resultEnemyHp": 12479,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [],
   "resultEnemyEffects": [
@@ -5410,7 +5433,7 @@
   "resultField": "火山",
   "resultMoved": false,
   "log": [
-   "- ヒドラの攻撃！テストに4634ダメージ！",
+   "- ヒドラの攻撃！テストに1836ダメージ！",
    "ヒドラの「ツインウォール」状態が切れた！",
    "テストは倒れた…"
   ]
@@ -5429,7 +5452,7 @@
   "resultPlayerHp": 0,
   "resultPlayerMp": 999999,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 3460,
+  "resultEnemyHp": 3771,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [
    "毒:1:3"
@@ -5438,7 +5461,7 @@
   "resultField": "峡谷",
   "resultMoved": false,
   "log": [
-   "- ウロボロスの噛みつく！テストに1319ダメージ！",
+   "- ウロボロスの噛みつく！テストに897ダメージ！",
    "テストは倒れた…"
   ]
  },
@@ -5456,7 +5479,7 @@
   "resultPlayerHp": 0,
   "resultPlayerMp": 173,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 8556,
+  "resultEnemyHp": 11978,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [],
   "resultEnemyEffects": [
@@ -5465,7 +5488,7 @@
   "resultField": "火山",
   "resultMoved": false,
   "log": [
-   "- エッグの引っかく！テストに1474ダメージ！",
+   "- エッグの引っかく！テストに1061ダメージ！",
    "エッグの「浮遊」状態が切れた！",
    "テストは倒れた…"
   ]
@@ -5484,7 +5507,7 @@
   "resultPlayerHp": 0,
   "resultPlayerMp": 999999,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 5654,
+  "resultEnemyHp": 13783,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [
    "天邪鬼:1:5"
@@ -5498,7 +5521,7 @@
   "resultField": "冥界",
   "resultMoved": false,
   "log": [
-   "- ゴーストの攻撃！テストに2317ダメージ！",
+   "- ゴーストの攻撃！テストに1708ダメージ！",
    "テストは倒れた…"
   ]
  },
@@ -5516,7 +5539,7 @@
   "resultPlayerHp": 0,
   "resultPlayerMp": 249,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 20487,
+  "resultEnemyHp": 25051,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [
    "毒:4:6"
@@ -5527,7 +5550,7 @@
   "resultField": "冥界",
   "resultMoved": false,
   "log": [
-   "- ポルターガイストの攻撃！テストに4148ダメージ！",
+   "- ポルターガイストの攻撃！テストに1871ダメージ！",
    "ポルターガイストの「ツインウォール」状態が切れた！",
    "テストは倒れた…"
   ]
@@ -5543,17 +5566,17 @@
   "enemyLevel": 393,
   "hasPet": false,
   "petAbility": null,
-  "resultPlayerHp": 111,
+  "resultPlayerHp": 341,
   "resultPlayerMp": 999449,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 4766,
+  "resultEnemyHp": 11772,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [],
   "resultEnemyEffects": [],
   "resultField": "地獄",
   "resultMoved": true,
   "log": [
-   "- ファントムの攻撃！テストに1279ダメージ！",
+   "- ファントムの攻撃！テストに1049ダメージ！",
    "+ テストの吸い込み！",
    "+ ファントムの体が地獄に吸い込まれる！"
   ]
@@ -5569,10 +5592,10 @@
   "enemyLevel": 6,
   "hasPet": true,
   "petAbility": "孔明の罠",
-  "resultPlayerHp": 1525,
+  "resultPlayerHp": 1531,
   "resultPlayerMp": 324,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 156,
+  "resultEnemyHp": 385,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [],
   "resultEnemyEffects": [
@@ -5583,7 +5606,7 @@
   "log": [
    "+ テストの終焉の闇！魔力が足りない！",
    "+ ペット185の攻撃！スピリットには効いていない！",
-   "- スピリットの攻撃！テストに35ダメージ！"
+   "- スピリットの攻撃！テストに29ダメージ！"
   ]
  },
  {
@@ -5630,10 +5653,10 @@
   "enemyLevel": 32,
   "hasPet": false,
   "petAbility": null,
-  "resultPlayerHp": 1327,
+  "resultPlayerHp": 1722,
   "resultPlayerMp": 352,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 1502,
+  "resultEnemyHp": 1140,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [
    "再生:2:3",
@@ -5649,7 +5672,7 @@
   "log": [
    "+ テストのブレイブ！",
    "+ テストはダメージ上昇状態になった！",
-   "- ガストの攻撃！テストに652ダメージ！",
+   "- ガストの攻撃！テストに257ダメージ！",
    "+ テストは再生で体力を79回復した！",
    "ガストの「ツインウォール」状態が切れた！"
   ]
@@ -5677,7 +5700,7 @@
   "resultField": "火山",
   "resultMoved": false,
   "log": [
-   "+ テストのクエイク！カロンに1185ダメージ！",
+   "+ テストのクエイク！カロンに1073ダメージ！",
    "` カロンを倒した！"
   ]
  },
@@ -5692,10 +5715,10 @@
   "enemyLevel": 58,
   "hasPet": false,
   "petAbility": null,
-  "resultPlayerHp": 2148,
+  "resultPlayerHp": 2158,
   "resultPlayerMp": 391,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 48,
+  "resultEnemyHp": 1671,
   "resultEnemyMp": 985,
   "resultPlayerEffects": [
    "毒:5:3",
@@ -5708,7 +5731,7 @@
   "resultMoved": false,
   "log": [
    "+ テストのブリザード！プラズマに1056ダメージ！",
-   "- プラズマの電流！テストに232ダメージ！",
+   "- プラズマの電流！テストに222ダメージ！",
    "- テストは毒で体力を140回復した！"
   ]
  },
@@ -5723,10 +5746,10 @@
   "enemyLevel": 71,
   "hasPet": true,
   "petAbility": "荒くれ",
-  "resultPlayerHp": 1986,
+  "resultPlayerHp": 2028,
   "resultPlayerMp": 999598,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 997,
+  "resultEnemyHp": 3479,
   "resultEnemyMp": 985,
   "resultPlayerEffects": [],
   "resultEnemyEffects": [
@@ -5739,7 +5762,7 @@
   "log": [
    "+ テストのブラックホール！クレセントには効いていない！",
    "+ ペット190の攻撃！クレセントに158ダメージ！",
-   "- クレセントの電流！テストに424ダメージ！"
+   "- クレセントの電流！テストに382ダメージ！"
   ]
  },
  {
@@ -5756,7 +5779,7 @@
   "resultPlayerHp": 2580,
   "resultPlayerMp": 414,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 112211,
+  "resultEnemyHp": 7193,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [],
   "resultEnemyEffects": [
@@ -5784,7 +5807,7 @@
   "enemyLevel": 97,
   "hasPet": false,
   "petAbility": null,
-  "resultPlayerHp": 2495,
+  "resultPlayerHp": 2531,
   "resultPlayerMp": 999279,
   "resultPlayerGil": 100000,
   "resultEnemyHp": 0,
@@ -5799,8 +5822,8 @@
   "resultField": "天界",
   "resultMoved": false,
   "log": [
-   "- シルフの攻撃！テストに255ダメージ！",
-   "+ テストのデッドワールド！シルフに7467ダメージ！",
+   "- シルフの攻撃！テストに219ダメージ！",
+   "+ テストのデッドワールド！シルフに6706ダメージ！",
    "+ テストはダメージ低下状態になった！",
    "+ シルフは猛毒状態になった！",
    "` シルフを倒した！"
@@ -5817,10 +5840,10 @@
   "enemyLevel": 110,
   "hasPet": false,
   "petAbility": null,
-  "resultPlayerHp": 2429,
+  "resultPlayerHp": 2498,
   "resultPlayerMp": 626,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 410,
+  "resultEnemyHp": 3696,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [],
   "resultEnemyEffects": [],
@@ -5828,7 +5851,7 @@
   "resultMoved": false,
   "log": [
    "+ テストの攻撃！ウィルオウィスプに706ダメージ！",
-   "- ウィルオウィスプの攻撃！テストに491ダメージ！"
+   "- ウィルオウィスプの攻撃！テストに422ダメージ！"
   ]
  },
  {
@@ -5842,10 +5865,10 @@
   "enemyLevel": 123,
   "hasPet": false,
   "petAbility": null,
-  "resultPlayerHp": 2377,
+  "resultPlayerHp": 2511,
   "resultPlayerMp": 999996,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 2921,
+  "resultEnemyHp": 10112,
   "resultEnemyMp": 899,
   "resultPlayerEffects": [
    "被ダメージ上昇:3:4"
@@ -5858,7 +5881,7 @@
   "resultMoved": false,
   "log": [
    "+ テストの毒針！てるてる坊主に427ダメージ！",
-   "- てるてる坊主のメルトン！テストに713ダメージ！",
+   "- てるてる坊主のメルトン！テストに579ダメージ！",
    "- テストは被ダメージ上昇状態になった！"
   ]
  },
@@ -5876,7 +5899,7 @@
   "resultPlayerHp": 0,
   "resultPlayerMp": 36,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 6266,
+  "resultEnemyHp": 12377,
   "resultEnemyMp": 985,
   "resultPlayerEffects": [
    "毒:1:6"
@@ -5887,7 +5910,7 @@
   "resultField": "地獄",
   "resultMoved": false,
   "log": [
-   "- プロミネンスの火の粉！テストに2041ダメージ！",
+   "- プロミネンスの火の粉！テストに1384ダメージ！",
    "プロミネンスの「ツインウォール」状態が切れた！",
    "テストは倒れた…"
   ]
@@ -5903,10 +5926,10 @@
   "enemyLevel": 149,
   "hasPet": false,
   "petAbility": null,
-  "resultPlayerHp": 74,
+  "resultPlayerHp": 124,
   "resultPlayerMp": 999999,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 1366,
+  "resultEnemyHp": 4739,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [
    "天邪鬼:1:4"
@@ -5917,7 +5940,7 @@
   "resultField": "遺跡",
   "resultMoved": false,
   "log": [
-   "- ラーヴァの攻撃！テストに356ダメージ！",
+   "- ラーヴァの攻撃！テストに306ダメージ！",
    "+ テストの引っかく！ラーヴァに174ダメージ！"
   ]
  },
@@ -5935,14 +5958,14 @@
   "resultPlayerHp": 0,
   "resultPlayerMp": 111,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 2004,
+  "resultEnemyHp": 6393,
   "resultEnemyMp": 777,
   "resultPlayerEffects": [],
   "resultEnemyEffects": [],
   "resultField": "遺跡",
   "resultMoved": false,
   "log": [
-   "- アイアンメイデンの針飛ばし！テストに1151ダメージ！",
+   "- アイアンメイデンの針飛ばし！テストに990ダメージ！",
    "テストは倒れた…"
   ]
  },
@@ -5960,7 +5983,7 @@
   "resultPlayerHp": 0,
   "resultPlayerMp": 999999,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 2204,
+  "resultEnemyHp": 8613,
   "resultEnemyMp": 444,
   "resultPlayerEffects": [
    "毒:4:5",
@@ -5975,7 +5998,7 @@
   "resultField": "遺跡",
   "resultMoved": false,
   "log": [
-   "- ナイトの攻撃！テストに1597ダメージ！",
+   "- ナイトの攻撃！テストに1235ダメージ！",
    "テストは倒れた…"
   ]
  },
@@ -5993,7 +6016,7 @@
   "resultPlayerHp": 911,
   "resultPlayerMp": 186,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 11359,
+  "resultEnemyHp": 13890,
   "resultEnemyMp": 4339,
   "resultPlayerEffects": [
    "火傷:2:3"
@@ -6026,7 +6049,7 @@
   "resultPlayerHp": 0,
   "resultPlayerMp": 999999,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 2060,
+  "resultEnemyHp": 6571,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [],
   "resultEnemyEffects": [
@@ -6036,8 +6059,8 @@
   "resultField": "遺跡",
   "resultMoved": false,
   "log": [
-   "- キラーマシンの攻撃！テストに684ダメージ！",
-   "- キラーマシンの攻撃！テストに737ダメージ！",
+   "- キラーマシンの攻撃！テストに589ダメージ！",
+   "- キラーマシンの攻撃！テストに633ダメージ！",
    "テストは倒れた…"
   ]
  },
@@ -6055,7 +6078,7 @@
   "resultPlayerHp": 0,
   "resultPlayerMp": 262,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 7764,
+  "resultEnemyHp": 22707,
   "resultEnemyMp": 10000,
   "resultPlayerEffects": [
    "毒:2:4"
@@ -6066,7 +6089,7 @@
   "resultField": "竜洞",
   "resultMoved": false,
   "log": [
-   "- バハムートの引っかく！テストに1534ダメージ！",
+   "- バハムートの引っかく！テストに1349ダメージ！",
    "テストは倒れた…"
   ]
  },
@@ -6084,7 +6107,7 @@
   "resultPlayerHp": 0,
   "resultPlayerMp": 999999,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 8702,
+  "resultEnemyHp": 30087,
   "resultEnemyMp": 958,
   "resultPlayerEffects": [],
   "resultEnemyEffects": [
@@ -6097,7 +6120,7 @@
   "resultField": "竜洞",
   "resultMoved": false,
   "log": [
-   "- コアトルのフレア！テストに9498ダメージ！",
+   "- コアトルのフレア！テストに7968ダメージ！",
    "テストは倒れた…"
   ]
  },
@@ -6115,7 +6138,7 @@
   "resultPlayerHp": 0,
   "resultPlayerMp": 282,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 69549,
+  "resultEnemyHp": 46628,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [
    "天邪鬼:1:5",
@@ -6133,8 +6156,8 @@
   "log": [
    "+ テストのレビテート！",
    "+ テストは浮遊状態になった！",
-   "- 双頭龍の攻撃！テストに5173ダメージ！",
-   "- 双頭龍の攻撃！テストに5467ダメージ！",
+   "- 双頭龍の攻撃！テストに2504ダメージ！",
+   "- 双頭龍の攻撃！テストに2448ダメージ！",
    "テストは倒れた…"
   ]
  },
@@ -6149,10 +6172,10 @@
   "enemyLevel": 253,
   "hasPet": false,
   "petAbility": null,
-  "resultPlayerHp": 180,
+  "resultPlayerHp": 719,
   "resultPlayerMp": 999862,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 4445,
+  "resultEnemyHp": 20586,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [
    "毒:5:2"
@@ -6161,8 +6184,8 @@
   "resultField": "竜洞",
   "resultMoved": false,
   "log": [
-   "- 恐竜の攻撃！テストに1498ダメージ！",
-   "+ テストのテラグロウ！恐竜に1171ダメージ！",
+   "- 恐竜の攻撃！テストに959ダメージ！",
+   "+ テストのテラグロウ！恐竜に1745ダメージ！",
    "- テストは毒で112ダメージ受けた！"
   ]
  },
@@ -6177,10 +6200,10 @@
   "enemyLevel": 266,
   "hasPet": true,
   "petAbility": "不動",
-  "resultPlayerHp": 970,
+  "resultPlayerHp": 1739,
   "resultPlayerMp": 413,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 9418,
+  "resultEnemyHp": 23536,
   "resultEnemyMp": 6666,
   "resultPlayerEffects": [],
   "resultEnemyEffects": [
@@ -6190,11 +6213,11 @@
   "resultField": "竜洞",
   "resultMoved": false,
   "log": [
-   "- スカルドラゴンの攻撃！テストに990ダメージ！",
+   "- スカルドラゴンの攻撃！テストに221ダメージ！",
    "+ テストの精霊の加護！魔力が足りない！",
    "+ ペット205のアンディファインド！スカルドラゴンに400ダメージ！",
    "+ スカルドラゴンは凍結状態になった！",
-   "- スカルドラゴンは凍結で1733ダメージ受けた！"
+   "- スカルドラゴンは凍結で4224ダメージ受けた！"
   ]
  },
  {
@@ -6211,7 +6234,7 @@
   "resultPlayerHp": 0,
   "resultPlayerMp": 999999,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 18736,
+  "resultEnemyHp": 36905,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [],
   "resultEnemyEffects": [
@@ -6223,7 +6246,7 @@
   "resultMoved": false,
   "log": [
    "+ テストの噛みつく！ドラゴンゾンビには効いていない！",
-   "- ドラゴンゾンビの引っかく！テストに7513ダメージ！",
+   "- ドラゴンゾンビの引っかく！テストに2140ダメージ！",
    "テストは倒れた…"
   ]
  },
@@ -6238,13 +6261,13 @@
   "enemyLevel": 292,
   "hasPet": false,
   "petAbility": null,
-  "resultPlayerHp": 0,
+  "resultPlayerHp": 1615,
   "resultPlayerMp": 488,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 69816,
+  "resultEnemyHp": 4844,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [
-   "毒:3:6"
+   "毒:3:5"
   ],
   "resultEnemyEffects": [
    "再生:1:9998",
@@ -6254,10 +6277,11 @@
   "resultField": "草原",
   "resultMoved": false,
   "log": [
-   "- 不滅の種の攻撃！テストに5285ダメージ！",
-   "+ 不滅の種は再生で体力を2116回復した！",
-   "不滅の種の「ツインウォール」状態が切れた！",
-   "テストは倒れた…"
+   "+ テストのしっぽ！不滅の種には効いていない！",
+   "- 不滅の種の攻撃！テストに589ダメージ！",
+   "- テストは毒で96ダメージ受けた！",
+   "+ 不滅の種は再生で体力を147回復した！",
+   "不滅の種の「ツインウォール」状態が切れた！"
   ]
  },
  {
@@ -6274,19 +6298,18 @@
   "resultPlayerHp": 2470,
   "resultPlayerMp": 999999,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 22726,
+  "resultEnemyHp": 0,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [],
   "resultEnemyEffects": [
-   "再生:3:9998",
-   "被ダメージ上昇:2:9998"
+   "再生:3:9999",
+   "被ダメージ上昇:2:9999"
   ],
   "resultField": "草原",
   "resultMoved": false,
   "log": [
-   "- 草の何もしない！",
-   "+ テストの大鎌！草に2507ダメージ！",
-   "+ 草は再生で体力を1484回復した！"
+   "+ テストの大鎌！草に3494ダメージ！",
+   "` 草を倒した！"
   ]
  },
  {
@@ -6300,10 +6323,10 @@
   "enemyLevel": 318,
   "hasPet": false,
   "petAbility": null,
-  "resultPlayerHp": 1153,
+  "resultPlayerHp": 1682,
   "resultPlayerMp": 384,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 3868,
+  "resultEnemyHp": 4283,
   "resultEnemyMp": 500,
   "resultPlayerEffects": [
    "再生:3:3"
@@ -6314,10 +6337,10 @@
   "resultField": "峡谷",
   "resultMoved": false,
   "log": [
-   "- 神速のサソリの攻撃！テストに1652ダメージ！",
+   "- 神速のサソリの攻撃！テストに1123ダメージ！",
    "+ テストの粉塵！神速のサソリに750ダメージ！",
    "+ 神速のサソリは火傷状態になった！",
-   "- 神速のサソリは火傷で98ダメージ受けた！",
+   "- 神速のサソリは火傷で107ダメージ受けた！",
    "+ テストは再生で体力を165回復した！"
   ]
  },
@@ -6332,14 +6355,14 @@
   "enemyLevel": 331,
   "hasPet": true,
   "petAbility": "ポイズンLv.2",
-  "resultPlayerHp": 0,
-  "resultPlayerMp": 999999,
+  "resultPlayerHp": 2372,
+  "resultPlayerMp": 999555,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 8428,
+  "resultEnemyHp": 1735,
   "resultEnemyMp": 10000,
   "resultPlayerEffects": [
-   "毒:1:5",
-   "天邪鬼:1:5"
+   "毒:1:4",
+   "天邪鬼:1:4"
   ],
   "resultEnemyEffects": [
    "理不尽体:1:9998"
@@ -6347,8 +6370,11 @@
   "resultField": "草原",
   "resultMoved": false,
   "log": [
-   "- 貧弱なモスのツルの鞭！テストに3194ダメージ！",
-   "テストは倒れた…"
+   "+ テストの体を閉じる！貧弱なモスに21ダメージ！",
+   "+ 貧弱なモスは理不尽体で即死状態にならない！",
+   "+ ペット210の攻撃！貧弱なモスに40ダメージ！",
+   "- 貧弱なモスのツルの鞭！テストに526ダメージ！",
+   "- テストは毒で体力を88回復した！"
   ]
  },
  {
@@ -6362,10 +6388,10 @@
   "enemyLevel": 344,
   "hasPet": false,
   "petAbility": null,
-  "resultPlayerHp": 1040,
+  "resultPlayerHp": 1934,
   "resultPlayerMp": 639,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 84303,
+  "resultEnemyHp": 43118,
   "resultEnemyMp": 2000,
   "resultPlayerEffects": [],
   "resultEnemyEffects": [
@@ -6375,7 +6401,7 @@
   "resultField": "秘境",
   "resultMoved": false,
   "log": [
-   "- 夜桜の攻撃！テストに1940ダメージ！",
+   "- 夜桜の攻撃！テストに1046ダメージ！",
    "+ テストの-273度！魔力が足りない！",
    "夜桜の「ツインウォール」状態が切れた！"
   ]
@@ -6394,7 +6420,7 @@
   "resultPlayerHp": 0,
   "resultPlayerMp": 999999,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 13534,
+  "resultEnemyHp": 15064,
   "resultEnemyMp": 1341,
   "resultPlayerEffects": [],
   "resultEnemyEffects": [
@@ -6403,7 +6429,7 @@
   "resultField": "毒沼",
   "resultMoved": false,
   "log": [
-   "- ダイアルの噛みつく！テストに1654ダメージ！",
+   "- ダイアルの噛みつく！テストに1191ダメージ！",
    "テストは倒れた…"
   ]
  },
@@ -6421,7 +6447,7 @@
   "resultPlayerHp": 0,
   "resultPlayerMp": 49,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 24480,
+  "resultEnemyHp": 53386,
   "resultEnemyMp": 2892,
   "resultPlayerEffects": [
    "毒:4:4"
@@ -6430,7 +6456,7 @@
   "resultField": "地獄",
   "resultMoved": false,
   "log": [
-   "- スフィア・オブ・ヘルのスペース！テストに1381ダメージ！",
+   "- スフィア・オブ・ヘルのスペース！テストに2492ダメージ！",
    "テストは倒れた…"
   ]
  },
@@ -6448,7 +6474,7 @@
   "resultPlayerHp": 0,
   "resultPlayerMp": 999999,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 7819,
+  "resultEnemyHp": 4253,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [],
   "resultEnemyEffects": [
@@ -6457,7 +6483,7 @@
   "resultField": "氷原",
   "resultMoved": false,
   "log": [
-   "- イエティの攻撃！テストに3422ダメージ！",
+   "- イエティの攻撃！テストに1294ダメージ！",
    "テストは倒れた…"
   ]
  },
@@ -6475,7 +6501,7 @@
   "resultPlayerHp": 0,
   "resultPlayerMp": 124,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 70615,
+  "resultEnemyHp": 28608,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [],
   "resultEnemyEffects": [
@@ -6484,7 +6510,7 @@
   "resultField": "沼",
   "resultMoved": false,
   "log": [
-   "- ウェルの攻撃！テストに6655ダメージ！",
+   "- ウェルの攻撃！テストに2490ダメージ！",
    "ウェルの「ツインウォール」状態が切れた！",
    "テストは倒れた…"
   ]
@@ -6500,10 +6526,10 @@
   "enemyLevel": 9,
   "hasPet": false,
   "petAbility": null,
-  "resultPlayerHp": 760,
+  "resultPlayerHp": 765,
   "resultPlayerMp": 999939,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 140,
+  "resultEnemyHp": 447,
   "resultEnemyMp": 1500,
   "resultPlayerEffects": [
    "毒:2:2"
@@ -6517,7 +6543,7 @@
   "log": [
    "+ テストのパラライズ！",
    "+ デルタ1stは麻痺状態になった！",
-   "- デルタ1stの攻撃！テストに40ダメージ！",
+   "- デルタ1stの攻撃！テストに35ダメージ！",
    "- テストは毒で30ダメージ受けた！"
   ]
  },
@@ -6532,10 +6558,10 @@
   "enemyLevel": 22,
   "hasPet": false,
   "petAbility": null,
-  "resultPlayerHp": 712,
+  "resultPlayerHp": 827,
   "resultPlayerMp": 52,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 720,
+  "resultEnemyHp": 504,
   "resultEnemyMp": 2750,
   "resultPlayerEffects": [
    "天邪鬼:1:4"
@@ -6548,7 +6574,7 @@
   "resultMoved": false,
   "log": [
    "+ テストのグランドフォース！デルタ2ndには効いていない！",
-   "- デルタ2ndの大砲！テストに288ダメージ！",
+   "- デルタ2ndの大砲！テストに173ダメージ！",
    "デルタ2ndの「浮遊」状態が切れた！"
   ]
  },
@@ -6563,10 +6589,10 @@
   "enemyLevel": 35,
   "hasPet": false,
   "petAbility": null,
-  "resultPlayerHp": 901,
+  "resultPlayerHp": 1060,
   "resultPlayerMp": 999444,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 475,
+  "resultEnemyHp": 328,
   "resultEnemyMp": 50000,
   "resultPlayerEffects": [
    "再生:3:9",
@@ -6584,7 +6610,7 @@
    "+ テストの妖精の加護！",
    "+ テストは再生状態になった！",
    "+ テストは豊穣の宣告状態になった！",
-   "- ミミックの噛みつく！テストに342ダメージ！",
+   "- ミミックの噛みつく！テストに183ダメージ！",
    "+ テストは再生で体力を73回復した！"
   ]
  },
@@ -6599,10 +6625,10 @@
   "enemyLevel": 48,
   "hasPet": false,
   "petAbility": null,
-  "resultPlayerHp": 397,
+  "resultPlayerHp": 858,
   "resultPlayerMp": 275,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 649,
+  "resultEnemyHp": 893,
   "resultEnemyMp": 44422,
   "resultPlayerEffects": [
    "毒:5:5"
@@ -6616,7 +6642,7 @@
   "resultMoved": false,
   "log": [
    "+ テストのツルの鞭！魔鏡には効いていない！",
-   "- 魔鏡の儚い闇！テストに859ダメージ！",
+   "- 魔鏡の儚い闇！テストに398ダメージ！",
    "- テストは毒で84ダメージ受けた！",
    "魔鏡の「ツインウォール」状態が切れた！"
   ]
@@ -6632,10 +6658,10 @@
   "enemyLevel": 61,
   "hasPet": true,
   "petAbility": "最強の槍",
-  "resultPlayerHp": 1286,
+  "resultPlayerHp": 1401,
   "resultPlayerMp": 999999,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 812,
+  "resultEnemyHp": 248,
   "resultEnemyMp": 10000,
   "resultPlayerEffects": [
    "再生:2:3"
@@ -6644,7 +6670,7 @@
   "resultField": "草原",
   "resultMoved": false,
   "log": [
-   "- キケロの頭突き！テストに287ダメージ！",
+   "- キケロの頭突き！テストに172ダメージ！",
    "+ テストの頭突き！キケロに740ダメージ！",
    "+ ペット220の攻撃！キケロに328ダメージ！",
    "+ テストは再生で体力を63回復した！"
@@ -6664,7 +6690,7 @@
   "resultPlayerHp": 0,
   "resultPlayerMp": 351,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 1836,
+  "resultEnemyHp": 2001,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [],
   "resultEnemyEffects": [
@@ -6675,7 +6701,7 @@
   "resultMoved": false,
   "log": [
    "+ テストの絶望の歌！",
-   "- デュラハンの槍突き！テストに5575ダメージ！",
+   "- デュラハンの槍突き！テストに1756ダメージ！",
    "テストは倒れた…"
   ]
  },
@@ -6693,7 +6719,7 @@
   "resultPlayerHp": 0,
   "resultPlayerMp": 999999,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 1986,
+  "resultEnemyHp": 2136,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [
    "毒:3:5"
@@ -6706,7 +6732,7 @@
   "resultField": "沼",
   "resultMoved": false,
   "log": [
-   "- カーストの切り裂く！テストに5062ダメージ！",
+   "- カーストの切り裂く！テストに2149ダメージ！",
    "テストは倒れた…"
   ]
  },
@@ -6724,7 +6750,7 @@
   "resultPlayerHp": 0,
   "resultPlayerMp": 426,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 7626,
+  "resultEnemyHp": 5285,
   "resultEnemyMp": 922,
   "resultPlayerEffects": [],
   "resultEnemyEffects": [
@@ -6734,7 +6760,7 @@
   "resultField": "毒沼",
   "resultMoved": false,
   "log": [
-   "- デスの黒雷！テストに13946ダメージ！",
+   "- デスの黒雷！テストに5524ダメージ！",
    "デスの「ツインウォール」状態が切れた！",
    "テストは倒れた…"
   ]
@@ -6750,7 +6776,7 @@
   "enemyLevel": 113,
   "hasPet": false,
   "petAbility": null,
-  "resultPlayerHp": 1912,
+  "resultPlayerHp": 2021,
   "resultPlayerMp": 992222,
   "resultPlayerGil": 100000,
   "resultEnemyHp": 0,
@@ -6767,7 +6793,7 @@
   "resultField": "草原",
   "resultMoved": false,
   "log": [
-   "- 白虎の淡い光！テストに278ダメージ！",
+   "- 白虎の淡い光！テストに169ダメージ！",
    "+ テストの虚ろな悪夢！白虎に10156ダメージ！",
    "+ 白虎はダメージ低下状態になった！",
    "+ 白虎は被ダメージ上昇状態になった！",
@@ -6786,10 +6812,10 @@
   "enemyLevel": 126,
   "hasPet": true,
   "petAbility": "チェーン",
-  "resultPlayerHp": 2079,
+  "resultPlayerHp": 2062,
   "resultPlayerMp": 487,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 72903,
+  "resultEnemyHp": 7438,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [
    "毒:1:3"
@@ -6801,13 +6827,13 @@
   "resultField": "湖",
   "resultMoved": false,
   "log": [
-   "- 極楽鳥の攻撃！テストに207ダメージ！",
-   "+ テストの火の粉！極楽鳥に388ダメージ！",
+   "- 極楽鳥の攻撃！テストに224ダメージ！",
+   "+ テストの火の粉！極楽鳥に544ダメージ！",
    "+ 極楽鳥は火傷状態になった！",
-   "+ ペット225のブラックホール！極楽鳥に793ダメージ！",
+   "+ ペット225のブラックホール！極楽鳥に523ダメージ！",
    "+ ペット225の鬼火！",
    "+ 極楽鳥は火傷で火傷状態にならない！",
-   "- 極楽鳥は火傷で1576ダメージ受けた！",
+   "- 極楽鳥は火傷で181ダメージ受けた！",
    "- テストは毒で74ダメージ受けた！"
   ]
  },
@@ -6825,7 +6851,7 @@
   "resultPlayerHp": 0,
   "resultPlayerMp": 999999,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 10006,
+  "resultEnemyHp": 20193,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [],
   "resultEnemyEffects": [
@@ -6837,7 +6863,7 @@
   "resultField": "遺跡",
   "resultMoved": false,
   "log": [
-   "- 青龍の切り裂く！テストに5197ダメージ！",
+   "- 青龍の切り裂く！テストに5619ダメージ！",
    "テストは倒れた…"
   ]
  },
@@ -6855,7 +6881,7 @@
   "resultPlayerHp": 2700,
   "resultPlayerMp": 327,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 101571,
+  "resultEnemyHp": 36397,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [],
   "resultEnemyEffects": [
@@ -6870,7 +6896,7 @@
   "log": [
    "- 金虎は石化で動けない！",
    "+ テストの極光！金虎には効いていない！",
-   "+ 金虎は再生で体力を11286回復した！",
+   "+ 金虎は再生で体力を4044回復した！",
    "金虎の「ツインウォール」状態が切れた！"
   ]
  },
@@ -6885,14 +6911,14 @@
   "enemyLevel": 165,
   "hasPet": false,
   "petAbility": null,
-  "resultPlayerHp": 0,
+  "resultPlayerHp": -54,
   "resultPlayerMp": 999999,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 171650,
+  "resultEnemyHp": 1435,
   "resultEnemyMp": 121913,
   "resultPlayerEffects": [
-   "毒:4:3",
-   "凍結:2:3"
+   "毒:4:2",
+   "凍結:2:2"
   ],
   "resultEnemyEffects": [
    "天邪鬼:1:9998",
@@ -6903,10 +6929,12 @@
   "resultField": "草原",
   "resultMoved": false,
   "log": [
-   "- Nightmareの-273度！テストに32435ダメージ！",
+   "- Nightmareの-273度！テストに2599ダメージ！",
    "- テストは凍結状態になった！",
-   "- Nightmareの-273度！テストに2264ダメージ！",
+   "- Nightmareの-273度！テストに181ダメージ！",
    "- テストは凍結で凍結状態にならない！",
+   "+ テストは凍結で動けない！",
+   "- テストは毒で144ダメージ受けた！",
    "テストは倒れた…"
   ]
  },
@@ -6924,7 +6952,7 @@
   "resultPlayerHp": 0,
   "resultPlayerMp": 653,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 222204,
+  "resultEnemyHp": 20577,
   "resultEnemyMp": 121121,
   "resultPlayerEffects": [
    "火傷:4:7",
@@ -6939,10 +6967,10 @@
   "resultField": "永遠悪夢",
   "resultMoved": false,
   "log": [
-   "- Nightmareのアンディファインド！テストに61616ダメージ！",
+   "- Nightmareのアンディファインド！テストに11724ダメージ！",
    "- テストは火傷状態になった！",
    "- テストは凍結状態になった！",
-   "- Nightmareの-273度！テストに3122ダメージ！",
+   "- Nightmareの-273度！テストに594ダメージ！",
    "- テストは凍結で凍結状態にならない！",
    "テストは倒れた…"
   ]
@@ -6961,7 +6989,7 @@
   "resultPlayerHp": 210,
   "resultPlayerMp": 999851,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 137978,
+  "resultEnemyHp": 2153,
   "resultEnemyMp": 114514,
   "resultPlayerEffects": [],
   "resultEnemyEffects": [
@@ -6997,7 +7025,7 @@
   "resultPlayerHp": 0,
   "resultPlayerMp": 62,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 136209,
+  "resultEnemyHp": 4697,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [
    "毒:2:6",
@@ -7014,7 +7042,7 @@
   "resultField": "草原",
   "resultMoved": false,
   "log": [
-   "- yayyyyの攻撃！テストに36218ダメージ！",
+   "- yayyyyの攻撃！テストに2311ダメージ！",
    "yayyyyの「ツインウォール」状態が切れた！",
    "テストは倒れた…"
   ]
@@ -7030,18 +7058,18 @@
   "enemyLevel": 217,
   "hasPet": false,
   "petAbility": null,
-  "resultPlayerHp": 0,
+  "resultPlayerHp": 355,
   "resultPlayerMp": 999999,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 2220,
+  "resultEnemyHp": 542,
   "resultEnemyMp": 100,
   "resultPlayerEffects": [],
   "resultEnemyEffects": [],
   "resultField": "草原",
   "resultMoved": false,
   "log": [
-   "- 悪魔の種のツルの鞭！テストに688ダメージ！",
-   "テストは倒れた…"
+   "- 悪魔の種のツルの鞭！テストに195ダメージ！",
+   "+ テストの毒牙！悪魔の種に193ダメージ！"
   ]
  },
  {
@@ -7055,10 +7083,10 @@
   "enemyLevel": 230,
   "hasPet": false,
   "petAbility": null,
-  "resultPlayerHp": 0,
+  "resultPlayerHp": 527,
   "resultPlayerMp": 138,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 2820,
+  "resultEnemyHp": 882,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [],
   "resultEnemyEffects": [
@@ -7067,8 +7095,8 @@
   "resultField": "草原",
   "resultMoved": false,
   "log": [
-   "- アナコンダの攻撃！テストに721ダメージ！",
-   "テストは倒れた…"
+   "- アナコンダの攻撃！テストに193ダメージ！",
+   "+ テストのあやかしの呪文！魔力が足りない！"
   ]
  },
  {
@@ -7082,10 +7110,10 @@
   "enemyLevel": 243,
   "hasPet": false,
   "petAbility": null,
-  "resultPlayerHp": 301,
+  "resultPlayerHp": 663,
   "resultPlayerMp": 999999,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 5986,
+  "resultEnemyHp": 1733,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [
    "毒:5:4"
@@ -7097,7 +7125,7 @@
   "resultField": "草原",
   "resultMoved": false,
   "log": [
-   "- キャタピラーの攻撃！テストに533ダメージ！",
+   "- キャタピラーの攻撃！テストに171ダメージ！",
    "+ テストの吹雪！キャタピラーには効いていない！",
    "- テストは毒で56ダメージ受けた！"
   ]
@@ -7113,10 +7141,10 @@
   "enemyLevel": 256,
   "hasPet": true,
   "petAbility": "破壊神",
-  "resultPlayerHp": 0,
+  "resultPlayerHp": 774,
   "resultPlayerMp": 213,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 11599,
+  "resultEnemyHp": 1617,
   "resultEnemyMp": 497,
   "resultPlayerEffects": [],
   "resultEnemyEffects": [
@@ -7126,9 +7154,10 @@
   "resultField": "草原",
   "resultMoved": false,
   "log": [
-   "- サソリの毒針！テストに2157ダメージ！",
-   "サソリの「ツインウォール」状態が切れた！",
-   "テストは倒れた…"
+   "- サソリの毒針！テストに286ダメージ！",
+   "+ テストの自爆！魔力が足りない！",
+   "+ ペット235の攻撃！サソリには効いていない！",
+   "サソリの「ツインウォール」状態が切れた！"
   ]
  },
  {
@@ -7142,10 +7171,10 @@
   "enemyLevel": 269,
   "hasPet": false,
   "petAbility": null,
-  "resultPlayerHp": 553,
+  "resultPlayerHp": 1069,
   "resultPlayerMp": 999999,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 2266,
+  "resultEnemyHp": 155,
   "resultEnemyMp": 500,
   "resultPlayerEffects": [],
   "resultEnemyEffects": [
@@ -7154,9 +7183,9 @@
   "resultField": "草原",
   "resultMoved": false,
   "log": [
-   "- マタンゴの攻撃！テストに677ダメージ！",
-   "+ テストの矢！マタンゴに560ダメージ！",
-   "+ マタンゴは再生で体力を86回復した！"
+   "+ テストの矢！マタンゴに603ダメージ！",
+   "- マタンゴの攻撃！テストに161ダメージ！",
+   "+ マタンゴは再生で体力を23回復した！"
   ]
  },
  {
@@ -7170,10 +7199,10 @@
   "enemyLevel": 282,
   "hasPet": false,
   "petAbility": null,
-  "resultPlayerHp": 332,
+  "resultPlayerHp": 1155,
   "resultPlayerMp": 289,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 4290,
+  "resultEnemyHp": 1092,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [
    "毒:3:3"
@@ -7182,8 +7211,8 @@
   "resultField": "草原",
   "resultMoved": false,
   "log": [
-   "- モスのツルの鞭！テストに1010ダメージ！",
    "+ テストのノーライフ！魔力が足りない！",
+   "- モスの攻撃！テストに187ダメージ！",
    "- テストは毒で58ダメージ受けた！"
   ]
  },
@@ -7198,10 +7227,10 @@
   "enemyLevel": 295,
   "hasPet": false,
   "petAbility": null,
-  "resultPlayerHp": 87,
+  "resultPlayerHp": 1290,
   "resultPlayerMp": 999984,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 3186,
+  "resultEnemyHp": 498,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [
    "天邪鬼:1:4"
@@ -7213,8 +7242,8 @@
   "resultField": "草原",
   "resultMoved": false,
   "log": [
-   "- チェリーの攻撃！テストに1483ダメージ！",
-   "+ テストの電流！チェリーに477ダメージ！"
+   "+ テストの電流！チェリーに605ダメージ！",
+   "- チェリーの攻撃！テストに280ダメージ！"
   ]
  },
  {
@@ -7231,7 +7260,7 @@
   "resultPlayerHp": 1740,
   "resultPlayerMp": 322,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 19932,
+  "resultEnemyHp": 2295,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [],
   "resultEnemyEffects": [
@@ -7240,8 +7269,8 @@
   "resultField": "草原",
   "resultMoved": false,
   "log": [
-   "- グラスの何もしない！",
    "+ テストのアクア！グラスには効いていない！",
+   "- グラスの何もしない！",
    "グラスの「ツインウォール」状態が切れた！"
   ]
  },
@@ -7256,20 +7285,22 @@
   "enemyLevel": 321,
   "hasPet": true,
   "petAbility": "勇奮",
-  "resultPlayerHp": 0,
-  "resultPlayerMp": 999999,
+  "resultPlayerHp": 1850,
+  "resultPlayerMp": 999921,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 2618,
+  "resultEnemyHp": 0,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [
-   "毒:1:3"
+   "毒:1:2"
   ],
   "resultEnemyEffects": [],
   "resultField": "草原",
   "resultMoved": false,
   "log": [
-   "- ソーンの針飛ばし！テストに2381ダメージ！",
-   "テストは倒れた…"
+   "+ テストの青い炎！ソーンに1982ダメージ！",
+   "+ ペット240の頭突き！ソーンに284ダメージ！",
+   "- テストは毒で60ダメージ受けた！",
+   "` ソーンを倒した！"
   ]
  },
  {
@@ -7283,10 +7314,10 @@
   "enemyLevel": 334,
   "hasPet": false,
   "petAbility": null,
-  "resultPlayerHp": 1052,
+  "resultPlayerHp": 1585,
   "resultPlayerMp": 285,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 4068,
+  "resultEnemyHp": 2570,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [
    "ダメージ上昇:5:4"
@@ -7295,7 +7326,7 @@
   "resultField": "洞窟",
   "resultMoved": false,
   "log": [
-   "- コウモリの攻撃！テストに1028ダメージ！",
+   "- コウモリの攻撃！テストに495ダメージ！",
    "+ テストのストル！",
    "+ テストはダメージ上昇状態になった！"
   ]
@@ -7311,13 +7342,13 @@
   "enemyLevel": 347,
   "hasPet": false,
   "petAbility": null,
-  "resultPlayerHp": 0,
+  "resultPlayerHp": 1288,
   "resultPlayerMp": 999999,
-  "resultPlayerGil": 100000,
-  "resultEnemyHp": 6405,
+  "resultPlayerGil": 99450,
+  "resultEnemyHp": 3523,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [
-   "再生:3:4"
+   "再生:3:3"
   ],
   "resultEnemyEffects": [
    "ダメージ軽減:5:9998",
@@ -7326,8 +7357,10 @@
   "resultField": "洞窟",
   "resultMoved": false,
   "log": [
-   "- マイマイの水鉄砲！テストに2645ダメージ！",
-   "テストは倒れた…"
+   "- マイマイの水鉄砲！テストに1103ダメージ！",
+   "+ テストは550ギルを投げつけた！",
+   "+ テストの銭投げ！マイマイに320ダメージ！",
+   "+ テストは再生で体力を141回復した！"
   ]
  },
  {
@@ -7344,7 +7377,7 @@
   "resultPlayerHp": 0,
   "resultPlayerMp": 515,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 20027,
+  "resultEnemyHp": 5812,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [
    "毒:4:6"
@@ -7359,8 +7392,8 @@
   "resultField": "洞窟",
   "resultMoved": false,
   "log": [
-   "- ヤドカリの水鉄砲！テストに11560ダメージ！",
-   "+ ヤドカリは再生で体力を607回復した！",
+   "- ヤドカリの水鉄砲！テストに2844ダメージ！",
+   "+ ヤドカリは再生で体力を176回復した！",
    "ヤドカリの「ツインウォール」状態が切れた！",
    "テストは倒れた…"
   ]
@@ -7376,7 +7409,7 @@
   "enemyLevel": 373,
   "hasPet": false,
   "petAbility": null,
-  "resultPlayerHp": 1561,
+  "resultPlayerHp": 2146,
   "resultPlayerMp": 997444,
   "resultPlayerGil": 100000,
   "resultEnemyHp": 0,
@@ -7386,7 +7419,7 @@
   "resultField": "氷原",
   "resultMoved": false,
   "log": [
-   "- アイシクルの攻撃！テストに1029ダメージ！",
+   "- アイシクルの攻撃！テストに444ダメージ！",
    "+ テストの花吹雪！アイシクルに9559ダメージ！",
    "` アイシクルを倒した！"
   ]
@@ -7402,10 +7435,10 @@
   "enemyLevel": 386,
   "hasPet": true,
   "petAbility": "マキナ",
-  "resultPlayerHp": 2760,
+  "resultPlayerHp": 2227,
   "resultPlayerMp": 591,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 4417,
+  "resultEnemyHp": 1738,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [
    "天邪鬼:1:4"
@@ -7414,9 +7447,9 @@
   "resultField": "氷原",
   "resultMoved": false,
   "log": [
-   "- スノーマンの何もしない！",
    "+ テストの猛毒牙！スノーマンに1201ダメージ！",
-   "+ ペット245の何もしない！"
+   "+ ペット245の攻撃！スノーマンに135ダメージ！",
+   "- スノーマンの攻撃！テストに533ダメージ！"
   ]
  },
  {
@@ -7430,10 +7463,10 @@
   "enemyLevel": 399,
   "hasPet": false,
   "petAbility": null,
-  "resultPlayerHp": 1650,
+  "resultPlayerHp": 2338,
   "resultPlayerMp": 999999,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 6754,
+  "resultEnemyHp": 3274,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [
    "毒:2:4"
@@ -7446,8 +7479,8 @@
   "resultField": "氷原",
   "resultMoved": false,
   "log": [
-   "- ペンギンの攻撃！テストに1175ダメージ！",
-   "+ テストの殻で挟む！ペンギンに600ダメージ！",
+   "+ テストの殻で挟む！ペンギンに569ダメージ！",
+   "- ペンギンの攻撃！テストに487ダメージ！",
    "- テストは毒で105ダメージ受けた！"
   ]
  },
@@ -7462,10 +7495,10 @@
   "enemyLevel": 12,
   "hasPet": false,
   "petAbility": null,
-  "resultPlayerHp": 2821,
+  "resultPlayerHp": 2996,
   "resultPlayerMp": 666,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 862,
+  "resultEnemyHp": 465,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [],
   "resultEnemyEffects": [
@@ -7475,7 +7508,7 @@
   "resultMoved": false,
   "log": [
    "+ テストの雪玉！マッドハンドには効いていない！",
-   "- マッドハンドの引っかく！テストに279ダメージ！",
+   "- マッドハンドの引っかく！テストに104ダメージ！",
    "マッドハンドの「ツインウォール」状態が切れた！"
   ]
  },
@@ -7490,17 +7523,17 @@
   "enemyLevel": 25,
   "hasPet": false,
   "petAbility": null,
-  "resultPlayerHp": 190,
+  "resultPlayerHp": 219,
   "resultPlayerMp": 999749,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 253,
+  "resultEnemyHp": 197,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [],
   "resultEnemyEffects": [],
   "resultField": "洞窟",
   "resultMoved": false,
   "log": [
-   "- ネズミの引っかく！テストに80ダメージ！",
+   "- ネズミの引っかく！テストに51ダメージ！",
    "+ テストの大砲！ネズミに97ダメージ！"
   ]
  },
@@ -7515,7 +7548,7 @@
   "enemyLevel": 38,
   "hasPet": false,
   "petAbility": null,
-  "resultPlayerHp": 346,
+  "resultPlayerHp": 380,
   "resultPlayerMp": 75,
   "resultPlayerGil": 100000,
   "resultEnemyHp": 0,
@@ -7527,7 +7560,7 @@
   "resultField": "洞窟",
   "resultMoved": false,
   "log": [
-   "- ノミの攻撃！テストに94ダメージ！",
+   "- ノミの攻撃！テストに60ダメージ！",
    "+ テストのメガフレア！ノミに723ダメージ！",
    "` ノミを倒した！"
   ]
@@ -7543,10 +7576,10 @@
   "enemyLevel": 51,
   "hasPet": true,
   "petAbility": "デッド・オア・ダイ",
-  "resultPlayerHp": 420,
+  "resultPlayerHp": 494,
   "resultPlayerMp": 999555,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 368,
+  "resultEnemyHp": 395,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [],
   "resultEnemyEffects": [
@@ -7565,9 +7598,9 @@
    "+ 踊る金貨は理不尽体で麻痺状態にならない！",
    "+ ペット250のブレイブ！",
    "+ ペット250はダメージ上昇状態になった！",
-   "- 踊る金貨の攻撃！テストに190ダメージ！",
-   "- 踊る金貨は猛毒で77ダメージ受けた！",
-   "- 踊る金貨は火傷で19ダメージ受けた！"
+   "- 踊る金貨の攻撃！テストに116ダメージ！",
+   "- 踊る金貨は猛毒で83ダメージ受けた！",
+   "- 踊る金貨は火傷で21ダメージ受けた！"
   ]
  },
  {
@@ -7581,23 +7614,22 @@
   "enemyLevel": 64,
   "hasPet": false,
   "petAbility": null,
-  "resultPlayerHp": 0,
+  "resultPlayerHp": 186,
   "resultPlayerMp": 129,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 2498,
+  "resultEnemyHp": 2125,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [],
   "resultEnemyEffects": [
-   "ツインウォール:1:1",
-   "ダメージ上昇:7:8",
-   "完全耐性:1:20"
+   "ダメージ上昇:7:7",
+   "完全耐性:1:19"
   ],
   "resultField": "火山",
   "resultMoved": false,
   "log": [
    "+ テストの淡い光！フォグには効いていない！",
-   "- フォグの攻撃！テストに1501ダメージ！",
-   "テストは倒れた…"
+   "- フォグの攻撃！テストに594ダメージ！",
+   "フォグの「ツインウォール」状態が切れた！"
   ]
  },
  {
@@ -7614,7 +7646,7 @@
   "resultPlayerHp": 990,
   "resultPlayerMp": 999951,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 1242,
+  "resultEnemyHp": 1906,
   "resultEnemyMp": 3000,
   "resultPlayerEffects": [
    "毒:3:2",
@@ -7624,7 +7656,7 @@
   "resultField": "火山",
   "resultMoved": false,
   "log": [
-   "+ テストのプラント！ボムに348ダメージ！",
+   "+ テストのプラント！ボムに320ダメージ！",
    "- ボムの何もしない！",
    "- テストは毒で体力を40回復した！"
   ]
@@ -7640,10 +7672,10 @@
   "enemyLevel": 90,
   "hasPet": false,
   "petAbility": null,
-  "resultPlayerHp": 738,
+  "resultPlayerHp": 858,
   "resultPlayerMp": 148,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 433,
+  "resultEnemyHp": 1051,
   "resultEnemyMp": 2500,
   "resultPlayerEffects": [
    "再生:2:3"
@@ -7655,7 +7687,7 @@
   "resultMoved": false,
   "log": [
    "+ テストの黒雷！サラマンダーに545ダメージ！",
-   "- サラマンダーの引っかく！テストに429ダメージ！",
+   "- サラマンダーの引っかく！テストに309ダメージ！",
    "+ テストは再生で体力を47回復した！"
   ]
  },
@@ -7670,10 +7702,10 @@
   "enemyLevel": 103,
   "hasPet": false,
   "petAbility": null,
-  "resultPlayerHp": 959,
+  "resultPlayerHp": 1076,
   "resultPlayerMp": 999844,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 1955,
+  "resultEnemyHp": 2701,
   "resultEnemyMp": 750,
   "resultPlayerEffects": [
    "ダメージ軽減:5:4"
@@ -7688,7 +7720,7 @@
   "log": [
    "+ テストのシェル！",
    "+ テストはダメージ軽減状態になった！",
-   "- タンクの攻撃！テストに331ダメージ！"
+   "- タンクの攻撃！テストに214ダメージ！"
   ]
  },
  {
@@ -7702,25 +7734,25 @@
   "enemyLevel": 116,
   "hasPet": true,
   "petAbility": "なし",
-  "resultPlayerHp": 0,
+  "resultPlayerHp": 523,
   "resultPlayerMp": 201,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 7078,
+  "resultEnemyHp": 4906,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [
-   "毒:1:6"
+   "毒:1:5"
   ],
   "resultEnemyEffects": [
-   "ツインウォール:1:1",
-   "完全耐性:1:20"
+   "完全耐性:1:19"
   ],
   "resultField": "火山",
   "resultMoved": false,
   "log": [
    "+ テストのメルトン！ヘルハウンドには効いていない！",
    "+ ペット255の切り裂く！ヘルハウンドには効いていない！",
-   "- ヘルハウンドの引っかく！テストに2250ダメージ！",
-   "テストは倒れた…"
+   "- ヘルハウンドの引っかく！テストに891ダメージ！",
+   "- テストは毒で46ダメージ受けた！",
+   "ヘルハウンドの「ツインウォール」状態が切れた！"
   ]
  },
  {
@@ -7744,7 +7776,7 @@
   "resultField": "火山",
   "resultMoved": false,
   "log": [
-   "+ テストのエンプティセット！ヒドラに2156ダメージ！",
+   "+ テストのエンプティセット！ヒドラに2863ダメージ！",
    "` ヒドラを倒した！"
   ]
  },
@@ -7784,10 +7816,10 @@
   "enemyLevel": 155,
   "hasPet": false,
   "petAbility": null,
-  "resultPlayerHp": 532,
+  "resultPlayerHp": 1005,
   "resultPlayerMp": 999987,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 4638,
+  "resultEnemyHp": 6408,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [
    "毒:4:4"
@@ -7800,10 +7832,10 @@
   "resultField": "火山",
   "resultMoved": false,
   "log": [
-   "- エッグの頭突き！テストに1339ダメージ！",
+   "- エッグの頭突き！テストに866ダメージ！",
    "+ テストの毒の粉！",
    "+ エッグは毒状態になった！",
-   "- エッグは毒で150ダメージ受けた！",
+   "- エッグは毒で207ダメージ受けた！",
    "- テストは毒で99ダメージ受けた！"
   ]
  },
@@ -7818,10 +7850,10 @@
   "enemyLevel": 168,
   "hasPet": false,
   "petAbility": null,
-  "resultPlayerHp": 468,
+  "resultPlayerHp": 1386,
   "resultPlayerMp": 453,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 7688,
+  "resultEnemyHp": 9401,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [
    "天邪鬼:1:4"
@@ -7833,7 +7865,7 @@
   "resultMoved": false,
   "log": [
    "+ テストの水鉄砲！ゴーストには効いていない！",
-   "- ゴーストの攻撃！テストに1672ダメージ！",
+   "- ゴーストの攻撃！テストに754ダメージ！",
    "ゴーストの「ツインウォール」状態が切れた！"
   ]
  },
@@ -7848,10 +7880,10 @@
   "enemyLevel": 181,
   "hasPet": true,
   "petAbility": "ポイズンLv.1",
-  "resultPlayerHp": 1814,
+  "resultPlayerHp": 1903,
   "resultPlayerMp": 999999,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 698,
+  "resultEnemyHp": 3964,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [],
   "resultEnemyEffects": [],
@@ -7860,7 +7892,7 @@
   "log": [
    "+ テストの石入りの雪玉！ポルターガイストに1417ダメージ！",
    "+ ペット260のしっぽ！ポルターガイストに107ダメージ！",
-   "- ポルターガイストの攻撃！テストに496ダメージ！"
+   "- ポルターガイストの攻撃！テストに407ダメージ！"
   ]
  },
  {
@@ -7874,10 +7906,10 @@
   "enemyLevel": 194,
   "hasPet": false,
   "petAbility": null,
-  "resultPlayerHp": 1981,
+  "resultPlayerHp": 2055,
   "resultPlayerMp": 423,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 2765,
+  "resultEnemyHp": 6828,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [
    "毒:2:3"
@@ -7891,9 +7923,9 @@
   "log": [
    "+ テストの鬼火！",
    "+ ファントムは火傷状態になった！",
-   "- ファントムの攻撃！テストに410ダメージ！",
+   "- ファントムの攻撃！テストに336ダメージ！",
    "- テストは毒で89ダメージ受けた！",
-   "- ファントムは火傷で89ダメージ受けた！"
+   "- ファントムは火傷で220ダメージ受けた！"
   ]
  },
  {
@@ -7940,7 +7972,7 @@
   "resultPlayerHp": 2820,
   "resultPlayerMp": 206,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 11954,
+  "resultEnemyHp": 11185,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [],
   "resultEnemyEffects": [
@@ -7968,10 +8000,10 @@
   "enemyLevel": 233,
   "hasPet": false,
   "petAbility": null,
-  "resultPlayerHp": 2327,
+  "resultPlayerHp": 2487,
   "resultPlayerMp": 999977,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 1031,
+  "resultEnemyHp": 2120,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [
    "毒:5:2",
@@ -7981,8 +8013,8 @@
   "resultField": "火山",
   "resultMoved": false,
   "log": [
-   "+ テストの儚い闇！ガストに1116ダメージ！",
-   "- ガストの攻撃！テストに569ダメージ！",
+   "+ テストの儚い闇！ガストに1212ダメージ！",
+   "- ガストの攻撃！テストに409ダメージ！",
    "- テストは毒で187ダメージ受けた！",
    "+ テストは再生で体力を93回復した！"
   ]
@@ -8001,7 +8033,7 @@
   "resultPlayerHp": 0,
   "resultPlayerMp": 13,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 3307,
+  "resultEnemyHp": 4630,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [],
   "resultEnemyEffects": [
@@ -8010,7 +8042,7 @@
   "resultField": "火山",
   "resultMoved": false,
   "log": [
-   "- カロンの頭突き！テストに1310ダメージ！",
+   "- カロンの頭突き！テストに943ダメージ！",
    "テストは倒れた…"
   ]
  },
@@ -8028,7 +8060,7 @@
   "resultPlayerHp": 0,
   "resultPlayerMp": 999999,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 5981,
+  "resultEnemyHp": 14579,
   "resultEnemyMp": 985,
   "resultPlayerEffects": [
    "天邪鬼:1:5"
@@ -8040,7 +8072,7 @@
   "resultField": "氷山",
   "resultMoved": false,
   "log": [
-   "- プラズマの電流！テストに1535ダメージ！",
+   "- プラズマの電流！テストに1320ダメージ！",
    "テストは倒れた…"
   ]
  },
@@ -8058,7 +8090,7 @@
   "resultPlayerHp": 0,
   "resultPlayerMp": 89,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 12310,
+  "resultEnemyHp": 19440,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [
    "毒:3:6"
@@ -8071,7 +8103,7 @@
   "resultField": "天界",
   "resultMoved": false,
   "log": [
-   "- クレセントの攻撃！テストに2892ダメージ！",
+   "- クレセントの攻撃！テストに1368ダメージ！",
    "クレセントの「ツインウォール」状態が切れた！",
    "テストは倒れた…"
   ]
@@ -8090,7 +8122,7 @@
   "resultPlayerHp": 670,
   "resultPlayerMp": 999862,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 85065,
+  "resultEnemyHp": 10225,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [],
   "resultEnemyEffects": [
@@ -8100,7 +8132,7 @@
   "resultMoved": false,
   "log": [
    "- レインの何もしない！",
-   "+ テストのヘルファイア！レインに485ダメージ！"
+   "+ テストのヘルファイア！レインに643ダメージ！"
   ]
  },
  {
@@ -8117,14 +8149,14 @@
   "resultPlayerHp": 0,
   "resultPlayerMp": 164,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 3636,
+  "resultEnemyHp": 11599,
   "resultEnemyMp": 978,
   "resultPlayerEffects": [],
   "resultEnemyEffects": [],
   "resultField": "天界",
   "resultMoved": false,
   "log": [
-   "- シルフの淡い光！テストに1216ダメージ！",
+   "- シルフの淡い光！テストに1135ダメージ！",
    "テストは倒れた…"
   ]
  },
@@ -8142,7 +8174,7 @@
   "resultPlayerHp": 0,
   "resultPlayerMp": 999999,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 3858,
+  "resultEnemyHp": 15121,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [
    "毒:1:5"
@@ -8155,7 +8187,7 @@
   "resultField": "天界",
   "resultMoved": false,
   "log": [
-   "- ウィルオウィスプの攻撃！テストに2020ダメージ！",
+   "- ウィルオウィスプの攻撃！テストに1562ダメージ！",
    "テストは倒れた…"
   ]
  },
@@ -8173,7 +8205,7 @@
   "resultPlayerHp": 1180,
   "resultPlayerMp": 225,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 25420,
+  "resultEnemyHp": 40143,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [],
   "resultEnemyEffects": [
@@ -8200,17 +8232,17 @@
   "enemyLevel": 337,
   "hasPet": false,
   "petAbility": null,
-  "resultPlayerHp": 263,
+  "resultPlayerHp": 11,
   "resultPlayerMp": 999999,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 2702,
+  "resultEnemyHp": 12928,
   "resultEnemyMp": 985,
   "resultPlayerEffects": [],
   "resultEnemyEffects": [],
   "resultField": "地獄",
   "resultMoved": false,
   "log": [
-   "- プロミネンスの火の粉！テストに1087ダメージ！",
+   "- プロミネンスの火の粉！テストに1339ダメージ！",
    "+ テストの槍突き！プロミネンスに718ダメージ！"
   ]
  },
@@ -8228,7 +8260,7 @@
   "resultPlayerHp": 1596,
   "resultPlayerMp": 315,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 3817,
+  "resultEnemyHp": 13146,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [
    "毒:4:3",
@@ -8259,7 +8291,7 @@
   "resultPlayerHp": 0,
   "resultPlayerMp": 999999,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 5594,
+  "resultEnemyHp": 17609,
   "resultEnemyMp": 777,
   "resultPlayerEffects": [],
   "resultEnemyEffects": [
@@ -8269,7 +8301,7 @@
   "resultField": "遺跡",
   "resultMoved": false,
   "log": [
-   "- アイアンメイデンの針飛ばし！テストに3482ダメージ！",
+   "- アイアンメイデンの針飛ばし！テストに2692ダメージ！",
    "テストは倒れた…"
   ]
  },
@@ -8287,7 +8319,7 @@
   "resultPlayerHp": 0,
   "resultPlayerMp": 391,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 13590,
+  "resultEnemyHp": 26739,
   "resultEnemyMp": 444,
   "resultPlayerEffects": [
    "再生:3:4"
@@ -8299,7 +8331,7 @@
   "resultField": "遺跡",
   "resultMoved": false,
   "log": [
-   "- ナイトの攻撃！テストに5973ダメージ！",
+   "- ナイトの攻撃！テストに2826ダメージ！",
    "ナイトの「ツインウォール」状態が切れた！",
    "テストは倒れた…"
   ]
@@ -8318,7 +8350,7 @@
   "resultPlayerHp": 1894,
   "resultPlayerMp": 997951,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 305,
+  "resultEnemyHp": 6846,
   "resultEnemyMp": 4339,
   "resultPlayerEffects": [
    "毒:2:2",
@@ -8334,7 +8366,7 @@
    "- テストは火傷状態になった！",
    "+ テストのアンディファインド！朧車に4145ダメージ！",
    "+ 朧車は凍結状態になった！",
-   "- 朧車は凍結で785ダメージ受けた！",
+   "- 朧車は凍結で1940ダメージ受けた！",
    "- テストは毒で73ダメージ受けた！",
    "- テストは火傷で63ダメージ受けた！"
   ]
@@ -8350,10 +8382,10 @@
   "enemyLevel": 2,
   "hasPet": false,
   "petAbility": null,
-  "resultPlayerHp": 2119,
+  "resultPlayerHp": 2129,
   "resultPlayerMp": 418,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 84,
+  "resultEnemyHp": 268,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [
    "ダメージ上昇:2:3"
@@ -8368,8 +8400,8 @@
   "log": [
    "+ テストのブレイブ！",
    "+ テストはダメージ上昇状態になった！",
-   "- キラーマシンの攻撃！テストに29ダメージ！",
-   "- キラーマシンの矢！テストに52ダメージ！"
+   "- キラーマシンの攻撃！テストに25ダメージ！",
+   "- キラーマシンの矢！テストに46ダメージ！"
   ]
  },
  {
@@ -8383,20 +8415,20 @@
   "enemyLevel": 15,
   "hasPet": false,
   "petAbility": null,
-  "resultPlayerHp": 2370,
+  "resultPlayerHp": 2201,
   "resultPlayerMp": 999943,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 0,
+  "resultEnemyHp": 1015,
   "resultEnemyMp": 10000,
   "resultPlayerEffects": [],
   "resultEnemyEffects": [
-   "理不尽体:1:9999"
+   "理不尽体:1:9998"
   ],
   "resultField": "竜洞",
   "resultMoved": false,
   "log": [
-   "+ テストのクエイク！バハムートに1414ダメージ！",
-   "` バハムートを倒した！"
+   "+ テストのクエイク！バハムートに1279ダメージ！",
+   "- バハムートの頭突き！テストに169ダメージ！"
   ]
  },
  {
@@ -8410,28 +8442,28 @@
   "enemyLevel": 28,
   "hasPet": false,
   "petAbility": null,
-  "resultPlayerHp": 0,
+  "resultPlayerHp": 514,
   "resultPlayerMp": 458,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 3333,
+  "resultEnemyHp": 5865,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [
-   "毒:5:6"
+   "毒:5:5"
   ],
   "resultEnemyEffects": [
-   "ダメージ軽減:18:4",
-   "ダメージ上昇:18:4",
-   "ツインウォール:1:1",
-   "ダメージ上昇:7:8",
-   "ダメージ軽減:7:8",
-   "完全耐性:1:20"
+   "ダメージ軽減:18:3",
+   "ダメージ上昇:18:3",
+   "ダメージ上昇:7:7",
+   "ダメージ軽減:7:7",
+   "完全耐性:1:19"
   ],
   "resultField": "竜洞",
   "resultMoved": false,
   "log": [
    "+ テストのブリザード！コアトルには効いていない！",
-   "- コアトルの引っかく！テストに3629ダメージ！",
-   "テストは倒れた…"
+   "- コアトルの引っかく！テストに1867ダメージ！",
+   "- テストは毒で159ダメージ受けた！",
+   "コアトルの「ツインウォール」状態が切れた！"
   ]
  },
  {
@@ -8459,8 +8491,8 @@
   "resultField": "竜洞",
   "resultMoved": false,
   "log": [
-   "+ テストのブラックホール！双頭龍に4014ダメージ！",
-   "+ ペット280の猛毒牙！双頭龍に189ダメージ！",
+   "+ テストのブラックホール！双頭龍に3773ダメージ！",
+   "+ ペット280の猛毒牙！双頭龍に270ダメージ！",
    "` 双頭龍を倒した！"
   ]
  },
@@ -8475,18 +8507,18 @@
   "enemyLevel": 54,
   "hasPet": false,
   "petAbility": null,
-  "resultPlayerHp": 2880,
+  "resultPlayerHp": 2527,
   "resultPlayerMp": 480,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 0,
+  "resultEnemyHp": 569,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [],
   "resultEnemyEffects": [],
   "resultField": "竜洞",
   "resultMoved": false,
   "log": [
-   "+ テストのウェルテクス！恐竜に4036ダメージ！",
-   "` 恐竜を倒した！"
+   "+ テストのウェルテクス！恐竜に5357ダメージ！",
+   "- 恐竜の引っかく！テストに353ダメージ！"
   ]
  },
  {
@@ -8500,10 +8532,10 @@
   "enemyLevel": 67,
   "hasPet": false,
   "petAbility": null,
-  "resultPlayerHp": 1155,
+  "resultPlayerHp": 2717,
   "resultPlayerMp": 999279,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": -238,
+  "resultEnemyHp": 4578,
   "resultEnemyMp": 6416,
   "resultPlayerEffects": [
    "毒:3:4",
@@ -8518,13 +8550,12 @@
   "resultField": "竜洞",
   "resultMoved": false,
   "log": [
-   "+ テストのデッドワールド！スカルドラゴンに3356ダメージ！",
+   "+ テストのデッドワールド！スカルドラゴンに3014ダメージ！",
    "+ テストはダメージ低下状態になった！",
    "+ スカルドラゴンは猛毒状態になった！",
-   "- スカルドラゴンの極光！テストに1768ダメージ！",
+   "- スカルドラゴンの極光！テストに206ダメージ！",
    "- テストは毒で127ダメージ受けた！",
-   "- スカルドラゴンは猛毒で624ダメージ受けた！",
-   "` スカルドラゴンを倒した！"
+   "- スカルドラゴンは猛毒で1519ダメージ受けた！"
   ]
  },
  {
@@ -8541,7 +8572,7 @@
   "resultPlayerHp": 0,
   "resultPlayerMp": 27,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 15865,
+  "resultEnemyHp": 15863,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [],
   "resultEnemyEffects": [
@@ -8553,7 +8584,7 @@
   "resultField": "竜洞",
   "resultMoved": false,
   "log": [
-   "- ドラゴンゾンビの引っかく！テストに10046ダメージ！",
+   "- ドラゴンゾンビの引っかく！テストに1751ダメージ！",
    "ドラゴンゾンビの「ツインウォール」状態が切れた！",
    "テストは倒れた…"
   ]
@@ -8569,10 +8600,10 @@
   "enemyLevel": 93,
   "hasPet": false,
   "petAbility": null,
-  "resultPlayerHp": 140,
+  "resultPlayerHp": 240,
   "resultPlayerMp": 999996,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 4965,
+  "resultEnemyHp": 1976,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [],
   "resultEnemyEffects": [
@@ -8581,9 +8612,9 @@
   "resultField": "草原",
   "resultMoved": false,
   "log": [
-   "- 不滅の種の攻撃！テストに250ダメージ！",
+   "- 不滅の種の攻撃！テストに150ダメージ！",
    "+ テストの毒針！不滅の種に74ダメージ！",
-   "+ 不滅の種は再生で体力を153回復した！"
+   "+ 不滅の種は再生で体力を62回復した！"
   ]
  },
  {
@@ -8597,13 +8628,13 @@
   "enemyLevel": 106,
   "hasPet": true,
   "petAbility": "狂運",
-  "resultPlayerHp": 0,
+  "resultPlayerHp": 171,
   "resultPlayerMp": 102,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 10564,
+  "resultEnemyHp": 2393,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [
-   "毒:1:4"
+   "毒:1:3"
   ],
   "resultEnemyEffects": [
    "再生:3:9998",
@@ -8612,9 +8643,11 @@
   "resultField": "草原",
   "resultMoved": false,
   "log": [
-   "- 草のツルの鞭！テストに654ダメージ！",
-   "+ 草は再生で体力を621回復した！",
-   "テストは倒れた…"
+   "- 草のツルの鞭！テストに371ダメージ！",
+   "+ テストの椅子で打つ！草に329ダメージ！",
+   "+ ペット285の何もしない！",
+   "+ 草は再生で体力を160回復した！",
+   "- テストは毒で18ダメージ受けた！"
   ]
  },
  {
@@ -8631,7 +8664,7 @@
   "resultPlayerHp": 0,
   "resultPlayerMp": 999999,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 2283,
+  "resultEnemyHp": 2455,
   "resultEnemyMp": 500,
   "resultPlayerEffects": [
    "再生:2:4"
@@ -8643,7 +8676,7 @@
   "resultField": "峡谷",
   "resultMoved": false,
   "log": [
-   "- 神速のサソリの攻撃！テストに1250ダメージ！",
+   "- 神速のサソリの攻撃！テストに764ダメージ！",
    "テストは倒れた…"
   ]
  },
@@ -8661,7 +8694,7 @@
   "resultPlayerHp": 0,
   "resultPlayerMp": 178,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 9960,
+  "resultEnemyHp": 2633,
   "resultEnemyMp": 10000,
   "resultPlayerEffects": [
    "天邪鬼:1:5"
@@ -8673,7 +8706,7 @@
   "resultField": "草原",
   "resultMoved": false,
   "log": [
-   "- 貧弱なモスの頭突き！テストに7544ダメージ！",
+   "- 貧弱なモスの頭突き！テストに1908ダメージ！",
    "貧弱なモスの「ツインウォール」状態が切れた！",
    "テストは倒れた…"
   ]
@@ -8692,7 +8725,7 @@
   "resultPlayerHp": 1016,
   "resultPlayerMp": 995555,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 153,
+  "resultEnemyHp": 444,
   "resultEnemyMp": 1952,
   "resultPlayerEffects": [
    "毒:4:2"
@@ -8723,7 +8756,7 @@
   "resultPlayerHp": 1240,
   "resultPlayerMp": 253,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 7221,
+  "resultEnemyHp": 8047,
   "resultEnemyMp": 943,
   "resultPlayerEffects": [
    "時間停止:1:2"
@@ -8753,7 +8786,7 @@
   "resultPlayerHp": 1366,
   "resultPlayerMp": 999951,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 14372,
+  "resultEnemyHp": 31002,
   "resultEnemyMp": 2895,
   "resultPlayerEffects": [
    "火傷:2:3",
@@ -8790,7 +8823,7 @@
   "resultPlayerHp": 0,
   "resultPlayerMp": 329,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 11098,
+  "resultEnemyHp": 4615,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [
    "毒:2:6"
@@ -8803,7 +8836,7 @@
   "resultField": "氷原",
   "resultMoved": false,
   "log": [
-   "- イエティの攻撃！テストに7186ダメージ！",
+   "- イエティの攻撃！テストに2529ダメージ！",
    "イエティの「ツインウォール」状態が切れた！",
    "テストは倒れた…"
   ]
@@ -8822,7 +8855,7 @@
   "resultPlayerHp": 1750,
   "resultPlayerMp": 999904,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 5859,
+  "resultEnemyHp": 4474,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [],
   "resultEnemyEffects": [],
@@ -8830,7 +8863,7 @@
   "resultMoved": false,
   "log": [
    "- ウェルの絶望の歌！",
-   "+ テストのハードプラント！ウェルに2071ダメージ！"
+   "+ テストのハードプラント！ウェルに2022ダメージ！"
   ]
  },
  {
@@ -8844,10 +8877,10 @@
   "enemyLevel": 210,
   "hasPet": false,
   "petAbility": null,
-  "resultPlayerHp": 1203,
+  "resultPlayerHp": 1304,
   "resultPlayerMp": 349,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 2580,
+  "resultEnemyHp": 8230,
   "resultEnemyMp": 1500,
   "resultPlayerEffects": [
    "浮遊:1:11"
@@ -8858,7 +8891,7 @@
   "resultField": "遺跡",
   "resultMoved": false,
   "log": [
-   "- デルタ1stの攻撃！テストに717ダメージ！",
+   "- デルタ1stの攻撃！テストに616ダメージ！",
    "+ テストのレビテート！",
    "+ テストは浮遊状態になった！"
   ]
@@ -8874,14 +8907,14 @@
   "enemyLevel": 223,
   "hasPet": false,
   "petAbility": null,
-  "resultPlayerHp": 0,
-  "resultPlayerMp": 999999,
+  "resultPlayerHp": 1610,
+  "resultPlayerMp": 999862,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 8550,
+  "resultEnemyHp": 1486,
   "resultEnemyMp": 3000,
   "resultPlayerEffects": [
-   "毒:5:5",
-   "天邪鬼:1:5"
+   "毒:5:4",
+   "天邪鬼:1:4"
   ],
   "resultEnemyEffects": [
    "ダメージ軽減:3:9998",
@@ -8890,8 +8923,9 @@
   "resultField": "草原",
   "resultMoved": false,
   "log": [
-   "- デルタ2ndの矢！テストに2516ダメージ！",
-   "テストは倒れた…"
+   "+ テストのテラグロウ！デルタ2ndに1192ダメージ！",
+   "- デルタ2ndの矢！テストに611ダメージ！",
+   "- テストは毒で体力を131回復した！"
   ]
  },
  {
@@ -8905,10 +8939,10 @@
   "enemyLevel": 236,
   "hasPet": true,
   "petAbility": "ポイズンLv.2",
-  "resultPlayerHp": 0,
+  "resultPlayerHp": 1786,
   "resultPlayerMp": 480,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 8088,
+  "resultEnemyHp": 1232,
   "resultEnemyMp": 50000,
   "resultPlayerEffects": [],
   "resultEnemyEffects": [
@@ -8920,9 +8954,10 @@
   "resultField": "草原",
   "resultMoved": false,
   "log": [
-   "- ミミックの噛みつく！テストに3673ダメージ！",
-   "ミミックの「ツインウォール」状態が切れた！",
-   "テストは倒れた…"
+   "+ テストの精霊の加護！魔力が足りない！",
+   "+ ペット295の淡い光！ミミックには効いていない！",
+   "- ミミックの噛みつく！テストに474ダメージ！",
+   "ミミックの「ツインウォール」状態が切れた！"
   ]
  },
  {
@@ -8931,7 +8966,7 @@
   "skill": "噛みつく",
   "enemyCode": "mirror",
   "difficulty": "NORMAL",
-  "field": "毒沼",
+  "field": "地獄",
   "playerLevel": 233,
   "enemyLevel": 249,
   "hasPet": false,
@@ -8939,15 +8974,16 @@
   "resultPlayerHp": 2430,
   "resultPlayerMp": 999999,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 0,
-  "resultEnemyMp": 44444,
+  "resultEnemyHp": 641,
+  "resultEnemyMp": 43894,
   "resultPlayerEffects": [],
   "resultEnemyEffects": [],
-  "resultField": "毒沼",
-  "resultMoved": false,
+  "resultField": "地獄",
+  "resultMoved": true,
   "log": [
    "+ テストの噛みつく！魔鏡に1172ダメージ！",
-   "` 魔鏡を倒した！"
+   "- 魔鏡の吸い込み！",
+   "- テストの体が地獄に吸い込まれる！"
   ]
  },
  {
@@ -8961,10 +8997,10 @@
   "enemyLevel": 262,
   "hasPet": false,
   "petAbility": null,
-  "resultPlayerHp": 1364,
+  "resultPlayerHp": 2288,
   "resultPlayerMp": 555,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 8542,
+  "resultEnemyHp": 1612,
   "resultEnemyMp": 10000,
   "resultPlayerEffects": [
    "毒:3:3",
@@ -8974,7 +9010,7 @@
   "resultField": "草原",
   "resultMoved": false,
   "log": [
-   "- キケロのしっぽ！テストに1209ダメージ！",
+   "- キケロのしっぽ！テストに285ダメージ！",
    "+ テストのしっぽ！キケロに950ダメージ！",
    "- テストは毒で108ダメージ受けた！",
    "+ テストは再生で体力を81回復した！"
@@ -8994,7 +9030,7 @@
   "resultPlayerHp": 0,
   "resultPlayerMp": 999999,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 8436,
+  "resultEnemyHp": 9074,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [],
   "resultEnemyEffects": [
@@ -9007,7 +9043,7 @@
   "resultMoved": false,
   "log": [
    "+ テストの大鎌！デュラハンには効いていない！",
-   "- デュラハンの攻撃！テストに10430ダメージ！",
+   "- デュラハンの攻撃！テストに2951ダメージ！",
    "テストは倒れた…"
   ]
  },
@@ -9025,7 +9061,7 @@
   "resultPlayerHp": 0,
   "resultPlayerMp": 630,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 18704,
+  "resultEnemyHp": 10093,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [],
   "resultEnemyEffects": [
@@ -9035,7 +9071,7 @@
   "resultField": "沼",
   "resultMoved": false,
   "log": [
-   "- カーストの切り裂く！テストに46062ダメージ！",
+   "- カーストの切り裂く！テストに11966ダメージ！",
    "カーストの「ツインウォール」状態が切れた！",
    "テストは倒れた…"
   ]
@@ -9054,7 +9090,7 @@
   "resultPlayerHp": 0,
   "resultPlayerMp": 999999,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 5065,
+  "resultEnemyHp": 7091,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [
    "毒:1:3"
@@ -9063,7 +9099,7 @@
   "resultField": "毒沼",
   "resultMoved": false,
   "log": [
-   "- デスの攻撃！テストに2061ダメージ！",
+   "- デスの攻撃！テストに1484ダメージ！",
    "テストは倒れた…"
   ]
  },
@@ -9078,13 +9114,13 @@
   "enemyLevel": 314,
   "hasPet": false,
   "petAbility": null,
-  "resultPlayerHp": 0,
+  "resultPlayerHp": 37,
   "resultPlayerMp": 40,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 30090,
+  "resultEnemyHp": 2722,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [
-   "天邪鬼:1:5"
+   "天邪鬼:1:4"
   ],
   "resultEnemyEffects": [
    "再生:3:9998"
@@ -9092,9 +9128,9 @@
   "resultField": "草原",
   "resultMoved": false,
   "log": [
-   "- 白虎の猛毒牙！テストに1173ダメージ！",
-   "+ 白虎は再生で体力を1770回復した！",
-   "テストは倒れた…"
+   "- 白虎の猛毒牙！テストに243ダメージ！",
+   "+ テストの-273度！魔力が足りない！",
+   "+ 白虎は再生で体力を160回復した！"
   ]
  },
  {
@@ -9111,7 +9147,7 @@
   "resultPlayerHp": 0,
   "resultPlayerMp": 999999,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 248596,
+  "resultEnemyHp": 27953,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [],
   "resultEnemyEffects": [
@@ -9122,7 +9158,7 @@
   "resultField": "湖",
   "resultMoved": false,
   "log": [
-   "- 極楽鳥の攻撃！テストに1081ダメージ！",
+   "- 極楽鳥の攻撃！テストに1047ダメージ！",
    "テストは倒れた…"
   ]
  },
@@ -9140,7 +9176,7 @@
   "resultPlayerHp": 0,
   "resultPlayerMp": 115,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 71237,
+  "resultEnemyHp": 71935,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [
    "毒:4:6"
@@ -9154,7 +9190,7 @@
   "resultField": "遺跡",
   "resultMoved": false,
   "log": [
-   "- 青龍の切り裂く！テストに47151ダメージ！",
+   "- 青龍の切り裂く！テストに31230ダメージ！",
    "青龍の「ツインウォール」状態が切れた！",
    "テストは倒れた…"
   ]
@@ -9173,7 +9209,7 @@
   "resultPlayerHp": 790,
   "resultPlayerMp": 999749,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 52986,
+  "resultEnemyHp": 38175,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [],
   "resultEnemyEffects": [
@@ -9185,9 +9221,9 @@
   "resultMoved": false,
   "log": [
    "- 金虎は石化で動けない！",
-   "+ テストの常闇！金虎に18ダメージ！",
+   "+ テストの常闇！金虎に10ダメージ！",
    "+ 金虎の再生状態を解除できない！",
-   "+ 金虎は再生で体力を5889回復した！"
+   "+ 金虎は再生で体力を4243回復した！"
   ]
  },
  {
@@ -9204,7 +9240,7 @@
   "resultPlayerHp": 0,
   "resultPlayerMp": 191,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 456828,
+  "resultEnemyHp": 1722,
   "resultEnemyMp": 123061,
   "resultPlayerEffects": [
    "即死:1:1",
@@ -9219,10 +9255,10 @@
   "resultField": "草原",
   "resultMoved": false,
   "log": [
-   "- Nightmareの-273度！テストに96935ダメージ！",
+   "- Nightmareの-273度！テストに3559ダメージ！",
    "- テストは即死状態になった！",
    "- テストは凍結状態になった！",
-   "- Nightmareのスペース！テストに1955ダメージ！",
+   "- Nightmareのスペース！テストに69ダメージ！",
    "テストは倒れた…"
   ]
  },
@@ -9240,7 +9276,7 @@
   "resultPlayerHp": 0,
   "resultPlayerMp": 999999,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 599199,
+  "resultEnemyHp": 54364,
   "resultEnemyMp": 122725,
   "resultPlayerEffects": [
    "毒:2:5",
@@ -9259,7 +9295,7 @@
   "resultField": "永遠悪夢",
   "resultMoved": false,
   "log": [
-   "- Nightmareの-273度！テストに151893ダメージ！",
+   "- Nightmareの-273度！テストに25978ダメージ！",
    "- テストは凍結状態になった！",
    "- Nightmareの病夢！",
    "- テストは猛毒状態になった！",
@@ -9282,7 +9318,7 @@
   "resultPlayerHp": 1300,
   "resultPlayerMp": 118,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 827695,
+  "resultEnemyHp": 3157,
   "resultEnemyMp": 114514,
   "resultPlayerEffects": [],
   "resultEnemyEffects": [
@@ -9311,10 +9347,10 @@
   "enemyLevel": 5,
   "hasPet": false,
   "petAbility": null,
-  "resultPlayerHp": 963,
+  "resultPlayerHp": 1282,
   "resultPlayerMp": 999444,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 800,
+  "resultEnemyHp": 140,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [
    "天邪鬼:1:4",
@@ -9333,7 +9369,7 @@
    "+ テストの妖精の加護！",
    "+ テストは再生で再生状態にならない！",
    "+ テストは豊穣の宣告状態になった！",
-   "- yayyyyの攻撃！テストに415ダメージ！",
+   "- yayyyyの攻撃！テストに96ダメージ！",
    "+ テストは再生で92ダメージ受けた！"
   ]
  },
@@ -9376,10 +9412,10 @@
   "enemyLevel": 31,
   "hasPet": true,
   "petAbility": "チェーン",
-  "resultPlayerHp": 1659,
+  "resultPlayerHp": 1728,
   "resultPlayerMp": 999999,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 547,
+  "resultEnemyHp": 378,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [],
   "resultEnemyEffects": [
@@ -9393,7 +9429,7 @@
    "+ テストの頭突き！アナコンダには効いていない！",
    "+ ペット310の攻撃！アナコンダには効いていない！",
    "+ ペット310のツルの鞭！アナコンダには効いていない！",
-   "- アナコンダの攻撃！テストに151ダメージ！"
+   "- アナコンダの攻撃！テストに82ダメージ！"
   ]
  },
  {
@@ -9407,10 +9443,10 @@
   "enemyLevel": 44,
   "hasPet": false,
   "petAbility": null,
-  "resultPlayerHp": 1713,
+  "resultPlayerHp": 1857,
   "resultPlayerMp": 417,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 3351,
+  "resultEnemyHp": 1161,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [],
   "resultEnemyEffects": [
@@ -9422,7 +9458,7 @@
   "log": [
    "+ テストの絶望の歌！",
    "+ キャタピラーのダメージ軽減状態を解除できない！",
-   "- キャタピラーの攻撃！テストに267ダメージ！",
+   "- キャタピラーの攻撃！テストに123ダメージ！",
    "キャタピラーの「ツインウォール」状態が切れた！"
   ]
  },
@@ -9492,10 +9528,10 @@
   "enemyLevel": 83,
   "hasPet": false,
   "petAbility": null,
-  "resultPlayerHp": 1994,
+  "resultPlayerHp": 2222,
   "resultPlayerMp": 992222,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 1653,
+  "resultEnemyHp": 1142,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [],
   "resultEnemyEffects": [
@@ -9507,7 +9543,7 @@
   "resultMoved": false,
   "log": [
    "+ テストの虚ろな悪夢！モスには効いていない！",
-   "- モスのツルの鞭！テストに496ダメージ！"
+   "- モスのツルの鞭！テストに268ダメージ！"
   ]
  },
  {
@@ -9521,10 +9557,10 @@
   "enemyLevel": 96,
   "hasPet": true,
   "petAbility": "トリプルチェーン",
-  "resultPlayerHp": 1711,
+  "resultPlayerHp": 2402,
   "resultPlayerMp": 553,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 3635,
+  "resultEnemyHp": 1555,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [
    "毒:1:5",
@@ -9541,7 +9577,7 @@
    "+ ペット315の粉塵！チェリーには効いていない！",
    "+ ペット315の何もしない！",
    "+ ペット315の何もしない！",
-   "- チェリーの攻撃！テストに1032ダメージ！",
+   "- チェリーの攻撃！テストに341ダメージ！",
    "- テストは毒で体力を83回復した！",
    "チェリーの「ツインウォール」状態が切れた！"
   ]
@@ -9592,7 +9628,7 @@
   "resultField": "草原",
   "resultMoved": false,
   "log": [
-   "+ テストの極光！ソーンに3360ダメージ！",
+   "+ テストの極光！ソーンに1950ダメージ！",
    "` ソーンを倒した！"
   ]
  },
@@ -9610,7 +9646,7 @@
   "resultPlayerHp": 0,
   "resultPlayerMp": 999999,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 2128,
+  "resultEnemyHp": 1764,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [
    "毒:4:5"
@@ -9623,7 +9659,7 @@
   "resultField": "洞窟",
   "resultMoved": false,
   "log": [
-   "- コウモリの攻撃！テストに678ダメージ！",
+   "- コウモリの攻撃！テストに390ダメージ！",
    "テストは倒れた…"
   ]
  },
@@ -9641,7 +9677,7 @@
   "resultPlayerHp": 0,
   "resultPlayerMp": 53,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 8115,
+  "resultEnemyHp": 3374,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [
    "再生:2:4"
@@ -9654,7 +9690,7 @@
   "resultField": "洞窟",
   "resultMoved": false,
   "log": [
-   "- マイマイの殻で挟む！テストに3854ダメージ！",
+   "- マイマイの殻で挟む！テストに1357ダメージ！",
    "マイマイの「ツインウォール」状態が切れた！",
    "テストは倒れた…"
   ]
@@ -9670,22 +9706,25 @@
   "enemyLevel": 161,
   "hasPet": true,
   "petAbility": "破壊神",
-  "resultPlayerHp": 0,
-  "resultPlayerMp": 999999,
+  "resultPlayerHp": 99,
+  "resultPlayerMp": 999851,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 2044,
+  "resultEnemyHp": 236,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [],
   "resultEnemyEffects": [
    "ダメージ軽減:1:9998",
-   "再生:1:9998"
+   "再生:1:9998",
+   "麻痺:2:3"
   ],
   "resultField": "洞窟",
   "resultMoved": false,
   "log": [
-   "- ヤドカリの水鉄砲！テストに642ダメージ！",
-   "+ ヤドカリは再生で体力を62回復した！",
-   "テストは倒れた…"
+   "- ヤドカリの水鉄砲！テストに411ダメージ！",
+   "+ テストのボルテガ！ヤドカリに936ダメージ！",
+   "+ ヤドカリは麻痺状態になった！",
+   "+ ペット320の攻撃！ヤドカリに545ダメージ！",
+   "+ ヤドカリは再生で体力を52回復した！"
   ]
  },
  {
@@ -9699,13 +9738,13 @@
   "enemyLevel": 174,
   "hasPet": false,
   "petAbility": null,
-  "resultPlayerHp": 0,
+  "resultPlayerHp": -4,
   "resultPlayerMp": 129,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 1939,
+  "resultEnemyHp": 1804,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [
-   "毒:2:4"
+   "毒:2:3"
   ],
   "resultEnemyEffects": [
    "ダメージ軽減:2:2"
@@ -9713,7 +9752,9 @@
   "resultField": "氷原",
   "resultMoved": false,
   "log": [
-   "- アイシクルの頭突き！テストに1031ダメージ！",
+   "- アイシクルの頭突き！テストに660ダメージ！",
+   "+ テストのスーパーノヴァ！魔力が足りない！",
+   "- テストは毒で24ダメージ受けた！",
    "テストは倒れた…"
   ]
  },
@@ -9728,13 +9769,13 @@
   "enemyLevel": 187,
   "hasPet": false,
   "petAbility": null,
-  "resultPlayerHp": 0,
+  "resultPlayerHp": 342,
   "resultPlayerMp": 999999,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 3487,
+  "resultEnemyHp": 2654,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [
-   "天邪鬼:1:5"
+   "天邪鬼:1:4"
   ],
   "resultEnemyEffects": [
    "理不尽体:1:9998",
@@ -9743,8 +9784,8 @@
   "resultField": "氷原",
   "resultMoved": false,
   "log": [
-   "- スノーマンの攻撃！テストに883ダメージ！",
-   "テストは倒れた…"
+   "- スノーマンの攻撃！テストに508ダメージ！",
+   "+ テストの毒牙！スノーマンに236ダメージ！"
   ]
  },
  {
@@ -9758,10 +9799,10 @@
   "enemyLevel": 200,
   "hasPet": false,
   "petAbility": null,
-  "resultPlayerHp": 0,
-  "resultPlayerMp": 204,
+  "resultPlayerHp": 504,
+  "resultPlayerMp": 4,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 10888,
+  "resultEnemyHp": 4528,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [],
   "resultEnemyEffects": [
@@ -9770,9 +9811,10 @@
   "resultField": "氷原",
   "resultMoved": false,
   "log": [
-   "- ペンギンの攻撃！テストに1257ダメージ！",
-   "ペンギンの「ツインウォール」状態が切れた！",
-   "テストは倒れた…"
+   "- ペンギンの攻撃！テストに516ダメージ！",
+   "+ テストのあやかしの呪文！",
+   "+ ペンギンは完全耐性で死の宣告状態にならない！",
+   "ペンギンの「ツインウォール」状態が切れた！"
   ]
  },
  {
@@ -9786,10 +9828,10 @@
   "enemyLevel": 213,
   "hasPet": false,
   "petAbility": null,
-  "resultPlayerHp": 426,
+  "resultPlayerHp": 647,
   "resultPlayerMp": 999999,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 1861,
+  "resultEnemyHp": 2096,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [
    "毒:5:2"
@@ -9798,7 +9840,7 @@
   "resultField": "峡谷",
   "resultMoved": false,
   "log": [
-   "- マッドハンドの攻撃！テストに690ダメージ！",
+   "- マッドハンドの攻撃！テストに469ダメージ！",
    "+ テストの吹雪！マッドハンドに745ダメージ！",
    "- テストは毒で74ダメージ受けた！"
   ]
@@ -9817,7 +9859,7 @@
   "resultPlayerHp": 1360,
   "resultPlayerMp": 280,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 1482,
+  "resultEnemyHp": 2288,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [],
   "resultEnemyEffects": [],
@@ -9826,7 +9868,7 @@
   "log": [
    "- ネズミの何もしない！",
    "+ テストの自爆！魔力が足りない！",
-   "+ ペット325のシグルイ！ネズミに1832ダメージ！",
+   "+ ペット325のシグルイ！ネズミに496ダメージ！",
    "+ ペット325はダメージ低下状態になった！"
   ]
  },
@@ -9841,10 +9883,10 @@
   "enemyLevel": 239,
   "hasPet": false,
   "petAbility": null,
-  "resultPlayerHp": 711,
+  "resultPlayerHp": 1059,
   "resultPlayerMp": 999999,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 2096,
+  "resultEnemyHp": 2551,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [],
   "resultEnemyEffects": [
@@ -9853,7 +9895,7 @@
   "resultField": "洞窟",
   "resultMoved": false,
   "log": [
-   "- ノミの攻撃！テストに819ダメージ！",
+   "- ノミの攻撃！テストに471ダメージ！",
    "+ テストの矢！ノミに523ダメージ！"
   ]
  },
@@ -9871,7 +9913,7 @@
   "resultPlayerHp": 1629,
   "resultPlayerMp": 355,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 5822,
+  "resultEnemyHp": 3141,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [
    "毒:3:5"
@@ -9901,10 +9943,10 @@
   "enemyLevel": 265,
   "hasPet": false,
   "petAbility": null,
-  "resultPlayerHp": 541,
+  "resultPlayerHp": 902,
   "resultPlayerMp": 999984,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 1979,
+  "resultEnemyHp": 3557,
   "resultEnemyMp": 820,
   "resultPlayerEffects": [
    "火傷:1:1"
@@ -9913,9 +9955,9 @@
   "resultField": "火山",
   "resultMoved": false,
   "log": [
-   "- フォグの粉塵！テストに1290ダメージ！",
+   "- フォグの粉塵！テストに929ダメージ！",
    "- テストは火傷状態になった！",
-   "+ テストの電流！フォグに191ダメージ！",
+   "+ テストの電流！フォグに223ダメージ！",
    "- テストは火傷で39ダメージ受けた！"
   ]
  },
@@ -9933,7 +9975,7 @@
   "resultPlayerHp": 2040,
   "resultPlayerMp": 389,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 5485,
+  "resultEnemyHp": 8178,
   "resultEnemyMp": 3000,
   "resultPlayerEffects": [
    "天邪鬼:1:4"
@@ -9959,10 +10001,10 @@
   "enemyLevel": 291,
   "hasPet": true,
   "petAbility": "マキナ",
-  "resultPlayerHp": -68,
+  "resultPlayerHp": 780,
   "resultPlayerMp": 999921,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 2947,
+  "resultEnemyHp": 5327,
   "resultEnemyMp": 2500,
   "resultPlayerEffects": [
    "毒:1:4",
@@ -9976,11 +10018,11 @@
   "resultField": "火山",
   "resultMoved": false,
   "log": [
-   "- サラマンダーの引っかく！テストに2209ダメージ！",
+   "- サラマンダーの引っかく！テストに1430ダメージ！",
    "+ テストの青い炎！サラマンダーに889ダメージ！",
    "+ ペット330の頭突き！サラマンダーには効いていない！",
    "- テストは毒で69ダメージ受けた！",
-   "テストは倒れた…"
+   "+ テストは再生で体力を69回復した！"
   ]
  },
  {
@@ -9994,12 +10036,14 @@
   "enemyLevel": 304,
   "hasPet": false,
   "petAbility": null,
-  "resultPlayerHp": 0,
-  "resultPlayerMp": 506,
+  "resultPlayerHp": 177,
+  "resultPlayerMp": 351,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 16434,
+  "resultEnemyHp": 11390,
   "resultEnemyMp": 750,
-  "resultPlayerEffects": [],
+  "resultPlayerEffects": [
+   "ダメージ上昇:5:4"
+  ],
   "resultEnemyEffects": [
    "ダメージ軽減:3:9998",
    "ダメージ上昇:7:7",
@@ -10008,9 +10052,10 @@
   "resultField": "火山",
   "resultMoved": false,
   "log": [
-   "- タンクの攻撃！テストに5560ダメージ！",
-   "タンクの「ツインウォール」状態が切れた！",
-   "テストは倒れた…"
+   "- タンクの攻撃！テストに2203ダメージ！",
+   "+ テストのストル！",
+   "+ テストはダメージ上昇状態になった！",
+   "タンクの「ツインウォール」状態が切れた！"
   ]
  },
  {
@@ -10024,17 +10069,17 @@
   "enemyLevel": 317,
   "hasPet": false,
   "petAbility": null,
-  "resultPlayerHp": 1129,
+  "resultPlayerHp": 1527,
   "resultPlayerMp": 999999,
   "resultPlayerGil": 99375,
-  "resultEnemyHp": 3378,
+  "resultEnemyHp": 5085,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [],
   "resultEnemyEffects": [],
   "resultField": "火山",
   "resultMoved": false,
   "log": [
-   "- ヘルハウンドの引っかく！テストに1421ダメージ！",
+   "- ヘルハウンドの引っかく！テストに1023ダメージ！",
    "+ テストは625ギルを投げつけた！",
    "+ テストの銭投げ！ヘルハウンドに888ダメージ！"
   ]
@@ -10050,10 +10095,10 @@
   "enemyLevel": 330,
   "hasPet": false,
   "petAbility": null,
-  "resultPlayerHp": 1201,
+  "resultPlayerHp": 1588,
   "resultPlayerMp": 422,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 2739,
+  "resultEnemyHp": 3600,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [
    "毒:4:3"
@@ -10062,8 +10107,8 @@
   "resultField": "火山",
   "resultMoved": false,
   "log": [
-   "- ヒドラの攻撃！テストに1383ダメージ！",
-   "+ テストの絶対零度！ヒドラに2152ダメージ！",
+   "- ヒドラの攻撃！テストに996ダメージ！",
+   "+ テストの絶対零度！ヒドラに3248ダメージ！",
    "- テストは毒で136ダメージ受けた！"
   ]
  },
@@ -10078,7 +10123,7 @@
   "enemyLevel": 343,
   "hasPet": false,
   "petAbility": null,
-  "resultPlayerHp": 1238,
+  "resultPlayerHp": 1880,
   "resultPlayerMp": 997444,
   "resultPlayerGil": 100000,
   "resultEnemyHp": 0,
@@ -10090,7 +10135,7 @@
   "resultField": "峡谷",
   "resultMoved": false,
   "log": [
-   "- ウロボロスの攻撃！テストに1652ダメージ！",
+   "- ウロボロスの攻撃！テストに1010ダメージ！",
    "+ テストの花吹雪！ウロボロスに11028ダメージ！",
    "` ウロボロスを倒した！"
   ]
@@ -10106,10 +10151,10 @@
   "enemyLevel": 356,
   "hasPet": true,
   "petAbility": "デッド・オア・ダイ",
-  "resultPlayerHp": 0,
+  "resultPlayerHp": 487,
   "resultPlayerMp": 657,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 31863,
+  "resultEnemyHp": 22084,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [],
   "resultEnemyEffects": [
@@ -10118,9 +10163,10 @@
   "resultField": "火山",
   "resultMoved": false,
   "log": [
-   "- エッグの頭突き！テストに6496ダメージ！",
-   "エッグの「ツインウォール」状態が切れた！",
-   "テストは倒れた…"
+   "- エッグの頭突き！テストに2573ダメージ！",
+   "+ テストの猛毒牙！エッグには効いていない！",
+   "+ ペット335の攻撃！エッグには効いていない！",
+   "エッグの「ツインウォール」状態が切れた！"
   ]
  },
  {
@@ -10137,7 +10183,7 @@
   "resultPlayerHp": 0,
   "resultPlayerMp": 999999,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 3740,
+  "resultEnemyHp": 9238,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [
    "毒:2:3",
@@ -10147,7 +10193,7 @@
   "resultField": "冥界",
   "resultMoved": false,
   "log": [
-   "- ゴーストの攻撃！テストに893ダメージ！",
+   "- ゴーストの攻撃！テストに733ダメージ！",
    "テストは倒れた…"
   ]
  },
@@ -10165,14 +10211,14 @@
   "resultPlayerHp": 0,
   "resultPlayerMp": 67,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 5561,
+  "resultEnemyHp": 13735,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [],
   "resultEnemyEffects": [],
   "resultField": "冥界",
   "resultMoved": false,
   "log": [
-   "- ポルターガイストの椅子で打つ！テストに2113ダメージ！",
+   "- ポルターガイストの椅子で打つ！テストに1733ダメージ！",
    "テストは倒れた…"
   ]
  },
@@ -10190,7 +10236,7 @@
   "resultPlayerHp": 0,
   "resultPlayerMp": 999999,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 7281,
+  "resultEnemyHp": 17747,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [],
   "resultEnemyEffects": [
@@ -10199,7 +10245,7 @@
   "resultField": "冥界",
   "resultMoved": false,
   "log": [
-   "- ファントムの攻撃！テストに2340ダメージ！",
+   "- ファントムの攻撃！テストに1725ダメージ！",
    "テストは倒れた…"
   ]
  },
@@ -10214,10 +10260,10 @@
   "enemyLevel": 8,
   "hasPet": false,
   "petAbility": null,
-  "resultPlayerHp": 565,
+  "resultPlayerHp": 636,
   "resultPlayerMp": 142,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 695,
+  "resultEnemyHp": 850,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [
    "毒:5:5"
@@ -10230,7 +10276,7 @@
   "resultMoved": false,
   "log": [
    "+ テストのメガフレア！スピリットには効いていない！",
-   "- スピリットの攻撃！テストに129ダメージ！",
+   "- スピリットの攻撃！テストに58ダメージ！",
    "- テストは毒で46ダメージ受けた！",
    "スピリットの「ツインウォール」状態が切れた！"
   ]
@@ -10246,10 +10292,10 @@
   "enemyLevel": 21,
   "hasPet": true,
   "petAbility": "なし",
-  "resultPlayerHp": 866,
+  "resultPlayerHp": 873,
   "resultPlayerMp": 999555,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 239,
+  "resultEnemyHp": 452,
   "resultEnemyMp": 978,
   "resultPlayerEffects": [],
   "resultEnemyEffects": [
@@ -10265,9 +10311,9 @@
    "+ シャドウは火傷状態になった！",
    "+ シャドウは麻痺状態になった！",
    "+ ペット340の何もしない！",
-   "- シャドウの儚い闇！テストに44ダメージ！",
-   "- シャドウは猛毒で50ダメージ受けた！",
-   "- シャドウは火傷で13ダメージ受けた！"
+   "- シャドウの儚い闇！テストに37ダメージ！",
+   "- シャドウは猛毒で95ダメージ受けた！",
+   "- シャドウは火傷で24ダメージ受けた！"
   ]
  },
  {
@@ -10281,10 +10327,10 @@
   "enemyLevel": 34,
   "hasPet": false,
   "petAbility": null,
-  "resultPlayerHp": 1008,
+  "resultPlayerHp": 1047,
   "resultPlayerMp": 196,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 53,
+  "resultEnemyHp": 249,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [
    "再生:3:3"
@@ -10295,8 +10341,8 @@
   "resultField": "火山",
   "resultMoved": false,
   "log": [
-   "+ テストの淡い光！ガストに374ダメージ！",
-   "- ガストの攻撃！テストに140ダメージ！",
+   "+ テストの淡い光！ガストに406ダメージ！",
+   "- ガストの攻撃！テストに101ダメージ！",
    "+ テストは再生で体力を68回復した！"
   ]
  },
@@ -10311,10 +10357,10 @@
   "enemyLevel": 47,
   "hasPet": false,
   "petAbility": null,
-  "resultPlayerHp": 961,
+  "resultPlayerHp": 1045,
   "resultPlayerMp": 999951,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 343,
+  "resultEnemyHp": 714,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [
    "毒:3:4"
@@ -10326,8 +10372,8 @@
   "resultField": "火山",
   "resultMoved": false,
   "log": [
-   "+ テストのプラント！カロンに519ダメージ！",
-   "- カロンの攻撃！テストに237ダメージ！",
+   "+ テストのプラント！カロンに477ダメージ！",
+   "- カロンの攻撃！テストに153ダメージ！",
    "- テストは毒で52ダメージ受けた！"
   ]
  },
@@ -10342,10 +10388,10 @@
   "enemyLevel": 60,
   "hasPet": false,
   "petAbility": null,
-  "resultPlayerHp": 799,
+  "resultPlayerHp": 1140,
   "resultPlayerMp": 215,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 4222,
+  "resultEnemyHp": 5162,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [
    "天邪鬼:1:4"
@@ -10358,7 +10404,7 @@
   "resultMoved": false,
   "log": [
    "+ テストの黒雷！プラズマには効いていない！",
-   "- プラズマの攻撃！テストに621ダメージ！",
+   "- プラズマの攻撃！テストに280ダメージ！",
    "プラズマの「ツインウォール」状態が切れた！"
   ]
  },
@@ -10373,10 +10419,10 @@
   "enemyLevel": 73,
   "hasPet": false,
   "petAbility": null,
-  "resultPlayerHp": 1449,
+  "resultPlayerHp": 1468,
   "resultPlayerMp": 999844,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 780,
+  "resultEnemyHp": 2488,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [
    "ダメージ軽減:5:4"
@@ -10389,7 +10435,7 @@
   "log": [
    "+ テストのシェル！",
    "+ テストはダメージ軽減状態になった！",
-   "- クレセントの攻撃！テストに141ダメージ！"
+   "- クレセントの攻撃！テストに122ダメージ！"
   ]
  },
  {
@@ -10403,10 +10449,10 @@
   "enemyLevel": 86,
   "hasPet": true,
   "petAbility": "ポイズンLv.1",
-  "resultPlayerHp": 1659,
+  "resultPlayerHp": 1630,
   "resultPlayerMp": 268,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 29248,
+  "resultEnemyHp": 3022,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [
    "毒:1:3"
@@ -10422,11 +10468,11 @@
   "log": [
    "+ テストのメルトン！レインに653ダメージ！",
    "+ レインは被ダメージ上昇状態になった！",
-   "+ ペット345のフレア！レインに150ダメージ！",
+   "+ ペット345のフレア！レインに214ダメージ！",
    "+ レインは火傷状態になった！",
-   "- レインの攻撃！テストに46ダメージ！",
+   "- レインの攻撃！テストに75ダメージ！",
    "- テストは毒で55ダメージ受けた！",
-   "- レインは火傷で969ダメージ受けた！"
+   "- レインは火傷で125ダメージ受けた！"
   ]
  },
  {
@@ -10440,23 +10486,22 @@
   "enemyLevel": 99,
   "hasPet": false,
   "petAbility": null,
-  "resultPlayerHp": 1238,
+  "resultPlayerHp": 1395,
   "resultPlayerMp": 999827,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 0,
+  "resultEnemyHp": 2601,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [],
   "resultEnemyEffects": [
-   "理不尽体:1:9999",
-   "ダメージ上昇:4:5"
+   "理不尽体:1:9998",
+   "ダメージ上昇:4:4"
   ],
   "resultField": "天界",
   "resultMoved": false,
   "log": [
-   "- シルフの攻撃！テストに692ダメージ！",
-   "+ テストのエンプティセット！シルフに1789ダメージ！",
-   "+ シルフのダメージ軽減状態が解除された！",
-   "` シルフを倒した！"
+   "- シルフの攻撃！テストに535ダメージ！",
+   "+ テストのエンプティセット！シルフに2375ダメージ！",
+   "+ シルフのダメージ軽減状態が解除された！"
   ]
  },
  {
@@ -10470,10 +10515,10 @@
   "enemyLevel": 112,
   "hasPet": false,
   "petAbility": null,
-  "resultPlayerHp": 368,
+  "resultPlayerHp": 1280,
   "resultPlayerMp": 444,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 4204,
+  "resultEnemyHp": 8211,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [],
   "resultEnemyEffects": [
@@ -10483,7 +10528,7 @@
   "resultMoved": false,
   "log": [
    "+ テストの「::atk」！ウィルオウィスプには効いていない！",
-   "- ウィルオウィスプの攻撃！テストに1732ダメージ！",
+   "- ウィルオウィスプの攻撃！テストに820ダメージ！",
    "ウィルオウィスプの「ツインウォール」状態が切れた！"
   ]
  },
@@ -10498,10 +10543,10 @@
   "enemyLevel": 125,
   "hasPet": false,
   "petAbility": null,
-  "resultPlayerHp": 1488,
+  "resultPlayerHp": 1552,
   "resultPlayerMp": 999987,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 2168,
+  "resultEnemyHp": 6915,
   "resultEnemyMp": 916,
   "resultPlayerEffects": [
    "毒:4:2"
@@ -10514,9 +10559,9 @@
   "log": [
    "+ テストの毒の粉！",
    "+ てるてる坊主は毒状態になった！",
-   "- てるてる坊主のレイン！テストに668ダメージ！",
+   "- てるてる坊主のレイン！テストに604ダメージ！",
    "- テストは毒で114ダメージ受けた！",
-   "- てるてる坊主は毒で70ダメージ受けた！"
+   "- てるてる坊主は毒で223ダメージ受けた！"
   ]
  },
  {
@@ -10530,10 +10575,10 @@
   "enemyLevel": 138,
   "hasPet": false,
   "petAbility": null,
-  "resultPlayerHp": 1857,
+  "resultPlayerHp": 1721,
   "resultPlayerMp": 519,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 472,
+  "resultEnemyHp": 5603,
   "resultEnemyMp": 985,
   "resultPlayerEffects": [],
   "resultEnemyEffects": [],
@@ -10541,7 +10586,7 @@
   "resultMoved": false,
   "log": [
    "+ テストの水鉄砲！プロミネンスに1244ダメージ！",
-   "- プロミネンスの火の粉！テストに583ダメージ！"
+   "- プロミネンスの火の粉！テストに719ダメージ！"
   ]
  },
  {
@@ -10555,10 +10600,10 @@
   "enemyLevel": 151,
   "hasPet": true,
   "petAbility": "フリーズ・ザ・ワールド",
-  "resultPlayerHp": 1756,
+  "resultPlayerHp": 1951,
   "resultPlayerMp": 999999,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 1356,
+  "resultEnemyHp": 6450,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [
    "天邪鬼:1:4"
@@ -10574,7 +10619,7 @@
   "log": [
    "+ テストの石入りの雪玉！ラーヴァに992ダメージ！",
    "+ ペット350の攻撃！ラーヴァに23ダメージ！",
-   "- ラーヴァの攻撃！テストに854ダメージ！"
+   "- ラーヴァの攻撃！テストに659ダメージ！"
   ]
  },
  {
@@ -10591,7 +10636,7 @@
   "resultPlayerHp": 2681,
   "resultPlayerMp": 490,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 7510,
+  "resultEnemyHp": 11860,
   "resultEnemyMp": 777,
   "resultPlayerEffects": [
    "毒:2:5"
@@ -10654,14 +10699,14 @@
   "resultPlayerHp": 0,
   "resultPlayerMp": 4,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 3099,
+  "resultEnemyHp": 7655,
   "resultEnemyMp": 4429,
   "resultPlayerEffects": [],
   "resultEnemyEffects": [],
   "resultField": "冥界",
   "resultMoved": false,
   "log": [
-   "- 朧車の火の粉！テストに429ダメージ！",
+   "- 朧車の火の粉！テストに517ダメージ！",
    "テストは倒れた…"
   ]
  },
@@ -10679,7 +10724,7 @@
   "resultPlayerHp": 0,
   "resultPlayerMp": 999999,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 3162,
+  "resultEnemyHp": 9953,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [
    "毒:5:5"
@@ -10692,8 +10737,8 @@
   "resultField": "遺跡",
   "resultMoved": false,
   "log": [
-   "- キラーマシンの攻撃！テストに1190ダメージ！",
-   "- キラーマシンの切り裂く！テストに3112ダメージ！",
+   "- キラーマシンの攻撃！テストに920ダメージ！",
+   "- キラーマシンの切り裂く！テストに2406ダメージ！",
    "テストは倒れた…"
   ]
  },
@@ -10711,7 +10756,7 @@
   "resultPlayerHp": 0,
   "resultPlayerMp": 80,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 29019,
+  "resultEnemyHp": 42013,
   "resultEnemyMp": 9922,
   "resultPlayerEffects": [],
   "resultEnemyEffects": [
@@ -10721,7 +10766,7 @@
   "resultField": "竜洞",
   "resultMoved": false,
   "log": [
-   "- バハムートの青い炎！テストに9343ダメージ！",
+   "- バハムートの青い炎！テストに4523ダメージ！",
    "バハムートの「ツインウォール」状態が切れた！",
    "テストは倒れた…"
   ]
@@ -10740,7 +10785,7 @@
   "resultPlayerHp": 0,
   "resultPlayerMp": 999999,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 5775,
+  "resultEnemyHp": 20233,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [],
   "resultEnemyEffects": [
@@ -10750,7 +10795,7 @@
   "resultField": "竜洞",
   "resultMoved": false,
   "log": [
-   "- コアトルの引っかく！テストに3770ダメージ！",
+   "- コアトルの引っかく！テストに3514ダメージ！",
    "テストは倒れた…"
   ]
  },
@@ -10768,7 +10813,7 @@
   "resultPlayerHp": 0,
   "resultPlayerMp": 155,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 18936,
+  "resultEnemyHp": 25643,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [
    "毒:3:4",
@@ -10780,8 +10825,8 @@
   "resultField": "竜洞",
   "resultMoved": false,
   "log": [
-   "- 双頭龍の攻撃！テストに978ダメージ！",
-   "- 双頭龍の攻撃！テストに869ダメージ！",
+   "- 双頭龍の攻撃！テストに861ダメージ！",
+   "- 双頭龍の攻撃！テストに835ダメージ！",
    "テストは倒れた…"
   ]
  },
@@ -10799,7 +10844,7 @@
   "resultPlayerHp": 0,
   "resultPlayerMp": 999999,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 8603,
+  "resultEnemyHp": 33758,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [],
   "resultEnemyEffects": [
@@ -10809,7 +10854,7 @@
   "resultField": "竜洞",
   "resultMoved": false,
   "log": [
-   "- 恐竜の攻撃！テストに3801ダメージ！",
+   "- 恐竜の攻撃！テストに2187ダメージ！",
    "テストは倒れた…"
   ]
  },
@@ -10824,10 +10869,10 @@
   "enemyLevel": 268,
   "hasPet": false,
   "petAbility": null,
-  "resultPlayerHp": 0,
+  "resultPlayerHp": 736,
   "resultPlayerMp": 231,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 43098,
+  "resultEnemyHp": 52012,
   "resultEnemyMp": 6666,
   "resultPlayerEffects": [],
   "resultEnemyEffects": [
@@ -10837,9 +10882,9 @@
   "resultField": "竜洞",
   "resultMoved": false,
   "log": [
-   "- スカルドラゴンの攻撃！テストに3286ダメージ！",
-   "スカルドラゴンの「ツインウォール」状態が切れた！",
-   "テストは倒れた…"
+   "- スカルドラゴンの攻撃！テストに404ダメージ！",
+   "+ テストのシリウス！魔力が足りない！",
+   "スカルドラゴンの「ツインウォール」状態が切れた！"
   ]
  },
  {
@@ -10856,7 +10901,7 @@
   "resultPlayerHp": 0,
   "resultPlayerMp": 999999,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 12414,
+  "resultEnemyHp": 24778,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [
    "毒:1:3"
@@ -10867,7 +10912,7 @@
   "resultField": "竜洞",
   "resultMoved": false,
   "log": [
-   "- ドラゴンゾンビの引っかく！テストに4597ダメージ！",
+   "- ドラゴンゾンビの引っかく！テストに1456ダメージ！",
    "テストは倒れた…"
   ]
  },
@@ -10882,10 +10927,10 @@
   "enemyLevel": 294,
   "hasPet": false,
   "petAbility": null,
-  "resultPlayerHp": 493,
+  "resultPlayerHp": 1274,
   "resultPlayerMp": 291,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 18981,
+  "resultEnemyHp": 2642,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [],
   "resultEnemyEffects": [
@@ -10895,10 +10940,10 @@
   "resultField": "草原",
   "resultMoved": false,
   "log": [
-   "- 不滅の種の攻撃！テストに987ダメージ！",
    "+ テストの痺れ粉！",
    "+ 不滅の種は麻痺状態になった！",
-   "+ 不滅の種は再生で体力を575回復した！"
+   "- 不滅の種の攻撃！テストに206ダメージ！",
+   "+ 不滅の種は再生で体力を80回復した！"
   ]
  },
  {
@@ -10912,10 +10957,10 @@
   "enemyLevel": 307,
   "hasPet": false,
   "petAbility": null,
-  "resultPlayerHp": 0,
+  "resultPlayerHp": 1650,
   "resultPlayerMp": 999999,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 38605,
+  "resultEnemyHp": 2502,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [],
   "resultEnemyEffects": [
@@ -10927,9 +10972,9 @@
   "resultField": "草原",
   "resultMoved": false,
   "log": [
-   "- 草のツルの鞭！テストに4105ダメージ！",
-   "+ 草は再生で体力を2271回復した！",
-   "テストは倒れた…"
+   "+ テストの槍突き！草に901ダメージ！",
+   "- 草の何もしない！",
+   "+ 草は再生で体力を200回復した！"
   ]
  },
  {
@@ -10946,7 +10991,7 @@
   "resultPlayerHp": 0,
   "resultPlayerMp": 382,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 17572,
+  "resultEnemyHp": 9482,
   "resultEnemyMp": 500,
   "resultPlayerEffects": [
    "毒:4:6",
@@ -10960,7 +11005,7 @@
   "resultField": "峡谷",
   "resultMoved": false,
   "log": [
-   "- 神速のサソリの攻撃！テストに9670ダメージ！",
+   "- 神速のサソリの攻撃！テストに3618ダメージ！",
    "神速のサソリの「ツインウォール」状態が切れた！",
    "テストは倒れた…"
   ]
@@ -10976,10 +11021,10 @@
   "enemyLevel": 333,
   "hasPet": false,
   "petAbility": null,
-  "resultPlayerHp": 246,
+  "resultPlayerHp": 1710,
   "resultPlayerMp": 999449,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 5578,
+  "resultEnemyHp": 1197,
   "resultEnemyMp": 10000,
   "resultPlayerEffects": [
    "天邪鬼:1:4"
@@ -10988,9 +11033,9 @@
   "resultField": "地獄",
   "resultMoved": true,
   "log": [
-   "- 貧弱なモスのツルの鞭！テストに1744ダメージ！",
    "+ テストの吸い込み！",
-   "+ 貧弱なモスの体が地獄に吸い込まれる！"
+   "+ 貧弱なモスの体が地獄に吸い込まれる！",
+   "- 貧弱なモスの攻撃！テストに280ダメージ！"
   ]
  },
  {
@@ -11004,10 +11049,10 @@
   "enemyLevel": 346,
   "hasPet": true,
   "petAbility": "EXポイズンLv.3",
-  "resultPlayerHp": 1308,
+  "resultPlayerHp": 1325,
   "resultPlayerMp": 457,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 22896,
+  "resultEnemyHp": 23655,
   "resultEnemyMp": 2000,
   "resultPlayerEffects": [],
   "resultEnemyEffects": [
@@ -11017,7 +11062,7 @@
   "resultField": "秘境",
   "resultMoved": false,
   "log": [
-   "- 夜桜のツルの鞭！テストに852ダメージ！",
+   "- 夜桜のツルの鞭！テストに835ダメージ！",
    "+ テストの終焉の闇！魔力が足りない！",
    "+ ペット365の何もしない！"
   ]
@@ -11033,24 +11078,25 @@
   "enemyLevel": 359,
   "hasPet": false,
   "petAbility": null,
-  "resultPlayerHp": 0,
-  "resultPlayerMp": 999999,
+  "resultPlayerHp": 311,
+  "resultPlayerMp": 997951,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 20686,
+  "resultEnemyHp": 16061,
   "resultEnemyMp": 1341,
   "resultPlayerEffects": [
-   "毒:2:5"
+   "毒:2:4"
   ],
   "resultEnemyEffects": [
-   "ダメージ軽減:3:9998",
    "理不尽体:1:9998",
    "透明化:1:4"
   ],
   "resultField": "毒沼",
   "resultMoved": false,
   "log": [
-   "- ダイアルの噛みつく！テストに2992ダメージ！",
-   "テストは倒れた…"
+   "- ダイアルの噛みつく！テストに1936ダメージ！",
+   "+ テストのアンディファインド！ダイアルに6661ダメージ！",
+   "+ ダイアルのダメージ軽減状態が解除された！",
+   "- テストは毒で83ダメージ受けた！"
   ]
  },
  {
@@ -11067,7 +11113,7 @@
   "resultPlayerHp": 0,
   "resultPlayerMp": 533,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 91146,
+  "resultEnemyHp": 98401,
   "resultEnemyMp": 2892,
   "resultPlayerEffects": [],
   "resultEnemyEffects": [
@@ -11077,7 +11123,7 @@
   "resultField": "地獄",
   "resultMoved": false,
   "log": [
-   "- スフィア・オブ・ヘルのスペース！テストに8419ダメージ！",
+   "- スフィア・オブ・ヘルのスペース！テストに8356ダメージ！",
    "スフィア・オブ・ヘルの「ツインウォール」状態が切れた！",
    "テストは倒れた…"
   ]
@@ -11093,18 +11139,18 @@
   "enemyLevel": 385,
   "hasPet": false,
   "petAbility": null,
-  "resultPlayerHp": 844,
+  "resultPlayerHp": 1817,
   "resultPlayerMp": 999943,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 3377,
+  "resultEnemyHp": 1398,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [],
   "resultEnemyEffects": [],
   "resultField": "氷原",
   "resultMoved": false,
   "log": [
-   "- イエティの攻撃！テストに1826ダメージ！",
-   "+ テストのクエイク！イエティに1794ダメージ！"
+   "+ テストのクエイク！イエティに1437ダメージ！",
+   "- イエティの攻撃！テストに853ダメージ！"
   ]
  },
  {
@@ -11118,20 +11164,21 @@
   "enemyLevel": 398,
   "hasPet": false,
   "petAbility": null,
-  "resultPlayerHp": 0,
-  "resultPlayerMp": 608,
+  "resultPlayerHp": 406,
+  "resultPlayerMp": 524,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 19164,
+  "resultEnemyHp": 14077,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [
-   "毒:5:4"
+   "毒:5:3"
   ],
   "resultEnemyEffects": [],
   "resultField": "沼",
   "resultMoved": false,
   "log": [
-   "- ウェルの水鉄砲！テストに3318ダメージ！",
-   "テストは倒れた…"
+   "- ウェルの水鉄砲！テストに2256ダメージ！",
+   "+ テストのブリザード！ウェルに1606ダメージ！",
+   "- テストは毒で178ダメージ受けた！"
   ]
  },
  {
@@ -11159,7 +11206,7 @@
   "resultField": "遺跡",
   "resultMoved": false,
   "log": [
-   "+ テストのブラックホール！デルタ1stに2328ダメージ！",
+   "+ テストのブラックホール！デルタ1stに1532ダメージ！",
    "+ ペット370の攻撃！デルタ1stに37ダメージ！",
    "- DELTA 2nd-Form Loading..."
   ]
@@ -11178,7 +11225,7 @@
   "resultPlayerHp": 0,
   "resultPlayerMp": 18,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 2889,
+  "resultEnemyHp": 1001,
   "resultEnemyMp": 2750,
   "resultPlayerEffects": [
    "天邪鬼:1:5"
@@ -11191,7 +11238,7 @@
   "resultField": "草原",
   "resultMoved": false,
   "log": [
-   "- デルタ2ndの大砲！テストに822ダメージ！",
+   "- デルタ2ndの大砲！テストに271ダメージ！",
    "デルタ2ndの「ツインウォール」状態が切れた！",
    "テストは倒れた…"
   ]
@@ -11207,10 +11254,10 @@
   "enemyLevel": 37,
   "hasPet": false,
   "petAbility": null,
-  "resultPlayerHp": 190,
+  "resultPlayerHp": 248,
   "resultPlayerMp": 999279,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 152,
+  "resultEnemyHp": 71,
   "resultEnemyMp": 50000,
   "resultPlayerEffects": [
    "毒:3:2",
@@ -11223,8 +11270,8 @@
   "resultField": "草原",
   "resultMoved": false,
   "log": [
-   "- ミミックの噛みつく！テストに145ダメージ！",
-   "+ テストのデッドワールド！ミミックに176ダメージ！",
+   "- ミミックの噛みつく！テストに87ダメージ！",
+   "+ テストのデッドワールド！ミミックに158ダメージ！",
    "+ テストはダメージ低下状態になった！",
    "+ ミミックは猛毒耐性で猛毒状態にならない！",
    "- テストは毒で15ダメージ受けた！"
@@ -11244,7 +11291,7 @@
   "resultPlayerHp": 520,
   "resultPlayerMp": 93,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 16,
+  "resultEnemyHp": 340,
   "resultEnemyMp": 43894,
   "resultPlayerEffects": [],
   "resultEnemyEffects": [],
@@ -11267,10 +11314,10 @@
   "enemyLevel": 63,
   "hasPet": false,
   "petAbility": null,
-  "resultPlayerHp": 420,
+  "resultPlayerHp": 564,
   "resultPlayerMp": 999996,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 2749,
+  "resultEnemyHp": 1865,
   "resultEnemyMp": 10000,
   "resultPlayerEffects": [
    "再生:3:3"
@@ -11282,10 +11329,10 @@
   "resultField": "草原",
   "resultMoved": false,
   "log": [
-   "- キケロの攻撃！テストに313ダメージ！",
+   "- キケロの攻撃！テストに169ダメージ！",
    "+ テストの毒針！キケロに108ダメージ！",
    "+ キケロは毒状態になった！",
-   "- キケロは毒で92ダメージ受けた！",
+   "- キケロは毒で64ダメージ受けた！",
    "+ テストは再生で体力を43回復した！"
   ]
  },
@@ -11303,7 +11350,7 @@
   "resultPlayerHp": 0,
   "resultPlayerMp": 169,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 6977,
+  "resultEnemyHp": 3765,
   "resultEnemyMp": 750,
   "resultPlayerEffects": [
    "毒:1:6"
@@ -11319,7 +11366,7 @@
   "log": [
    "+ テストの椅子で打つ！デュラハンには効いていない！",
    "+ ペット375の引っかく！デュラハンには効いていない！",
-   "- デュラハンの常闇！テストに28733ダメージ！",
+   "- デュラハンの常闇！テストに2888ダメージ！",
    "テストは倒れた…"
   ]
  },
@@ -11334,18 +11381,18 @@
   "enemyLevel": 89,
   "hasPet": false,
   "petAbility": null,
-  "resultPlayerHp": 0,
+  "resultPlayerHp": 82,
   "resultPlayerMp": 999999,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 1335,
+  "resultEnemyHp": 931,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [],
   "resultEnemyEffects": [],
   "resultField": "沼",
   "resultMoved": false,
   "log": [
-   "- カーストの切り裂く！テストに2008ダメージ！",
-   "テストは倒れた…"
+   "- カーストの切り裂く！テストに948ダメージ！",
+   "+ テストの引っかく！カーストに524ダメージ！"
   ]
  },
  {
@@ -11359,17 +11406,17 @@
   "enemyLevel": 102,
   "hasPet": false,
   "petAbility": null,
-  "resultPlayerHp": 442,
+  "resultPlayerHp": 654,
   "resultPlayerMp": 244,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 1315,
+  "resultEnemyHp": 2155,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [],
   "resultEnemyEffects": [],
   "resultField": "毒沼",
   "resultMoved": false,
   "log": [
-   "- デスの攻撃！テストに758ダメージ！",
+   "- デスの攻撃！テストに546ダメージ！",
    "+ テストの針飛ばし！デスに784ダメージ！"
   ]
  },
@@ -11384,27 +11431,26 @@
   "enemyLevel": 115,
   "hasPet": false,
   "petAbility": null,
-  "resultPlayerHp": 963,
+  "resultPlayerHp": 1134,
   "resultPlayerMp": 995555,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 10622,
+  "resultEnemyHp": 0,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [
-   "毒:4:4",
-   "天邪鬼:1:4"
+   "毒:4:5",
+   "天邪鬼:1:5"
   ],
   "resultEnemyEffects": [
-   "再生:3:9998",
-   "理不尽体:1:9998",
-   "ダメージ軽減:4:4"
+   "再生:3:9999",
+   "理不尽体:1:9999",
+   "ダメージ軽減:4:5"
   ],
   "resultField": "草原",
   "resultMoved": false,
   "log": [
-   "- 白虎の噛みつく！テストに476ダメージ！",
+   "- 白虎の噛みつく！テストに236ダメージ！",
    "+ テストの地獄の業火！白虎に3388ダメージ！",
-   "+ 白虎は再生で体力を824回復した！",
-   "- テストは毒で体力を69回復した！"
+   "` 白虎を倒した！"
   ]
  },
  {
@@ -11418,10 +11464,10 @@
   "enemyLevel": 128,
   "hasPet": false,
   "petAbility": null,
-  "resultPlayerHp": 343,
+  "resultPlayerHp": 831,
   "resultPlayerMp": 320,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 284638,
+  "resultEnemyHp": 16175,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [],
   "resultEnemyEffects": [
@@ -11433,7 +11479,7 @@
   "resultField": "湖",
   "resultMoved": false,
   "log": [
-   "- 極楽鳥の攻撃！テストに1197ダメージ！",
+   "- 極楽鳥の攻撃！テストに709ダメージ！",
    "+ テストのワールドシフター！魔力が足りない！",
    "極楽鳥の「ツインウォール」状態が切れた！"
   ]
@@ -11452,7 +11498,7 @@
   "resultPlayerHp": 0,
   "resultPlayerMp": 999999,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 6677,
+  "resultEnemyHp": 13653,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [],
   "resultEnemyEffects": [
@@ -11462,7 +11508,7 @@
   "resultField": "遺跡",
   "resultMoved": false,
   "log": [
-   "- 青龍のメガフレア！テストに12710ダメージ！",
+   "- 青龍のメガフレア！テストに15302ダメージ！",
    "テストは倒れた…"
   ]
  },
@@ -11480,7 +11526,7 @@
   "resultPlayerHp": 1813,
   "resultPlayerMp": 339,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 27760,
+  "resultEnemyHp": 20088,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [
    "毒:2:3"
@@ -11494,8 +11540,8 @@
   "resultMoved": false,
   "log": [
    "- 金虎は石化で動けない！",
-   "+ テストのヴォイド！金虎に26ダメージ！",
-   "+ 金虎は再生で体力を3087回復した！",
+   "+ テストのヴォイド！金虎に24ダメージ！",
+   "+ 金虎は再生で体力を2235回復した！",
    "- テストは毒で67ダメージ受けた！"
   ]
  },
@@ -11513,7 +11559,7 @@
   "resultPlayerHp": 0,
   "resultPlayerMp": 999999,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 264070,
+  "resultEnemyHp": 2153,
   "resultEnemyMp": 121121,
   "resultPlayerEffects": [
    "火傷:4:7",
@@ -11530,10 +11576,10 @@
   "resultField": "草原",
   "resultMoved": false,
   "log": [
-   "- Nightmareのアンディファインド！テストに86847ダメージ！",
+   "- Nightmareのアンディファインド！テストに6182ダメージ！",
    "- テストは火傷状態になった！",
    "- テストは凍結状態になった！",
-   "- Nightmareの-273度！テストに4307ダメージ！",
+   "- Nightmareの-273度！テストに307ダメージ！",
    "- テストは即死状態になった！",
    "- テストは凍結で凍結状態にならない！",
    "テストは倒れた…"
@@ -11553,7 +11599,7 @@
   "resultPlayerHp": 1757,
   "resultPlayerMp": 416,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 832139,
+  "resultEnemyHp": 38143,
   "resultEnemyMp": 123537,
   "resultPlayerEffects": [
    "猛毒:3:4",
@@ -11597,13 +11643,13 @@
   "enemyLevel": 193,
   "hasPet": false,
   "petAbility": null,
-  "resultPlayerHp": 0,
-  "resultPlayerMp": 999999,
+  "resultPlayerHp": 527,
+  "resultPlayerMp": 999862,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 91725,
+  "resultEnemyHp": 1342,
   "resultEnemyMp": 114342,
   "resultPlayerEffects": [
-   "毒:5:3"
+   "毒:5:2"
   ],
   "resultEnemyEffects": [
    "完全耐性:1:9998",
@@ -11614,8 +11660,9 @@
   "resultField": "草原",
   "resultMoved": false,
   "log": [
-   "- Protomareのエンプティセット！テストに6843ダメージ！",
-   "テストは倒れた…"
+   "- Protomareのエンプティセット！テストに1714ダメージ！",
+   "+ テストのテラグロウ！Protomareに93ダメージ！",
+   "- テストは毒で149ダメージ受けた！"
   ]
  },
  {
@@ -11629,28 +11676,28 @@
   "enemyLevel": 206,
   "hasPet": true,
   "petAbility": "英雄",
-  "resultPlayerHp": 0,
+  "resultPlayerHp": 1368,
   "resultPlayerMp": 546,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 37048,
+  "resultEnemyHp": 2470,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [
-   "天邪鬼:1:5",
-   "再生:2:4"
+   "天邪鬼:1:4",
+   "再生:2:3"
   ],
   "resultEnemyEffects": [
-   "ダメージ上昇:10:9999",
-   "ダメージ軽減:10:9999",
-   "猛毒耐性:1:9999",
-   "即死耐性:1:9999"
+   "ダメージ上昇:10:9998",
+   "ダメージ軽減:10:9998",
+   "猛毒耐性:1:9998",
+   "即死耐性:1:9998"
   ],
   "resultField": "草原",
   "resultMoved": false,
   "log": [
    "+ テストの精霊の加護！魔力が足りない！",
    "+ ペット385の攻撃！yayyyyに92ダメージ！",
-   "- yayyyyの攻撃！テストに9437ダメージ！",
-   "テストは倒れた…"
+   "- yayyyyの攻撃！テストに1085ダメージ！",
+   "+ テストは再生で107ダメージ受けた！"
   ]
  },
  {
@@ -11664,10 +11711,10 @@
   "enemyLevel": 219,
   "hasPet": false,
   "petAbility": null,
-  "resultPlayerHp": 1711,
+  "resultPlayerHp": 2472,
   "resultPlayerMp": 999999,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 3405,
+  "resultEnemyHp": 1103,
   "resultEnemyMp": 100,
   "resultPlayerEffects": [],
   "resultEnemyEffects": [
@@ -11679,7 +11726,7 @@
   "resultMoved": false,
   "log": [
    "+ テストの噛みつく！悪魔の種には効いていない！",
-   "- 悪魔の種の攻撃！テストに1019ダメージ！"
+   "- 悪魔の種の攻撃！テストに258ダメージ！"
   ]
  },
  {
@@ -11693,26 +11740,26 @@
   "enemyLevel": 232,
   "hasPet": false,
   "petAbility": null,
-  "resultPlayerHp": 0,
+  "resultPlayerHp": 1906,
   "resultPlayerMp": 622,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 10532,
+  "resultEnemyHp": 1617,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [
-   "毒:3:6"
+   "毒:3:5"
   ],
   "resultEnemyEffects": [
-   "毒耐性:5:9999",
-   "ツインウォール:1:1",
-   "ダメージ上昇:7:8",
-   "完全耐性:1:20"
+   "毒耐性:5:9998",
+   "ダメージ上昇:7:7",
+   "完全耐性:1:19"
   ],
   "resultField": "草原",
   "resultMoved": false,
   "log": [
    "+ テストのしっぽ！アナコンダには効いていない！",
-   "- アナコンダの噛みつく！テストに5971ダメージ！",
-   "テストは倒れた…"
+   "- アナコンダの噛みつく！テストに873ダメージ！",
+   "- テストは毒で121ダメージ受けた！",
+   "アナコンダの「ツインウォール」状態が切れた！"
   ]
  },
  {
@@ -11726,10 +11773,10 @@
   "enemyLevel": 245,
   "hasPet": false,
   "petAbility": null,
-  "resultPlayerHp": 2761,
+  "resultPlayerHp": 3070,
   "resultPlayerMp": 999999,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 818,
+  "resultEnemyHp": 0,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [],
   "resultEnemyEffects": [],
@@ -11737,7 +11784,7 @@
   "resultMoved": false,
   "log": [
    "+ テストの大鎌！キャタピラーに3152ダメージ！",
-   "- キャタピラーの攻撃！テストに309ダメージ！"
+   "` キャタピラーを倒した！"
   ]
  },
  {
@@ -11751,18 +11798,18 @@
   "enemyLevel": 258,
   "hasPet": false,
   "petAbility": null,
-  "resultPlayerHp": 0,
+  "resultPlayerHp": 84,
   "resultPlayerMp": 31,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 3156,
+  "resultEnemyHp": 882,
   "resultEnemyMp": 497,
   "resultPlayerEffects": [],
   "resultEnemyEffects": [],
   "resultField": "草原",
   "resultMoved": false,
   "log": [
-   "- サソリの毒針！テストに652ダメージ！",
-   "テストは倒れた…"
+   "- サソリの毒針！テストに156ダメージ！",
+   "+ テストの粉塵！魔力が足りない！"
   ]
  },
  {
@@ -11776,13 +11823,13 @@
   "enemyLevel": 271,
   "hasPet": true,
   "petAbility": "最強の槍",
-  "resultPlayerHp": 0,
-  "resultPlayerMp": 999999,
+  "resultPlayerHp": 131,
+  "resultPlayerMp": 999555,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 4326,
+  "resultEnemyHp": 749,
   "resultEnemyMp": 500,
   "resultPlayerEffects": [
-   "毒:1:5"
+   "毒:1:4"
   ],
   "resultEnemyEffects": [
    "再生:1:9998",
@@ -11791,9 +11838,12 @@
   "resultField": "草原",
   "resultMoved": false,
   "log": [
-   "- マタンゴの攻撃！テストに1296ダメージ！",
-   "+ マタンゴは再生で体力を131回復した！",
-   "テストは倒れた…"
+   "- マタンゴの攻撃！テストに266ダメージ！",
+   "+ テストの体を閉じる！マタンゴに3ダメージ！",
+   "+ マタンゴは理不尽体で即死状態にならない！",
+   "+ ペット390の攻撃！マタンゴに385ダメージ！",
+   "+ マタンゴは再生で体力を34回復した！",
+   "- テストは毒で13ダメージ受けた！"
   ]
  },
  {
@@ -11807,10 +11857,10 @@
   "enemyLevel": 284,
   "hasPet": false,
   "petAbility": null,
-  "resultPlayerHp": 0,
+  "resultPlayerHp": 210,
   "resultPlayerMp": 107,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 15998,
+  "resultEnemyHp": 2002,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [],
   "resultEnemyEffects": [
@@ -11819,9 +11869,9 @@
   "resultField": "草原",
   "resultMoved": false,
   "log": [
-   "- モスの攻撃！テストに3082ダメージ！",
-   "モスの「ツインウォール」状態が切れた！",
-   "テストは倒れた…"
+   "- モスの攻撃！テストに370ダメージ！",
+   "+ テストの-273度！魔力が足りない！",
+   "モスの「ツインウォール」状態が切れた！"
   ]
  },
  {
@@ -11835,10 +11885,10 @@
   "enemyLevel": 297,
   "hasPet": false,
   "petAbility": null,
-  "resultPlayerHp": 29,
+  "resultPlayerHp": 599,
   "resultPlayerMp": 999999,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 2093,
+  "resultEnemyHp": 402,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [
    "天邪鬼:1:4"
@@ -11847,7 +11897,7 @@
   "resultField": "草原",
   "resultMoved": false,
   "log": [
-   "- チェリーの攻撃！テストに721ダメージ！",
+   "- チェリーの攻撃！テストに151ダメージ！",
    "+ テストのアストラル！チェリーに333ダメージ！"
   ]
  },
@@ -11865,7 +11915,7 @@
   "resultPlayerHp": 874,
   "resultPlayerMp": 140,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 4784,
+  "resultEnemyHp": 619,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [
    "毒:4:3"
@@ -11893,7 +11943,7 @@
   "resultPlayerHp": 1090,
   "resultPlayerMp": 999749,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 3127,
+  "resultEnemyHp": 594,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [],
   "resultEnemyEffects": [
@@ -11903,7 +11953,7 @@
   "resultMoved": false,
   "log": [
    "- ソーンの何もしない！",
-   "+ テストの常闇！ソーンに877ダメージ！"
+   "+ テストの常闇！ソーンに509ダメージ！"
   ]
  },
  {
@@ -11920,7 +11970,7 @@
   "resultPlayerHp": 0,
   "resultPlayerMp": 258,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 15154,
+  "resultEnemyHp": 4712,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [],
   "resultEnemyEffects": [
@@ -11931,7 +11981,7 @@
   "resultField": "洞窟",
   "resultMoved": false,
   "log": [
-   "- コウモリの噛みつく！テストに8401ダメージ！",
+   "- コウモリの噛みつく！テストに2212ダメージ！",
    "コウモリの「ツインウォール」状態が切れた！",
    "テストは倒れた…"
   ]
@@ -11947,23 +11997,27 @@
   "enemyLevel": 349,
   "hasPet": false,
   "petAbility": null,
-  "resultPlayerHp": 0,
-  "resultPlayerMp": 999999,
+  "resultPlayerHp": 742,
+  "resultPlayerMp": 999939,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 4238,
+  "resultEnemyHp": 2562,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [
-   "毒:2:3",
-   "再生:1:4"
+   "毒:2:2",
+   "再生:1:3"
   ],
   "resultEnemyEffects": [
-   "ダメージ軽減:5:9998"
+   "ダメージ軽減:5:9998",
+   "麻痺:2:3"
   ],
   "resultField": "洞窟",
   "resultMoved": false,
   "log": [
-   "- マイマイの水鉄砲！テストに1479ダメージ！",
-   "テストは倒れた…"
+   "- マイマイの水鉄砲！テストに682ダメージ！",
+   "+ テストのパラライズ！",
+   "+ マイマイは麻痺状態になった！",
+   "- テストは毒で51ダメージ受けた！",
+   "+ テストは再生で体力を45回復した！"
   ]
  },
  {
@@ -11977,10 +12031,10 @@
   "enemyLevel": 362,
   "hasPet": false,
   "petAbility": null,
-  "resultPlayerHp": 426,
+  "resultPlayerHp": 1078,
   "resultPlayerMp": 185,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 4050,
+  "resultEnemyHp": 1249,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [],
   "resultEnemyEffects": [
@@ -11991,9 +12045,9 @@
   "resultField": "洞窟",
   "resultMoved": false,
   "log": [
-   "- ヤドカリの攻撃！テストに1174ダメージ！",
-   "+ テストのグランドフォース！ヤドカリに1388ダメージ！",
-   "+ ヤドカリは再生で体力を165回復した！"
+   "- ヤドカリの攻撃！テストに522ダメージ！",
+   "+ テストのグランドフォース！ヤドカリに1921ダメージ！",
+   "+ ヤドカリは再生で体力を96回復した！"
   ]
  },
  {
@@ -12007,12 +12061,15 @@
   "enemyLevel": 375,
   "hasPet": false,
   "petAbility": null,
-  "resultPlayerHp": 0,
-  "resultPlayerMp": 999999,
+  "resultPlayerHp": 588,
+  "resultPlayerMp": 999444,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 5206,
+  "resultEnemyHp": 3213,
   "resultEnemyMp": 1000,
-  "resultPlayerEffects": [],
+  "resultPlayerEffects": [
+   "再生:3:9",
+   "豊穣の宣告:1:2"
+  ],
   "resultEnemyEffects": [
    "理不尽体:1:9998",
    "透明化:1:4"
@@ -12020,8 +12077,11 @@
   "resultField": "氷原",
   "resultMoved": false,
   "log": [
-   "- アイシクルの頭突き！テストに3348ダメージ！",
-   "テストは倒れた…"
+   "- アイシクルの頭突き！テストに1293ダメージ！",
+   "+ テストの妖精の加護！",
+   "+ テストは再生状態になった！",
+   "+ テストは豊穣の宣告状態になった！",
+   "+ テストは再生で体力を111回復した！"
   ]
  },
  {
@@ -12038,7 +12098,7 @@
   "resultPlayerHp": 2061,
   "resultPlayerMp": 408,
   "resultPlayerGil": 100000,
-  "resultEnemyHp": 20913,
+  "resultEnemyHp": 5636,
   "resultEnemyMp": 1000,
   "resultPlayerEffects": [
    "毒:5:5",
